@@ -28,6 +28,7 @@ Patrones de botones, CTAs, heroes y elementos de interfaz tomados de las webs de
 - `hero-patterns.md` — heroes con foto + CTA
 - `sticky-cta.md` — barras fijas inferiores (muy usadas en restaurantes)
 - `popular-chains-notes.md` — notas rápidas de cada cadena
+- `premium-and-famous-patterns.md` — **análisis profundo** de Noma, Alinea, Eleven Madison Park, Canlis, Atelier Crenn, Dishoom y estudios de 40+ sitios (diferencias casual vs premium, datos reales, checklists)
 - `demo-la-mesa.html` — ejemplo funcional completo
 
 ## Relacionado
@@ -37,8 +38,9 @@ Patrones de botones, CTAs, heroes y elementos de interfaz tomados de las webs de
 ## Cómo usar
 
 1. Abre `demo-la-mesa.html` para ver un ejemplo real funcionando.
-2. Elige el patrón que encaje con el tipo de restaurante (QSR, casual, fine dining).
-3. Copia el HTML/CSS.
-4. Adapta colores, tipografía y copy al negocio concreto.
-5. Aplica los patrones móviles (la mayoría de visitas son en móvil).
-6. Pasa el checklist anti-IA antes de entregar.
+2. Lee `premium-and-famous-patterns.md` para entender diferencias entre casual y premium.
+3. Elige el patrón que encaje con el tipo de restaurante (QSR, casual, fine dining).
+4. Copia el HTML/CSS.
+5. Adapta colores, tipografía y copy al negocio concreto.
+6. Aplica los patrones móviles (la mayoría de visitas son en móvil).
+7. Pasa el checklist anti-IA antes de entregar.
