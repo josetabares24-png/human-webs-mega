@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bocumo — esa comida que te sabe a casa</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    background: #f7f3ea;
+    color: #2c2416;
+    line-height: 1.55;
+  }
+  a { color: #8b3a1a; }
+  header {
+    padding: 1.4rem 1.2rem 0.8rem;
+    border-bottom: 2px solid #2c2416;
+  }
+  .logo {
+    font-family: system-ui, sans-serif;
+    font-weight: 800;
+    font-size: 1.6rem;
+    letter-spacing: -0.5px;
+    text-decoration: none;
+    color: #2c2416;
+  }
+  .logo em { font-style: normal; color: #c45c26; }
+  nav {
+    margin-top: 0.6rem;
+    font-family: system-ui, sans-serif;
+    font-size: 0.95rem;
+  }
+  nav a {
+    margin-right: 1.2rem;
+    text-decoration: none;
+    color: #2c2416;
+  }
+  nav a:hover { text-decoration: underline; }
+
+  .hero {
+    padding: 2.8rem 1.2rem 2rem;
+    max-width: 640px;
+  }
+  h1 {
+    font-size: 2.6rem;
+    line-height: 1.1;
+    font-weight: normal;
+    margin: 0 0 0.8rem;
+  }
+  .sub {
+    font-size: 1.2rem;
+    margin: 0 0 1.8rem;
+    color: #4a4030;
+  }
+
+  .finder {
+    background: #fffef9;
+    border: 1px solid #d9d0c1;
+    padding: 1.4rem 1.2rem 1.6rem;
+  }
+  .finder p {
+    margin: 0 0 1rem;
+    font-size: 1.05rem;
+  }
+  label {
+    display: block;
+    font-family: system-ui, sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin: 0.9rem 0 0.3rem;
+    color: #5a5040;
+  }
+  select, input[type="text"] {
+    width: 100%;
+    padding: 0.7rem 0.6rem;
+    border: 1px solid #c9bfb0;
+    background: #fff;
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+  }
+  button, .btn {
+    display: inline-block;
+    background: #c45c26;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  button:hover, .btn:hover { background: #a34a1c; }
+
+  .antojos {
+    padding: 2.5rem 1.2rem;
+  }
+  .antojos h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0 0 1rem;
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem 1.8rem;
+  }
+  .list a {
+    text-decoration: none;
+    color: inherit;
+    max-width: 180px;
+  }
+  .list a strong {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+  }
+  .list a span {
+    font-size: 0.95rem;
+    color: #5a5040;
+  }
+
+  .why {
+    padding: 0 1.2rem 2.5rem;
+    max-width: 620px;
+  }
+  .why p {
+    margin: 0 0 1rem;
+    font-size: 1.08rem;
+  }
+
+  .rest {
+    padding: 0 1.2rem 3rem;
+    border-top: 1px solid #d9d0c1;
+    padding-top: 1.8rem;
+  }
+  .rest h2 {
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin: 0 0 0.6rem;
+  }
+
+  footer {
+    padding: 1.5rem 1.2rem 5rem;
+    font-family: system-ui, sans-serif;
+    font-size: 0.85rem;
+    color: #6a6050;
+    border-top: 1px solid #d9d0c1;
+  }
+  footer a { color: #6a6050; margin-right: 0.8rem; }
+
+  .mobile-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fffef9;
+    border-top: 1px solid #d9d0c1;
+    display: flex;
+    font-family: system-ui, sans-serif;
+    font-size: 0.85rem;
+    padding: 0.5rem 0 calc(0.5rem + env(safe-area-inset-bottom));
+  }
+  .mobile-bar a {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: #2c2416;
+    padding: 0.4rem 0;
+  }
+  .mobile-bar a.now { color: #c45c26; font-weight: 600; }
+
+  @media (min-width: 720px) {
+    .mobile-bar { display: none; }
+    body { font-size: 18px; }
+    h1 { font-size: 3.2rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="/" class="logo">bocumo<em>.</em></a>
+  <nav>
+    <a href="#explorar">Explorar</a>
+    <a href="#guardados">Mis guardados</a>
+    <a href="#restaurantes">Para restaurantes</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>¿Qué te provoca comer hoy?</h1>
+    <p class="sub">A veces solo quieres encontrar ese plato que te recuerda a tu gente. Estés donde estés.</p>
+
+    <div class="finder">
+      <p>Dime dónde estás y qué te apetece. El resto lo busco yo.</p>
+      <label for="donde">Dónde estás ahora</label>
+      <select id="donde">
+        <option>Elige ciudad o país</option>
+        <option>Madrid</option>
+        <option>Barcelona</option>
+        <option>Buenos Aires</option>
+        <option>Ciudad de México</option>
+        <option>Lima</option>
+        <option>Bogotá</option>
+        <option>Santiago</option>
+      </select>
+
+      <label for="que">Qué quieres comer</label>
+      <select id="que">
+        <option>Cualquier origen</option>
+        <option>México</option>
+        <option>Perú</option>
+        <option>Colombia</option>
+        <option>Argentina</option>
+        <option>Venezuela</option>
+        <option>Chile</option>
+        <option>Ecuador</option>
+      </select>
+
+      <label for="plato">O un plato concreto (si ya lo tienes en mente)</label>
+      <input type="text" id="plato" placeholder="ceviche, arepas, tacos al pastor…">
+
+      <button>Buscar restaurantes</button>
+    </div>
+  </section>
+
+  <section class="antojos" id="explorar">
+    <h2>Empieza por un antojo</h2>
+    <div class="list">
+      <a href="#">
+        <strong>Ceviche</strong>
+        <span>Fresco, con limón de verdad y pescado del día.</span>
+      </a>
+      <a href="#">
+        <strong>Arepas</strong>
+        <span>La masa de maíz de siempre. Rellenas de lo que toque.</span>
+      </a>
+      <a href="#">
+        <strong>Tacos</strong>
+        <span>No los de cadena. Los que se comen de pie o en la esquina.</span>
+      </a>
+      <a href="#">
+        <strong>Empanadas</strong>
+        <span>Crujientes, calientes, de las que se piden de dos en dos.</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="why">
+    <p>Hay sabores que te hacen sentir en casa aunque lleves años fuera. Da igual si estás de viaje o si ya no recuerdas la última vez que comiste lo de tu abuela.</p>
+    <p>Bocumo existe para eso: ayudarte a encontrar ese plato, sin rodeos y sin fotos de stock que no saben a nada. Solo sitios que cocinan de verdad.</p>
+    <a href="#buscar" class="btn">Buscar esa comida</a>
+  </section>
+
+  <section class="rest" id="restaurantes">
+    <h2>¿Tienes un restaurante?</h2>
+    <p>Cuéntanos qué cocinas y dónde estás. La ficha es gratis. No te pedimos una web perfecta, solo que la gente pueda encontrarte.</p>
+    <a href="#proponer" class="btn">Proponer mi restaurante</a>
+  </section>
+</main>
+
+<footer>
+  © 2026 Bocumo · Sabores de aquí y de allá<br>
+  <a href="#privacidad">Privacidad</a>
+  <a href="#contacto">Contacto</a>
+  <a href="#fotos">Fotografías y créditos</a>
+</footer>
+
+<div class="mobile-bar">
+  <a href="#explorar">Explorar</a>
+  <a href="#buscar" class="now">Buscar</a>
+  <a href="#guardados">Guardados</a>
+  <a href="#restaurantes">Restaurantes</a>
+</div>
+
+</body>
+</html>
