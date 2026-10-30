@@ -28,12 +28,18 @@
 - Premios (James Beard, Wine Spectator) y press.
 - Links claros a “Make a reservation”, “Get directions”, “Call the restaurant”.
 
-### Eleven Madison Park (elevenmadisonpark.com)
-- CTA principal: “Book on Resy”.
-- Dirección y teléfono visibles.
-- Secciones: Wine List, FAQs, Gift Cards, Clemente Bar, Press, Careers, etc.
-- Promoción de The Studio at Clemente Bar (omakase).
-- Enfoque en reserva externa y experiencia.
+### Eleven Madison Park (elevenmadisonpark.com) — captura detallada
+- **CTA principal**: “Book on Resy” (visible en header y como link destacado).
+- Dirección (11 Madison Avenue, New York) y teléfono (212.889.0905) visibles.
+- Menú de navegación (al abrirlo): RESERVATIONS, ABOUT (About Us, Team, Magic Farms), EVENTS, STORIES, SHOP (Gift Cards, Eleven Madison Home), Daniel Humm Hospitality.
+- Footer / links secundarios: Wine List, FAQs, Gift Cards, Clemente Bar, Press & Accolades, Careers, Contact Us, Wine Club, Accessibility Statement.
+- **Enfoque visual dominante**: galería de imágenes de alta calidad (Squarespace). Alts revelan contenido:
+  - Platos: Scallop (Marinated with Kohlrabi and Hazelnut), Tonburi (With Cauliflower, Pita and Z'aatar), Tardivo (Salad with Blood Orange and Horseradish), cocktails (Celery, Lime Leaf).
+  - Equipo y proceso: dining room team meeting, Chef Daniel Humm chatting with guests / tasting in kitchen, sous chef stocking fridges.
+  - Origen: Magic Farms (tunnels, lettuce, beets, sunflower field, farmer Maciek Kobielski, chefs visiting the farm).
+- Promoción de experiencias adicionales (Clemente Bar / The Studio).
+- Mailing list simple para news.
+- Sitio muy visual, poco texto en homepage. La fotografía (platos, equipo, granja) comunica el nivel y la historia.
 
 ### Dishoom (dishoom.com)
 - CTA “Book a table” repetido varias veces.
@@ -105,7 +111,7 @@
 - **Noma**: restricción editorial, booking a Tock, narrativa fuerte, productos secundarios.
 - **Canlis**: “RESERVE” primero en nav, invitación personal, énfasis en el espacio y la historia.
 - **Alinea**: transición clara de sistemas de reserva, tres experiencias diferenciadas, premios visibles.
-- **Eleven Madison Park**: “Book on Resy”, promoción de experiencias adicionales (Clemente Bar).
+- **Eleven Madison Park**: sitio muy visual (galería de platos, equipo, Magic Farms), “Book on Resy”, poco texto, la foto cuenta la historia.
 - **Dishoom**: “Book a table” repetido, menús por momento del día, narrativa de marca fuerte.
 - **Sweetgreen / Shake Shack**: orden como infraestructura, CTA dominante.
 
