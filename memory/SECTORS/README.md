@@ -7,7 +7,7 @@
 | Sector | Cuándo | Biblioteca |
 |---|---|---|
 | Restaurantes, cafeterías, brunch | Carta, reservas, ubicación, platos, experiencia del local | [Restaurantes](restaurantes/README.md) |
-| Servicios profesionales y locales | Presupuestos, citas, zona, confianza, equipo, portafolio | [Servicios](servicios/README.md) |
+| Servicios profesionales y locales | Presupuestos, citas, zona, confianza, equipo, portafolio | [Servicios](servicios/README.md) y [comparativa visual](servicios/COMPARATIVA-VISUAL.md) |
 
 No se han creado carpetas vacías para sectores aún no estudiados (tiendas, hoteles, medios, etc.). Se abrirán cuando existan ejemplos y necesidades verificadas.
 

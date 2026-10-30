@@ -13,6 +13,9 @@ Recoger servicio exacto, público y zona, urgencia, resultado esperable **sin ga
 - **Contacto/citas:** canal funcional, confirmación real, estados de error; distinguir solicitud de cita vs. reserva confirmada.
 - **FAQ:** dudas recogidas de operaciones reales; no generar preguntas para rellenar espacio.
 
+## Dirección de arte por servicio
+Revisar [comparativa de diez webs](COMPARATIVA-VISUAL.md) y [estándar de fichas](ESTANDAR-DE-FICHAS.md) antes de diseñar. Elegir solo casos de la necesidad comercial real y contrastar tres composiciones distintas. No confundir screenshots históricos con estado actual. Para servicios a domicilio, priorizar cobertura; para locales abiertos a público, ubicación y mapa pueden ser decisivos. Una plataforma de reservas no equivale a una pyme con WhatsApp.
+
 ## Según sector
 - Hogar: urgencia, desplazamiento, materiales, valoración previa, políticas de cancelación.
 - Belleza: servicios, profesionales, duración/precios, agenda real, fotos de trabajo y cuidado de datos.

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "updatedAt": "2026-10-30",
   "status": "research_only",
-  "notes": "All service references researched, none user-approved. Sector restaurant uses legacy links; do not move binary evidence without migration.",
+  "notes": "All service references researched, none user-approved. Sector restaurant uses legacy links; do not move binary evidence without migration. Ten extended source-grounded visual studies added 2026-10-30. Historical images are NOT actual CSS measurements.",
   "sectors": [
     {
       "id": "restaurantes",
@@ -25,28 +25,36 @@
               "name": "Housekeep",
               "url": "https://housekeep.com/",
               "ref": "servicios/hogar/housekeep.md",
-              "status": "researched_not_approved"
+              "status": "researched_not_approved",
+              "reviewLevel": "visual_sources_not_measured",
+              "mobileScreenshotsVerified": false
             },
             {
               "id": "checkatrade",
               "name": "Checkatrade",
               "url": "https://www.checkatrade.com/",
               "ref": "servicios/hogar/checkatrade.md",
-              "status": "researched_not_approved"
+              "status": "researched_not_approved",
+              "reviewLevel": "visual_sources_not_measured",
+              "mobileScreenshotsVerified": false
             },
             {
               "id": "fixando",
               "name": "Fixando",
               "url": "https://www.fixando.pt/",
               "ref": "servicios/hogar/fixando.md",
-              "status": "researched_not_approved"
+              "status": "researched_not_approved",
+              "reviewLevel": "visual_sources_not_measured",
+              "mobileScreenshotsVerified": false
             },
             {
               "id": "zaask",
               "name": "Zaask",
               "url": "https://www.zaask.pt/",
               "ref": "servicios/hogar/zaask.md",
-              "status": "researched_not_approved"
+              "status": "researched_not_approved",
+              "reviewLevel": "visual_sources_not_measured",
+              "mobileScreenshotsVerified": false
             }
           ]
         },
@@ -59,14 +67,18 @@
               "name": "Ruffians",
               "url": "https://ruffians.co.uk/pages/locations",
               "ref": "servicios/belleza/ruffians.md",
-              "status": "researched_not_approved"
+              "status": "researched_not_approved",
+              "reviewLevel": "visual_sources_not_measured",
+              "mobileScreenshotsVerified": false
             },
             {
               "id": "treatwell",
               "name": "Treatwell",
               "url": "https://www.treatwell.co.uk/near-me/hair",
               "ref": "servicios/belleza/treatwell.md",
-              "status": "researched_not_approved"
+              "status": "researched_not_approved",
+              "reviewLevel": "visual_sources_not_measured",
+              "mobileScreenshotsVerified": false
             }
           ]
         },
@@ -79,14 +91,18 @@
               "name": "PLMJ",
               "url": "https://www.plmj.com/en/services/practices/",
               "ref": "servicios/profesionales/plmj.md",
-              "status": "researched_not_approved"
+              "status": "researched_not_approved",
+              "reviewLevel": "visual_sources_not_measured",
+              "mobileScreenshotsVerified": false
             },
             {
               "id": "koto",
               "name": "Koto",
               "url": "https://koto.com/",
               "ref": "servicios/profesionales/koto.md",
-              "status": "researched_not_approved"
+              "status": "researched_not_approved",
+              "reviewLevel": "visual_sources_not_measured",
+              "mobileScreenshotsVerified": false
             }
           ]
         },
@@ -99,14 +115,18 @@
               "name": "The Modern House",
               "url": "https://themodernhouse.com/sell",
               "ref": "servicios/inmobiliaria-interiores/the-modern-house.md",
-              "status": "researched_not_approved"
+              "status": "researched_not_approved",
+              "reviewLevel": "visual_sources_not_measured",
+              "mobileScreenshotsVerified": false
             },
             {
               "id": "havenly",
               "name": "Havenly",
               "url": "https://havenly.com/interior-design-services",
               "ref": "servicios/inmobiliaria-interiores/havenly.md",
-              "status": "researched_not_approved"
+              "status": "researched_not_approved",
+              "reviewLevel": "visual_sources_not_measured",
+              "mobileScreenshotsVerified": false
             }
           ]
         }

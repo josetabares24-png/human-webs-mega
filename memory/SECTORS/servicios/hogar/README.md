@@ -13,6 +13,8 @@ Limpieza, bricolaje, reformas, electricistas, fontanería, jardinería. Diferenc
 - **[Fixando](fixando.md)** — marketplace portugués de servicios. Para servicios en Portugal, emplear términos locales de pt-PT, formularios breves que recojan lo imprescindible (tipo, zona, urgencia, contacto) y explicar el paso posterior.
 - **[Zaask](zaask.md)** — marketplace portugués de servicios. Para proveedores pequeños, sección «Cómo trabajamos» de 3 pasos, categorías reales, áreas atendidas y CTA directo al presupuesto; copy natural de Portugal.
 
+**Análisis ampliado:** cada caso incluye evidencia visual, lectura de tipografía/fondo/foto/CTA, propuesta original para una pyme y comprobaciones pendientes. [Comparativa de diez](../COMPARATIVA-VISUAL.md).
+
 Las fichas derivan de páginas web públicas consultadas el 30/10/2026. **No hay capturas nuevas de móvil ni inspección de CSS**; las conclusiones visuales no medidas se marcan como interpretaciones.
 
 [Playbook de servicios](../PLAYBOOK.md) · [Todos los servicios](../README.md).
