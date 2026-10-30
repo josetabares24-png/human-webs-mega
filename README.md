@@ -23,7 +23,8 @@ Este repo documenta cómo eran las webs buenas **antes** de la explosión de IA,
 │   └── anti-ai-checklist.md    ← checklist rápido anti-slop
 ├── templates/                 ← plantillas y patrones listos
 ├── flows/                     ← flujos ultra-rápidos de creación
-├── examples/                  ← ejemplos reales o de referencia
+├── examples/
+│   └── restaurants/           ← patrones de botones, heroes y CTAs de cadenas populares (McD, Domino’s, Chipotle, Shake Shack, etc.)
 └── monetization.md            ← cómo ganar dinero con esto
 ```
 
@@ -39,9 +40,10 @@ Este repo documenta cómo eran las webs buenas **antes** de la explosión de IA,
 ## Cómo usar este repo
 
 1. Lee los principios en `/principles`.
-2. Elige un flujo en `/flows` o crea el tuyo.
-3. Usa plantillas y el checklist anti-IA.
-4. Entrega y cobra.
+2. Mira las referencias de restaurantes en `/examples/restaurants` (botones, heroes, sticky CTAs de cadenas reales).
+3. Elige un flujo en `/flows` o crea el tuyo.
+4. Usa plantillas y el checklist anti-IA.
+5. Entrega y cobra.
 
 ## Contribuciones
 
