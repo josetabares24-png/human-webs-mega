@@ -2,6 +2,24 @@
 
 Registro de observaciones reales. Cada entrada viene de una revisión con navegador.
 
+## 2026-10-30 — Carbone New York (carbonenewyork.com)
+
+**Tipo**: Premium teatral. [Ficha y evidencia](../../design-library/references/carbone-new-york/2026-10-30/reference.json); [receta original separada](../../design-library/recipes/premium-theatrical.json).
+
+**Observación en vivo**: inicio, introducción editorial, carta y navegación móvil en IAB. Capturas originales guardadas e inspeccionadas. Muestras normalizadas a 1280×800 y 390×844; la captura exploratoria del bloque About se etiqueta sin viewport normalizado. Cookies rechazadas. Sin formularios enviados ni reserva.
+
+**Tipografía**: títulos visibles en Bourgeois BoldCond, identificada por metadatos OpenType (PostScript Bourgeois-BoldCond), 32px / 38px / CSS 700 / mayúsculas / tracking normal. CTA 20px / 28px / CSS 400 sobre el mismo archivo BoldCond. Cuerpo Hoefler Txt Roman (PostScript HoeflerTxt-Roman), 18px / 26.4px en escritorio y 16px / 24px en móvil, peso 400 y tracking normal. CSS usa aliases de Next y fallback Arial con métricas ajustadas; no son los nombres reales. Hoefler Bold también identificado. No se guardan binarios; no se ha verificado una licencia de reutilización.
+
+**Botón**: reserva marfil #fff9f0 sobre texto marino #0a1a29, borde computado 0.8px marino, radio 2px, sin sombra, padding 10px 16px 6px, altura escritorio 45.6px. La reserva inferior móvil mide 64px; no está dentro del header. Header sticky de 80px escritorio / 54px móvil, marino y sin sombra.
+
+**Color y composición**: marino #0a1a29, marfil #fff9f0. Foto real de servicio a sangre y rótulo geográfico breve; el H1 semántico está visualmente oculto, no es un titular grande. Bloques de lectura marfil sobre marino, fotografía ancha y pares imagen/texto. Sin card genérica de tres columnas ni sombra decorativa. Body base marfil; no confundirlo con el fondo de los bloques.
+
+**Interacción**: navegación móvil de pantalla completa con enlaces serif y acciones al pie. La carta usa pestañas de escritorio y combobox personalizado móvil (botón de 44px, no select nativo). Al elegir cena, URL ?menu=dinner; contenido HTML con 7 listas y 44 ítems, sin imágenes dentro del panel. No se copian platos ni precios al catálogo. scrollWidth 1265 con viewport 1280 y 375 con viewport 390: sin overflow horizontal en esas muestras.
+
+**Patrón reutilizable**: identidad por contraste de serif de lectura y sans condensada, dos colores, fotografía del negocio, narrativa factual y carta HTML. La receta conserva ese sistema con contenido propio y fallbacks explícitos; todavía no es una implementación renderizada ni una réplica validada. La barra móvil requiere espacio inferior y comprobación de foco/oclusiones antes de usarse.
+
+**Anti-IA y límites**: no convertir la fotografía en hero con eslogan genérico, no mezclar este CTA con otros casos y no presentar fotos, logo o fuentes de Carbone como assets del cliente. No se ha auditado accesibilidad completa ni el flujo de reservas. La ficha distingue medidas, limitaciones y propuestas para que el siguiente intento no convierta suposiciones en hechos.
+
 **Foco obligatorio en cada investigación**:
 - Tipografía (serif/sans, pesos, tamaños, títulos vs cuerpo)
 - Botones (forma, color, contraste, estilo filled/outline/texto, tamaño)

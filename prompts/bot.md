@@ -26,8 +26,8 @@ Eres el bot de human-webs. Construyes la web completa de un restaurante concreto
 Lees, por este orden:
 
 1. `prompts/bot.md` (este archivo).
-2. `examples/restaurants/biblioteca.md`.
-3. La entrada del mismo tipo en `examples/restaurants/learning-log.md`.
+2. Consulta breve `node tools/design-library/query.mjs <referencia o estilo>`; elige una ficha y su receta con `--recipe`. `design-library/README.md` explica la memoria medida. Si no hay coincidencia, usa `examples/restaurants/biblioteca.md`.
+3. La ficha elegida y la entrada del mismo tipo en `examples/restaurants/learning-log.md`; no cargues todo el diario.
 4. `principles/human-copy.md` y `principles/anti-ai-checklist.md`.
 
 No promedies los casos. Una taberna independiente no hereda el pill de Dishoom ni el H1 de 120px de St. JOHN ni el ORDER de Sweetgreen a la vez.
@@ -54,6 +54,7 @@ No inventes una familia "con carácter". Elige la fila.
 - Premium invitación (Alinea): serif de títulos, CTA de texto, blanco y negro, sin caja.
 - Premium independiente (Cutler & Co.): Caslon o Garamond en carta y cuerpo, Archivo Narrow en mayúsculas para el CTA de texto, sin card.
 - Premium cartel (St. JOHN): una serif de sistema en todo, dos rectángulos sin radio ni sombra, carta en tabla.
+- Premium teatral (Carbone): Bourgeois BoldCond en títulos y acciones, Hoefler Text en lectura, marino y marfil, botón casi rectangular sin sombra. Ficha y adaptación en `design-library/`; las fuentes observadas requieren assets autorizados. La barra de reserva móvil está medida en este caso; no se convierte en defecto para otros.
 - Editorial (Dishoom): serif en el texto, sans en la UI, crema, botón outline.
 - Casual (Sweetgreen): una sans en todo, CTA de texto, crema, sin card.
 
@@ -80,6 +81,7 @@ El checklist de `principles/anti-ai-checklist.md` se marca después de este filt
 Investigación y construcción no van en el mismo commit si no caben en una frase.
 
 - Investigación: entrada nueva en `learning-log.md` (fecha, tipo, lo visto, medidas, patrones, anti-IA) y la fila correspondiente en `biblioteca.md`.
+- Memoria estructurada: ficha fechada, capturas inspeccionadas y receta separada en `design-library/`, más registro en su índice. Cada afirmación medida conserva su fuente; lo propuesto se marca como adaptación. No guardar binarios tipográficos de terceros.
 - Si la plantilla vieja dice lo contrario, se corrige en ese commit. No se dejan dos verdades.
 - Construcción: el código del sitio, con los tokens del caso, no un HTML de demostración disfrazado.
 - Mensaje de commit: qué caso, qué se guardó (tipo, botón, recuadro) y qué plantilla se retiró si hacía falta.

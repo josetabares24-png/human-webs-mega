@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "references": [
+    {
+      "id": "carbone-new-york",
+      "name": "Carbone New York",
+      "date": "2026-10-30",
+      "source": "https://carbonenewyork.com/",
+      "case": "premium teatral",
+      "tags": [
+        "restaurante",
+        "restaurant",
+        "premium",
+        "italiano",
+        "editorial",
+        "navy",
+        "marfil",
+        "serif",
+        "condensada",
+        "carbone"
+      ],
+      "summary": "Marino y marfil; Bourgeois BoldCond en títulos, Hoefler Text en lectura; fotografía real amplia, carta HTML y reserva móvil inferior.",
+      "record": "references/carbone-new-york/2026-10-30/reference.json",
+      "recipe": "recipes/premium-theatrical.json"
+    }
+  ]
+}

@@ -2,6 +2,8 @@
 
 Contexto de desarrollo: [Repomix y medición de tokens](docs/TOKEN-CONTEXT.md), aislado de la aplicación y con instrucciones de uso en `AGENTS.md`.
 
+Memoria visual para construir más rápido: [biblioteca de referencias](design-library/README.md), con Carbone estudiado en escritorio y móvil, fuentes identificadas, medidas y receta reutilizable. Consulta compacta: `node tools/design-library/query.mjs carbone --recipe`. Es memoria del asistente en este repositorio; no añade un estilo nuevo al generador automáticamente.
+
 # human-webs-mega
 
 **Mega repositorio para crear webs anti-IA**: estética humana (pre-IA), copy natural, UX basada en cómo ven, leen y compran las personas reales. Principios, patrones, plantillas y flujos ultra-rápidos para sitios bonitos, funcionales, lógicos y que generan dinero real.

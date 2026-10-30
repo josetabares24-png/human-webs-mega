@@ -1,0 +1,50 @@
+{
+  "controls": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "bottom": 444.1000061035156,
+      "fontSize": "18px",
+      "height": 44,
+      "lineHeight": "26.4px",
+      "padding": "8px 16px",
+      "position": "static",
+      "role": "combobox",
+      "tag": "BUTTON",
+      "width": 300
+    },
+    {
+      "background": "rgb(255, 249, 240)",
+      "bottom": 11823.700588226318,
+      "fontSize": "20px",
+      "height": 45.60000228881836,
+      "lineHeight": "28px",
+      "padding": "10px 16px 6px",
+      "position": "static",
+      "role": null,
+      "tag": "A",
+      "width": 327.20001220703125
+    },
+    {
+      "background": "rgb(255, 249, 240)",
+      "bottom": 844,
+      "fontSize": "20px",
+      "height": 64,
+      "lineHeight": "28px",
+      "padding": "10px 16px 6px",
+      "position": "static",
+      "role": null,
+      "tag": "A",
+      "width": 375.2000122070313
+    }
+  ],
+  "htmlMenu": {
+    "images": 0,
+    "items": 44,
+    "lists": 7
+  },
+  "url": "https://carbonenewyork.com/?menu=dinner",
+  "viewport": {
+    "height": 844,
+    "width": 390
+  }
+}

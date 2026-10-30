@@ -51,3 +51,7 @@ npm --prefix tools/context run benchmark:ai
 ```
 
 La medición local de ese fixture con o200k_base dio **2162 tokens** para la petición de generación completa frente a **992** para la edición de Servicios: **54,12 % menos**. Incluye esquema, instrucciones y contexto serializados como JSON; no mide tokens facturados por un proveedor ni demuestra calidad del modelo. No realiza llamadas de IA y el porcentaje varía con el contenido y la ruta elegida. Este benchmark usa el contador de Repomix instalado en herramientas, sin añadir dependencias de ejecución a la app.
+
+## Consultas visuales breves
+
+Para diseño, usa `node tools/design-library/query.mjs <caso o estilo>` antes de empaquetar código. Recupera una sola receta con `node tools/design-library/query.mjs carbone --recipe`; abre su ficha y las capturas necesarias después. La [memoria visual](../design-library/README.md) conserva medidas y fuentes identificadas, separadas de decisiones de adaptación. Repomix orienta en el código; el catálogo evita repetir investigación o leer todo el diario. No se atribuye un ahorro de facturación medido a esta consulta.
