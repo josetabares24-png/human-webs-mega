@@ -14,6 +14,9 @@ node tools/design-library/query.mjs --check
 
 El índice `index.json` devuelve fichas pertinentes. La receta sólo se usa si encaja con el caso y se compara con **otras** direcciones; **no es una plantilla universal**. Sigue [ART-DIRECTION](../memory/ART-DIRECTION.md).
 
+## Estudios exploratorios nuevos (NO medidos ni aprobados)
+La biblioteca conserva dos casos medidos. Cinco nuevos análisis basados en páginas originales y capturas de estudios/terceros están en [cinco restaurantes en revisión](../memory/REFERENCES/RESTAURANTS-2026-10-30/INDEX.md). **No están incorporados a `index.json`** porque no tienen DOM medido ni capturas móviles verificadas, y el usuario todavía no ha aprobado rasgos visuales de esas cinco webs. No presentar esos ejemplos como referencias validadas en el mismo nivel que Carbone y Bon Bouquet.
+
 ## Casos con observación y medidas
 
 | Referencia | Carácter visual observado | Evidencia |

@@ -6,10 +6,11 @@ Este repositorio es una **MEMORIA MAESTRA versionada para construir páginas web
 ## Arranque obligatorio y ligero
 1. Lee `memory/INDEX.md` y `memory/DECISIONS.md`.
 2. Identifica sector, tipo de proyecto, entregables y riesgos.
-3. Sigue el enrutamiento de `memory/INDEX.md`: abre **solo** los archivos pertinentes y las fuentes originales; no pegues toda la memoria al contexto. Para webs nuevas y rediseños, lee `memory/ART-DIRECTION.md` y consulta `design-library/` antes de elegir colores o composición.
-4. Antes de escribir código, revisa `memory/ERRORS.md` y los bloqueos de `memory/QUALITY-GATES.md`.
-5. Comprueba el estado del repositorio de DESTINO: framework, ramas, pruebas, infraestructura y políticas. No asumas el mismo stack para todos los clientes.
-6. Ejecuta, prueba, inspecciona escritorio y móvil, corrige, documenta y entrega evidencia. No marques tareas como hechas sin verificar.
+3. **No confundir investigación con aprobación:** referencias exploratorias deben quedar marcadas `PENDIENTE`; no trasladar gustos de otras webs al usuario sin feedback explícito. Evitar atribuir capturas de archivo como capturas móviles actuales.
+4. Sigue el enrutamiento de `memory/INDEX.md`: abre **solo** los archivos pertinentes y las fuentes originales; no pegues toda la memoria al contexto. Para webs nuevas y rediseños, lee `memory/ART-DIRECTION.md` y consulta `design-library/` antes de elegir colores o composición.
+5. Antes de escribir código, revisa `memory/ERRORS.md` y los bloqueos de `memory/QUALITY-GATES.md`.
+6. Comprueba el estado del repositorio de DESTINO: framework, ramas, pruebas, infraestructura y políticas. No asumas el mismo stack para todos los clientes.
+7. Ejecuta, prueba, inspecciona escritorio y móvil, corrige, documenta y entrega evidencia. No marques tareas como hechas sin verificar.
 
 ## Fuente de verdad y conflictos
 - Instrucción expresa del usuario para la tarea > requisitos y código reales del proyecto cliente > `AGENTS.md` + `memory/DECISIONS.md` > guías específicas `memory/` > referencias medidas `examples/` y `principles/` > borradores antiguos `flows/`, `prompts/` y HTML de `examples/`.

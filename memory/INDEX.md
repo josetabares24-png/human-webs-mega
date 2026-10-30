@@ -13,6 +13,7 @@
 | Crear web nueva o rediseño | **[ART-DIRECTION](ART-DIRECTION.md)**, [WORKFLOW](WORKFLOW.md), [DESIGN](DESIGN.md), [QUALITY-GATES](QUALITY-GATES.md) |
 | Buscar ideas, evitar terracota repetido | [INSPIRATION-SOURCES](INSPIRATION-SOURCES.md), [biblioteca visual](../design-library/README.md), [ficha creativa](DESIGN-DIRECTION-TEMPLATE.md) |
 | Lecciones de rediseño rechazado | [Mil Sabores: por qué no repetir el prototipo](CASES/MIL-SABORES-REJECTED-PROTOTYPE-2026-10-30.md), [errores](ERRORS.md) |
+| Referencias de restaurante en revisión (5 casos) | [Ursula, La Semilla, BAVET, Lucky Folks y Brunchit](REFERENCES/RESTAURANTS-2026-10-30/INDEX.md) — **pendiente de preferencias del usuario** |
 | Diseño de restaurante | [biblioteca de restaurantes](../examples/restaurants/biblioteca.md), [diario](../examples/restaurants/learning-log.md), [memoria visual](../design-library/README.md), [DESIGN](DESIGN.md) |
 | Redacción o SEO | [COPY-SEO](COPY-SEO.md), [redacción humana](../principles/human-copy.md) |
 | Código, despliegue, formularios | [TECHNICAL](TECHNICAL.md), [QUALITY-GATES](QUALITY-GATES.md) |
