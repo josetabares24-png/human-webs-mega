@@ -16,6 +16,9 @@
 | Código, despliegue, formularios | [TECHNICAL](TECHNICAL.md), [QUALITY-GATES](QUALITY-GATES.md) |
 | Corregir incidencia o actualizar memoria | [ERRORS](ERRORS.md), [RECORD-TEMPLATE](RECORD-TEMPLATE.md) |
 
+## Usar desde otra IA / otro repositorio
+- [Prompt portátil y montaje de memoria](START-HERE.md). El acceso no se hereda automáticamente cuando se abre el repositorio de un cliente.
+
 ## Qué NO incluir como contexto automáticamente
 - Copias completas del repo, ejemplos HTML antiguos, capturas, lockfiles, secretos o expedientes de clientes.
 - Conclusiones basadas en estudios de caso que no corresponden al sector.
