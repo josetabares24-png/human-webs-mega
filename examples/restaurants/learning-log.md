@@ -176,14 +176,14 @@ Registro de observaciones reales. Cada entrada viene de una revisión con navega
 - **Copy**: Específico y reflexivo, no promocional hype (“thoughtful expression of modern craft”, menciones a stewardship, inside stories). Fotos con alts narrativos del trabajo real.
 
 **Patrones útiles (anti-IA)**:
-1. Tipografía custom sans (PitchSans) consistente en cuerpo y títulos con pesos moderados (400-600) y tamaños no exagerados → sensación de branding artesanal contemporáneo, no template system.
-2. Paleta ultra-restringida (blanco + negro + un solo acento cálido marrón) → evita paletas “brand” multicolor digitales; evoca papel y luz de cocina.
-3. CTAs principalmente como texto plano; el único filled es discreto, radius 0 y color cálido no neón → reduce el look de botón de conversión de app/SaaS.
-4. Fotografía de proceso (baker icing, filling tarts) en lugar de food-porn finished products genérico → autenticidad del craft, no stock.
-5. Copy con voz de oficio y comunidad (“product of our communities and our friends”, “thoughtful expression”) + listados concretos de locations por área → se siente escrito por la gente del lugar, no por marketing genérico.
-6. Ausencia de sombras, bordes redondeados y cards → layout limpio tipo editorial o carta, no site builder moderno.
+1. Tipografía custom sans (PitchSans) consistente en cuerpo y títulos con pesos moderados → sensación de craft contemporáneo limpio, no template display.
+2. CTA filled único y discreto (marrón cálido, radius 0) entre links de texto → acción clara sin look de app.
+3. Paleta mínima blanco + negro + un acento cálido de horno → papel + toque de proceso.
+4. Fotografía de proceso real (icing, filling) en lugar de producto final glossy.
+5. Copy sobre craft y comunidad sin hype de marketing.
+6. Sin sombras, borders o radius → austeridad funcional.
 
-**Anti-IA**: El sitio no grita “ORDER NOW” ni usa hero marketing agresivo. Habla de craft, de comunidad y de procesos reales (icing, filling). La tipografía custom PitchSans + paleta blanco/negro/acento cálido + fotos de trabajo lo hacen sentir como la expresión de una panadería que sabe quién es, no como un template generado. Eso es lo que hay que replicar.
+**Anti-IA**: Se siente como la página de una panadería que prioriza el oficio. La tipografía custom sans de peso moderado y el acento único de color cálido lo diferencian de plantillas genéricas.
 
 ## 2026-10-30 — Gramercy Tavern (gramercytavern.com)
 
@@ -214,3 +214,33 @@ Registro de observaciones reales. Cada entrada viene de una revisión con navega
 6. Ausencia de sombras, cards y radius exagerados; estructura clara de dos experiencias (dining vs tavern) → se siente como guía de un local real, no landing generada.
 
 **Anti-IA**: El sitio habla del ambiente y de la cocina concreta (wood-burning grill, seasonal) sin intentar vender con hero glossy o CTAs brillantes. La combinación EB Garamond + Gothic custom + fondo crema cálido lo hace sentir como la página de un restaurante que lleva décadas y no necesita explicarse. Eso es lo que hay que replicar.
+
+## 2026-10-30 — Padella (padella.co)
+
+**Tipo**: Casual / independiente (pasta bar en Londres; Borough Market original, ahora Shoreditch y Soho; Tim y Jordan, handmade pasta, colas, precios accesibles).
+
+**Lo que se ve**:
+- Hero con video + “Scroll down”.
+- Tres locales en grid con fotos (Borough Market, Shoreditch, Soho).
+- Menú del día directamente en homepage (fecha exacta “FRIDAY 30TH OCTOBER”) con secciones ANTIPASTI / PASTA / PUDDING / ICE CREAM y platos + precios concretos (£4 Nocellara olives, £9.5 Tagliarini with dried chilli…, £16.5 Pappardelle with 8 hours Hereford beef shin ragu, nota de parmesan extra 50p).
+- About corto y específico: “Padella is the culmination of Tim and Jordan’s long held dream to open a pasta bar serving fresh, hand rolled pasta…” + link a Trullo.
+- Group bookings con set menu y emails de contacto.
+- Nav: logo, Vouchers, Careers, locales. Toggle mobile.
+
+**Detalles estéticos (captura en vivo)**:
+- **Tipografía**: Headings en Oswald (sans condensed, 26-40px, pesos 400-700, letter-spacing -0.25px en algunos). Cuerpo y párrafos en Roboto Condensed (sans, 16-22px, peso 300-400, line-height ~28px). Todo sans, condensado, sensación de menú de pizarra o signage urbano, no editorial serif.
+- **Botones**: Casi todos links de texto plano (bg transparente, border 0, radius 0, padding 0 o mínimo, color blanco). Sin filled, sin outline, sin pills. Estilo texto puro.
+- **Colores**: Fondo negro puro rgb(0,0,0). Texto blanco rgb(255,255,255). Sin acentos de color. Contraste máximo, paleta de noche / pizarra / pantalla de cocina, no crema ni papel.
+- **Espaciado / bordes / sombras**: Layout limpio. box-shadow: none en secciones. Bordes 0. Padding generoso en grids (64px 0 80px). Fotografía de locales (interiores con mármol, frames, counter) y no food-porn glossy en homepage.
+- **Móvil / estructura**: Nav toggle “Toggle navigation”, menú mobile overlay black. Menú del día visible y scrolleable. Estructura directa: locales → menú de hoy → about.
+- **Copy**: Operativo y personal (“Tim and Jordan’s long held dream”, platos con productores concretos como Le Ferre olive oil, Cobble Lane nduja, Westcombe ricotta, Dorset crab, 8 hours Hereford beef). Sin adjetivos de marketing.
+
+**Patrones útiles (anti-IA)**:
+1. Menú del día completo con platos + precios exactos y fecha del día en la homepage → información viva y actualizable que solo un local real publica así; no PDF ni categorías genéricas.
+2. Tipografía dual condensed sans (Oswald para títulos + Roboto Condensed para cuerpo, pesos bajos-medios) → sensación de menú de pasta bar o pizarra de mercado, no display template.
+3. Paleta absoluta negro + blanco puro → máximo contraste y austeridad urbana; evita cualquier paleta “brand” cálida o digital.
+4. Ausencia total de botones filled/outline/pills; CTAs son texto plano blanco → reduce el look de landing o app de reservas.
+5. About mínimo pero concreto (nombres de fundadores Tim y Jordan + “hand rolled pasta” + otro restaurante Trullo) en lugar de storytelling largo o hype.
+6. Fotografía de espacios reales de los locales (no platos over-styled en hero) + video hero sutil → autenticidad del lugar sobre food porn genérico. Sin sombras ni cards.
+
+**Anti-IA**: El sitio es la herramienta de un pasta bar que tiene colas y no necesita venderse. El menú del día con precios y preparaciones exactas (pangrattato, 8 hours beef shin, extra parmesan 50p) está en la homepage. La tipografía condensed + fondo negro lo hace sentir como un local de Borough Market, no como un constructor de sites. Eso es lo que hay que replicar.
