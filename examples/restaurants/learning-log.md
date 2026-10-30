@@ -95,3 +95,32 @@ Registro de observaciones reales. Cada entrada viene de una revisión con navega
 6. Copy operativo y sin adjetivos de marketing (“space is extremely limited”, horarios exactos, políticas claras) + ilustración artesanal en lugar de food photography genérica → se siente como anuncio interno o carta de un local establecido, no como campaña.
 
 **Anti-IA**: El sitio no intenta impresionar. Es la herramienta práctica de un restaurante que lleva 50+ años y no necesita explicar quién es. Los menús diarios con nombres de granjas y preparaciones exactas, la tipografía de imprenta y la ausencia de CTAs brillantes lo hacen imposible de confundir con un template generado. Eso es lo que hay que replicar cuando se quiere que una web se sienta real.
+
+## 2026-10-30 — Cutler (cutlerandco.com.au)
+
+**Tipo**: Premium / independiente (fine dining moderno australiano en Fitzroy, Melbourne; Andrew McConnell, desde 2009, en antigua fábrica de metal).
+
+**Lo que se ve**:
+- Homepage con logo + nav superior (Reservations, Menu, Drinks, Private Dining, Gift Vouchers, Journal, Sundays at Cutler) + bloque de info práctica a la izquierda (MAKE A RESERVATION, LOCATION, OPENING HOURS, CONTACT) + foto grande de interior (mesas, plantas, ladrillo) a la derecha.
+- Copy concreto sobre origen: “Andrew McConnell opened Cutler & Co. in 2009 in a former metal works factory in Fitzroy, Melbourne’s first suburb. Behind a glass façade that has reflected the changes around it for over sixteen years…” + ethos de “refined, simple, hospitable dining”.
+- Menú en texto plano con secciones (APPETISERS, SEASONAL SEAFOOD, ENTRÉES, etc.), platos específicos y precios (Homemade FOCACCIA 12, CUTLER DONUTS… 36, Giaveri white sturgeon caviar 30g 240).
+- Fotografía real del espacio y platos (no stock), con alts a menudo de filenames.
+- Nav responsive con “Open Menu” button.
+
+**Detalles estéticos (captura en vivo)**:
+- **Tipografía**: Cuerpo y párrafos en Caslon / garamond-premier-pro (serif, 16px, peso 400, line-height 24px). Títulos de sección y nav en Persona / Archivo Narrow (sans, 16px, peso 700, letter-spacing 1.12px). Contraste claro entre editorial serif y UI sans estrecha.
+- **Botones**: Casi todos son links de texto plano (bg transparente, border 0, border-radius 0, padding mínimo). “MAKE A RESERVATION” es heading bold sans, no botón filled. No hay pills ni outlines agresivos; estilo texto puro.
+- **Colores**: Fondo principal blanco (rgb(255,255,255)). Texto rgb(34,34,34). Acento de fondo crema muy claro rgb(247,247,237). Negro puro en algunos elementos. Contraste alto, paleta de papel/impresión, sin acentos de marca brillantes.
+- **Espaciado / bordes / sombras**: Layout limpio y generoso. No hay sombras (box-shadow: none). Bordes mínimos o inexistentes. Fotografía a full width en secciones, sin cards.
+- **Móvil**: Nav colapsa a botón “Open Menu”; estructura se mantiene funcional.
+- **Copy**: Específico y sin florituras (“Walk-in for a bite and drink in our bar, or make a reservation for the dining room.”, horarios exactos, dirección concreta).
+
+**Patrones útiles (anti-IA)**:
+1. CTA de reserva como texto/heading bold sans (no botón filled) integrado en sidebar de info práctica → se siente como carta de restaurante, no como landing de app.
+2. Tipografía dual deliberada: serif clásica (Caslon/Garamond) para cuerpo narrativo + sans estrecha bold para UI y títulos → editorial + funcional, no uniformidad de template.
+3. Paleta ultra-restringida (blanco + #222 + crema #f7f7ed) sin negros puros ni acentos de color → sensación de menú impreso y luz natural.
+4. Menú como lista de texto plano con platos + precios concretos (no cards, no PDFs, no categorías genéricas) → información directa que un local real mantiene actualizada.
+5. Fotografía del espacio real (interior con plantas, ladrillo, mesas) y platos sin over-styling, alts simples → autenticidad visual sobre food-porn genérico.
+6. Ausencia total de sombras, bordes redondeados y botones de alto contraste → evita el look de site builder moderno o AI-generated.
+
+**Anti-IA**: El sitio es la herramienta de un restaurante establecido que no necesita venderse con hero marketing o CTAs brillantes. Habla de la fábrica de metal, de 16 años de evolución, de platos con precios exactos y de un ethos concreto. La combinación de serif de imprenta + sans estrecha + fondo blanco/crema lo hace sentir como una carta bien diseñada, no como un template. Eso es lo que hay que replicar.
