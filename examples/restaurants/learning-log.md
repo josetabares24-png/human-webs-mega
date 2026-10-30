@@ -88,3 +88,32 @@ Observaciones de sitios reales para crear webs más humanas, menos genéricas de
 6. **Menú como texto estructurado transparente** con cursos, ingredientes precisos, cargos y políticas. Prioriza claridad operativa sobre diseño visual del menú.
 
 **Notas:** Sitio elegante, calmado y familiar. La combinación de tipografía custom, paleta de edificio y fotografía de servicio real lo hace sentirse hecho por el restaurante mismo, no por un template de IA. Perfecto para premium humano sin pretensiones tech.
+
+---
+
+## 2026-10-30 — Joe's Stone Crab (joesstonecrab.com) — Classic Independent / Casual-Upscale / Historic Family
+
+**Sitio:** https://www.joesstonecrab.com/  
+**Tipo:** Restaurante independiente icónico (Miami Beach, FL; familia Weiss desde 1913). Powered by BentoBox.
+
+### Lo que vi (honesto)
+
+- **Estructura y CTAs:** Header con logo (azul/negro), nav de texto: Info, Menus, Order, Private Dining, About Us (submenu History/FAQs/Contact/Careers/Gift Cards). CTA principal "RESERVATIONS" como botón outline. Homepage muy limpia: secciones split con logos de Joe's y Take Away, poco texto hero. Footer con redes, shipping, email signup. No hay hero full-bleed narrativo; prioriza acceso rápido a reservas y menús.
+- **Tipografía:** Headings en **miller-banner** (serif display, h1 ~42.75px weight 700, letter-spacing 2px, color azul). Cuerpo y nav en **NeutraText-Book** sans (19px weight 400, letter-spacing 1px en nav). Combinación serif bold para títulos + sans geométrica limpia para lectura. Nada de Inter o system fonts.
+- **Botones:** Outline filled-light: fondo crema o semi-transparente blanco, borde 1px sólido azul `rgb(1, 88, 124)`, radius 0px (esquinas rectas), padding generoso (~9.5px 28.5px). Texto en NeutraText-Book 17px. No pills, no sombras, no gradients. Nav links son texto puro.
+- **Colores:** Fondo crema cálido `rgb(247, 243, 238)`. Texto principal `rgb(51, 51, 51)`. Acento principal azul marino/profundo `rgb(1, 88, 124)` usado en headings, bordes y links. Contraste alto, paleta limitada y náutica (crema + azul de mar). Sin negros puros ni colores saturados de moda.
+- **Espaciado, bordes, sombras, fotografía:** Espaciado funcional con splits de imagen/texto. Bordes rectos, sombras casi nulas. Fotografía real del lugar y comida (platos de stone crab, mesas, exteriores históricos en B&W). Imágenes específicas, no stock genérico; logos custom.
+- **Menú:** Página clara con categorías (Stone Crabs, Starters, etc.). Precios exactos por tamaño (Jumbo $139.95, Large $79.95...), descripciones precisas ("chilled, cracked & served with mustard sauce"), temporada (Oct 15–May 1). Texto plano, legible, con opción PDF.
+- **Móvil:** Hamburguesa funcional (probado en 375px), layout se adapta, botones y nav legibles.
+- **Copy:** Narrativo histórico en páginas About/History: historia concreta de 1913, Joe Weiss, Jennie, quotes de familia ("She was a tough old broad"), detalles de Miami Beach antes de ser ciudad. Operativo en menú y reservas. Sin marketing fluff; voz de familia con décadas de tradición.
+
+### Patrones concretos útiles para webs anti-IA (4-6)
+
+1. **Combinación serif display bold + sans geométrica custom.** miller-banner para headings (tracking positivo, color acento) + NeutraText-Book para cuerpo/nav. Se siente de marca establecida, no system-ui o Inter genérico de IA.
+2. **Botones outline con esquinas rectas y borde de acento.** Radius 0px, borde 1px azul sobre fondo crema, sin sombra ni radius alto. Evita el pill SaaS y se siente más clásico/impreso.
+3. **Paleta crema + azul marino profundo.** `rgb(247,243,238)` fondo + `rgb(1,88,124)` acento. Náutica, de lugar (Miami Beach), limitada. Nada de gradients, neón o paletas "modernas" saturadas.
+4. **Homepage funcional y logo-centric** en vez de hero narrativo full-screen. Acceso directo a reservas y menús; la historia vive en páginas dedicadas. Menos template de "experiencia", más restaurante real.
+5. **Menú con precios y tamaños exactos en texto plano.** Categorías claras, temporadas, descripciones precisas (no "delicious" genérico). Transparencia operativa que genera confianza.
+6. **Copy histórico concreto con voz familiar.** Nombres, años, quotes reales de la familia, detalles del origen. Nada de storytelling aspiracional genérico; se siente documentado por humanos.
+
+**Notas:** Sitio clásico, funcional y con identidad fuerte de familia/lugar. La tipografía custom, paleta náutica y esquinas rectas lo alejan de templates modernos de IA. Buen ejemplo de independent casual-upscale humano que prioriza utilidad y tradición sobre "diseño contemporáneo".
