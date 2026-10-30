@@ -66,3 +66,32 @@ Registro de observaciones reales. Cada entrada viene de una revisión con navega
 6. Ausencia casi total de botones de alto contraste; la acción es texto o link discreto → reduce el “AI template CTA”.
 
 **Anti-IA**: Nada suena a copy generado. Habla de 75 años, de arquitectos concretos, de un ranking de Food & Wine, de un cargo de servicio claro. La tipografía display enorme en serif y el fondo crema hacen que se sienta diseñado por alguien, no por un constructor de sites. Eso es lo que hay que replicar.
+
+## 2026-10-30 — Chez Panisse (chezpanisse.com)
+
+**Tipo**: Independiente icónico (Berkeley, California, desde 1971, pionero farm-to-table, Alice Waters).
+
+**Lo que se ve**:
+- Homepage casi vacía: logo + una ilustración dibujada a mano (chanterelles y trufas) + navegación superior. Sin hero foto glossy, sin CTA grande.
+- Menús diarios muy concretos en texto plano: platos específicos con ingredientes, precios ($135/$175), origen de productos (Paicines Ranch lamb, Grimaud Farm guinea hen, etc.).
+- Información práctica detallada: cómo reservar (un mes antes a las 9 a.m. PT vía Resy), horarios exactos por día y servicio, política de cancelación, cargo de servicio 17%, corkage.
+- Navegación simple: MENU (con sub: Cafe, Restaurant, Mondays, Wine), RESERVATIONS, INFORMATION, BAR PANISSE, GIFT CARD, GIFT SHOP, CAREERS.
+- Copy utilitario y preciso, sin marketing florido.
+
+**Detalles estéticos (captura en vivo)**:
+- **Tipografía**: Navegación y cuerpo principal en EB Garamond (serif, ~14-15px, peso 600 en nav, 400 en cuerpo). Algunos elementos UI en Helvetica Neue. Títulos de menú en serif light (peso 300, 22px). Nada de display bold exagerado.
+- **Botones**: Prácticamente inexistentes. Todo son links de texto plano (sin fondo, sin borde, padding mínimo). Reserva lleva a Resy. Estilo texto puro, funcional.
+- **Colores**: Fondo blanco puro (rgb(255,255,255)). Texto negro (rgb(0,0,0) o rgb(34,34,34)). Contraste máximo, paleta de papel/impresión. Sin acentos de color, sin fondos crema ni negros suaves.
+- **Espaciado / fotografía**: Layout limpio y generoso. Homepage usa ilustración dibujada (no foto de plato). Menús son listas de texto sin cards. Pocas o ninguna sombra. Bordes mínimos.
+- **Móvil**: Menú colapsado (hamburger-style), funcional y directo. Sin elementos decorativos que rompan.
+- **Copy**: Extremadamente específico y operativo (“Reservations can be made one month in advance to the calendar day, through the links on our website or on Resy.com, beginning at 9 a.m. Pacific time. For example, to book a reservation on May 25, go online at 9 a.m. on April 25.”). Menús nombran productores y preparaciones exactas.
+
+**Patrones útiles (anti-IA)**:
+1. Homepage mínima casi vacía (logo + ilustración + nav) → el contenido real está en las páginas de menú e info; no hay necesidad de “vender” con hero marketing.
+2. Tipografía serif clásica (EB Garamond) en pesos bajos y tamaños modestos para todo el texto funcional → sensación de menú impreso o carta de restaurante tradicional, no de site moderno.
+3. Paleta absoluta: blanco puro + negro → máxima legibilidad y austeridad editorial; evita cualquier paleta “brand” digital.
+4. Ausencia total de botones filled/outline; CTAs son links de texto → reduce el look de template SaaS o app de reservas.
+5. Menús como listas de texto plano con platos, ingredientes y precios diarios concretos (no categorías genéricas ni PDFs) → información útil y actualizada que solo un restaurante real publicaría así.
+6. Copy operativo y sin adjetivos de marketing (“space is extremely limited”, horarios exactos, políticas claras) + ilustración artesanal en lugar de food photography genérica → se siente como anuncio interno o carta de un local establecido, no como campaña.
+
+**Anti-IA**: El sitio no intenta impresionar. Es la herramienta práctica de un restaurante que lleva 50+ años y no necesita explicar quién es. Los menús diarios con nombres de granjas y preparaciones exactas, la tipografía de imprenta y la ausencia de CTAs brillantes lo hacen imposible de confundir con un template generado. Eso es lo que hay que replicar cuando se quiere que una web se sienta real.
