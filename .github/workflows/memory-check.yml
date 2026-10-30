@@ -1,0 +1,33 @@
+name: Master memory validation
+on:
+  pull_request:
+    paths:
+      - "AGENTS.md"
+      - "README.md"
+      - "memory/**"
+      - "prompts/bot.md"
+      - "archive/**"
+      - "tools/memory/**"
+      - ".github/copilot-instructions.md"
+      - ".github/workflows/memory-check.yml"
+  push:
+    branches: [main]
+    paths:
+      - "AGENTS.md"
+      - "README.md"
+      - "memory/**"
+      - "prompts/bot.md"
+      - "archive/**"
+      - "tools/memory/**"
+      - ".github/copilot-instructions.md"
+      - ".github/workflows/memory-check.yml"
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - run: node --version
+      - run: node --check tools/memory/check.mjs
+      - run: node tools/memory/check.mjs

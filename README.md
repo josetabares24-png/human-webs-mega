@@ -1,55 +1,26 @@
-# human-webs-mega
+# Human Webs — memoria maestra de creación web
 
-**Mega repositorio para crear webs anti-IA**: estética humana (pre-IA), copy natural, UX basada en cómo ven, leen y compran las personas reales. Principios, patrones, plantillas y flujos ultra-rápidos para sitios bonitos, funcionales, lógicos y que generan dinero real.
+**Qué es:** una base de conocimiento versionada que las IA constructoras (Codex, ChatGPT y otras) consultan para crear páginas profesionales más rápido y reducir errores repetidos.
 
-> Objetivo: producir sitios que se sientan hechos por humanos, se conviertan mejor y se puedan entregar en horas, no en semanas.
+**Qué NO es:** ni un chatbot autónomo, ni una aplicación SaaS, ni un generador de webs que debamos construir. La web la programa la IA en el repositorio de destino; Human Webs le aporta criterios, referencias, fallos conocidos y controles de calidad.
 
-## Por qué existe este repo
+## Empezar en 30 segundos
+1. Abre [AGENTS.md](AGENTS.md) — Codex lo detecta automáticamente en este repositorio.
+2. Abre [Índice de memoria](memory/INDEX.md) y lee solo los módulos necesarios para tu tarea.
+3. Usa [Flujo de creación](memory/WORKFLOW.md) para construir y [Controles de calidad](memory/QUALITY-GATES.md) antes de entregar.
+4. Incorpora nuevos aprendizajes mediante [Plantilla de registro](memory/RECORD-TEMPLATE.md).
+5. Ejecuta `node tools/memory/check.mjs` para comprobar referencias y estructura de la memoria.
 
-La mayoría de webs generadas por IA se parecen entre sí: layouts genéricos, tipografía plana, copy repleto de "delve", "tapestry", "in today's fast-paced landscape", CTAs genéricos y cero personalidad. Los humanos las detectan en 50 ms y se van.
+## Fuentes de conocimiento existentes
+- [Principios de diseño](principles/pre-ai-web-design.md), [redacción humana](principles/human-copy.md) y [filtro de clichés](principles/anti-ai-checklist.md).
+- [Biblioteca de restaurantes](examples/restaurants/biblioteca.md) y [registro de investigación](examples/restaurants/learning-log.md): observaciones útiles, no componentes copiables ni verdades universales.
+- [Experiencias de usuario móvil](examples/mobile-ux-patterns.md).
+- [Monetización](monetization.md): hipótesis comerciales, no ingresos ni conversiones demostradas.
 
-Este repo documenta cómo eran las webs buenas **antes** de la explosión de IA, cómo hablan y escriben las personas, qué ven primero, qué necesitan y cómo compran — y lo convierte en un sistema usable para crear sitios rápidamente.
+## Otros desarrollos
+La rama/PR experimental [Human Webs Builder #1](https://github.com/josetabares24-png/human-webs-mega/pull/1) contiene una aplicación independiente. Puede servir como laboratorio de pruebas, **pero no es la misión principal de este repositorio**. No se debe continuar construyendo una plataforma por defecto.
 
-## Estructura
+El README y contrato antiguos se conservan en [archivo histórico](archive/README-legacy-2026-10-30.md) y [prompt antiguo](archive/bot-contract-legacy-2026-10-30.md) para trazabilidad. No son instrucciones vigentes.
 
-```
-/
-├── README.md                  ← estás aquí
-├── principles/
-│   ├── pre-ai-web-design.md     ← qué funcionaba antes
-│   ├── human-copy.md            ← cómo escriben los humanos
-│   ├── what-users-see-first.md ← 50ms, jerarquía visual, F-pattern
-│   ├── how-people-buy.md       ← psicología de conversión
-│   └── anti-ai-checklist.md    ← checklist rápido anti-slop
-├── templates/                 ← plantillas y patrones listos
-├── flows/                     ← flujos ultra-rápidos de creación
-├── examples/
-│   └── restaurants/           ← patrones de botones, heroes y CTAs de cadenas populares (McD, Domino’s, Chipotle, Shake Shack, etc.)
-└── monetization.md            ← cómo ganar dinero con esto
-```
-
-## Principios centrales (resumen)
-
-1. **50 milisegundos** — La primera impresión se forma antes de leer. Claridad visual > todo.
-2. **Hablan como personas** — Frases de longitud variable, opiniones, detalles concretos, cero jerga corporativa vacía.
-3. **Ven primero lo que necesitan** — Jerarquía clara, un CTA principal, F-pattern o Z-pattern respetado.
-4. **Compran por emoción + lógica** — Loss aversion, prueba social real, fricción mínima.
-5. **Estética humana** — Tipografía con carácter, espacios respirados, imágenes que no parecen stock genérico de IA, microinteracciones sutiles.
-6. **Velocidad real** — Stacks modernos (Astro, Next, SvelteKit + Tailwind) o HTML puro cuando sea más rápido. Deploy en minutos.
-
-## Cómo usar este repo
-
-1. Lee `prompts/bot.md`. Es el contrato del bot, no una landing de ejemplo.
-2. Elige caso en `examples/restaurants/biblioteca.md` (tipografía, botón, recuadro, color). No mezcles filas y no copies `button-patterns.md` si contradice la biblioteca.
-3. Mira el diario en `examples/restaurants/learning-log.md` solo del mismo tipo de local.
-4. Construye el sitio completo en código (varias páginas, tokens, componentes). Los HTML de `examples/` son pruebas antiguas.
-5. Pasa el filtro anti-IA del prompt antes de entregar. Si falla, se rehace.
-6. El commit guarda la fila nueva de la biblioteca, no solo un párrafo.
-
-## Contribuciones
-
-Este es un mega-repo vivo. Añade patrones, ejemplos, plantillas o correcciones. El objetivo es que cualquier persona (o agente) pueda crear webs humanas de calidad en tiempo récord.
-
----
-
-Creado para generar dinero real con sitios que no parecen hechos por IA.
+## Contribuir conocimiento
+Toda recomendación debe distinguir observación, decisión y hipótesis; registrar fecha, fuente y nivel de evidencia; incorporar excepciones y, si procede, una prueba que detecte el error. No almacenar información privada.
