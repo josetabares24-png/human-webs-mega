@@ -2,6 +2,8 @@
 
 Este repositorio NO es un bot ni un generador de webs. **No reconstruir `builder/`**. Leer [AGENTS.md](../AGENTS.md), [índice](../memory/INDEX.md), [decisiones](../memory/DECISIONS.md), [errores](../memory/ERRORS.md) y [calidad](../memory/QUALITY-GATES.md).
 
+Los textos también necesitan identidad: leer [VOICE-AND-COPY](../memory/VOICE-AND-COPY.md) y la memoria de marca. Detectar clichés, repeticiones entre secciones y CTA vagos; conservar keywords legítimas. Para borradores, usar opcionalmente [linter local](../tools/copy/README.md) y revisión humana, nunca auto-reemplazos.
+
 Para crear o rediseñar una web, aplicar **antes del código** [ART-DIRECTION](../memory/ART-DIRECTION.md): investigar webs reales, contrastar al menos tres direcciones visuales sustancialmente distintas, escoger una que corresponda a la identidad y documentar por qué. **No usar terracota/beige por defecto**, ni repetir el mismo hero/card/CTA de otros proyectos cambiando el color. Si no hay navegación, declarar esa limitación; usar referencias ya medidas sin inventar investigación.
 
 La web se construye en el repo del cliente, con su stack real, datos verificables, navegación funcional, móvil, SEO y pruebas. Las capturas, fotos, fuentes y logos de referencia no son material libre para copiar. Publicación y cambios productivos solo con aprobación. Registrar fallos reproducibles y comprobar con `node tools/memory/check.mjs` y `node tools/design-library/query.mjs --check`.

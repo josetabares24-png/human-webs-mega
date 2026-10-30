@@ -35,6 +35,15 @@ Estos controles aplican a web nueva y rediseño visual, no obligan a rediseñar 
 - [ ] Revisar viewport 390px y 1280px; menús, imágenes, lectura, foco visible, teclado y target táctil cuando corresponda.
 - [ ] No usar capturas de una única página como prueba de que todo el sitio está bien.
 
+## Revisión de voz y copy (obligatoria en sitios nuevos o cambios editoriales)
+- [ ] Se identificaron y documentaron tono, registro, lengua/variante (es, pt-PT, en), público y muestras aprobadas de la marca.
+- [ ] Cada sección tiene una función distinta y aporta detalles útiles, no el mismo slogan con nuevas palabras.
+- [ ] No hay clichés reiterativos («experiencia única», «momentos inolvidables», «explosão de sabores») sin justificación de marca; no es una lista de palabras prohibidas.
+- [ ] Se revisaron títulos, CTA, menús, ubicación, errores, textos alternativos y metadatos **en conjunto**, no página a página aislada.
+- [ ] Repeticiones de nombre, lugar, producto y keywords necesarias se conservan; los sinónimos no son un fin en sí mismo.
+- [ ] Hechos, horarios, ingredientes, precios y promesas tienen fuente real. No inventar para parecer más humano.
+- [ ] Para borradores críticos se utilizó el [revisor local](../tools/copy/README.md) y se atendieron manualmente sus advertencias, o se documentó por qué no aplicaba. No afirmar una puntuación de «humanidad».
+
 ## SEO / contenido
 - [ ] Cada ruta indexable tiene título/description útil y único, H1 adecuado, enlaces internos y contenido original.
 - [ ] Canonical, sitemap, robots, redirects, hreflang y datos estructurados **solo cuando correspondan**; verificar dominio real y contenido publicado.

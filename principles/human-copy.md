@@ -1,36 +1,34 @@
-# Cómo escriben y hablan los humanos
+# Escribir como habla una marca real
 
-El copy de IA se detecta por patrones: frases de longitud similar, vocabulario elevado vacío ("delve", "tapestry", "testament", "in today's fast-paced digital landscape"), falta de opinión, generalidades y ritmo monótono.
+**Base operativa:** [Guía de voz y copy](../memory/VOICE-AND-COPY.md). Este documento sustituye los enfoques antiguos centrados casi exclusivamente en clichés ingleses. No existe una lista universal de palabras «de IA».
 
-## Características del copy humano
+## Regla sencilla
 
-- **Longitud de frases variable**: cortas y largas mezcladas.
-- **Opiniones y postura**: no es neutro ni corporativo.
-- **Detalles concretos**: experiencias, números reales, nombres, situaciones específicas.
-- **Voz consistente**: suena a una persona o marca concreta, no a "todos".
-- **Ritmo natural**: como se habla, no como se rellena un informe.
+Cuando alguien entra en una web necesita entender qué ofrece el negocio, qué lo diferencia de verdad y qué puede hacer. No hace falta decir que todo es «único», «especial» o «inolvidable».
 
-## Palabras y frases a evitar (señales de IA)
+Una voz humana no es siempre informal: un despacho jurídico, una cafetería, una clínica y un estudio creativo se expresan de maneras distintas. El tono lo definen su público, sus decisiones de marca, sus textos ya aprobados y su idioma.
 
-| Evitar | Usar en su lugar |
-|--------|------------------|
-| Delve into | Explorar, mirar, ver |
-| Leverage | Usar |
-| Tapestry / Beacon / Testament | (eliminar) |
-| In today's fast-paced... | (empezar directo) |
-| Unlock / Elevate / Revolutionize | (decir el beneficio concreto) |
-| Furthermore / Moreover | También, además, y |
+## Antes / después
 
-## Cómo escribir más humano
+**ES — antes:** «Descubre una experiencia única y déjate seducir por una explosión de sabores».
 
-1. Escribe como le hablarías a un cliente por WhatsApp o en persona.
-2. Incluye al menos un detalle específico por párrafo importante.
-3. Ten una opinión (aunque sea suave).
-4. Lee en voz alta. Si suena a informe, reescríbelo.
-5. Varía la longitud de las frases deliberadamente.
+**ES — después (ejemplo con datos conocidos):** «Brunch, café y gelados en Rua da Prata 152. Mira la carta antes de venir». No publicar sin confirmar contenido y voz de marca.
 
-## Ejemplo
+**PT-PT — antes:** «Uma experiência inesquecível no coração da cidade».
 
-**IA**: "Unlock the power of seamless customer engagement in today's digital landscape by leveraging data-driven strategies."
+**PT-PT — después (ejemplo con datos conocidos):** «Está pela Baixa? Consulte a carta do Mil Sabores na Rua da Prata 152».
 
-**Humano**: "Si tu página parece un pueblo fantasma, añadir más pop-ups no la va a salvar. La gente no compra funciones. Compra soluciones a sus problemas reales."
+## Cómo revisar
+
+1. **Hechos primero:** productos, ubicación, proceso y servicios reales; nunca inventar para mejorar el tono.
+2. **Una idea por sección:** el hero presenta, la carta informa, el local orienta, y el CTA permite actuar; no repetir el mismo eslogan.
+3. **Sin sinonimia forzada:** «brunch Lisboa» puede repetirse por SEO o claridad. No inventar «banquete matinal» para que un detector deje de señalar coincidencias.
+4. **Lectura real:** si el texto suena a un anuncio intercambiable, reescribir desde la situación del cliente, no desde un diccionario de adjetivos.
+5. **Variante local:** usar pt-PT cuando corresponda; evitar traducciones literales. Pedir revisión nativa cuando los matices importen.
+6. **Verificar completo:** títulos, navegación, botones, enlaces, errores, meta descriptions e idiomas.
+
+## Herramientas
+
+El [revisor local](../tools/copy/README.md) ayuda a ver repeticiones y clichés; es una comprobación **consultiva**, no un juez de naturalidad. LanguageTool, Vale y textlint están evaluados en [COPY-TOOLS](../memory/COPY-TOOLS.md).
+
+El objetivo no es «engañar a detectores de IA»; es escribir textos legibles, originales, coherentes con la marca y útiles para las personas.
