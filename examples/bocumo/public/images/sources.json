@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-30",
+  "method": "Generadas con image_gen de Codex para esta previa ficticia; codificación WebP local sin cambiar el encuadre.",
+  "assets": [
+    {
+      "file": "pasta.webp",
+      "subject": "Rigatoni al pomodoro en una mesa con vino",
+      "original": "exec-7c5642b3-725b-4afa-945b-7bf71c99cfae.png",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "file": "kitchen.webp",
+      "subject": "Preparación a mano de pasta fresca",
+      "original": "exec-8e4b6b79-64d5-4c5a-b182-20b4d7975b1e.png",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "disclosure": "Escenas imaginadas para un ejemplo; no representan un negocio operativo."
+}

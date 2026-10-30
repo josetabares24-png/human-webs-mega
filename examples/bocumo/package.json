@@ -1,0 +1,13 @@
+{
+  "name": "bocumo-concept-preview",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "node build.mjs",
+    "check": "node --check site.mjs && node --check build.mjs && node --check server.mjs && node --check public/app.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

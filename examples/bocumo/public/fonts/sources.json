@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-30",
+  "fonts": [
+    {
+      "name": "dm-sans.woff2",
+      "family": "DM Sans",
+      "style": "normal",
+      "source": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2"
+    },
+    {
+      "name": "fraunces-italic.woff2",
+      "family": "Fraunces",
+      "style": "italic",
+      "source": "https://fonts.gstatic.com/s/fraunces/v38/6NU58FyLNQOQZAnv9ZwNjucMHVn85Ni7emAe9lKqZTnbB-gzTK0K1ChjeveQ.woff2"
+    },
+    {
+      "name": "fraunces.woff2",
+      "family": "Fraunces",
+      "style": "normal",
+      "source": "https://fonts.gstatic.com/s/fraunces/v38/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxC9TeA.woff2"
+    }
+  ]
+}

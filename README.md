@@ -2,6 +2,8 @@
 
 Contexto de desarrollo: [Repomix y medición de tokens](docs/TOKEN-CONTEXT.md), aislado de la aplicación y con instrucciones de uso en `AGENTS.md`.
 
+**Ejemplo construido directamente con código:** [Bocumo, trattoria italiana](examples/bocumo/README.md), con cinco páginas, imágenes generadas, carta filtrable y reserva de demostración. La biblioteca visual se usa como apoyo; esta previa funciona de forma independiente del Builder.
+
 Memoria visual para construir más rápido: [biblioteca de referencias](design-library/README.md), con Carbone y Bon Bouquet estudiados en escritorio y móvil, fuentes identificadas, medidas y recetas reutilizables. Consulta compacta: `node tools/design-library/query.mjs brunch --recipe`. Es memoria del asistente en este repositorio; no añade estilos nuevos al generador automáticamente.
 
 # human-webs-mega
