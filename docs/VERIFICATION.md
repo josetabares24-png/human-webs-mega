@@ -47,6 +47,7 @@ La revisión automatizada del panel excluye el iframe de origen opaco de la comp
 - Comandos como `Titular: Un corte elegante` podían confundirse con cambios de estilo: las instrucciones explícitas tienen prioridad y hay regresión cubierta.
 - Las versiones manuales tenían un cero como ausencia de duración: la UI ya no lo presenta como una medición de velocidad.
 - Los contadores de caracteres se incorporaban al nombre accesible de los campos del nuevo editor: se añadieron nombres explícitos y se verificó el recorrido y axe. La prueba también se ajustó para distinguir el selector de página del tabpanel homónimo.
+- La primera ejecución del PR con navegación sincronizada detectó una carrera en la prueba de aislamiento: el iframe estaba reemplazando su documento cuando se evaluaba parent.document. La comprobación se realiza ahora en el documento inicial estable, antes de navegar, sin omitirla ni ampliar permisos del sandbox.
 
 ## Edición parcial y contexto de IA
 

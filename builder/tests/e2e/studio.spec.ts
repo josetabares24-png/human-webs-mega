@@ -48,12 +48,13 @@ test("create, edit, restore, reload, export and guard publication", async ({
     body: JSON.stringify({ actionToPreviewMs: durationMs }),
     contentType: "application/json",
   });
-  await frame.getByRole("link", { name: "Servicios", exact: true }).click();
-  await expect(
-    frame.getByRole("heading", { name: "Lo que hacemos." }),
-  ).toBeVisible();
+  // Check the stable initial document before navigation can replace its context.
+  const isolatedFrame = page
+    .frames()
+    .find((item) => item.url().startsWith("blob:"));
+  expect(isolatedFrame).toBeTruthy();
   expect(
-    await page.frames()[1].evaluate(() => {
+    await isolatedFrame!.evaluate(() => {
       try {
         void parent.document.body;
         return false;
@@ -62,6 +63,10 @@ test("create, edit, restore, reload, export and guard publication", async ({
       }
     }),
   ).toBe(true);
+  await frame.getByRole("link", { name: "Servicios", exact: true }).click();
+  await expect(
+    frame.getByRole("heading", { name: "Lo que hacemos." }),
+  ).toBeVisible();
   await page
     .getByRole("combobox", { name: "Página", exact: true })
     .selectOption("index");
