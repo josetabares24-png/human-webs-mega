@@ -173,3 +173,31 @@ Registro de observaciones reales. Cada entrada viene de una revisión con navega
 6. Estructura de grupo (Thomas Keller Restaurant Group) con subsecciones claras, reservas externas, sin hero de conversión agresiva.
 
 **Anti-IA**: El sitio no vende la experiencia con fotos de platos glamour o CTAs brillantes; documenta el lugar y la operación. La tipografía pequeña y precisa, el navy institucional, la historia del edificio de 1900 y los PDFs de menú lo hacen sentir como el sitio de un restaurante que no necesita justificarse. Honestamente es espartano y a veces 404 en paths, pero esa falta de polish template es lo anti-IA.
+
+## 2026-10-30 — Canlis (canlis.com)
+
+**Tipo**: Premium / independiente (fine dining Pacific Northwest en Queen Anne, Seattle; family-owned desde 1950; edificio Roland Terry).
+
+**Lo que se ve**:
+- Home: banner “MAD MANOR: Tickets on sale now! 🦇”, nav RESERVE / EXPLORE / PRIVATE EVENTS, logo. Texto de invitación sobre 75 años de servicio. Fotos reales: server preparando Canlis Salad tableside, exterior nocturno con cedar, pork belly.
+- Historia del edificio: diseñado por Roland Terry en 1950, evolucionado por Jim Cutler y George Suyama, vistas a Lake Union y Cascades, James Beard Design Icon 2019.
+- Press: ranked #2 Restaurant in America por Food & Wine 2025.
+- Menú HTML: 6-course, eliges 3, resto a cargo. Platos concretos (Sablefish matsutake chili dulse XO, Porcini winter luxury squash, Washington Coast Coho Salmon +$25, Canlis Salad tableside +$20). Service charge 20% retained by Canlis. Premios James Beard y Wine Spectator.
+- Reservas: booking through December, January on Nov 1; Tock; info de allergies, attire (no t-shirt/shorts), kids, cancellations.
+- Lounge: piano, first liquor license post-prohibition.
+
+**Detalles estéticos (captura en vivo)**:
+- **Tipografía**: Cuerpo y headings en GTSectraBook (serif custom, ~13px body, 20px h2, peso 400). Nav en HelveticaNeue-Medium (~11.7px, peso 400, uppercase). “Book a table” enorme en GTSectraDisplayLightItalic (~112px, serif italic). Sensación de invitación impresa editorial.
+- **Botones**: “RESERVE” texto plano (bg transparente, radius 5px, sin borde visible, color oscuro, Helvetica). No filled agresivo ni pill. CTA principal es texto gigante italic.
+- **Colores**: Fondo crema suave rgb(239, 240, 235). Texto oscuro rgb(39, 35, 32). Paleta restringida, cálida de papel, alto contraste sin acentos brillantes.
+- **Espaciado, bordes, sombras, fotografía**: Generoso, casi sin sombras (pocas). Fotografía real del espacio, servicio tableside y platos (no stock genérico, alts descriptivos). Sin cards pesadas ni overlays.
+
+**Patrones útiles**:
+1. Tipografía serif custom ligera (GTSectraBook) para cuerpo y títulos + sans system para nav → se siente carta o menú impreso, no template digital.
+2. CTA de reserva como texto plano o display italic enorme sin chrome de botón → discreto y hospitalario, no app.
+3. Menú HTML con platos nominados y ingredientes específicos (matsutake, geoduck, Canlis Salad tableside) + notas operativas exactas (service charge 20%, supplements) → como carta de cocina real.
+4. Copy anclado a la familia y al edificio: 75 años, Roland Terry 1950, 8th chef, first liquor license, ranked #2 2025 sin hype vacío.
+5. Fotografía de proceso real (tableside salad, exterior con cedar) sin captions marketing genéricos.
+6. Info práctica integrada (attire, dietary, booking windows) en tono de anfitrión, no FAQ de template.
+
+**Anti-IA**: El sitio habla como la familia que lleva 75 años sirviendo en el mismo edificio. La serif custom, el fondo crema, los platos concretos y el “Book a table” en italic gigante lo hacen sentir una invitación personal, no un tema de Squarespace o Webflow de fine dining. Honestamente minimalista y específico.
