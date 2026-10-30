@@ -67,6 +67,6 @@ npm run format:check
 npm audit
 ```
 
-La plantilla de CI en `docs/ci/builder.workflow.yml` usa Linux y ejecuta instalación reproducible, formato, lint, TypeScript, pruebas, build, auditoría de ejecución y Chromium. Está pendiente de activación por un mantenedor con permisos de workflows: la credencial OAuth de esta sesión no permite escribir `.github/workflows/`. Copiarla a `.github/workflows/builder.yml` para activarla. Las pruebas externas usan respuestas controladas: no gastan créditos, publican webs ni crean repositorios reales.
+La CI activa en `.github/workflows/builder.yml` usa Linux y ejecuta instalación reproducible, formato, lint, TypeScript, pruebas, build, auditoría de ejecución y Chromium. Se ejecuta al actualizar el PR o las ramas configuradas cuando cambia el builder o el workflow. Consulta sus resultados en [GitHub Actions](https://github.com/josetabares24-png/human-webs-mega/actions/workflows/builder.yml). Las pruebas externas usan respuestas controladas: no gastan créditos, publican webs ni crean repositorios reales. La CI no despliega ni fusiona cambios.
 
 Consulta [auditoría](../docs/AUDIT-2026-10-30.md), [verificación y límites](../docs/VERIFICATION.md), [arquitectura](../docs/ARCHITECTURE.md), [diseño](../docs/DESIGN.md) y [selección open source](../docs/OPEN-SOURCE.md). No se afirma certificación WCAG, Core Web Vitals de producción ni integraciones remotas verificadas sin credenciales.
