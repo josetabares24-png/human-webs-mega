@@ -4,7 +4,7 @@ import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
-const required = ["AGENTS.md","README.md","memory/INDEX.md","memory/DECISIONS.md","memory/ERRORS.md","memory/QUALITY-GATES.md","memory/WORKFLOW.md","memory/DESIGN.md","memory/ART-DIRECTION.md","memory/INSPIRATION-SOURCES.md","memory/DESIGN-DIRECTION-TEMPLATE.md","design-library/README.md","memory/COPY-SEO.md","memory/VOICE-AND-COPY.md","memory/COPY-TOOLS.md","tools/copy/README.md","tools/copy/phrases.json","memory/TECHNICAL.md","memory/RECORD-TEMPLATE.md",".github/copilot-instructions.md","prompts/bot.md"];
+const required = ["AGENTS.md","README.md","memory/INDEX.md","memory/DECISIONS.md","memory/ERRORS.md","memory/QUALITY-GATES.md","memory/WORKFLOW.md","memory/DESIGN.md","memory/ART-DIRECTION.md","memory/INSPIRATION-SOURCES.md","memory/DESIGN-DIRECTION-TEMPLATE.md","design-library/README.md","memory/COPY-SEO.md","memory/VOICE-AND-COPY.md","memory/COPY-TOOLS.md","tools/copy/README.md","tools/copy/phrases.json","memory/TECHNICAL.md","memory/SECTORS/README.md","memory/SECTORS/catalog.json","memory/SECTORS/restaurantes/README.md","memory/SECTORS/servicios/README.md","memory/SECTORS/servicios/PLAYBOOK.md","tools/sectors/README.md","memory/RECORD-TEMPLATE.md",".github/copilot-instructions.md","prompts/bot.md"];
 const files=[...required,"archive/README-legacy-2026-10-30.md","archive/bot-contract-legacy-2026-10-30.md"];
 let errors=[];
 for(const name of files) {

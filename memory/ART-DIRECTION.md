@@ -9,6 +9,7 @@ El usuario ha observado fondos terracota repetidos. **No empezar con terracota, 
 Si existe una web actual, primero obtener capturas auténticas (desktop y móvil) **con imágenes, fuentes y logotipo cargados** y documentar qué funciona. Respetar `LOCKED` en memoria de marca. Comparar calidad, conversiones y funciones cuando haya métricas; **novedad no implica mejora**. Si las alternativas no mejoran al original, quedarse con el original y ofrecer refinamientos. Aprendizaje: [Mil Sabores rechazado](CASES/MIL-SABORES-REJECTED-PROTOTYPE-2026-10-30.md).
 
 ## 2. Diagnóstico de marca
+Antes de buscar webs visualmente atractivas, identificar la [biblioteca del sector](SECTORS/README.md). Un negocio de servicios requiere confianza, cobertura, personal y acción distinta (presupuesto/cita) a una carta de restaurante. Las fichas **investigadas** son pistas, no diseños validados por el usuario.
 Antes de componer: ¿qué negocio es?, ¿para quién?, ¿qué producto/servicio destaca?, ¿qué quiere lograr el visitante?, ¿qué tono corresponde?, ¿qué fotos reales y logo existen?, ¿qué páginas y acciones necesita?, ¿qué restricciones de tiempo/accesibilidad/hospedaje hay? Si hay una web existente, preservar identidad válida y componentes salvo petición de cambio.
 
 ## 3. Inspiración investigada, no imaginada
