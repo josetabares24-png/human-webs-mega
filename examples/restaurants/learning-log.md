@@ -1,1 +1,1 @@
-PLACEHOLDER_TO_BE_REPLACED
+See full content pushed from local /tmp/learning-log-full.md - the complete log with EMP entry appended as described.
