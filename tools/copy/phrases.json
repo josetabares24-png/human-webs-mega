@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "note": "Warnings are contextual suggestions, NOT banned-phrase lists. Review all suggestions manually.",
+  "languages": {
+    "es": [
+      {
+        "phrase": "experiencia única",
+        "why": "Promesa vaga: ¿qué puede ver, pedir o hacer alguien?"
+      },
+      {
+        "phrase": "experiencia inolvidable",
+        "why": "Describe algo concreto; no prometas emociones."
+      },
+      {
+        "phrase": "momentos inolvidables",
+        "why": "Sustituye abstracción por información del negocio."
+      },
+      {
+        "phrase": "explosión de sabores",
+        "why": "Describe ingredientes o preparación, si están verificados."
+      },
+      {
+        "phrase": "sabores que despiertan tus sentidos",
+        "why": "Prioriza información útil."
+      },
+      {
+        "phrase": "descubre nuestros sabores",
+        "why": "CTA abstracta; indica una acción real."
+      },
+      {
+        "phrase": "en el corazón de",
+        "why": "Puede ser correcto; concreta barrio o calle."
+      },
+      {
+        "phrase": "hecho con amor",
+        "why": "Solo si es una expresión auténtica de marca."
+      },
+      {
+        "phrase": "un lugar único",
+        "why": "Explica el diferenciador real."
+      },
+      {
+        "phrase": "deleita tus sentidos",
+        "why": "Reemplaza con productos concretos."
+      },
+      {
+        "phrase": "cada bocado cuenta una historia",
+        "why": "Evita historias inventadas."
+      },
+      {
+        "phrase": "más que un restaurante",
+        "why": "Muestra la diferencia con hechos."
+      },
+      {
+        "phrase": "vive una experiencia",
+        "why": "Evita frases intercambiables."
+      }
+    ],
+    "pt": [
+      {
+        "phrase": "experiência única",
+        "why": "Trocar promessa vaga por informação útil."
+      },
+      {
+        "phrase": "experiência inesquecível",
+        "why": "Não prometer emoções."
+      },
+      {
+        "phrase": "momentos inesquecíveis",
+        "why": "Descrever uma situação concreta."
+      },
+      {
+        "phrase": "explosão de sabores",
+        "why": "Preferir ingredientes ou produto real."
+      },
+      {
+        "phrase": "sabores que despertam os sentidos",
+        "why": "Frase genérica: oferecer detalhes."
+      },
+      {
+        "phrase": "descubra os nossos sabores",
+        "why": "Usar uma ação específica, se possível."
+      },
+      {
+        "phrase": "no coração de",
+        "why": "Pode ser pertinente com morada ou bairro correto."
+      },
+      {
+        "phrase": "feito com amor",
+        "why": "Só manter se for voz aprovada da marca."
+      },
+      {
+        "phrase": "mais do que um restaurante",
+        "why": "Explicar o diferencial verdadeiro."
+      },
+      {
+        "phrase": "venha viver uma experiência",
+        "why": "Descrever a ação disponível."
+      },
+      {
+        "phrase": "um espaço pensado para",
+        "why": "Explicar o que é especial no espaço."
+      }
+    ],
+    "en": [
+      {
+        "phrase": "unique experience",
+        "why": "Say what is different, not just that it is."
+      },
+      {
+        "phrase": "unforgettable experience",
+        "why": "Do not promise emotions."
+      },
+      {
+        "phrase": "in the heart of",
+        "why": "Can be useful; give a real address or neighborhood."
+      },
+      {
+        "phrase": "made with love",
+        "why": "Preserve only if authentic to the brand."
+      },
+      {
+        "phrase": "taste the difference",
+        "why": "Provide an actual reason."
+      },
+      {
+        "phrase": "every bite tells a story",
+        "why": "Don't invent backstories."
+      },
+      {
+        "phrase": "elevate your",
+        "why": "Replace with real benefit."
+      },
+      {
+        "phrase": "discover a world of",
+        "why": "Use a concrete product or action."
+      },
+      {
+        "phrase": "where passion meets",
+        "why": "Avoid interchangeable marketing slogans."
+      }
+    ]
+  }
+}
