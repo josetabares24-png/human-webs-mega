@@ -49,3 +49,11 @@ Cada entrada: síntoma, evidencia/alcance, causa probable, corrección, prueba d
 - **Prevención:** prohibir **terracota/beige como valores predeterminados**, no como colores absolutos. Investigar fuentes reales y bosquejar tres direcciones no intercambiables; comparar paleta, composición, tipografía, navegación, fotografía y CTA con trabajos anteriores si están disponibles. Ver [ART-DIRECTION](ART-DIRECTION.md).
 - **Prueba:** registrar las tres direcciones y al menos tres diferencias de sistema entre opciones; justificar por qué la elegida no replica el proyecto anterior. Inspeccionar capturas de móvil y escritorio; si vuelve el terracota, documentar razón concreta del negocio o rehacer la dirección.
 - **Estado:** regla vigente por preferencia explícita. Evaluación cualitativa; ningún control automático garantiza originalidad estética.
+
+### ERR-008 — Prototipo «diferente» inferior al sitio real del cliente
+- **Observado:** en el ejercicio de Mil Sabores el usuario rechazó el prototipo y prefirió claramente su web existente («Es mil veces mejor la mía», feedback explícito 2026-10-30). La comparación no es una medición de conversión ni rendimiento.
+- **Alcance:** rediseños y propuestas visuales frente a webs existentes; no webs totalmente nuevas sin baseline.
+- **Causa:** **fallo de proceso demostrado:** se recomendó una propuesta sin una comparación justa de antes/después ni imágenes cargadas en el prototipo. **Hipótesis no verificada:** calidad visual menos pulida por composición, fotografía, jerarquía o acabado. No atribuir motivos específicos al usuario sin preguntarle.
+- **Prevención:** consultar y respetar el branding `LOCKED`; tomar capturas completas del sitio existente; exigir fotos, fuentes y logo realmente cargados; comparar páginas y funciones equivalentes y documentar mejoras y regresiones. No vender como «mejor» una demo incompleta. Si no mejora claramente, mantener la web actual y proponer cambios pequeños. Véase [caso Mil Sabores](CASES/MIL-SABORES-REJECTED-PROTOTYPE-2026-10-30.md).
+- **Prueba:** revisión lado a lado a 390 y 1280 px con imágenes renderizadas, checklist de funciones/idiomas y tres mejoras concretas defendibles; registrar decisión de usuario si existe. Si falla, detener el rediseño y no publicar.
+- **Estado:** rechazo real registrado; prevención nueva, aún no verificada en una entrega posterior.
