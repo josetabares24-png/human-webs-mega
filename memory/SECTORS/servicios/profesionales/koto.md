@@ -62,7 +62,7 @@ Para diseñador o estudio pequeño: 3 casos propios con antes/después de identi
 ### Boceto original para una pyme
 Portada de alto contraste con un caso a pantalla completa, detalle del problema resuelto y lista estrecha de otros trabajos; no forzar grandes animaciones o vídeo si la empresa no tiene ese material.
 
-**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** ««Esto resolvimos para [cliente autorizado]: [problema real] y [trabajo realizado]». Sin prometer porcentajes de conversión no medidos.»
+**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** «Esto resolvimos para [cliente autorizado]: [problema real] y [trabajo realizado]». **Condición:** Sin prometer porcentajes de conversión no medidos.
 
 **No copiar:** No utilizar marcas Apple/Microsoft/Amazon como clientes propios ni copiar material de Koto. No usar negro como paleta por defecto para todos los profesionales.
 

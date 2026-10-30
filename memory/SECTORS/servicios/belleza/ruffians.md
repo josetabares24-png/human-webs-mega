@@ -62,7 +62,7 @@ Para peluquería de barrio: fotografía del local + tres servicios con duración
 ### Boceto original para una pyme
 Portada en dos columnas con retrato del equipo y vista del local, seguido por calendario externo real; en móvil, tarjetas de profesionales **solo si existen varias personas**.
 
-**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** ««Escolha o corte e veja quem o vai atender. Para marcar, use a agenda da nossa equipa». Solo cuando hay nombres y agenda reales.»
+**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** «Escolha o corte e veja quem o vai atender. Para marcar, use a agenda da nossa equipa». **Condición:** Solo cuando hay nombres y agenda reales.
 
 **No copiar:** No imitar biografías, premios, años de experiencia o fotos de barberos que no pertenecen al cliente; no usar shop/cart en servicios sin productos.
 

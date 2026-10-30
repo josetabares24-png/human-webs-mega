@@ -61,7 +61,7 @@ Para abogado autónomo o asesoría fiscal: titular centrado en área real, nombr
 ### Boceto original para una pyme
 Diseño editorial de espacios generosos y contraste sobrio, con foto profesional propia y un índice textual de especialidades; evitar íconos y tarjetas de «ganamos casos».
 
-**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** ««Apoio em [área comprovada]. Conheça os assuntos que acompanhamos e saiba como pedir uma consulta». Revisar legalmente antes de publicar.»
+**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** «Apoio em [área comprovada]. Conheça os assuntos que acompanhamos e saiba como pedir uma consulta». **Condición:** Revisar legalmente antes de publicar.
 
 **No copiar:** No copiar profesiones, titulares académicos, clientes, premios ni asegurar resultados judiciales. Debe revisarse publicidad regulada aplicable.
 

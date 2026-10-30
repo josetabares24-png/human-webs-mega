@@ -62,7 +62,7 @@ Para electricista o fontanero independiente: dos caminos de entrada —«Es urge
 ### Boceto original para una pyme
 Hero textual oscuro de alto contraste con botón de llamada de urgencias (si disponible), bloque de cobertura y una pequeña galería etiquetada de trabajos terminados. Proceso de solicitud no debe fingir matching.
 
-**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** ««¿Se ha roto una tubería? Si atendemos urgencias en tu zona, aquí tienes el número. Para otros trabajos, envíanos una descripción». Verificar disponibilidad antes de usar.»
+**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** «¿Se ha roto una tubería? Si atendemos urgencias en tu zona, aquí tienes el número. Para otros trabajos, envíanos una descripción». **Condición:** Verificar disponibilidad antes de usar.
 
 **No copiar:** No prometer inspecciones, garantía £1,000, reseñas o calificaciones, ni «profesionales verificados» si la pyme no tiene ese respaldo.
 

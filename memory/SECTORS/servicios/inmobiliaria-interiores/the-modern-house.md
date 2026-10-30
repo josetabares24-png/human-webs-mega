@@ -61,7 +61,7 @@ Para agente o empresa de reformas local: fotografiar proyectos o viviendas autor
 ### Boceto original para una pyme
 Portada partida entre fotografía auténtica y un panel textual pequeño con CTA. Debajo, proyectos reales anotados por zona, tipología y trabajo realizado; sin claims grandilocuentes.
 
-**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** ««Quer vender o seu imóvel em [zona real]? Envie-nos a morada e diga quando prefere ser contactado». Solo si existe capacidad real de valoración.»
+**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** «Quer vender o seu imóvel em [zona real]? Envie-nos a morada e diga quando prefere ser contactado». **Condición:** Solo si existe capacidad real de valoración.
 
 **No copiar:** No publicar inmuebles inexistentes, fotos compradas como propiedades en cartera, datos de visitas o cifras comerciales ajenas.
 

@@ -61,7 +61,7 @@ Para estudio de uñas o estética individual: catálogo breve de tratamientos, p
 ### Boceto original para una pyme
 Un grid editorial de tratamientos con fotos originales, seguido de tabla sencilla «servicio / duración / desde» con datos autorizados y «Pedir cita» o «Reservar» según función.
 
-**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** ««Consulte os tratamentos, os preços e a disponibilidade antes de marcar». Cambiar a «solicitar cita» si no existe confirmación automática.»
+**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** «Consulte os tratamentos, os preços e a disponibilidade antes de marcar». **Condición:** Cambiar a «solicitar cita» si no existe confirmación automática.
 
 **No copiar:** No copiar reseñas o rankings, fotos de influencers, promociones de otro establecimiento ni mostrar horas ficticias.
 

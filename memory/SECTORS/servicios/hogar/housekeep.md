@@ -62,7 +62,7 @@ Para una empresa de limpieza pequeña: foto autorizada de un trabajo propio, dos
 ### Boceto original para una pyme
 Portada con fotografía completa de una estancia propia, una banda inferior de tres tareas importantes y un bloque de cobertura geográfica verificable; no copiar el hero exacto ni el tono fotográfico.
 
-**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** ««Precisa de limpeza em [zona confirmada]? Diga-nos que tipo de espaço tem e enviamos as condições do serviço». Solo si responde realmente alguien.»
+**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** «Precisa de limpeza em [zona confirmada]? Diga-nos que tipo de espaço tem e enviamos as condições do serviço». **Condición:** Solo si responde realmente alguien.
 
 **No copiar:** No copiar su motor de búsqueda de limpiadores, supuestos reviews, ratings ni reservas pagadas. No usar gente de stock como empleados.
 

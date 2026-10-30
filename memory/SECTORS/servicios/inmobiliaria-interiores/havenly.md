@@ -61,7 +61,7 @@ Para interiorista independiente: 2 modalidades solo si existen, proyectos antes/
 ### Boceto original para una pyme
 Composición dividida: fotografías antes/después del mismo espacio y columna con «qué cambiamos»; sección de propuesta con entregables específicos, sin copiar renders o muebles.
 
-**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** ««Tem uma divisão que ainda não funciona como queria? Veja os projetos que realizámos e o que incluímos em cada serviço». Solo con portafolio real.»
+**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** «Tem uma divisão que ainda não funciona como queria? Veja os projetos que realizámos e o que incluímos em cada serviço». **Condición:** Solo con portafolio real.
 
 **No copiar:** No copiar tarifas o promociones de Havenly, promesas de 3-14 días o garantías que no aplica la pyme. No presentar renders como obra terminada.
 

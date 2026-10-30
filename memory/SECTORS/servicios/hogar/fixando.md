@@ -61,7 +61,7 @@ Para reparaciones en Portugal: elegir «pintura», «estores» o «canalização
 ### Boceto original para una pyme
 Pantalla muy limpia con pregunta inicial grande y dos o tres chips de servicios reales; debajo, secuencia visual sin tarjetas decorativas de pasos comprobados.
 
-**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** ««Que trabalho precisa de fazer? Escolha o serviço e diga-nos onde fica o imóvel». Requiere que la pyme efectivamente gestione ese tipo de solicitud.»
+**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** «Que trabalho precisa de fazer? Escolha o serviço e diga-nos onde fica o imóvel». **Condición:** Requiere que la pyme efectivamente gestione ese tipo de solicitud.
 
 **No copiar:** No copiar identidad amarilla de Fixando, millones de solicitudes, comisiones, números de especialistas ni resultados de presupuestos automáticos.
 

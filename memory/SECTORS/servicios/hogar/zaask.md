@@ -62,7 +62,7 @@ Para un estudio o servicio a domicilio: botón principal «Pedir orçamento» se
 ### Boceto original para una pyme
 Fondo claro con un titular conversacional y un formulario de una sola columna; más abajo, lista editorial de tareas realmente realizadas por la empresa, no 25 categorías de plataforma.
 
-**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** ««Precisa de [serviço real]? Conte-nos o que precisa e em que zona fica. Respondemos pelo canal indicado». No prometer prazo no confirmado.»
+**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** «Precisa de [serviço real]? Conte-nos o que precisa e em que zona fica. Respondemos pelo canal indicado». **Condición:** No prometer prazo no confirmado.
 
 **No copiar:** No copiar marca azul, número «até 5 orçamentos» o perfiles ficticios, ni verificación/documentos como si fuera propia.
 
