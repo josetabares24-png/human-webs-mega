@@ -39,11 +39,12 @@ Este repo documenta cómo eran las webs buenas **antes** de la explosión de IA,
 
 ## Cómo usar este repo
 
-1. Lee los principios en `/principles`.
-2. Mira las referencias de restaurantes en `/examples/restaurants` (botones, heroes, sticky CTAs de cadenas reales).
-3. Elige un flujo en `/flows` o crea el tuyo.
-4. Usa plantillas y el checklist anti-IA.
-5. Entrega y cobra.
+1. Lee `prompts/bot.md`. Es el contrato del bot, no una landing de ejemplo.
+2. Elige caso en `examples/restaurants/biblioteca.md` (tipografía, botón, recuadro, color). No mezcles filas y no copies `button-patterns.md` si contradice la biblioteca.
+3. Mira el diario en `examples/restaurants/learning-log.md` solo del mismo tipo de local.
+4. Construye el sitio completo en código (varias páginas, tokens, componentes). Los HTML de `examples/` son pruebas antiguas.
+5. Pasa el filtro anti-IA del prompt antes de entregar. Si falla, se rehace.
+6. El commit guarda la fila nueva de la biblioteca, no solo un párrafo.
 
 ## Contribuciones
 
