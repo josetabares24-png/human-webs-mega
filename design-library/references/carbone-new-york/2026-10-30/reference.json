@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "carbone-new-york",
+  "date": "2026-10-30",
+  "source": "https://carbonenewyork.com/",
+  "status": "observed-live",
+  "scope": [
+    "Inicio",
+    "Narrativa editorial",
+    "Navegación móvil",
+    "Selección de carta y cena HTML"
+  ],
+  "method": "Navegador IAB, capturas JPEG originales, estilos DOM computados y tablas name de fuentes públicas leídas en memoria con FontTools. Sin envío de formularios ni reserva.",
+  "viewports": [
+    { "width": 1280, "height": 800 },
+    { "width": 390, "height": 844 }
+  ],
+  "observed": {
+    "colors": { "navy": "#0a1a29", "ivory": "#fff9f0" },
+    "fonts": {
+      "heading": {
+        "family": "Bourgeois",
+        "face": "BoldCond",
+        "postscript": "Bourgeois-BoldCond",
+        "cssAlias": "__headingFont_5c2578",
+        "visibleHeading": "32px / 38px, CSS weight 700, uppercase, tracking normal",
+        "button": "20px / 28px, CSS weight 400 sobre el mismo archivo BoldCond"
+      },
+      "body": {
+        "family": "Hoefler Txt",
+        "face": "Roman",
+        "postscript": "HoeflerTxt-Roman",
+        "cssAlias": "__hoeflerFont_485799",
+        "desktop": "18px / 26.4px, 400, tracking normal",
+        "mobile": "16px / 24px, 400, tracking normal"
+      },
+      "fallback": "El CSS de Next usa aliases con Arial local y métricas ajustadas. No confundir el alias ni el fallback con el nombre de la fuente principal."
+    },
+    "header": {
+      "position": "sticky",
+      "desktopHeightPx": 80,
+      "mobileHeightPx": 54,
+      "shadow": "none"
+    },
+    "reservationDesktop": {
+      "background": "#fff9f0",
+      "color": "#0a1a29",
+      "borderComputed": "0.8px solid rgb(10, 26, 41)",
+      "radiusPx": 2,
+      "padding": "10px 16px 6px",
+      "heightComputedPx": 45.6,
+      "shadow": "none"
+    },
+    "reservationMobile": {
+      "behavior": "Barra inferior fija en las vistas capturadas; enlace dentro de contenedor fijo",
+      "heightPx": 64,
+      "background": "#fff9f0"
+    },
+    "layout": [
+      "Fotografía de servicio a sangre con rótulo geográfico corto; H1 semántico visualmente oculto",
+      "Bloques marinos con texto marfil y ancho de lectura limitado",
+      "Alternancia de fotografía ancha y composiciones imagen/texto a dos columnas",
+      "Móvil con navegación de pantalla completa y enlaces centrados; acciones al pie",
+      "Fotografía y narrativa llevan la composición; sin rejilla genérica de tres tarjetas"
+    ],
+    "menu": {
+      "desktop": "Pestañas por servicio",
+      "mobile": "Botón combobox de 44px que abre las opciones; no select nativo",
+      "selectedUrl": "https://carbonenewyork.com/?menu=dinner",
+      "format": "HTML con encabezados, listas y precios",
+      "dinnerListCount": 7,
+      "dinnerItemCount": 44,
+      "imagesInMenu": 0
+    },
+    "responsive": "scrollWidth medido 1265 con viewport 1280; 375 con viewport 390. Sin desbordamiento horizontal en estas muestras; no equivale a una auditoría completa."
+  },
+  "fontSources": [
+    {
+      "role": "heading",
+      "url": "https://carbonenewyork.com/_next/static/media/b3bad33e124b4e8d-s.p.otf",
+      "nameId4": ["Bourgeois BoldCond", "Bourgeois-BoldCond"],
+      "nameId6": "Bourgeois-BoldCond",
+      "nameId14": "www.virusfonts.com"
+    },
+    {
+      "role": "body-regular",
+      "url": "https://carbonenewyork.com/_next/static/media/5a68222e341cb30c-s.p.woff2",
+      "nameId4": ["Hoefler Txt Roman", "HoeflerTxt-Roman"],
+      "nameId6": "HoeflerTxt-Roman",
+      "nameId14": "http://www.typography.com/support/eula.html"
+    },
+    {
+      "role": "body-bold",
+      "url": "https://carbonenewyork.com/_next/static/media/9b12ea71f7631a0c-s.p.woff2",
+      "nameId4": ["HoeflerTxt-Bold"],
+      "nameId6": "HoeflerTxt-Bold",
+      "nameId14": "http://www.typography.com/support/eula.html"
+    }
+  ],
+  "stylesheetSources": [
+    "https://carbonenewyork.com/_next/static/css/c49e618cc9dda5fd.css",
+    "https://carbonenewyork.com/_next/static/css/073cd175ad3a5a07.css"
+  ],
+  "evidence": [
+    {
+      "path": "00-cookie-dialog.jpg",
+      "kind": "consent-step",
+      "note": "No usar como home limpia; diálogo posteriormente rechazado."
+    },
+    {
+      "path": "01-desktop-home.jpg",
+      "kind": "desktop-home",
+      "viewport": "1280x800"
+    },
+    {
+      "path": "02-desktop-about.jpg",
+      "kind": "editorial-layout",
+      "note": "Captura exploratoria anterior al viewport normalizado; no extraer medidas de sus píxeles."
+    },
+    {
+      "path": "03-desktop-menu.jpg",
+      "kind": "desktop-menu-unselected",
+      "viewport": "1280x800"
+    },
+    {
+      "path": "04-mobile-home.jpg",
+      "kind": "mobile-home",
+      "viewport": "390x844"
+    },
+    {
+      "path": "05-mobile-navigation.jpg",
+      "kind": "mobile-navigation",
+      "viewport": "390x844"
+    },
+    {
+      "path": "06-mobile-dinner.jpg",
+      "kind": "mobile-menu-selected",
+      "viewport": "390x844"
+    },
+    { "path": "desktop-measurements.json", "kind": "computed-styles" },
+    { "path": "mobile-measurements.json", "kind": "computed-styles" },
+    { "path": "menu-evidence.json", "kind": "html-structure-and-controls" }
+  ],
+  "limits": [
+    "No se ha auditado el sitio completo, el teclado, el lector de pantalla ni el flujo de reservas.",
+    "Las medidas son muestras fechadas; las URLs de assets pueden cambiar.",
+    "Los archivos de fuentes no se almacenan ni redistribuyen. Identificar una fuente no concede licencia.",
+    "Capturas solo como evidencia de investigación, no como imágenes para webs de clientes.",
+    "La receta es una adaptación original pendiente de implementar y comparar; no una réplica validada."
+  ]
+}

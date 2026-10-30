@@ -28,5 +28,17 @@ Actualizado: 2026-10-30. Cada decisión incluye estado; cuando cambie, documenta
 **Estado:** vigente · **Decisión:** no hay un estilo visual universal «humano». Lo correcto depende de marca, contenido, sector y audiencia.  
 **Verificación:** evaluar copy, composición, navegación y credibilidad con ejemplos concretos, no por mera presencia de cards o tipo de fuente.
 
-## D-007 · Aplicación Builder separada
-**Estado:** experimental / no es núcleo · **Registro:** en PR #1 existe desarrollo de una aplicación Builder. Es un laboratorio opcional; no se continuará como producto por defecto, ni se eliminará sin una decisión explícita.
+## D-007 · Eliminar el constructor autónomo
+**Estado:** vigente (sustituye el estado experimental anterior) · **Decisión:** el usuario descarta el constructor `builder/`. No forma parte de `main`; se cierra PR #1 y se retira de su rama activa.  
+**Por qué:** Human Webs es memoria de apoyo a Codex y a otras IA, no una app de generación.  
+**Consecuencia:** no añadir componentes SaaS, servidores, interfaz generadora ni dependencias de Builder. Se preservan investigación visual y aprendizajes, no la plataforma.
+
+## D-008 · No reutilizar terracota ni la misma composición
+**Estado:** vigente · **Decisión:** el usuario observó reiteración de fondos terracota en webs construidas. Terracota/crema/béige cálido y plantilla editorial no pueden ser valores iniciales por defecto. Solo se usan por identidad real o justificación específica y documentada.  
+**Por qué:** cambiar textos o colores en la misma composición no crea identidad de marca.  
+**Verificación:** comparar al menos tres direcciones que cambien de forma sustancial composición, tipografía y tratamiento cromático o de imagen, antes de elegir; guardar qué se descartó y por qué.
+
+## D-009 · Investigación real por proyecto y diversidad
+**Estado:** vigente · **Decisión:** en webs nuevas y rediseños con libertad visual, consultar referencias del sector más una dirección de otro sector, verificar cada web original (si se dispone de navegador) y registrar contexto, fecha, observación y límites. Nunca copiar assets no autorizados.  
+**Por qué:** reutilizar una estética por hábito reduce diferenciación.  
+**Verificación:** ficha creativa de [ART-DIRECTION](ART-DIRECTION.md) y revisión comparativa en móvil/escritorio.

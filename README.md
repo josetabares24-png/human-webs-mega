@@ -1,29 +1,32 @@
-# Human Webs — memoria maestra de creación web
+# Human Webs — memoria maestra para IA constructoras
 
-**Qué es:** una base de conocimiento versionada que las IA constructoras (Codex, ChatGPT y otras) consultan para crear páginas profesionales más rápido y reducir errores repetidos.
+Human Webs **no es un bot ni una aplicación para crear webs**. Es la memoria versionada que consultan Codex y otras IA al desarrollar sitios para clientes: conocimiento visual, decisiones, errores detectados, SEO, accesibilidad y pruebas. El código de cada web se construye en su repositorio de destino.
 
-**Qué NO es:** ni un chatbot autónomo, ni una aplicación SaaS, ni un generador de webs que debamos construir. La web la programa la IA en el repositorio de destino; Human Webs le aporta criterios, referencias, fallos conocidos y controles de calidad.
+**Decisión 30/10/2026:** se descarta el constructor autónomo experimental. El código `builder/` **no está en `main`** y el PR del constructor se cierra; no reabrirlo por defecto. Conservamos aquí las investigaciones de diseño, separadas de la app descartada.
 
-## Empezar en 30 segundos
-1. Abre [AGENTS.md](AGENTS.md) — Codex lo detecta automáticamente en este repositorio.
-2. Abre [Índice de memoria](memory/INDEX.md) y lee solo los módulos necesarios para tu tarea.
-3. Usa [Flujo de creación](memory/WORKFLOW.md) para construir y [Controles de calidad](memory/QUALITY-GATES.md) antes de entregar.
-4. Incorpora nuevos aprendizajes mediante [Plantilla de registro](memory/RECORD-TEMPLATE.md).
-5. Ejecuta `node tools/memory/check.mjs` para comprobar referencias y estructura de la memoria.
+## Arranque rápido
 
-## Usar desde un proyecto de cliente
-Si Codex trabaja en **otro** repositorio, no leerá automáticamente estas instrucciones. Usa el [prompt de arranque para IA externas](memory/START-HERE.md) y dale acceso de lectura a Human Webs.
+1. Leer [AGENTS.md](AGENTS.md) y [índice de memoria](memory/INDEX.md).
+2. Si Codex trabaja en otro repositorio, usar el [prompt de conexión](memory/START-HERE.md); no tiene acceso automático.
+3. Para **una web nueva o rediseño**, abrir [dirección artística antirrepetición](memory/ART-DIRECTION.md), [diseño](memory/DESIGN.md) y [biblioteca visual](design-library/README.md).
+4. Buscar referencias reales **distintas para cada negocio**, comparar tres direcciones con variaciones de composición, tipografía y paleta, elegir y construir.
+5. Antes de entregar, comprobar [errores conocidos](memory/ERRORS.md), [calidad](memory/QUALITY-GATES.md) y pruebas del proyecto.
+6. Documentar el aprendizaje con la [plantilla](memory/RECORD-TEMPLATE.md).
 
-## Fuentes de conocimiento existentes
-- [Principios de diseño](principles/pre-ai-web-design.md), [redacción humana](principles/human-copy.md) y [filtro de clichés](principles/anti-ai-checklist.md).
-- [Biblioteca de restaurantes](examples/restaurants/biblioteca.md) y [registro de investigación](examples/restaurants/learning-log.md): observaciones útiles, no componentes copiables ni verdades universales.
-- [Experiencias de usuario móvil](examples/mobile-ux-patterns.md).
-- [Monetización](monetization.md): hipótesis comerciales, no ingresos ni conversiones demostradas.
+## Biblioteca y conocimiento conservado
 
-## Otros desarrollos
-La rama/PR experimental [Human Webs Builder #1](https://github.com/josetabares24-png/human-webs-mega/pull/1) contiene una aplicación independiente. Puede servir como laboratorio de pruebas, **pero no es la misión principal de este repositorio**. No se debe continuar construyendo una plataforma por defecto.
+- [Memoria visual documentada](design-library/README.md): referencias, capturas de investigación, medidas y recetas originales. Incluye [búsqueda local](tools/design-library/query.mjs).
+- [Fuentes de inspiración comprobadas](memory/INSPIRATION-SOURCES.md): directorios para investigar webs actuales; visitar y verificar cada sitio original.
+- [Principios](principles/pre-ai-web-design.md), [copy natural](principles/human-copy.md) y [UX móvil](examples/mobile-ux-patterns.md).
+- [Restaurantes](examples/restaurants/biblioteca.md), [diario de observaciones](examples/restaurants/learning-log.md): observaciones específicas; jamás un molde universal.
+- [Errores](memory/ERRORS.md): incluye el uso repetido de fondos terracota y diseños indistinguibles.
 
-El README y contrato antiguos se conservan en [archivo histórico](archive/README-legacy-2026-10-30.md) y [prompt antiguo](archive/bot-contract-legacy-2026-10-30.md) para trazabilidad. No son instrucciones vigentes.
+## Regla estética fundamental
 
-## Contribuir conocimiento
-Toda recomendación debe distinguir observación, decisión y hipótesis; registrar fecha, fuente y nivel de evidencia; incorporar excepciones y, si procede, una prueba que detecte el error. No almacenar información privada.
+**No usar terracota, marrones, fondos crema o «estilo editorial IA» como comodín.** No están prohibidos cuando forman parte de una marca real, pero se exige una razón verificable. Cambiar solamente el color de un template no cuenta como otra dirección. La diferencia debe afectar composición, jerarquía, imagen, navegación y personalidad.
+
+`node tools/memory/check.mjs` valida la estructura y rutas documentales; `node tools/design-library/query.mjs --check` valida la biblioteca con sus evidencias. Estas comprobaciones no sustituyen una revisión visual humana.
+
+## Historial
+
+El [constructor experimental (PR #1)](https://github.com/josetabares24-png/human-webs-mega/pull/1) quedó descartado por petición del usuario. [README histórico](archive/README-legacy-2026-10-30.md) y [prompt histórico](archive/bot-contract-legacy-2026-10-30.md) se conservan solo para trazabilidad, no como instrucciones vigentes. Las versiones históricas de Git pueden conservar commits aunque se eliminen archivos de las ramas actuales.

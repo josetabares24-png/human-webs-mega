@@ -1,5 +1,7 @@
-# Human Webs — memoria para IA constructoras
+# Human Webs: memoria maestra de Codex y otras IA
 
-Este repositorio es una **memoria maestra de diseño, UX, código, SEO y prevención de errores para webs construidas por IA**, NO un bot ni una app SaaS. Usa [AGENTS.md](../AGENTS.md) como guía principal y [memory/INDEX.md](../memory/INDEX.md) para abrir solo el contexto relacionado con la tarea. No desarrolles `builder/` por defecto.
+Este repositorio NO es un bot ni un generador de webs. **No reconstruir `builder/`**. Leer [AGENTS.md](../AGENTS.md), [índice](../memory/INDEX.md), [decisiones](../memory/DECISIONS.md), [errores](../memory/ERRORS.md) y [calidad](../memory/QUALITY-GATES.md).
 
-Antes de crear webs: consulta [decisiones](../memory/DECISIONS.md), [errores](../memory/ERRORS.md), [flujo](../memory/WORKFLOW.md) y [quality gates](../memory/QUALITY-GATES.md). Prioriza datos reales, diseño original, enlaces funcionales, móvil, pruebas y permisos de publicación. No copies assets/fuentes propietarios ni afirmes resultados no comprobados. Al corregir un error repetible, documenta causa, solución, evidencia y test; ejecuta `node tools/memory/check.mjs`.
+Para crear o rediseñar una web, aplicar **antes del código** [ART-DIRECTION](../memory/ART-DIRECTION.md): investigar webs reales, contrastar al menos tres direcciones visuales sustancialmente distintas, escoger una que corresponda a la identidad y documentar por qué. **No usar terracota/beige por defecto**, ni repetir el mismo hero/card/CTA de otros proyectos cambiando el color. Si no hay navegación, declarar esa limitación; usar referencias ya medidas sin inventar investigación.
+
+La web se construye en el repo del cliente, con su stack real, datos verificables, navegación funcional, móvil, SEO y pruebas. Las capturas, fotos, fuentes y logos de referencia no son material libre para copiar. Publicación y cambios productivos solo con aprobación. Registrar fallos reproducibles y comprobar con `node tools/memory/check.mjs` y `node tools/design-library/query.mjs --check`.

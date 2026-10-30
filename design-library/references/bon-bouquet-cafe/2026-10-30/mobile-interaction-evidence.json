@@ -1,0 +1,71 @@
+{
+  "copy": {
+    "color": "rgb(255, 255, 255)",
+    "fontFamily": "\"Clash Grotesk\", sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "300",
+    "letterSpacing": "0.42px",
+    "lineHeight": "19.6px"
+  },
+  "menuPhotos": [
+    {
+      "height": 175.07772827148438,
+      "width": 175.07772827148438
+    },
+    {
+      "height": 175.07772827148438,
+      "width": 175.07774353027344
+    },
+    {
+      "height": 175.07772827148438,
+      "width": 175.07774353027344
+    }
+  ],
+  "navigation": [
+    {
+      "ariaLabel": null,
+      "height": 64,
+      "href": "#concept",
+      "imageAlt": "",
+      "text": "",
+      "width": 64
+    },
+    {
+      "ariaLabel": null,
+      "height": 64,
+      "href": "#menu",
+      "imageAlt": "",
+      "text": "",
+      "width": 64
+    },
+    {
+      "ariaLabel": null,
+      "height": 64,
+      "href": "#lieu",
+      "imageAlt": "",
+      "text": "",
+      "width": 64
+    },
+    {
+      "ariaLabel": null,
+      "height": 64,
+      "href": "#contact",
+      "imageAlt": "",
+      "text": "",
+      "width": 64
+    }
+  ],
+  "scrollWidth": 375,
+  "subheading": {
+    "color": "rgb(255, 255, 255)",
+    "fontFamily": "Gastromond, sans-serif",
+    "fontSize": "26px",
+    "fontWeight": "400",
+    "letterSpacing": "normal",
+    "lineHeight": "26px"
+  },
+  "viewport": {
+    "height": 844,
+    "width": 390
+  }
+}
