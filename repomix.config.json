@@ -1,0 +1,32 @@
+{
+  "output": {
+    "filePath": ".codex-context/human-webs.xml",
+    "style": "xml",
+    "compress": true,
+    "fileSummary": true,
+    "directoryStructure": true,
+    "showLineNumbers": false,
+    "copyToClipboard": false,
+    "git": { "sortByChanges": false, "includeDiffs": false, "includeLogs": false }
+  },
+  "include": [
+    "AGENTS.md",
+    "builder/app/**/*.ts",
+    "builder/app/**/*.tsx",
+    "builder/components/**/*.tsx",
+    "builder/lib/**/*.ts",
+    "builder/tests/**/*.ts",
+    "builder/package.json",
+    "builder/tsconfig.json",
+    "builder/next.config.ts",
+    "docs/ARCHITECTURE.md",
+    "docs/DESIGN.md"
+  ],
+  "ignore": {
+    "useGitignore": true,
+    "useDefaultPatterns": true,
+    "customPatterns": ["**/.env*", "**/*.log", "**/node_modules/**", "**/.next/**", "**/package-lock.json", "**/test-results/**", "**/playwright-report/**", "docs/previews/**", ".codex-context/**"]
+  },
+  "security": { "enableSecurityCheck": true },
+  "tokenCount": { "encoding": "o200k_base" }
+}

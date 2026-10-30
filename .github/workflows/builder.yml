@@ -1,13 +1,26 @@
 name: Builder quality
 on:
   pull_request:
-    paths: ['builder/**', '.github/workflows/builder.yml']
+    paths: ['builder/**', 'tools/context/**', 'repomix.config.json', 'AGENTS.md', '.github/workflows/builder.yml']
   push:
     branches: [main, feat/instant-web-builder-mvp]
-    paths: ['builder/**', '.github/workflows/builder.yml']
+    paths: ['builder/**', 'tools/context/**', 'repomix.config.json', 'AGENTS.md', '.github/workflows/builder.yml']
 permissions:
   contents: read
 jobs:
+  context:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: tools/context/package-lock.json
+      - run: npm ci --prefix tools/context --ignore-scripts
+      - run: node --check tools/context/pack.mjs
+      - run: npm --prefix tools/context run benchmark
+      - run: npm audit --prefix tools/context
   verify:
     runs-on: ubuntu-latest
     defaults:
