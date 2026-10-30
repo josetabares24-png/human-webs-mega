@@ -9,10 +9,13 @@ const catalogPath = resolve(root, "memory/SECTORS/catalog.json");
 const catalog = JSON.parse(readFileSync(catalogPath, "utf8"));
 const sectorsRoot = resolve(root, "memory/SECTORS");
 let count = 0, errors = [];
-const fileAt = (relative) => {
+const fileAt = (relative, legacy = false) => {
   const absolute = resolve(sectorsRoot, relative);
-  if (!absolute.startsWith(sectorsRoot + "/") || !existsSync(absolute)) {
-    errors.push("Referencia inexistente/fuera de sectors: " + relative);
+  // Prior research may live outside SECTORS; only allow that for explicitly
+  // recorded legacy paths, still confined to the repository.
+  const boundary = legacy ? root : sectorsRoot;
+  if (!absolute.startsWith(boundary + "/") || !existsSync(absolute)) {
+    errors.push("Referencia inexistente/fuera del área autorizada: " + relative);
     return null;
   }
   return readFileSync(absolute, "utf8");
@@ -24,7 +27,7 @@ for (const sector of catalog.sectors || []) {
   if (sectorIds.has(sector.id)) errors.push("Sector duplicado: " + sector.id);
   sectorIds.add(sector.id);
   fileAt(sector.index);
-  if (sector.legacy) for (const path of sector.legacy) fileAt(path);
+  if (sector.legacy) for (const path of sector.legacy) fileAt(path, true);
   for (const sub of sector.subcategories || []) {
     fileAt(sub.index);
     for (const record of sub.references || []) {
@@ -50,7 +53,7 @@ for (const sector of catalog.sectors || []) {
   }
 }
 if (!sectorIds.has("restaurantes") || !sectorIds.has("servicios")) errors.push("Sector básico ausente");
-if (count !== 10) errors.push("Esperadas 10 fichas de servicios, hay " + count);
+if (count === 0) errors.push("No hay fichas de servicios indexadas");
 const checkLocalLinks = (base, doc) => {
   for (const match of doc.matchAll(/(?<!!)\[[^\]]+\]\(([^)]+)\)/g)) {
     const link = match[1].split("#")[0].split("?")[0];

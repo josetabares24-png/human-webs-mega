@@ -8,6 +8,6 @@ Comprueba que los sectores estén accesibles desde `memory/SECTORS/catalog.json`
 
 **Esto no comprueba que las webs externas sigan online, no captura pantallas, no valida preferencias del usuario ni mide calidad estética.** Para diseñar una web real: inspeccionar la fuente actual en navegador, tener activos autorizados, revisar móvil y seguir `memory/QUALITY-GATES.md`.
 
-Para agregar un sector: crear carpeta con índice y ejemplos sustantivos; registrar en el catálogo con el estado correspondiente y actualizar el verificador sin asumir siempre diez casos. No añadir directorios vacíos ni duplicar capturas de la biblioteca histórica.
+Para agregar un sector: crear carpeta con índice y ejemplos sustantivos; registrar en el catálogo con el estado correspondiente y actualizar el verificador sin fijar un número rígido de casos. No añadir directorios vacíos ni duplicar capturas de la biblioteca histórica.
 
 [Catálogo de sectores](../../memory/SECTORS/README.md).
