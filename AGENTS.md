@@ -5,7 +5,7 @@ Este repositorio es una **MEMORIA MAESTRA versionada para construir páginas web
 
 ## Arranque obligatorio y ligero
 1. Lee `memory/INDEX.md` y `memory/DECISIONS.md`.
-2. Identifica sector, tipo de proyecto, entregables y riesgos. **Consulta [memory/SECTORS/README.md](memory/SECTORS/README.md)** y abre exclusivamente la subcategoría del cliente: restaurantes no son servicios profesionales; belleza no es reparación del hogar. Para servicios, revisar su [playbook](memory/SECTORS/servicios/PLAYBOOK.md).
+2. Identifica sector, tipo de proyecto, entregables y riesgos. **Consulta [memory/SECTORS/README.md](memory/SECTORS/README.md)** y abre exclusivamente la subcategoría del cliente: restaurantes no son servicios profesionales; belleza no es reparación del hogar. Para servicios, revisar su [playbook](memory/SECTORS/servicios/PLAYBOOK.md) y [comparativa visual](memory/SECTORS/servicios/COMPARATIVA-VISUAL.md). No inventar CSS, fuentes, screenshots actuales ni aprobación estética.
 3. **No confundir investigación con aprobación:** referencias exploratorias deben quedar marcadas `PENDIENTE`; no trasladar gustos de otras webs al usuario sin feedback explícito. Evitar atribuir capturas de archivo como capturas móviles actuales.
 4. Sigue el enrutamiento de `memory/INDEX.md`: abre **solo** los archivos pertinentes y las fuentes originales; no pegues toda la memoria al contexto. Para webs nuevas y rediseños, lee `memory/ART-DIRECTION.md` y consulta `design-library/` antes de elegir colores o composición.
 5. Antes de escribir código, revisa `memory/ERRORS.md` y los bloqueos de `memory/QUALITY-GATES.md`.

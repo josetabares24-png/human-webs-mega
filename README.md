@@ -17,7 +17,7 @@ Human Webs **no es un bot ni una aplicación para crear webs**. Es la memoria ve
 
 - [Ver sectores](memory/SECTORS/README.md) y su [catálogo estructurado](memory/SECTORS/catalog.json).
 - [Restaurantes](memory/SECTORS/restaurantes/README.md): conserva las investigaciones de Bon Bouquet, Carbone y cinco estudios exploratorios, sin mover las fichas históricas ni sus capturas.
-- [Servicios](memory/SECTORS/servicios/README.md): 10 estudios en [hogar](memory/SECTORS/servicios/hogar/README.md), [belleza](memory/SECTORS/servicios/belleza/README.md), [profesionales](memory/SECTORS/servicios/profesionales/README.md) e [inmobiliaria/interiores](memory/SECTORS/servicios/inmobiliaria-interiores/README.md), más un [playbook](memory/SECTORS/servicios/PLAYBOOK.md) para cotizaciones, zonas, reservas y pruebas de confianza.
+- [Servicios](memory/SECTORS/servicios/README.md): 10 estudios en [hogar](memory/SECTORS/servicios/hogar/README.md), [belleza](memory/SECTORS/servicios/belleza/README.md), [profesionales](memory/SECTORS/servicios/profesionales/README.md) e [inmobiliaria/interiores](memory/SECTORS/servicios/inmobiliaria-interiores/README.md), una [comparativa visual](memory/SECTORS/servicios/COMPARATIVA-VISUAL.md), [estándar](memory/SECTORS/servicios/ESTANDAR-DE-FICHAS.md) y un [playbook](memory/SECTORS/servicios/PLAYBOOK.md) para presupuestos, zonas, reservas y confianza.
 
 Estas fichas de servicios **son referencias investigadas, no diseños aprobados** por el usuario ni capturas CSS medidas. No se ha construido ningún constructor ni se han tocado webs de clientes.
 

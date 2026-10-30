@@ -11,7 +11,10 @@
 | Abogados, asesorías, consultoras, creativos | [Profesionales](profesionales/README.md) | Credibilidad, especialidad, casos reales |
 | Inmobiliarias, arquitectos e interiorismo | [Inmobiliaria e interiores](inmobiliaria-interiores/README.md) | Proyecto real, antes/después, solicitud de valoración |
 
-[Checklist para diseñar webs de servicios](PLAYBOOK.md).
+[Checklist para diseñar webs de servicios](PLAYBOOK.md) · [Comparativa visual de las diez](COMPARATIVA-VISUAL.md) · [Estándar de análisis](ESTANDAR-DE-FICHAS.md).
+
+## Nivel de profundidad
+Las diez fichas incorporan ahora color, tipografía, fotografía, composición, primer viewport, CTA, fuente visual y sus límites, además de un boceto propio para una empresa pequeña, copy hipotético y controles para móvil. **No son medidas actuales de CSS ni diseños aprobados por el usuario.**
 
 ## Cinco preguntas de entrada
 1. **Qué problema concreto resuelves** (no «servicios de calidad»).

@@ -43,7 +43,14 @@ for (const sector of catalog.sectors || []) {
       if (!doc || !doc.includes(record.url) || !doc.includes("PENDIENTE") ||
           !doc.includes("## Fuentes originales consultadas") ||
           !doc.includes("## Principio reutilizable") ||
-          !doc.includes("## Qué no copiar")) {
+          !doc.includes("## Qué no copiar") ||
+          !doc.includes("## Auditoría visual ampliada") ||
+          !doc.includes("### Evidencia visual y límites") ||
+          !doc.includes("| Fondo y color |") ||
+          !doc.includes("| Tipografía |") ||
+          !doc.includes("| Fotografía y recursos |") ||
+          !doc.includes("### Boceto original para una pyme") ||
+          !doc.includes("### Preguntas de QA y móvil")) {
         errors.push("Ficha sin evidencia, estado o límites: " + record.ref);
       }
       const requiredDir = "servicios/" + sub.id + "/";
