@@ -98,3 +98,50 @@ See full content pushed from local /tmp/learning-log-full.md - the complete log 
 5. **Copy histórico-operativo con nombres propios y datos concretos**: fechas, personas (Le Coze, Ripert), awards factuales, reglas de cancelación. Nada de "experiencia inolvidable" o storytelling inflado.
 
 **Honestidad:** Homepage tan mínima que casi no hay "diseño" visible más allá de la foto y el texto. No vi botones filled en ninguna página visitada. Móvil no se midió con viewport forzado. Sombras casi nulas. Todo basado en CSS computado y texto extraído en la sesión de navegador. Fotos con créditos reales visibles en footer.
+
+---
+
+## Observación: Padella (padella.co) — 30 octubre 2026
+
+**Tipo:** Casual independiente / pasta bar italiano (Londres: Borough Market, Shoreditch, Soho). Captura en navegador en vivo.
+
+### Estructura y CTAs
+- Homepage dominada por un vídeo timelapse a sangre (timelapse.mp4) + scroll down, seguido de tres grandes cards/links de ubicaciones (BOROUGH MARKET, SHOREDITCH, SOHO) con fotos de los locales.
+- El contenido principal inmediato es el menú del día: "FRIDAY 30TH OCTOBER" + categorías FOOD / DRINK / ANTIPASTI / PASTA / PUDDING / ICE CREAM con platos y precios en texto plano.
+- No hay CTA filled tipo "Book Now" o "Order" en el viewport principal. Las acciones son los links de ubicaciones y, más abajo, emails para group bookings (shoreditch@padella.co) o "make a smaller reservation here".
+- Nav simple con toggle (hamburger). About corto al final. Estructura menu-first y location-first.
+
+### Tipografía
+- Cuerpo y texto general: "Roboto Condensed", sans-serif, 16px, peso 400, line-height 24px, color blanco sobre negro. Condensada, legible, no genérica Inter.
+- Headings / secciones de menú (ANTIPASTI, PASTA, etc.) y nav: Oswald, sans-serif, 18–24px, peso 400–500, uppercase, letter-spacing normal. Display condensada sin serif.
+- Todo sans, sin serif. Contraste tipográfico por familia condensada + uppercase en labels.
+- Tamaños modestos, pesos no bold extremos.
+
+### Botones
+- Casi cero botones filled. El toggle de nav es un button con texto vacío o ícono, fondo transparente, radio 0, padding 16px 6px, Oswald uppercase.
+- Links de ubicaciones: texto blanco, fondo transparente, radio 0, sin sombra, altura ~274px (cards visuales con imagen de fondo). No pills, no outline, no filled.
+- Acciones discretas: texto o cards grandes de imagen. Sin color de acento en botones.
+
+### Colores
+- Fondo principal: negro rgb(0, 0, 0) o rgba(0,0,0,0.96). Tema oscuro.
+- Texto: blanco rgb(255, 255, 255). Contraste alto.
+- Sin acentos de color brillantes observados en el primer viewport; el color lo dan las fotos de locales y el vídeo. Paleta muy restringida (negro/blanco + fotos).
+
+### Espaciado, bordes, sombras, fotografía
+- Espaciado generoso alrededor del menú y las location cards. Bordes 0, box-shadow none en elementos inspeccionados.
+- Fotografía: fotos reales de los tres locales (webp) en las cards de ubicaciones. Vídeo timelapse del proceso o del espacio. No hay close-ups de platos en el home; el menú es texto puro.
+- Cards de locations funcionan como CTAs visuales grandes sin sombras ni bordes redondeados visibles.
+
+### Menú, móvil y copy
+- Menú HTML completo del día, con fecha explícita "FRIDAY 30TH OCTOBER". Platos específicos (Pici cacio & pepe, Tagliarini with Dorset crab, Pappardelle with 8 hours Hereford beef shin ragu) + precios en £. Nota operativa: "Please let us know if you want Parmesan (Extra 24-month aged parmesan 50p)".
+- Móvil: viewport meta correcto (width=device-width). Nav con toggle. Estructura de texto y cards sugiere que escala bien; no se forzó resize completo.
+- Copy: corto y personal. "Padella is the culmination of Tim and Jordan’s long held dream to open a pasta bar serving fresh, hand rolled pasta with delicious sauces and fillings inspired by their trips to Italy." Menciona el otro restaurante Trullo. Group bookings por email. Sin adjetivos marketing vacíos; el producto se comunica con el menú real y la fecha.
+
+### 5 patrones concretos para webs anti-IA
+1. **Homepage menu-first con fecha del día**: el menú HTML actualizado ("FRIDAY 30TH OCTOBER") es el contenido principal, no un hero de stock ni copy generada. Comunica frescura y honestidad operativa.
+2. **Tema oscuro (negro/blanco) + tipografía condensada (Roboto Condensed + Oswald)**: sans condensadas, uppercase en secciones, sin serif ni Inter. Evita el look claro genérico de IA.
+3. **Cero botones filled y CTAs como cards de imagen grandes**: las ubicaciones son links visuales altos (~274px) con fotos reales del local. Acciones discretas, el foco está en el producto (menú).
+4. **Menú de texto plano con nombres específicos y precios**: platos concretos (no "pasta deliciosa"), notas operativas reales (parmesano extra). Más humano que cards de platos o descripciones floridas.
+5. **Copy personal corto con nombres propios y origen**: Tim y Jordan, sueño de pasta bar, viajes a Italia, hand-rolled. Nada de storytelling inflado; el resto es menú y emails operativos.
+
+**Honestidad:** No vi botones filled de reserva en el home (las reservas parecen por ubicación o email). Móvil no se midió con viewport forzado completo, pero el meta y el toggle están. Sombras y bordes nulos en lo inspeccionado. Vídeo y fotos de locales reales. Todo basado en CSS computado (getComputedStyle) y texto extraído en la sesión de navegador. Sitio previo (Shake Shack) bloqueado por Cloudflare; este cargó limpio.
