@@ -4,6 +4,10 @@ Patrones de botones, CTAs, heroes y elementos de interfaz tomados de las webs de
 
 **Uso**: copia, adapta y combina. El objetivo es velocidad + sensación humana, no copiar pixel a pixel.
 
+## Ejemplo funcional
+
+- **[demo-la-mesa.html](demo-la-mesa.html)** — Landing completa y funcional de "La Mesa". Abre el archivo en el navegador (o usa GitHub Pages / raw). Incluye hero, menú HTML, sticky CTA móvil, botones, copy humano y click-to-call.
+
 ## Sitios de referencia principales (tráfico global)
 
 | Sitio | Tipo | Por qué mirarlo |
@@ -24,6 +28,7 @@ Patrones de botones, CTAs, heroes y elementos de interfaz tomados de las webs de
 - `hero-patterns.md` — heroes con foto + CTA
 - `sticky-cta.md` — barras fijas inferiores (muy usadas en restaurantes)
 - `popular-chains-notes.md` — notas rápidas de cada cadena
+- `demo-la-mesa.html` — ejemplo funcional completo
 
 ## Relacionado
 
@@ -31,8 +36,9 @@ Patrones de botones, CTAs, heroes y elementos de interfaz tomados de las webs de
 
 ## Cómo usar
 
-1. Elige el patrón que encaje con el tipo de restaurante (QSR, casual, fine dining).
-2. Copia el HTML/CSS.
-3. Adapta colores, tipografía y copy al negocio concreto.
-4. Aplica los patrones móviles (la mayoría de visitas son en móvil).
-5. Pasa el checklist anti-IA antes de entregar.
+1. Abre `demo-la-mesa.html` para ver un ejemplo real funcionando.
+2. Elige el patrón que encaje con el tipo de restaurante (QSR, casual, fine dining).
+3. Copia el HTML/CSS.
+4. Adapta colores, tipografía y copy al negocio concreto.
+5. Aplica los patrones móviles (la mayoría de visitas son en móvil).
+6. Pasa el checklist anti-IA antes de entregar.
