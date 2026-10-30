@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Mesa — Cocina de mercado</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.5;
+      color: #1a1a1a;
+      background: #faf8f5;
+      padding-bottom: 70px; /* espacio para sticky bar */
+    }
+    header {
+      position: sticky; top: 0; background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(8px); z-index: 50;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 0.75rem 1.25rem; border-bottom: 1px solid #eee;
+    }
+    .logo { font-weight: 700; font-size: 1.25rem; letter-spacing: -0.5px; }
+    .header-cta {
+      background: #c45c26; color: white; padding: 0.5rem 1rem;
+      border-radius: 999px; text-decoration: none; font-weight: 600; font-size: 0.9rem;
+    }
+    .hero {
+      min-height: 70vh;
+      background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+                  url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1400&q=80') center/cover;
+      display: flex; align-items: center; justify-content: center;
+      color: white; text-align: center; padding: 2rem 1rem;
+    }
+    .hero h1 { font-size: clamp(2.2rem, 6vw, 3.5rem); font-weight: 700; margin-bottom: 0.5rem; }
+    .hero p { font-size: 1.15rem; max-width: 28rem; margin: 0 auto 1.5rem; }
+    .btn-primary {
+      display: inline-block; background: #c45c26; color: white;
+      padding: 0.9rem 1.8rem; border-radius: 999px; text-decoration: none;
+      font-weight: 700; font-size: 1.05rem;
+    }
+    .btn-primary:hover { background: #a84a1c; }
+    section { padding: 3rem 1.25rem; max-width: 720px; margin: 0 auto; }
+    h2 { font-size: 1.8rem; margin-bottom: 1rem; }
+    .menu-item {
+      display: flex; justify-content: space-between; gap: 1rem;
+      padding: 1rem 0; border-bottom: 1px solid #eee;
+    }
+    .menu-item strong { display: block; }
+    .menu-item span { color: #666; font-size: 0.95rem; }
+    .price { font-weight: 600; white-space: nowrap; }
+    .info { background: #fff; border-radius: 12px; padding: 1.5rem; margin-top: 1rem; }
+    .sticky-bar {
+      position: fixed; bottom: 0; left: 0; right: 0;
+      background: white; display: flex; box-shadow: 0 -2px 12px rgba(0,0,0,0.08);
+      z-index: 100; padding: 0.4rem;
+    }
+    .sticky-btn {
+      flex: 1; text-align: center; padding: 0.85rem 0.5rem;
+      text-decoration: none; color: #333; font-weight: 600; font-size: 0.9rem;
+      border-radius: 8px;
+    }
+    .sticky-btn.primary {
+      background: #c45c26; color: white; margin: 0 0.25rem;
+    }
+    footer { text-align: center; padding: 2rem 1rem; color: #666; font-size: 0.9rem; }
+    @media (min-width: 768px) {
+      .sticky-bar { display: none; }
+      body { padding-bottom: 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">La Mesa</div>
+    <a href="#reservar" class="header-cta">Reservar</a>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>La Mesa</h1>
+      <p>Cocina de mercado, platos que cambian con lo que llega cada mañana.</p>
+      <a href="#menu" class="btn-primary">Ver menú</a>
+    </div>
+  </section>
+
+  <section id="menu">
+    <h2>Menú de hoy</h2>
+    <div class="menu-item">
+      <div>
+        <strong>Ensalada de tomate y burrata</strong>
+        <span>Tomate de temporada, burrata, albahaca, aceite de oliva</span>
+      </div>
+      <div class="price">12 €</div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <strong>Arroz de verduras</strong>
+        <span>Arroz bomba, verduras de la huerta, ajo y romero</span>
+      </div>
+      <div class="price">16 €</div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <strong>Merluza a la plancha</strong>
+        <span>Con puré de patata y verduras salteadas</span>
+      </div>
+      <div class="price">22 €</div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <strong>Tarta de queso</strong>
+        <span>Nuestra receta de siempre</span>
+      </div>
+      <div class="price">7 €</div>
+    </div>
+  </section>
+
+  <section id="reservar">
+    <h2>Reservar mesa</h2>
+    <div class="info">
+      <p><strong>Hoy:</strong> 13:00–16:00 y 20:00–23:00</p>
+      <p><strong>Dirección:</strong> Calle del Mercado 12, Ciudad</p>
+      <p style="margin-top:1rem;">
+        <a href="tel:+34912345678" class="btn-primary" style="margin-right:0.5rem;">Llamar</a>
+        <a href="https://maps.google.com" class="btn-primary" style="background:#333;">Cómo llegar</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    La Mesa · Cocina de mercado desde 2018
+  </footer>
+
+  <div class="sticky-bar">
+    <a href="#menu" class="sticky-btn">Menú</a>
+    <a href="#reservar" class="sticky-btn primary">Reservar</a>
+    <a href="tel:+34912345678" class="sticky-btn">Llamar</a>
+  </div>
+</body>
+</html>
