@@ -117,3 +117,32 @@ Observaciones de sitios reales para crear webs más humanas, menos genéricas de
 6. **Copy histórico concreto con voz familiar.** Nombres, años, quotes reales de la familia, detalles del origen. Nada de storytelling aspiracional genérico; se siente documentado por humanos.
 
 **Notas:** Sitio clásico, funcional y con identidad fuerte de familia/lugar. La tipografía custom, paleta náutica y esquinas rectas lo alejan de templates modernos de IA. Buen ejemplo de independent casual-upscale humano que prioriza utilidad y tradición sobre "diseño contemporáneo".
+
+---
+
+## 2026-10-30 — Dishoom (dishoom.com) — Casual-Upscale / Restaurant Group / Independent-inspired
+
+**Sitio:** https://www.dishoom.com/  
+**Tipo:** Cadena/grupo de restaurantes de inspiración Bombay (Londres y otras ciudades UK). Sitio custom (Next.js + Sanity CMS).
+
+### Lo que vi (honesto)
+
+- **Estructura y CTAs:** Header con logo Dishoom, botón "Book a table" (pill outline), hamburguesa "Toggle Menu", search y cart. Hero narrativo largo sobre Bombay como "love letter", con fotos intercaladas (B. Merwan 1914, Bun Maska). CTAs: Book a table, Peruse menus, Explore recipes, awards. Footer con newsletter y locations. No es hero full-bleed de plato; es texto + imágenes de archivo/históricas y de café.
+- **Tipografía:** Cuerpo y títulos principales en **cheltenhamBT, serif** (body 16px, headings 21-36px, weight 400). Menú y categorías en **gill-sans-nova, sans** (14-15px, weight 600-700, letter-spacing alto ~2-3.75px, uppercase). Combinación serif clásico para prosa narrativa + sans geométrica trackeada para menú operativo. Nada de Inter genérico.
+- **Botones:** "Book a table" es outline pill: fondo transparente, borde 1px, radius 9999px (full pill), padding pequeño (6px 10px), texto 13px weight 700, color claro sobre fondo oscuro/crema. Cookies tienen outline/filled con radius 2px. Nav links son texto puro en serif. No sombras ni gradients.
+- **Colores:** Fondo crema cálido `rgb(240, 236, 224)`. Texto principal gris oscuro `rgb(53, 56, 57)`. Acentos azul suave `rgb(54, 83, 114)` en nombres de platos del menú. Blanco crema `rgb(255, 253, 249)` para texto sobre imágenes. Contraste alto, paleta limitada y cálida (crema + grises + azul muted). Se siente de papel y café de Bombay, no digital frío.
+- **Espaciado, bordes, sombras, fotografía:** Espaciado generoso editorial. Bordes mínimos, sombras nulas. Fotografía real y específica: fotos históricas de Bombay, interiores de cafés, platos, gente. Imágenes de Sanity CDN, no stock genérico; algunas con captions como "ABOVE: The legendary B. Merwan".
+- **Menú:** Páginas dedicadas por tipo (All Day, Breakfast, Drinks...). Categorías en uppercase sans trackeado (SNACK, SMALL PLATES, GRILLS). Platos en uppercase con precio exacto (PAPAD BASKET 5.50, CHICKEN RUBY 18.90). Descripciones narrativas cortas ("Bombay comfort food", "Eat your way through Bombay"). Filtros dietarios y por café.
+- **Móvil:** Hamburguesa "Toggle Menu" clara, layout se adapta bien (375px). Book button visible.
+- **Copy:** Extremadamente narrativo y específico de lugar. "Each Dishoom is a love letter to Bombay – its food and its culture, its many varied people, its rich history and its endless eccentricities." Quotes, referencias históricas concretas (1914, Grant Road), voz cálida y literaria. Nada de marketing genérico de "authentic flavors" o bullets.
+
+### Patrones concretos útiles para webs anti-IA (4-6)
+
+1. **Serif clásico (Cheltenham) para prosa + sans trackeado (Gill Sans) para menú operativo.** Letter-spacing alto en categorías y platos uppercase. Se siente de carta impresa de café de Bombay, no template digital moderno.
+2. **Botón CTA principal como pill outline pequeño y discreto** (radius 9999px, borde fino, padding mínimo). No domina; convive con texto narrativo. Evita filled grande de SaaS.
+3. **Paleta crema cálida + gris oscuro + azul muted.** `rgb(240,236,224)` fondo + `rgb(53,56,57)` texto + `rgb(54,83,114)` acentos de menú. Orgánica, de papel y tinta, limitada. Nada de azul corporativo, neón o gradients.
+4. **Copy como "love letter" narrativa larga** a un lugar concreto (Bombay, con referencias históricas específicas). Intercalada con fotos captioned. Genera voz humana y literaria en vez de headlines genéricos.
+5. **Menú tipográfico con platos en uppercase + precios exactos** y categorías trackeadas. Prioriza claridad operativa y estilo de menú de restaurante real sobre grids visuales de platos.
+6. **Fotografía documental e histórica** (cafés reales, archivos de Bombay, captions) en vez de hero de plato perfecto. Documenta la cultura y el lugar, no solo el producto.
+
+**Notas:** Sitio con fuerte identidad literaria y de lugar. La combinación serif/sans, paleta crema y copy de "love letter" lo hacen sentirse humano y específico, lejos de templates genéricos de IA. Buen ejemplo de grupo de restaurantes casual-upscale con voz propia.
