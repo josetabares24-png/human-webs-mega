@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bocumo · Encuentra esa comida que te sabe a casa</title>
+<style>
+  :root {
+    --bg: #faf8f5;
+    --text: #1a1a1a;
+    --accent: #c45c26;
+    --accent-dark: #a34a1c;
+    --muted: #5c5c5c;
+    --card: #fff;
+    --border: #e8e4df;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    font-size: 17px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--border);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .logo {
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: -0.5px;
+    text-decoration: none;
+    color: var(--text);
+  }
+  .logo span { color: var(--accent); }
+  nav a {
+    margin-left: 1.25rem;
+    text-decoration: none;
+    color: var(--text);
+    font-size: 0.95rem;
+  }
+  nav a:hover { color: var(--accent); }
+
+  .hero {
+    padding: 3.5rem 1.25rem 2.5rem;
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  .hero h1 {
+    font-size: 2.4rem;
+    line-height: 1.15;
+    font-weight: 650;
+    margin-bottom: 0.75rem;
+  }
+  .hero p {
+    color: var(--muted);
+    font-size: 1.15rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .search-box {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.25rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+    text-align: left;
+  }
+  .search-box label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+    color: var(--muted);
+  }
+  .search-box select,
+  .search-box input {
+    width: 100%;
+    padding: 0.75rem 0.9rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-bottom: 0.9rem;
+    background: #fff;
+  }
+  .btn-primary {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    padding: 0.85rem 1.4rem;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    width: 100%;
+    font-size: 1.05rem;
+    cursor: pointer;
+  }
+  .btn-primary:hover { background: var(--accent-dark); }
+
+  .section {
+    padding: 2.5rem 1.25rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .section h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .cravings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+  }
+  .craving {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.25rem;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.15s;
+  }
+  .craving:hover { transform: translateY(-2px); }
+  .craving strong { display: block; font-size: 1.15rem; margin-bottom: 0.3rem; }
+  .craving span { color: var(--muted); font-size: 0.9rem; }
+
+  .story {
+    background: #fff;
+    border-radius: 16px;
+    padding: 2rem 1.5rem;
+    margin-top: 1rem;
+  }
+  .story p { margin-bottom: 1rem; color: #333; }
+
+  footer {
+    padding: 2rem 1.25rem;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.9rem;
+    border-top: 1px solid var(--border);
+    margin-top: 2rem;
+  }
+  footer a { color: var(--muted); margin: 0 0.5rem; }
+
+  .sticky-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-around;
+    padding: 0.6rem 0.5rem calc(0.6rem + env(safe-area-inset-bottom));
+    z-index: 20;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+  }
+  .sticky-bar a {
+    text-decoration: none;
+    color: var(--text);
+    font-size: 0.8rem;
+    text-align: center;
+    flex: 1;
+    padding: 0.4rem;
+  }
+  .sticky-bar a.primary { color: var(--accent); font-weight: 600; }
+
+  @media (min-width: 700px) {
+    .hero h1 { font-size: 3rem; }
+    .sticky-bar { display: none; }
+    nav { display: flex; }
+  }
+  @media (max-width: 699px) {
+    nav { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="/" class="logo">bocumo<span>.</span></a>
+  <nav>
+    <a href="#explorar">Explorar</a>
+    <a href="#guardados">Mis guardados</a>
+    <a href="#para-restaurantes">Para restaurantes</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>¿Qué te provoca comer hoy?</h1>
+    <p>Encuentra esa comida que te sabe a casa, estés donde estés.</p>
+
+    <form class="search-box" action="#resultados">
+      <label for="donde">Dónde estás</label>
+      <select id="donde">
+        <option>Ciudad o país</option>
+        <option>Madrid</option>
+        <option>Barcelona</option>
+        <option>Buenos Aires</option>
+        <option>Ciudad de México</option>
+        <option>Lima</option>
+        <option>Bogotá</option>
+      </select>
+
+      <label for="origen">Qué quieres comer</label>
+      <select id="origen">
+        <option>Cualquier origen</option>
+        <option>México</option>
+        <option>Perú</option>
+        <option>Colombia</option>
+        <option>Argentina</option>
+        <option>Venezuela</option>
+        <option>Chile</option>
+        <option>Ecuador</option>
+      </select>
+
+      <label for="plato">Plato (opcional)</label>
+      <input type="text" id="plato" placeholder="Ceviche, arepas, tacos…">
+
+      <button type="submit" class="btn-primary">Buscar restaurantes</button>
+    </form>
+  </section>
+
+  <section class="section" id="explorar">
+    <h2>Empieza por un antojo</h2>
+    <div class="cravings">
+      <a href="#" class="craving">
+        <strong>Ceviche</strong>
+        <span>Fresco, cítrico y lleno de sabor.</span>
+      </a>
+      <a href="#" class="craving">
+        <strong>Arepas</strong>
+        <span>Una masa sencilla. Mil formas de disfrutarla.</span>
+      </a>
+      <a href="#" class="craving">
+        <strong>Tacos</strong>
+        <span>Dónde comerlos de verdad.</span>
+      </a>
+      <a href="#" class="craving">
+        <strong>Empanadas</strong>
+        <span>Crujientes, rellenas, de casa.</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="story">
+      <h2>Hay sabores que te hacen sentir en casa.</h2>
+      <p>Da igual si estás de viaje o si llevas años viviendo lejos de tu país. A veces solo quieres encontrar ese plato que te recuerda a tu gente.</p>
+      <p>Por eso nació Bocumo: para ayudarte a encontrarlo, estés donde estés. Sin rodeos, sin fotos de stock, sin textos que suenen a máquina.</p>
+      <a href="#buscar" class="btn-primary" style="width:auto; display:inline-block; margin-top:0.5rem;">Buscar esa comida</a>
+    </div>
+  </section>
+
+  <section class="section" id="para-restaurantes">
+    <h2>¿Tienes un restaurante?</h2>
+    <p>Cuéntanos qué cocinas y dónde estás. La ficha en Bocumo es gratis.</p>
+    <a href="#proponer" class="btn-primary" style="width:auto; display:inline-block; margin-top:1rem;">Proponer mi restaurante</a>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Bocumo · Sabores de aquí y de allá.</p>
+  <p style="margin-top:0.5rem;">
+    <a href="#privacidad">Privacidad</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#creditos">Fotografías y créditos</a>
+  </p>
+</footer>
+
+<div class="sticky-bar">
+  <a href="#explorar">Explorar</a>
+  <a href="#buscar" class="primary">Buscar</a>
+  <a href="#guardados">Guardados</a>
+  <a href="#para-restaurantes">Restaurantes</a>
+</div>
+
+</body>
+</html>
