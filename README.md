@@ -2,7 +2,7 @@
 
 Contexto de desarrollo: [Repomix y medición de tokens](docs/TOKEN-CONTEXT.md), aislado de la aplicación y con instrucciones de uso en `AGENTS.md`.
 
-Memoria visual para construir más rápido: [biblioteca de referencias](design-library/README.md), con Carbone estudiado en escritorio y móvil, fuentes identificadas, medidas y receta reutilizable. Consulta compacta: `node tools/design-library/query.mjs carbone --recipe`. Es memoria del asistente en este repositorio; no añade un estilo nuevo al generador automáticamente.
+Memoria visual para construir más rápido: [biblioteca de referencias](design-library/README.md), con Carbone y Bon Bouquet estudiados en escritorio y móvil, fuentes identificadas, medidas y recetas reutilizables. Consulta compacta: `node tools/design-library/query.mjs brunch --recipe`. Es memoria del asistente en este repositorio; no añade estilos nuevos al generador automáticamente.
 
 # human-webs-mega
 

@@ -22,6 +22,33 @@
       "summary": "Marino y marfil; Bourgeois BoldCond en títulos, Hoefler Text en lectura; fotografía real amplia, carta HTML y reserva móvil inferior.",
       "record": "references/carbone-new-york/2026-10-30/reference.json",
       "recipe": "recipes/premium-theatrical.json"
+    },
+    {
+      "id": "bon-bouquet-cafe",
+      "name": "Bon Bouquet Café",
+      "date": "2026-10-30",
+      "source": "https://thehungryfamily.com/bon-bouquet-cafe/#menu",
+      "case": "brunch lúdico",
+      "tags": [
+        "brunch",
+        "café",
+        "cafe",
+        "casual",
+        "lúdico",
+        "playful",
+        "rosa",
+        "verde",
+        "pastel",
+        "collage",
+        "sellos",
+        "gastromond",
+        "clash",
+        "bon",
+        "bouquet"
+      ],
+      "summary": "Gastromond y Clash Grotesk; verde y rosa, navegación de sellos, fotos con máscaras festoneadas y collage de carta. El enlace real abre PDF; la receta propone HTML.",
+      "record": "references/bon-bouquet-cafe/2026-10-30/reference.json",
+      "recipe": "recipes/playful-brunch.json"
     }
   ]
 }

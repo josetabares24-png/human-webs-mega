@@ -2,6 +2,22 @@
 
 Registro de observaciones reales. Cada entrada viene de una revisión con navegador.
 
+## 2026-10-30 — Bon Bouquet Café (thehungryfamily.com)
+
+**Tipo**: Brunch lúdico. Elegido por el usuario. [Ficha con evidencia](../../design-library/references/bon-bouquet-cafe/2026-10-30/reference.json); [receta separada](../../design-library/recipes/playful-brunch.json).
+
+**Captura**: Inicio, concepto y collage a 1280×800; inicio y collage a 390×844; primera página de carta en visor PDF. Seis capturas originales guardadas e inspeccionadas. Se descartaron y sobrescribieron muestras que todavía estaban en escritorio al intentar cambiar el viewport móvil. Las aceptadas confirman scrollWidth 1265 / 375 frente a viewport 1280 / 390. Sin envío de formularios ni pedido.
+
+**Tipografía**: CSS Gastromond, fallback sans-serif; archivo identificado como Gastromond Test Regular, PostScript Gastromond-Regular. Peso CSS 400 y tracking normal. Hero escritorio 110px / 88px; móvil 52px / 41.6px. Secciones 100px / 110px; móvil 40px / 44px. Subtítulos 56px / 56px; móvil 26px / 26px. Cuerpo Clash Grotesk Light 300, 20px / 28px / tracking 0.6px; móvil 14px / 19.6px / tracking 0.42px. CTA Clash Grotesk Semibold 600, 24px / 24px / tracking 1.68px; móvil 20px / 20px / 1.4px. Solo metadatos guardados, no archivos tipográficos.
+
+**Botones y recuadros**: CTA pill, radio 50px, borde 0, sin sombra, padding 20px 30px, altura 64px escritorio / 60px móvil. Fondo muestreado como degradado verde #00966c a menta #7dd7be (90°) o lila #efe7fd (30°); no se reconstruyen tiempos de cambio. Sellos de navegación dentro de contenedor fixed, 130px escritorio / 64px móvil. Fotos del collage con mask-image de estrella/festón; muestra con radio computado 500px y sombra blanca 0 0 10px. Copiar solo el radio no reproduce la silueta.
+
+**Color y composición**: Verde #00966c, rosa #ffcade y blanco; cian #bdfbff y verde profundo #004f3c medidos en contenedores. Portada con carrusel y titular que cambia con flip; fotos reales, sellos y formas rosas. Concepto editorial a dos columnas en escritorio. Collage de quince imágenes, incluida la acción central, con máscaras repetidas y posiciones variadas. Separadores ondulados y continuidad de motivos entre lugar, Instagram y contacto.
+
+**Carta real**: /menuBB abre otra pestaña y resuelve a /wp-content/uploads/2025/09/MENUBB10.09.pdf. Visor con cuatro páginas; solo se inspecciona la primera. No afirmar carta HTML ni vigencia de precios. Para sitios del cliente, la receta propone HTML y PDF secundario.
+
+**Reutilización y comprobaciones**: Pill, máscara, degradado y resplandor forman aquí una identidad coherente; no son defectos universales ni pasan a otros casos automáticamente. Usar ilustraciones y fotografía propias. Los cuatro enlaces de anclas muestreados tienen texto vacío, aria-label ausente y alt vacío: darles nombre accesible. Verificar contraste y cuerpo móvil de 14px/300; la receta propone 16px/24px/400. Evitar superposición de navegación sobre títulos como en Concept y probar reducción de movimiento. Sin auditoría completa de accesibilidad, teclado ni formularios.
+
 ## 2026-10-30 — Carbone New York (carbonenewyork.com)
 
 **Tipo**: Premium teatral. [Ficha y evidencia](../../design-library/references/carbone-new-york/2026-10-30/reference.json); [receta original separada](../../design-library/recipes/premium-theatrical.json).

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "playful-brunch",
+  "inspiredBy": "bon-bouquet-cafe",
+  "status": "adaptation-not-render-verified",
+  "purpose": "Café o brunch con identidad expresiva, comida colorida y fotografías propias.",
+  "tokens": {
+    "color": {
+      "green": "#00966c",
+      "pink": "#ffcade",
+      "cyan": "#bdfbff",
+      "deepGreen": "#004f3c",
+      "white": "#ffffff"
+    },
+    "font": {
+      "headingObserved": "Gastromond (metadatos: Gastromond Test Regular)",
+      "bodyObserved": "Clash Grotesk Light",
+      "actionObserved": "Clash Grotesk Semibold",
+      "headingFallback": "Georgia, 'Times New Roman', serif",
+      "bodyFallback": "Arial, sans-serif",
+      "note": "Usar fuentes con archivos autorizados del cliente. Los fallbacks preparan estructura, no reproducen exactamente el diseño. No reutilizar el archivo Test observado como fuente de producción."
+    },
+    "type": {
+      "heroDesktop": { "sizePx": 110, "lineHeightPx": 88, "weight": 400 },
+      "heroMobile": { "sizePx": 52, "lineHeightPx": 41.6 },
+      "sectionDesktop": { "sizePx": 100, "lineHeightPx": 110 },
+      "sectionMobile": { "sizePx": 40, "lineHeightPx": 44 },
+      "bodyDesktop": { "sizePx": 20, "lineHeightPx": 28, "weight": 400 },
+      "bodyMobile": { "sizePx": 16, "lineHeightPx": 24, "weight": 400 },
+      "note": "El cuerpo y peso propuestos aumentan frente al caso medido: 300 y móvil 14px. Verificar saltos de línea y legibilidad con contenido real."
+    },
+    "button": {
+      "radiusPx": 50,
+      "padding": "20px 30px",
+      "desktopHeightPx": 64,
+      "mobileHeightPx": 60,
+      "borderPx": 0,
+      "shadow": "none",
+      "preferredBackground": "#004f3c",
+      "text": "#ffffff",
+      "note": "El original presenta muestras de degradado. Esta adaptación propone fondo oscuro uniforme, pendiente de comprobación de contraste."
+    },
+    "layout": {
+      "desktopGutterPx": 40,
+      "mobileGutterPx": 20,
+      "navigationBadgeDesktopPx": 130,
+      "navigationBadgeMobilePx": 64,
+      "minimumTouchTargetPx": 44,
+      "readingMaxWidthPx": 570
+    }
+  },
+  "patterns": [
+    "Sellos con ilustraciones originales y nombres accesibles para navegación y acciones",
+    "Fotos reales en collage con una familia de máscaras festoneadas propias; no copiar el SVG observado",
+    "Alternar verde y rosa con texto legible y motivos de marca coherentes",
+    "Titular breve que funciona estático; movimiento opcional con pausa y versión reducida",
+    "Acción central de carta y contenido HTML con precios; PDF opcional",
+    "Distribuir inicio, carta, concepto y visita según las rutas que necesite el negocio"
+  ],
+  "avoid": [
+    "Mezclar automáticamente este sistema con el marino/editorial de Carbone",
+    "Copiar sellos, fotos, máscaras o marca de Bon Bouquet; sustituir ilustraciones por emoji",
+    "Enlaces ilustrados sin nombre accesible",
+    "Degradados y resplandores como defecto fuera del caso elegido",
+    "Títulos tapados por navegación fija o movimiento imprescindible para leer",
+    "Carta del cliente disponible solo en PDF"
+  ],
+  "verification": [
+    "Comparar 1280px, 390px y anchuras intermedias",
+    "Revisar recortes, máscaras y coherencia de la familia visual",
+    "Probar nombres accesibles, foco, teclado, contraste y objetivos de 44px",
+    "Verificar anclas y navegación fija sin oclusiones",
+    "Probar prefers-reduced-motion, pausa y lectura del titular estático",
+    "Verificar carta HTML y datos propios del cliente",
+    "Guardar capturas de implementación y registrar diferencias frente a la evidencia"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "menuSection": {
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  "menuTarget": {
+    "href": "https://thehungryfamily.com/menuBB",
+    "target": "_blank"
+  },
+  "motion": {
+    "headline": "elementor-headline elementor-headline-animation-type-flip",
+    "heroSlides": 18
+  },
+  "navigation": {
+    "fixedContainer": "fixed"
+  },
+  "photoFrame": [
+    {
+      "borderRadius": "500px",
+      "boxShadow": "rgb(255, 255, 255) 0px 0px 10px 0px",
+      "class": "attachment-large size-large wp-image-7011",
+      "clipPath": "none",
+      "maskImage": "url(\"https://thehungryfamily.com/storage/2024/07/Star-elements-BLACKT.svg\")",
+      "tag": "IMG",
+      "webkitMaskImage": ""
+    },
+    {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "class": "elementor-widget-container elementor-motion-effects-element",
+      "clipPath": "none",
+      "maskImage": "none",
+      "tag": "DIV",
+      "webkitMaskImage": ""
+    },
+    {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "class": "elementor-element elementor-element-1b0f646 e-transform elementor-widget elementor-widget-image elementor-motion-effects-parent",
+      "clipPath": "none",
+      "maskImage": "none",
+      "tag": "DIV",
+      "webkitMaskImage": ""
+    }
+  ],
+  "url": "https://thehungryfamily.com/bon-bouquet-cafe/#menu"
+}

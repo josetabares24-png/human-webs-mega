@@ -57,6 +57,7 @@ No inventes una familia "con carácter". Elige la fila.
 - Premium teatral (Carbone): Bourgeois BoldCond en títulos y acciones, Hoefler Text en lectura, marino y marfil, botón casi rectangular sin sombra. Ficha y adaptación en `design-library/`; las fuentes observadas requieren assets autorizados. La barra de reserva móvil está medida en este caso; no se convierte en defecto para otros.
 - Editorial (Dishoom): serif en el texto, sans en la UI, crema, botón outline.
 - Casual (Sweetgreen): una sans en todo, CTA de texto, crema, sin card.
+- Brunch lúdico (Bon Bouquet): Gastromond y Clash Grotesk, verde y rosa, sellos ilustrados, pill de carta y máscaras fotográficas. Medidas y receta en `design-library/`. Degradados, resplandor y formas documentadas pertenecen a este caso; no son un defecto universal ni un adorno automático. La adaptación verifica legibilidad, nombres accesibles y reducción de movimiento.
 
 Si el local no encaja, investiga uno real del mismo tipo con el navegador y añade la fila antes de diseñar. Medidas que hay que anotar, no adjetivos: familia, fallback, peso, tamaño de título y de cuerpo, tracking, color de fondo, color de texto, radio, borde, sombra, padding del botón.
 
@@ -72,7 +73,7 @@ Recorre la página terminada. Cualquier sí es un fallo: se rehace esa parte ant
 - Foto generada con pie que finge ser el local.
 - Copy intercambiable: "bienvenidos a nuestra experiencia", "cocina de mercado", "unlock".
 - Una sola pantalla cuyo único contenido es reservar, pedir o llamar.
-- Gradiente decorativo, blob o testimonio inventado.
+- Gradiente o forma decorativa sin respaldo en la identidad y el caso elegido; casos documentados como Bon Bouquet requieren comprobar su función y legibilidad. Testimonio inventado siempre falla.
 
 El checklist de `principles/anti-ai-checklist.md` se marca después de este filtro, no en su lugar.
 

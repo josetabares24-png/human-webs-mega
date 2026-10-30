@@ -1,0 +1,38 @@
+{
+  "heading": {
+    "url": "https://thehungryfamily.com/storage/2024/07/gastromond-regular-webfont.woff2",
+    "names": {
+      "1": ["Gastromond Test"],
+      "2": ["Regular"],
+      "4": ["Gastromond Test Regular"],
+      "6": ["Gastromond-Regular"],
+      "14": ["http://jtdtype.com/eula.php"],
+      "16": [],
+      "17": []
+    }
+  },
+  "body": {
+    "url": "https://thehungryfamily.com/storage/2024/07/clashgrotesk-light-webfont.woff2",
+    "names": {
+      "1": ["Clash Grotesk Light"],
+      "2": ["Regular"],
+      "4": ["Clash Grotesk Light Regular"],
+      "6": ["ClashGrotesk-Light"],
+      "14": ["https://fontshare.com/terms"],
+      "16": ["Clash Grotesk"],
+      "17": ["Light"]
+    }
+  },
+  "action": {
+    "url": "https://thehungryfamily.com/storage/2024/07/clashgrotesk-semibold-webfont.woff2",
+    "names": {
+      "1": ["Clash Grotesk Semibold"],
+      "2": ["Regular"],
+      "4": ["Clash Grotesk Semibold Regular"],
+      "6": ["ClashGrotesk-Semibold"],
+      "14": ["https://fontshare.com/terms"],
+      "16": ["Clash Grotesk"],
+      "17": ["Semibold"]
+    }
+  }
+}

@@ -18,8 +18,11 @@ Para referencias nuevas, consulta primero el [catálogo estructurado](../../desi
 | Premium independiente | Cutler & Co. | Persona / Archivo Narrow | Nav y CTA | Sans, mayúsculas, peso 700, ~15–16px, letter-spacing ~1.1px. |
 | Premium independiente | Cutler & Co. | Caslon / garamond-premier-pro | Cuerpo, platos y precios | Serif, ~16px, peso 400. Body base sans 17px. |
 | Premium teatral | Carbone | Bourgeois BoldCond; Hoefler Txt Roman en lectura | Títulos y acciones condensados; cuerpo serif | Títulos 32px / 38px / CSS 700 / mayúsculas. Cuerpo escritorio 18px / 26.4px / 400, móvil 16px / 24px. Tracking normal. CTA 20px / 28px / CSS 400 sobre archivo BoldCond. Fallback generado Arial con métricas ajustadas. |
+| Brunch lúdico | Bon Bouquet | Gastromond (metadatos: Gastromond Test Regular), fallback sans-serif; Clash Grotesk en lectura/UI | Títulos expresivos y sans ligera | Hero 110px / 88px / 400; móvil 52px / 41.6px. Sección 100px / 110px; móvil 40px / 44px. Cuerpo Clash 20px / 28px / 300 / tracking 0.6px; móvil 14px / 19.6px / 0.42px. |
 
 ## Botones
+
+Bon Bouquet se documenta como caso propio: sus pills, máscaras y resplandores no sustituyen las reglas de los otros casos.
 
 | Caso | Referencia | Forma | Relleno | Radio | Sombra | Medida |
 |---|---|---|---|---|---|---|
@@ -29,6 +32,7 @@ Para referencias nuevas, consulta primero el [catálogo estructurado](../../desi
 | Premium cartel | St. JOHN | Rectángulo | "View Menus" outline 1px negro sobre blanco. "Make a Reservation" filled negro, texto blanco. Misma caja. | 0 | Ninguna | Desktop ~318×57, Georgia 18px / 400, padding 17px. Móvil 310×44, tipo 14px. Inputs iguales: borde 1px, radio 0. |
 | Premium independiente | Cutler & Co., "MAKE A RESERVATION" | Texto | Fondo transparente, sin borde, color `rgb(34, 34, 34)` | 0 | No | Mayúsculas, sans peso 700, letter-spacing 1.12px. |
 | Premium teatral | Carbone | Rectángulo | Marfil `#fff9f0`, texto marino `#0a1a29`, borde computado 0.8px marino | 2px | Ninguna | Padding 10px 16px 6px; altura escritorio 45.6px. Reserva inferior móvil de 64px. |
+| Brunch lúdico | Bon Bouquet | Pill de carta | Muestras de degradado verde/menta y verde/lila, texto blanco, sin borde | 50px | Ninguna en CTA | Clash Grotesk 600; escritorio 24px / 24px / tracking 1.68px, móvil 20px / 20px / 1.4px. Padding 20px 30px. Altura 64px / 60px. Sellos de navegación 130px / 64px. |
 
 No usar como defecto el pill rojo `#e31837` de `button-patterns.md`. No coincide con los casos documentados.
 
@@ -42,6 +46,7 @@ No usar como defecto el pill rojo `#e31837` de `button-patterns.md`. No coincide
 | Premium cartel | Foto a sangre, sin pie y sin velo. Horarios en columnas. Menú en tabla HTML. | Sin `box-shadow` en botón, nav o foto. El aire lo da el H1, no una card. |
 | Premium independiente | Foto real del comedor y rejilla de fotos. Menú HTML por secciones, con precio. | Sin `box-shadow` y sin cards pesadas. |
 | Premium teatral | Bloques marinos editoriales, fotos anchas y pares foto/texto. Carta HTML por secciones y precios. | Sin sombra en cabecera o botón; sin tres cards genéricas. |
+| Brunch lúdico | Collage con mask-image de estrella/festón; foto muestreada con radio computado 500px y resplandor blanco 0 0 10px. Bloques de texto/foto sobre verde. | El collage no es una rejilla de cards de app. Copiar solo el radio no reproduce la máscara. |
 
 Defecto si el caso no pide otra cosa: sin card, sin sombra, sin tres columnas iguales. La tabla de la carta y el borde de 1px del botón no son cards.
 
@@ -55,6 +60,7 @@ Defecto si el caso no pide otra cosa: sin card, sin sombra, sin tres columnas ig
 | Premium cartel | Página `rgb(249, 249, 249)`, html blanco | Negro | Barra superior negra con texto blanco. Sin segundo color. |
 | Premium independiente | Blanco `rgb(255, 255, 255)`, crema `rgb(247, 247, 237)` | `rgb(34, 34, 34)` o negro | Oscuro solo en skip y velos. Sin color de marca brillante. |
 | Premium teatral | Marino `#0a1a29`; body base marfil `#fff9f0` | Marfil sobre marino; marino sobre marfil | Reserva en marfil. Sin degradado decorativo. |
+| Brunch lúdico | Verde `#00966c`, rosa `#ffcade` | Blanco en bloques verdes; verde en portada | Cian `#bdfbff`, verde profundo `#004f3c`; CTA con menta `#7dd7be` o lila `#efe7fd`. Contraste pendiente de auditoría. |
 
 ## Al añadir un caso
 

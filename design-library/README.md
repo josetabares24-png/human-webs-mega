@@ -7,6 +7,7 @@ Para elegir sin cargar toda la investigación:
 ```powershell
 node tools/design-library/query.mjs premium
 node tools/design-library/query.mjs carbone --recipe
+node tools/design-library/query.mjs brunch --recipe
 node tools/design-library/query.mjs --check
 ```
 
@@ -17,8 +18,9 @@ La primera consulta devuelve hasta tres resúmenes y rutas. La segunda entrega l
 | Referencia | Caso | Estado | Ficha |
 |---|---|---|---|
 | [Carbone New York](https://carbonenewyork.com/) | Premium teatral | Observado el 30/10/2026, escritorio y móvil | [Medidas, fuentes y evidencias](references/carbone-new-york/2026-10-30/reference.json) |
+| [Bon Bouquet Café](https://thehungryfamily.com/bon-bouquet-cafe/#menu) | Brunch lúdico | Observado el 30/10/2026, escritorio, móvil y carta enlazada | [Medidas, fuentes y evidencias](references/bon-bouquet-cafe/2026-10-30/reference.json) |
 
-Los cinco casos anteriores siguen en `examples/restaurants/biblioteca.md`. No se han recapturado ni convertido automáticamente a este formato. El catálogo estructurado contiene por ahora Carbone.
+Las dos referencias fueron elegidas por el usuario por su diseño. Representan direcciones diferentes: editorial marino y lúdica verde/rosa. Elegir una combinación coherente para cada negocio; no mezclar piezas automáticamente. Los cinco casos anteriores siguen en `examples/restaurants/biblioteca.md`; no se han recapturado ni convertido automáticamente a este formato.
 
 ## Qué se conserva
 
