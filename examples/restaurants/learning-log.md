@@ -146,3 +146,30 @@ Registro de observaciones reales. Cada entrada viene de una revisión con navega
 6. Fotografía de espacio real y mesa sin overlays marketing ni captions vacíos.
 
 **Anti-IA**: No suena a briefing ni a tema de Squarespace genérico (aunque está en Squarespace). Los platos concretos, la historia del edificio, el mix tipográfico y los CTAs de texto lo hacen sentir un restaurante real de Melbourne que creció, no una plantilla de fine dining. Eso es lo copiable para anti-IA.
+
+## 2026-10-30 — The French Laundry (thomaskeller.com/tfl/)
+
+**Tipo**: Premium / independiente (fine dining francés en Yountville, Napa Valley; Thomas Keller; Michelin 3 estrellas; edificio histórico de 1900).
+
+**Lo que se ve**:
+- Home minimalista del grupo: navegación superior (About dropdown, Reservations → Tock externo, Menus & Stories, Wine & Spirits, Private Dining & Events, Culinary Garden). Foto hero del edificio/restaurante. Logos de premios (Michelin, Relais & Châteaux, etc.).
+- Página Restaurant: historia concreta del edificio (saloon 1900 por stonemason escocés, French steam laundry en 1920s, renovado por Don y Sally Schmitt en 1978, comprado por Keller en 1994). Menú cambia diariamente. Premios factuales (Michelin 3 estrellas desde 2007, James Beard, Wine Spectator Grand Award).
+- Reservas: enlace externo a exploretock.com/tfl/ (Cloudflare bot check en la sesión).
+- Menús: no HTML, sino PDFs fechados con tasting menu específico (ej. “oysters and pearls” Sabayon of Pearl Tapioca with Island Creek Oysters and Regiis Ova Caviar; platos con supplements, farms concretos).
+- Mobile (390px): sin overflow, misma tipografía, nav compacta.
+
+**Detalles estéticos (captura en vivo)**:
+- **Tipografía**: Body Ideal Sans SSm (sans, ~11.6-12.25px, peso 300-400, color rgb(51,51,51)). Nav buttons en Filosofia (display/serif?, 17.4px, peso 400, navy). Links secundarios en mrs-eaves (serif, 11.6px, gray). Jerarquía baja, tamaños pequeños, no display gigante.
+- **Botones**: CTAs y nav son texto puro (fondo transparente, radius 0-1px, sin borde visible, color navy rgb(0,47,101)). No filled, no outline, no pill. Reservations es link externo.
+- **Colores**: Fondo blanco puro. Texto oscuro rgb(51,51,51). Acento navy oscuro para links/nav. Paleta restringida, alto contraste, sin cremas ni colores de marca brillantes.
+- **Espaciado, bordes, sombras, fotografía**: Generoso pero contenido. Sin sombras ni cards. Fotografía real del edificio/restaurante y logos de premios; no overlays marketing. Menús en PDF, no grid de platos.
+
+**Patrones útiles**:
+1. Tipografía sans ligera (Ideal Sans) para cuerpo + display sutil (Filosofia) para nav → se siente institucional y preciso, no editorial de moda ni app.
+2. CTAs y navegación como texto navy sin chrome de botón → discreto, como directorio de un club o hotel histórico.
+3. Historia anclada al edificio concreto (años, dueños anteriores, función original de laundry) sin hype de “culinary journey”.
+4. Menú como PDF fechado con platos nominados y farms/ingredientes específicos (“oysters and pearls”, Island Creek, Regiis Ova) → carta de cocina, no cards HTML de e-commerce.
+5. Premios listados de forma factual (desde 2007, único americano con dos 3 estrellas) sin callouts o badges grandes.
+6. Estructura de grupo (Thomas Keller Restaurant Group) con subsecciones claras, reservas externas, sin hero de conversión agresiva.
+
+**Anti-IA**: El sitio no vende la experiencia con fotos de platos glamour o CTAs brillantes; documenta el lugar y la operación. La tipografía pequeña y precisa, el navy institucional, la historia del edificio de 1900 y los PDFs de menú lo hacen sentir como el sitio de un restaurante que no necesita justificarse. Honestamente es espartano y a veces 404 en paths, pero esa falta de polish template es lo anti-IA.
