@@ -41,3 +41,11 @@ Cada entrada: síntoma, evidencia/alcance, causa probable, corrección, prueba d
 - **Prevención:** clasificar como implementado, probado localmente, comprobado en producción o pendiente; guardar logs, URLs y pruebas pertinentes.
 - **Prueba:** reportar resultados reales y limitaciones por entorno.
 - **Estado:** prevención activa.
+
+### ERR-007 — Fondo terracota repetido en proyectos distintos
+- **Observado:** el usuario informa que las webs generadas por IA tienden a repetir un fondo terracota y una estética similar, aunque sean negocios diferentes (feedback explícito, 2026-10-30).
+- **Alcance:** nuevos proyectos y rediseños con libertad creativa; no invalida una marca cuya identidad requiera ese tono.
+- **Causa:** hipótesis: la IA reutiliza combinaciones «seguras» de crema/terracota, serif y cajas sin investigar la marca ni el sector. La causa técnica no se ha demostrado.
+- **Prevención:** prohibir **terracota/beige como valores predeterminados**, no como colores absolutos. Investigar fuentes reales y bosquejar tres direcciones no intercambiables; comparar paleta, composición, tipografía, navegación, fotografía y CTA con trabajos anteriores si están disponibles. Ver [ART-DIRECTION](ART-DIRECTION.md).
+- **Prueba:** registrar las tres direcciones y al menos tres diferencias de sistema entre opciones; justificar por qué la elegida no replica el proyecto anterior. Inspeccionar capturas de móvil y escritorio; si vuelve el terracota, documentar razón concreta del negocio o rehacer la dirección.
+- **Estado:** regla vigente por preferencia explícita. Evaluación cualitativa; ningún control automático garantiza originalidad estética.

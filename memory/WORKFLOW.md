@@ -4,13 +4,13 @@
 1. Descubre el repo de destino y el objetivo comercial: qué tiene que lograr el usuario en la web.
 2. Brief mínimo: tipo de negocio, localización, audiencia, servicio, diferencial, idioma, identidad, assets, acciones principales, páginas, requisitos legales, contacto, plazo. Desconocido ≠ permiso para inventar.
 3. Clasifica: web nueva, rediseño, corrección visual, SEO técnico, componente, integración.
-4. Selecciona 1–2 referencias **del mismo tipo**, revisa evidencia y señala diferencias. No copies una web ajena.
+4. Para web nueva/rediseño con libertad de diseño, sigue [ART-DIRECTION](ART-DIRECTION.md): investiga fuentes reales (del sector y de un sector transversal), compara **tres direcciones de arte diferentes**, documenta selección y alternativas rechazadas. No clones una web ajena.
 
 ## B. Preparar antes del código
 1. Lee `AGENTS.md`, `memory/INDEX.md` y solo los módulos relevantes.
 2. Revisa `memory/ERRORS.md`; haz una lista de riesgos concretos.
 3. Inspecciona código y tests existentes del repo de destino; respeta componentes, tokens, estructura y estilo vigentes.
-4. Diseña primero contenido y sitemap/flujo; después tipografía, composición, sistema de componentes y estados.
+4. Diseña primero contenido y sitemap/flujo; después plantea tres propuestas de estilo sustancialmente distintas. Rechaza el terracota y la composición habitual como valores por defecto. Elige una opción con criterio documentado en [ficha de dirección](DESIGN-DIRECTION-TEMPLATE.md).
 
 ## C. Construir
 1. Cambios pequeños, reutilizables y fáciles de revisar; crea/usa rama de trabajo.

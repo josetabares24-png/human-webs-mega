@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "bon-bouquet-cafe",
+  "date": "2026-10-30",
+  "source": "https://thehungryfamily.com/bon-bouquet-cafe/#menu",
+  "status": "observed-live",
+  "scope": [
+    "Inicio",
+    "Concepto editorial",
+    "Collage de carta",
+    "PDF enlazado",
+    "Inicio y collage móvil"
+  ],
+  "method": "IAB, capturas originales guardadas e inspeccionadas, estilos DOM computados y metadatos de fuentes públicas leídos en memoria con FontTools. Sin formularios enviados ni pedidos.",
+  "viewports": [
+    { "width": 1280, "height": 800 },
+    { "width": 390, "height": 844 }
+  ],
+  "observed": {
+    "case": "brunch lúdico",
+    "colors": {
+      "green": "#00966c",
+      "pink": "#ffcade",
+      "cyan": "#bdfbff",
+      "deepGreen": "#004f3c",
+      "white": "#ffffff"
+    },
+    "fonts": {
+      "heading": {
+        "cssFamily": "Gastromond, sans-serif",
+        "metadataFamily": "Gastromond Test Regular",
+        "postscript": "Gastromond-Regular",
+        "weight": 400,
+        "tracking": "normal",
+        "heroDesktop": "110px / 88px",
+        "heroMobile": "52px / 41.6px",
+        "sectionDesktop": "100px / 110px",
+        "sectionMobile": "40px / 44px",
+        "subheadingDesktop": "56px / 56px",
+        "subheadingMobile": "26px / 26px"
+      },
+      "body": {
+        "family": "Clash Grotesk",
+        "postscript": "ClashGrotesk-Light",
+        "fallback": "sans-serif",
+        "weight": 300,
+        "desktop": "20px / 28px, tracking 0.6px",
+        "mobile": "14px / 19.6px, tracking 0.42px"
+      },
+      "action": {
+        "family": "Clash Grotesk",
+        "postscript": "ClashGrotesk-Semibold",
+        "weight": 600,
+        "desktop": "24px / 24px, tracking 1.68px",
+        "mobile": "20px / 20px, tracking 1.4px"
+      },
+      "qualification": "Gastromond es el nombre CSS; el archivo se identifica internamente como Gastromond Test Regular. Esto no confirma una licencia de reutilización. Solo se catalogan fuentes de los elementos medidos."
+    },
+    "button": {
+      "role": "Carta del hero",
+      "radiusPx": 50,
+      "padding": "20px 30px",
+      "border": "0px none",
+      "shadow": "none",
+      "desktopHeightPx": 64,
+      "mobileHeightPx": 60,
+      "textColor": "#ffffff",
+      "backgroundSamples": [
+        "linear-gradient(90deg, #00966c 0%, #7dd7be 100%)",
+        "linear-gradient(30deg, #00966c 0%, #efe7fd 100%)"
+      ],
+      "note": "Muestras de estados diferentes; no se reconstruyen tiempos ni reglas exactas del cambio."
+    },
+    "navigation": {
+      "behavior": "Contenedor fixed con enlaces ilustrados a anclas y entrega externa",
+      "badgeDesktopPx": 130,
+      "badgeMobilePx": 64,
+      "mobileArrangement": "Dos filas arriba a la derecha; marca a la izquierda",
+      "semantics": "Los cuatro enlaces de anclas muestreados en móvil tienen texto vacío, aria-label ausente y alt vacío."
+    },
+    "photography": {
+      "hero": "Carrusel de fotos de comida con formas rosas superpuestas y titular con flip de palabras",
+      "menu": "Quince imágenes, incluida la acción central, en collage con máscaras de estrella/festón",
+      "maskSource": "https://thehungryfamily.com/storage/2024/07/Star-elements-BLACKT.svg",
+      "sampleComputed": {
+        "borderRadius": "500px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 10px 0px"
+      },
+      "note": "La silueta procede de mask-image; el radio solo no reproduce la forma visible."
+    },
+    "layout": [
+      "Portada fotográfica con título grande alineado a la izquierda y una acción de carta",
+      "Concepto editorial en verde con texto blanco y fotografía a dos columnas en escritorio",
+      "Collage rosa con sello central como enlace principal",
+      "Separadores ondulados y motivos repetidos entre secciones",
+      "Lugar, Instagram, FAQ y contacto continúan el sitio"
+    ],
+    "menu": {
+      "entry": "https://thehungryfamily.com/menuBB",
+      "target": "_blank",
+      "resolvedUrl": "https://thehungryfamily.com/wp-content/uploads/2025/09/MENUBB10.09.pdf",
+      "format": "PDF",
+      "pageCountShownByViewer": 4,
+      "inspection": "Primera página y contador de cuatro páginas; sin comprobar todas las páginas ni vigencia de los datos."
+    },
+    "responsive": {
+      "desktopScrollWidth": 1265,
+      "desktopViewportWidth": 1280,
+      "mobileScrollWidth": 375,
+      "mobileViewportWidth": 390,
+      "result": "Sin desbordamiento horizontal de la página en las muestras guardadas. No deducir columnas del ancho de una sola imagen transformada."
+    }
+  },
+  "adaptationChecks": [
+    "Dar nombres accesibles a enlaces ilustrados y foco visible",
+    "Evitar que la navegación fija tape títulos al saltar a anclas; la captura Concept muestra superposición parcial",
+    "Verificar contraste de blanco sobre verde y sobre zonas claras del CTA",
+    "Revisar cuerpo móvil de 14px/300; la receta propone lectura mayor",
+    "Probar reducción de movimiento y pausa de carrusel, sellos y titular",
+    "Publicar la carta del cliente en HTML; PDF secundario"
+  ],
+  "evidence": [
+    {
+      "path": "01-desktop-home.jpg",
+      "kind": "desktop-home",
+      "viewport": "1280x800",
+      "note": "Muestra legible de un hero animado; foto y palabras cambian."
+    },
+    {
+      "path": "02-desktop-concept.jpg",
+      "kind": "desktop-editorial",
+      "viewport": "1280x800"
+    },
+    {
+      "path": "03-desktop-menu-collage.jpg",
+      "kind": "desktop-menu-collage",
+      "viewport": "1280x800"
+    },
+    {
+      "path": "04-linked-menu.jpg",
+      "kind": "pdf-first-page",
+      "viewport": "1280x800",
+      "note": "Visor con página 1 y contador de 4."
+    },
+    {
+      "path": "05-mobile-home.jpg",
+      "kind": "mobile-home",
+      "viewport": "390x844"
+    },
+    {
+      "path": "06-mobile-menu-collage.jpg",
+      "kind": "mobile-menu-collage",
+      "viewport": "390x844"
+    },
+    { "path": "desktop-measurements.json", "kind": "computed-styles" },
+    {
+      "path": "mobile-measurements.json",
+      "kind": "computed-styles",
+      "note": "#id1 está oculto en móvil; equivalentes visibles medidos en mobile-interaction-evidence.json."
+    },
+    {
+      "path": "interaction-evidence.json",
+      "kind": "mask-and-navigation-structure"
+    },
+    {
+      "path": "mobile-interaction-evidence.json",
+      "kind": "mobile-copy-and-link-semantics"
+    },
+    { "path": "font-metadata.json", "kind": "font-name-tables" }
+  ],
+  "limits": [
+    "Investigación visual acotada; no auditoría completa de accesibilidad, teclado, lector de pantalla o formularios.",
+    "No se probaron entrega externa, todas las páginas del PDF ni prefers-reduced-motion.",
+    "Las capturas son muestras del movimiento, no una reconstrucción de sus tiempos.",
+    "Las primeras muestras que seguían mostrando escritorio al intentar móvil fueron sobrescritas; los archivos móviles aceptados registran 390×844.",
+    "No se guardan fuentes, fotos, máscaras ni sellos como assets reutilizables. Las capturas son evidencia de investigación.",
+    "La receta es una adaptación original pendiente de implementar y comparar visualmente."
+  ]
+}

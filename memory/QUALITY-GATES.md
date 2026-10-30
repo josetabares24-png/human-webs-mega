@@ -11,6 +11,15 @@ Son puertas de verificación, no un test de marketing. Adaptar al alcance y al s
 - [ ] Contenido original: sin copia no autorizada de fotos, tipografías, logos ni textos de terceros.
 - [ ] Publicar en producción, cambiar DNS, habilitar cobros o correos solo con autorización y comprobación de destino.
 
+## Bloqueo de identidad para webs nuevas y rediseños
+- [ ] Se consultaron referencias reales del sector y alguna transversal, registrando URLs, fecha y lo observado; cuando no hubo navegador, se indicó explícitamente y se usaron referencias ya documentadas.
+- [ ] Existen tres direcciones visuales diferenciables en **algo más que el color**, con propuestas de layout, tipografía, fondo, tratamiento de imagen y CTA, documentadas según [ART-DIRECTION](ART-DIRECTION.md).
+- [ ] Se escogió la dirección con razones del negocio, no por la plantilla habitual; se contrastó su huella visual con proyectos previos accesibles.
+- [ ] No se ha elegido fondo terracota / arcilla / beige cálido ni combinación serif + cards como estilo por defecto; si aparece, se documentó la razón de identidad concreta.
+- [ ] Se revisaron capturas de home y plantillas internas en móvil y escritorio. No basta con cambiar un único hex para reclamar una estética original.
+
+Estos controles aplican a web nueva y rediseño visual, no obligan a rediseñar un sitio cuando solo se corrige un error técnico.
+
 ## Revisión UX / visual
 - [ ] Dirección visual coincide con el brief y se aplica a home, navegación, pie, páginas internas y estados de formulario.
 - [ ] Títulos específicos, jerarquía tipográfica, márgenes, contraste y botones coherentes.

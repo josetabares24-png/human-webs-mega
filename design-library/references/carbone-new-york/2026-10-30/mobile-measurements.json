@@ -1,0 +1,118 @@
+{
+  "elements": [
+    {
+      "background": "rgb(255, 249, 240)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "color": "rgb(10, 26, 41)",
+      "display": "block",
+      "fontFamily": "__hoeflerFont_485799, __hoeflerFont_Fallback_485799",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "height": 10586.1005859375,
+      "letterSpacing": "normal",
+      "lineHeight": "24px",
+      "padding": "0px",
+      "position": "static",
+      "role": "body",
+      "textTransform": "none",
+      "width": 375.2000122070313
+    },
+    {
+      "background": "rgb(10, 26, 41)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "color": "rgb(255, 249, 240)",
+      "display": "block",
+      "fontFamily": "__hoeflerFont_485799, __hoeflerFont_Fallback_485799",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "height": 54,
+      "letterSpacing": "normal",
+      "lineHeight": "24px",
+      "padding": "0px",
+      "position": "sticky",
+      "role": "header",
+      "textTransform": "none",
+      "width": 375.2000122070313
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "color": "rgb(255, 249, 240)",
+      "display": "block",
+      "fontFamily": "__headingFont_5c2578, __headingFont_Fallback_5c2578",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "height": 42,
+      "letterSpacing": "normal",
+      "lineHeight": "38px",
+      "padding": "0px",
+      "position": "static",
+      "role": "hero-caption",
+      "textTransform": "uppercase",
+      "width": 189.0500030517578
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "color": "rgb(255, 249, 240)",
+      "display": "block",
+      "fontFamily": "__headingFont_5c2578, __headingFont_Fallback_5c2578",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "height": 38,
+      "letterSpacing": "normal",
+      "lineHeight": "38px",
+      "padding": "0px",
+      "position": "static",
+      "role": "section-heading",
+      "textTransform": "uppercase",
+      "width": 311.20001220703125
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(229, 231, 235)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "color": "rgb(255, 249, 240)",
+      "display": "block",
+      "fontFamily": "__hoeflerFont_485799, __hoeflerFont_Fallback_485799",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "height": 216,
+      "letterSpacing": "normal",
+      "lineHeight": "24px",
+      "padding": "0px",
+      "position": "static",
+      "role": "body-copy",
+      "textTransform": "none",
+      "width": 311.20001220703125
+    },
+    {
+      "missing": true,
+      "role": "reserve"
+    },
+    {
+      "missing": true,
+      "role": "menu-tab"
+    },
+    {
+      "missing": true,
+      "role": "menu-select"
+    }
+  ],
+  "scrollWidth": 375,
+  "url": "https://carbonenewyork.com/",
+  "viewport": {
+    "dpr": 1.0000000149011612,
+    "height": 844,
+    "width": 390
+  }
+}

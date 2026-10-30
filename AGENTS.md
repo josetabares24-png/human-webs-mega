@@ -1,12 +1,12 @@
 # Human Webs — instrucciones permanentes para IA constructoras
 
 ## Identidad (no negociable)
-Este repositorio es una **MEMORIA MAESTRA versionada para construir páginas web con Codex y otras IA**. NO es un bot, NO es una plataforma SaaS y NO requiere desarrollar una aplicación generadora. Una IA externa construye la web del cliente en su propio proyecto consultando esta memoria. El directorio experimental `builder/` de otra rama o PR no redefine el objetivo.
+Este repositorio es una **MEMORIA MAESTRA versionada para construir páginas web con Codex y otras IA**. NO es un bot, NO es una plataforma SaaS y NO requiere desarrollar una aplicación generadora. Una IA externa construye la web del cliente en su propio proyecto consultando esta memoria. El constructor web autónomo fue descartado por decisión del usuario. No crear ni restaurar `builder/` ni convertir esta memoria en aplicación. El PR histórico del constructor está cerrado.
 
 ## Arranque obligatorio y ligero
 1. Lee `memory/INDEX.md` y `memory/DECISIONS.md`.
 2. Identifica sector, tipo de proyecto, entregables y riesgos.
-3. Sigue el enrutamiento de `memory/INDEX.md`: abre **solo** los archivos pertinentes y las fuentes originales; no pegues toda la memoria al contexto.
+3. Sigue el enrutamiento de `memory/INDEX.md`: abre **solo** los archivos pertinentes y las fuentes originales; no pegues toda la memoria al contexto. Para webs nuevas y rediseños, lee `memory/ART-DIRECTION.md` y consulta `design-library/` antes de elegir colores o composición.
 4. Antes de escribir código, revisa `memory/ERRORS.md` y los bloqueos de `memory/QUALITY-GATES.md`.
 5. Comprueba el estado del repositorio de DESTINO: framework, ramas, pruebas, infraestructura y políticas. No asumas el mismo stack para todos los clientes.
 6. Ejecuta, prueba, inspecciona escritorio y móvil, corrige, documenta y entrega evidencia. No marques tareas como hechas sin verificar.
@@ -20,6 +20,9 @@ Este repositorio es una **MEMORIA MAESTRA versionada para construir páginas web
 ## Reglas siempre activas
 - Nunca inventes testimonios, reseñas, clientes, certificaciones, disponibilidad, imágenes del local, precios, contacto, enlaces, resultados de SEO ni pruebas.
 - No copies marca, fotografías, textos ni fuentes comerciales de webs de referencia sin autorización y licencia. Extrae principios, crea soluciones originales.
+- **Antirrepetición obligatoria:** nada de fondo terracota/arcilla, beige cálido ni el mismo hero, tarjetas y botones por defecto. Ni siquiera repetir la misma solución con una paleta diferente. Solo usar esos colores si los exige una identidad existente o hay un motivo concreto documentado.
+- En web nueva/rediseño, **investiga referencias actuales y originales** (fuente, fecha, características verificables), explora **tres direcciones visuales sustancialmente diferentes** y decide según marca, contenido, accesibilidad y conversión. Si no puedes navegar, usa referencias verificadas de la biblioteca y declara esa limitación. No afirmes haber visitado una web sin haberlo hecho.
+- Compara paleta, estructura, tipografía, navegación, fotografía y CTAs con los proyectos previos disponibles; evita repetir su huella visual. Registra elección y opciones descartadas en el trabajo del cliente; sigue `memory/ART-DIRECTION.md`.
 - No impongas layouts, componentes o estética repetitiva; el diseño debe corresponder al negocio y a su contenido real.
 - No muestres un formulario que simula entregar mensajes. Comprueba recepción real y política de privacidad si aplica.
 - No expongas secretos ni publiques producción, cambies DNS, actives pagos o envíes comunicaciones sin autorización explícita para esa acción.

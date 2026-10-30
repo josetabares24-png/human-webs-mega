@@ -24,3 +24,6 @@ Usar al investigar una web, corregir un fallo o recibir una observación. No gua
 5. Si contradice un patrón anterior, marcarlo como superseded con enlace y actualizar los puntos de entrada; nunca dos fuentes «vigentes» opuestas.
 6. Ejecutar `node tools/memory/check.mjs` y las pruebas del proyecto afectado.
 7. No registrar como éxito comercial algo sin métricas reales.
+
+## Registrar una dirección visual elegida
+Para nuevos proyectos, partir de [DESIGN-DIRECTION-TEMPLATE](DESIGN-DIRECTION-TEMPLATE.md). Conservar referencias visitadas de verdad (URL y fecha), tres alternativas distintas, la justificación de la elegida y qué rasgos **no** reutilizar de proyectos anteriores. No añadir marcas, fotografías o fuentes ajenas como activos de cliente.

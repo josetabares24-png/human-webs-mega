@@ -1,0 +1,47 @@
+# Protocolo obligatorio de dirección artística — evitar webs gemelas
+
+**Para:** toda web nueva, rediseño importante o cambio visual global; no para un parche técnico que deba respetar estética existente.
+
+## 0. Romper la inercia
+El usuario ha observado fondos terracota repetidos. **No empezar con terracota, beige cálido, arcilla, serif + tres tarjetas, hero centrado con imagen superpuesta ni otra combinación que la IA repita por costumbre.** Si la marca real usa terracota, sí puede ser correcto, pero documentar evidencia y diferenciación. Tampoco convertir el azul, negro o verde en nuevos valores por defecto.
+
+## 1. Diagnóstico de marca
+Antes de componer: ¿qué negocio es?, ¿para quién?, ¿qué producto/servicio destaca?, ¿qué quiere lograr el visitante?, ¿qué tono corresponde?, ¿qué fotos reales y logo existen?, ¿qué páginas y acciones necesita?, ¿qué restricciones de tiempo/accesibilidad/hospedaje hay? Si hay una web existente, preservar identidad válida y componentes salvo petición de cambio.
+
+## 2. Inspiración investigada, no imaginada
+- Buscar **al menos 3 referencias reales** cuando haya navegación: 2 de su industria/mercado y 1 de otro sector por una idea transferible. Comenzar en [fuentes de inspiración](INSPIRATION-SOURCES.md), la [biblioteca visual](../design-library/README.md) o resultados de búsqueda actualizados, y **abrir la web original**.
+- Para cada referencia anotar URL, fecha, sector, 1 patrón útil (jerarquía, navegación, foto, tipografía o composición), viewport observado, **un aspecto que NO copiar** y una limitación. La galería no sustituye inspeccionar la fuente.
+- Tomar ideas de **principios** y mezclarlas de forma original. No reproducir fotografías, textos, identidad, logo, composición casi idéntica ni tipografías sin permiso.
+- Si no hay navegador: declarar la limitación. Usar 2–3 fichas verificadas de la biblioteca o recursos entregados, sin afirmar inspección nueva. Si hay urgencia, investigación compacta pero honesta.
+
+## 3. Tres propuestas de sistema visual
+Antes de codificar se redactan **3 direcciones sustancialmente diferentes**, no tres variaciones del mismo CSS. Cada una define:
+- Identidad narrativa en una frase específica del negocio.
+- Fondo dominante y motivo, acentos y contraste comprobable.
+- Pareja tipográfica o sistema tipográfico con licencias/fallbacks.
+- Estructura del primer viewport, navegación, ritmo y secciones internas.
+- Fotos/ilustraciones autorizadas o enfoque sin imagen.
+- CTA principal y microinteracciones pertinentes.
+- Riesgo de accesibilidad/performance y esfuerzo real.
+
+**Prueba de diferencia:** las tres deben separarse en al menos **tres dimensiones sustantivas** (composición, jerarquía tipográfica, imagen, navegación, CTA, estructura/ritmo), **además** de cambiar color. Si una opción solo altera paleta, es la misma opción: rehacerla.
+
+No imponer las tres al usuario si pidió ejecución. El agente las compara internamente y elige con razones.
+
+## 4. Elección informada
+- Evaluar ajuste a marca, reconocimiento, legibilidad, claridad de acción, calidad del contenido y viabilidad en móvil. No confundir «distinto» con decorativo o complicado.
+- Comparar con **las últimas webs del usuario si están disponibles**: fondo dominante, hero, tipo, distribución, CTA y tratamiento de foto. Si repite una fórmula sin causa de marca, descartar.
+- Registrar cuál se eligió, cuáles se descartaron y por qué mediante [ficha breve](DESIGN-DIRECTION-TEMPLATE.md). Si se ha elegido terracota, **describir evidencia real que lo justifique**, nunca «se ve moderno».
+
+## 5. Construir, mostrar y revisar
+1. Construir todo el sitio con tokens coherentes en vez de arreglar solo un hero.
+2. Capturar desktop (p. ej. 1280 px) y móvil (p. ej. 390 px); revisar navegación, lectura, imágenes, foco y todas las plantillas afectadas.
+3. Preguntas obligatorias: ¿se podría cambiar el logo y usar este sitio para otro negocio? ¿El layout se parece sospechosamente al anterior? ¿Predomina un color por pereza? ¿Las fotos, tono, secciones y CTA son específicos?
+4. Si resulta genérico o copia una referencia: volver al paso 3 y revisar **estructura**, no solo sustituir hex.
+5. Cerrar [controles de entrega](QUALITY-GATES.md); informar de las referencias realmente visitadas, decisiones, resultados y pendientes.
+
+## Casos límite
+- **Marca ya definida:** respetar sus colores y tipografías autorizadas; probar tres composiciones compatibles sin rediseñar injustificadamente.
+- **Solo corrección técnica:** no cambiar el aspecto salvo petición expresa.
+- **Cliente sin fotos:** crear una propuesta sólida basada en texto y layout, o solicitar activos. No inventar local, personas ni testimonios.
+- **Tiempo muy limitado:** tres direcciones pueden ser esquemas breves; no omitir comparación, pruebas ni verdad de la fuente.

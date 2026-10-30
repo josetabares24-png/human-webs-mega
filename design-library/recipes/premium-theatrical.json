@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "premium-theatrical",
+  "inspiredBy": "carbone-new-york",
+  "status": "adaptation-not-render-verified",
+  "purpose": "Restaurante con identidad histórica, servicio expresivo y fotografía real de calidad.",
+  "tokens": {
+    "color": {
+      "background": "#0a1a29",
+      "text": "#fff9f0",
+      "actionBackground": "#fff9f0",
+      "actionText": "#0a1a29"
+    },
+    "font": {
+      "bodyFallback": "Georgia, 'Times New Roman', serif",
+      "headingFallback": "'Arial Narrow', 'Franklin Gothic Medium', sans-serif",
+      "note": "Fallbacks de adaptación, no fuentes detectadas ni equivalentes exactos. Disponibilidad depende del sistema. Usar Bourgeois/Hoefler solo con licencia y assets del cliente; elegir y verificar alternativas antes de entregar."
+    },
+    "type": {
+      "bodyDesktop": { "sizePx": 18, "lineHeightPx": 26.4 },
+      "bodyMobile": { "sizePx": 16, "lineHeightPx": 24 },
+      "heading": {
+        "sizePx": 32,
+        "lineHeightPx": 38,
+        "weight": 700,
+        "transform": "uppercase"
+      },
+      "button": { "sizePx": 20, "lineHeightPx": 28 }
+    },
+    "button": {
+      "radiusPx": 2,
+      "borderPx": 1,
+      "shadow": "none",
+      "padding": "10px 16px 6px",
+      "minHeightPx": 44
+    },
+    "layout": {
+      "readingMaxWidthPx": 760,
+      "mobileGutterPx": 32,
+      "desktopHeaderHeightPx": 80,
+      "mobileHeaderHeightPx": 54,
+      "mobileReservationHeightPx": 64,
+      "cardShadow": "none"
+    }
+  },
+  "patterns": [
+    "Inicio con foto auténtica de servicio y un dato geográfico propio; si no hay foto del local, componer con texto",
+    "Narrativa breve anclada al edificio, equipo y cocina; alternar con fotos del cliente",
+    "Carta HTML con secciones, platos y precios verificables; descarga PDF opcional",
+    "Navegación móvil de pantalla completa y CTA de reserva inferior solo si conviene al negocio; reservar espacio para que no tape contenido",
+    "Distribuir inicio, carta, la casa y visita según las necesidades reales del cliente"
+  ],
+  "avoid": [
+    "Reutilizar logo, copy, fotos o binarios tipográficos de Carbone",
+    "Aplicar el diseño sin contenido y fotografía propios",
+    "Tres cards iguales, sombra decorativa, degradado o pill sin justificación",
+    "Afirmar que los fallbacks reproducen exactamente la tipografía observada"
+  ],
+  "verification": [
+    "Revisar composición a 1280px y 390px, y anchuras intermedias",
+    "Comparar jerarquía, ritmo de imágenes y densidad con la evidencia, sin copiar identidad",
+    "Verificar contraste, foco, navegación por teclado y objetivos táctiles de 44px",
+    "Probar que la barra inferior no oculta contenido, formularios ni pie",
+    "Comprobar carta HTML, enlaces y datos del cliente",
+    "Guardar capturas de la implementación y registrar diferencias antes de llamarla terminada"
+  ]
+}

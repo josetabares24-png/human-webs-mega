@@ -5,6 +5,8 @@ on:
       - "AGENTS.md"
       - "README.md"
       - "memory/**"
+      - "design-library/**"
+      - "tools/design-library/**"
       - "prompts/bot.md"
       - "archive/**"
       - "tools/memory/**"
@@ -16,6 +18,8 @@ on:
       - "AGENTS.md"
       - "README.md"
       - "memory/**"
+      - "design-library/**"
+      - "tools/design-library/**"
       - "prompts/bot.md"
       - "archive/**"
       - "tools/memory/**"
@@ -31,3 +35,5 @@ jobs:
       - run: node --version
       - run: node --check tools/memory/check.mjs
       - run: node tools/memory/check.mjs
+      - run: node --check tools/design-library/query.mjs
+      - run: node tools/design-library/query.mjs --check
