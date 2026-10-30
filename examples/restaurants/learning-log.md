@@ -2,6 +2,13 @@
 
 Registro de observaciones reales. Cada entrada viene de una revisión con navegador.
 
+**Foco obligatorio en cada investigación**:
+- Tipografía (serif/sans, pesos, tamaños, títulos vs cuerpo)
+- Botones (forma, color, contraste, estilo filled/outline/texto, tamaño)
+- Colores (paleta, acentos, fondos, contraste)
+- Espaciado, bordes, sombras, fotografía
+- Estructura, CTAs, menú, móvil y copy
+
 ## 2026-10-30 — Dishoom (dishoom.com)
 
 **Tipo**: Cadena de restaurantes indios (inspirados en Bombay), múltiples locales.
