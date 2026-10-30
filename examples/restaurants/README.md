@@ -25,9 +25,14 @@ Patrones de botones, CTAs, heroes y elementos de interfaz tomados de las webs de
 - `sticky-cta.md` — barras fijas inferiores (muy usadas en restaurantes)
 - `popular-chains-notes.md` — notas rápidas de cada cadena
 
+## Relacionado
+
+- [Patrones de UX móvil](../mobile-ux-patterns.md) — thumb zone, tap targets 44px, sticky bars, click-to-call, menús HTML, etc.
+
 ## Cómo usar
 
 1. Elige el patrón que encaje con el tipo de restaurante (QSR, casual, fine dining).
 2. Copia el HTML/CSS.
 3. Adapta colores, tipografía y copy al negocio concreto.
-4. Pasa el checklist anti-IA antes de entregar.
+4. Aplica los patrones móviles (la mayoría de visitas son en móvil).
+5. Pasa el checklist anti-IA antes de entregar.
