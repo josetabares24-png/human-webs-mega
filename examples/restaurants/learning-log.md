@@ -119,3 +119,30 @@ Registro de observaciones reales. Cada entrada viene de una revisión con navega
 6. La home no compite con la reserva. La foto ocupa el primer viewport; reservar vive en la barra negra y en la ficha del local. En móvil (390px) no hay overflow y los dos CTAs siguen en la primera pantalla, sin barra sticky.
 
 **Anti-IA**: Se siente un letrero pintado y una carta de impresora, no un tema de restaurante. Rechaza la serif de Google Fonts “elegante”, el pill, la sombra y la foto de plato con overlay. Lo humano está en lo que una plantilla no se atreve a dejar: el copyright viejo, el basket al lado de reservations, platos sin descripción y frases torcidas que no suenan a briefing.
+
+## 2026-10-30 — Cutler & Co. (cutlerandco.com.au)
+
+**Tipo**: Premium / independiente (fine dining Modern Australian en Fitzroy, Melbourne; Andrew McConnell; antiguo metal works factory).
+
+**Lo que se ve**:
+- Home con sidebar izquierda: “MAKE A RESERVATION”, LOCATION (55–57 Gertrude St.), OPENING HOURS (Wed–Sat from 5 pm, Sun from 12 pm), CONTACT. Foto grande del interior (mesas blancas, plantas, ladrillo visto).
+- Texto de bienvenida: Andrew McConnell opened Cutler & Co. in 2009 in a former metal works factory… ethos refined, simple, hospitable dining… evolution from neighbourhood and city.
+- Grid de fotos reales del espacio y mesa. Footer con Instagram, Careers, Privacy, Contact, Trader House y acknowledgement a Wurundjeri Woi Wurrung.
+- Menú en HTML: secciones APPETISERS, SEASONAL SEAFOOD, ENTRÉES, CUTLER CLASSICS, MAIN COURSES. Platos concretos con precios (Homemade FOCACCIA 12, CUTLER DONUTS… 36, Wood-grilled 1 kg DRY-AGED RIB EYE … 240, Prime CHEESEBURGER 38).
+- Reservas: info práctica (hold space for walk-ins, 10% surcharge on Sundays), “MARK THE OCCASION” con gifts (Champagne, blooms, chocolate délice).
+
+**Detalles estéticos (captura en vivo)**:
+- **Tipografía**: Mix. Nav y CTAs en Persona / “Archivo Narrow” (sans, uppercase, peso 700, letter-spacing ~1.1px, ~15-16px). Cuerpo y ítems de menú/precios en Caslon / garamond-premier-pro (serif, ~16px, peso 400). Body base sans-serif 17px. Sensación editorial + funcional.
+- **Botones**: “MAKE A RESERVATION” es texto puro: uppercase sans, peso 700, fondo transparente, sin borde, radius 0, color rgb(34,34,34), letter-spacing 1.12px. No filled, no outline, no pill.
+- **Colores**: Fondo principal blanco (rgb(255,255,255)), algo de crema suave (rgb(247,247,237)). Texto rgb(34,34,34) o negro. Acentos oscuros para skip/overlays. Paleta restringida, alto contraste, sin colores de marca brillantes.
+- **Espaciado, bordes, sombras, fotografía**: Limpio y generoso, sin box-shadows ni cards pesadas. Fotografía real del comedor (ladrillo, mesas, plantas, staff/diners) y platos; no stock genérico. En móvil (390px) no overflow.
+
+**Patrones útiles**:
+1. Mix serif clásico (Caslon/Garamond) para cuerpo y menú + sans condensed uppercase (Archivo Narrow) para nav/CTAs → se siente como carta de restaurante con UI clara, no template.
+2. CTA de reserva como texto uppercase sin chrome de botón (radius 0, sin fill/borde) → discreto y menos “app”.
+3. Menú HTML plano con nombres específicos y precios (rib eye de 1 kg “on the menu from day one”, cheeseburger al lado de suckling pig) → como carta impresa, no cards de plato.
+4. Copy anclado al lugar y al tiempo: former metal works factory, 16 años de evolución, farms concretos (Ramarro, Corner Inlet), acknowledgement local de Traditional Custodians.
+5. Info operativa práctica integrada sin hype: walk-ins, surcharge 10% Sundays, gifts for occasions.
+6. Fotografía de espacio real y mesa sin overlays marketing ni captions vacíos.
+
+**Anti-IA**: No suena a briefing ni a tema de Squarespace genérico (aunque está en Squarespace). Los platos concretos, la historia del edificio, el mix tipográfico y los CTAs de texto lo hacen sentir un restaurante real de Melbourne que creció, no una plantilla de fine dining. Eso es lo copiable para anti-IA.
