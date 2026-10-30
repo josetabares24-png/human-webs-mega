@@ -1,3 +1,5 @@
+> **Archivo histórico.** No usar como plantilla predeterminada. El contrato de `prompts/bot.md` y `examples/restaurants/biblioteca.md` prevalece: sin hero genérico, pill rojo, tres tarjetas ni sticky CTA por defecto. La implementación actual vive en `builder/`; ver `docs/DESIGN.md` y `builder/README.md`.
+
 # Patrones de Hero — Restaurantes
 
 ## 1. Hero con foto de comida + CTA centrado (estilo más común)

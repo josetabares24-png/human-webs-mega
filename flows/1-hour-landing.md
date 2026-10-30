@@ -1,3 +1,5 @@
+> **Archivo histórico.** No usar como plantilla predeterminada. El contrato de `prompts/bot.md` y `examples/restaurants/biblioteca.md` prevalece: sin hero genérico, pill rojo, tres tarjetas ni sticky CTA por defecto. La implementación actual vive en `builder/`; ver `docs/DESIGN.md` y `builder/README.md`.
+
 # Flujo de 1 hora: Landing humana
 
 Para cuando necesitas entregar rápido algo que no se sienta a IA.

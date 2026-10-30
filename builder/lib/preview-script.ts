@@ -1,0 +1,3 @@
+// Trusted navigation glue only. Runs in an opaque sandbox without same-origin,
+// network access or form permissions. User/model content never becomes code.
+export const previewScript = `document.addEventListener('click',function(event){var a=event.target.closest('a');if(!a)return;var href=a.getAttribute('href');if(!/^#page-(index|servicios|carta|nosotros|visita)$/.test(href))return;event.preventDefault();var page=document.getElementById(href.slice(1));if(!page)return;document.querySelectorAll('.preview-page').forEach(function(p){p.classList.remove('default-page')});page.classList.add('default-page');window.scrollTo(0,0);var heading=page.querySelector('h1');if(heading){heading.tabIndex=-1;heading.focus({preventScroll:true})}});`;

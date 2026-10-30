@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-30",
+  "environment": "Windows / Node 24.16.0 / Chromium 156 / Next production build, local loopback",
+  "tests": {
+    "startTime": "2026-10-30T12:08:42.934Z",
+    "duration": 13412.333999999999,
+    "expected": 9,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "firstLocalPreview": {
+    "actionToPreviewMs": 346
+  },
+  "note": "Single local sample after the application loaded; not an AI API latency or production Core Web Vitals measurement. External integrations are mocked."
+}

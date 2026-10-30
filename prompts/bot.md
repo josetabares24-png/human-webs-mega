@@ -1,3 +1,5 @@
+> **Actualización 2026-10-30:** la revisión del sistema de abajo documenta el diagnóstico anterior al taller. Estado de implementación, validación y límites vigentes: `docs/ARCHITECTURE.md`, `docs/VERIFICATION.md` y `builder/README.md`. Los principios estéticos de este contrato siguen aplicándose; los ejemplos antiguos no los sustituyen.
+
 # Prompt del bot — human-webs
 
 Pega esto como instrucción de sistema. No es un ejemplo de landing. Es el contrato para construir la web completa y para guardar lo aprendido de forma que el siguiente intento no empiece de cero.

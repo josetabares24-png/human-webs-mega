@@ -1,3 +1,5 @@
+> **Archivo histórico.** No usar como plantilla predeterminada. El contrato de `prompts/bot.md` y `examples/restaurants/biblioteca.md` prevalece: sin hero genérico, pill rojo, tres tarjetas ni sticky CTA por defecto. La implementación actual vive en `builder/`; ver `docs/DESIGN.md` y `builder/README.md`.
+
 # Ejemplos de restaurantes — Referencias de código
 
 Patrones de botones, CTAs, heroes y elementos de interfaz tomados de las webs de restaurantes más populares y visitadas del mundo (McDonald’s, Domino’s, Chipotle, Shake Shack, Sweetgreen, Pizza Hut, Starbucks y fine-dining de alto tráfico).

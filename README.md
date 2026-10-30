@@ -1,3 +1,5 @@
+> **Aplicación:** [Human Webs Builder](builder/README.md) ya permite crear, editar, guardar versiones y exportar webs de varias páginas. Consulta [verificación](docs/VERIFICATION.md) para resultados y límites reales; IA y publicación requieren configuración y aprobación. Los HTML históricos son investigación, no el motor actual.
+
 # human-webs-mega
 
 **Mega repositorio para crear webs anti-IA**: estética humana (pre-IA), copy natural, UX basada en cómo ven, leen y compran las personas reales. Principios, patrones, plantillas y flujos ultra-rápidos para sitios bonitos, funcionales, lógicos y que generan dinero real.

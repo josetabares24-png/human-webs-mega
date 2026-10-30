@@ -1,29 +1,72 @@
-# Human Webs Builder — MVP
+# Human Webs — taller de creación de webs
 
-Aplicación Next.js autónoma en `builder/`. Genera una página HTML estática a partir de datos reales del negocio, con tres direcciones visuales, vista previa responsive y descarga local.
+Aplicación Next.js que amplía el MVP existente. Genera una web estática de cuatro páginas, permite editarla, conservar versiones y descargar el código. Funciona sin claves en modo local; IA, GitHub y publicación Vercel son conectores opcionales protegidos.
 
-## Ejecutar
+## Ejecutar en tu ordenador
+
+Requiere Node 22 o posterior (validado con Node 24) y npm.
 
 ```bash
 cd builder
-npm install
+npm ci
 npm run dev
 ```
 
-Abrir http://localhost:3000. Para desplegar en Vercel, configurar **Root Directory** como `builder`.
+Abre http://localhost:3000. Para usar el build de producción:
 
-## Límites actuales
+```bash
+npm run build
+npm run start
+```
 
-- No utiliza un modelo de IA: generación determinista, inmediata y sin costes de API.
-- No guarda proyectos ni publica sitios automáticamente.
-- No hay autenticación, facturación, editor visual ni formularios con servidor.
-- La vista previa usa `iframe sandbox` sin permisos; revisar la página antes de publicarla.
-- No incluir testimonios, horarios, precios ni fotografías inventados.
+## Usar el taller
 
-## Próximos hitos
+1. Escribe una idea, por ejemplo «Necesito una web para una barbería premium en Lisboa». El modo local reconoce sector, ciudad y estilo; no inventa nombre ni contacto.
+2. Completa los datos reales. Servicios/carta admite una línea por concepto: `Nombre | precio | descripción`. Precio y descripción pueden quedar vacíos.
+3. Crea la primera versión. Navega dentro de la previa o usa su selector de páginas; alterna escritorio/móvil.
+4. Conversación local: «hazlo más elegante», «hazlo oscuro», `Titular: …`, `Descripción: …` y `Contacto: …`. Las instrucciones no reconocidas explican sus límites. Con IA configurada puedes pedir cambios abiertos de copy y dirección visual.
+5. Datos actualiza el negocio; Estilo cambia composición; Versiones restaura sin borrar versiones anteriores; Calidad muestra bloqueos y avisos.
+6. Descarga el ZIP con HTML, proyecto editable, informe, configuración Vercel y sitemap/robots cuando hayas indicado una URL final.
+7. Mis proyectos y Conexiones permiten exportar/importar copias JSON. Los proyectos se guardan en este navegador: no están sincronizados en la nube. Hasta 40 proyectos y 50 versiones por proyecto. Usa una pestaña de edición y conserva copias.
 
-1. Persistencia y autenticación por usuario.
-2. Motor de IA que produzca datos validados (no HTML arbitrario) y biblioteca de patrones por sector.
-3. Pruebas automáticas de accesibilidad, enlaces, móvil y SEO.
-4. Publicación a Vercel bajo aprobación explícita y aislamiento de credenciales por cliente.
-5. Historial de versiones, edición y facturación.
+Los datos incompletos quedan señalados. No se generan fotos, precios, horarios, reseñas ni testimonios ficticios. El formulario solo se incluye si configuras un servicio HTTPS real de recepción. El código exportado envía POST con `name`, `email`, `message`, `consent`; la previa desactiva el envío. Debes verificar recepción y condiciones de privacidad con tu servicio.
+
+## Configurar los conectores
+
+Copia `.env.example` a `.env.local` y configura únicamente las integraciones que quieras usar. No subas este archivo a Git ni pegues sus claves en el chat.
+
+| Variable de servidor | Uso |
+|---|---|
+| `HUMAN_WEBS_OPERATOR_TOKEN` | Secreto propio de al menos 32 caracteres aleatorios. Autoriza las operaciones del taller. |
+| `HUMAN_WEBS_APP_ORIGIN` | Origen exacto de la app si el proxy cambia el origen de las peticiones; por ejemplo `http://localhost:3000`. |
+| `AI_GATEWAY_API_KEY` | Credencial AI Gateway para ejecución local. En Vercel puede usarse su OIDC automático. |
+| `AI_GATEWAY_MODEL` | ID actual del catálogo https://ai-gateway.vercel.sh/v1/models con salida estructurada. Sin valor, IA está deshabilitada. |
+| `HUMAN_WEBS_VERCEL_TOKEN` | Credencial Vercel del operador con acceso al equipo de destino. |
+| `HUMAN_WEBS_VERCEL_TEAM_ID` | Equipo Vercel opcional. |
+| `HUMAN_WEBS_GITHUB_TOKEN` | Credencial de la cuenta que creará repositorios privados dedicados; necesita crear repositorios y escribir contenido. Usa un token con alcance mínimo apropiado a tu cuenta. |
+
+Reinicia el servidor. En Conexiones introduce solo la **clave de operador**, que vive en memoria; las credenciales de proveedores permanecen en el servidor. Activa IA conscientemente: enviarás el briefing al proveedor y consumirás sus créditos. La IA devuelve JSON validado, nunca código arbitrario. No puede cambiar contactos, endpoints ni rutas; los hechos del negocio se editan en Datos. Si una generación inicial falla, la app conserva una alternativa local; una edición fallida no sustituye la versión anterior.
+
+## Publicar con aprobación
+
+Publicar muestra la versión concreta y exige revisar contenido y aceptar avisos, además de marcar «Apruebo publicar esta versión en Vercel». Identidad o contacto inválidos bloquean la acción. La aprobación queda ligada al SHA-256 de los archivos públicos.
+
+Cada proyecto usa un destino independiente `human-webs-<UUID>`. La creación puede tardar: pulsa Comprobar estado para consultar Vercel. Solo se muestra una URL verificada al recibir READY y comprobar proyecto y digest. Ante fallo de red, revisa Vercel antes de reintentar; no se recrea automáticamente el despliegue.
+
+Guardar en GitHub requiere una aprobación separada. Crea un repositorio privado de cliente y una rama por versión, sin actualizar ni fusionar main. No es necesario para descargar ni publicar directamente en Vercel. El JSON editable y el informe privado se excluyen de ambos envíos. Una publicación manual del ZIP debe excluir esos JSON y README.
+
+Para alojar el taller en Vercel: Root Directory **builder**, framework Next.js y Node 24. Configura secretos en el servidor. Este taller tiene una clave de operador compartida; aún no es un servicio multiusuario para clientes. No publiques el taller ni webs de clientes sin la aprobación correspondiente. El repositorio no incluye un workflow de despliegue automático.
+
+## Comprobar el código
+
+```bash
+npm run check
+npx playwright install chromium
+npm run test:e2e
+npm run format:check
+npm audit
+```
+
+La plantilla de CI en `docs/ci/builder.workflow.yml` usa Linux y ejecuta instalación reproducible, formato, lint, TypeScript, pruebas, build, auditoría de ejecución y Chromium. Está pendiente de activación por un mantenedor con permisos de workflows: la credencial OAuth de esta sesión no permite escribir `.github/workflows/`. Copiarla a `.github/workflows/builder.yml` para activarla. Las pruebas externas usan respuestas controladas: no gastan créditos, publican webs ni crean repositorios reales.
+
+Consulta [auditoría](../docs/AUDIT-2026-10-30.md), [verificación y límites](../docs/VERIFICATION.md), [arquitectura](../docs/ARCHITECTURE.md), [diseño](../docs/DESIGN.md) y [selección open source](../docs/OPEN-SOURCE.md). No se afirma certificación WCAG, Core Web Vitals de producción ni integraciones remotas verificadas sin credenciales.

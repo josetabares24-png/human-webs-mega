@@ -1,3 +1,5 @@
+> **Archivo histórico.** No usar como plantilla predeterminada. El contrato de `prompts/bot.md` y `examples/restaurants/biblioteca.md` prevalece: sin hero genérico, pill rojo, tres tarjetas ni sticky CTA por defecto. La implementación actual vive en `builder/`; ver `docs/DESIGN.md` y `builder/README.md`.
+
 # Barra fija inferior (sticky CTA)
 
 Patrón muy común en webs de restaurantes: una barra fija abajo con las acciones principales (Pedir, Reservar, Menú, Llamar). Nunca se pierde al hacer scroll.

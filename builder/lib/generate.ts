@@ -1,15 +1,7 @@
-export type Brief = {name:string;sector:string;city:string;description:string;contact:string;style:"editorial"|"minimal"|"bold"};
-const esc=(s:string)=>s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]||c));
-export function generateSite(b:Brief):string {
- const name=esc(b.name.trim().slice(0,100)||"Tu negocio");
- const city=esc(b.city.trim().slice(0,100));
- const sector=esc(b.sector.trim().slice(0,100));
- const rawDesc=b.description.trim().slice(0,600)||"Conoce nuestro trabajo y ponte en contacto.";
- const desc=esc(rawDesc);
- const contact=b.contact.trim().slice(0,200);
- const email=/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contact)?contact:"";
- const phone=/^\+?[\d\s()-]{7,22}$/.test(contact)?contact:"";
- const href=email?"mailto:"+encodeURIComponent(email):phone?"tel:"+phone.replace(/[^+\d]/g,""):"#contacto";
- const palette={editorial:{bg:"#f2eee5",fg:"#252620",accent:"#594c39",font:"Georgia,serif"},minimal:{bg:"#fafafa",fg:"#151515",accent:"#414141",font:"Arial,sans-serif"},bold:{bg:"#161d1b",fg:"#f6f0e6",accent:"#e6c38a",font:"Arial,sans-serif"}}[b.style];
- return `<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${name} — ${city}</title><meta name="description" content="${esc(rawDesc.slice(0,155))}"><style>:root{--bg:${palette.bg};--fg:${palette.fg};--accent:${palette.accent}}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);font-family:${palette.font};line-height:1.6}header,main,footer{max-width:1100px;margin:auto;padding:24px}header{display:flex;justify-content:space-between;gap:20px;align-items:center;border-bottom:1px solid currentColor}nav a{margin-left:18px}a{color:inherit}section{padding:65px 0;border-bottom:1px solid currentColor}h1{font-size:clamp(48px,8vw,110px);line-height:1.02;letter-spacing:-.045em;max-width:950px}h2{font-size:clamp(30px,4vw,54px);line-height:1.1}p{max-width:660px}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:12px}.cta{display:inline-block;background:var(--fg);color:var(--bg);padding:14px 24px;text-decoration:none;margin-top:20px}.meta{opacity:.7}footer{padding-bottom:50px}@media(max-width:600px){header{align-items:flex-start;flex-direction:column}nav a{margin:0 16px 0 0}section{padding:40px 0}}</style></head><body><header><strong>${name}</strong><nav aria-label="Principal"><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a></nav></header><main><section><p class="eyebrow">${sector} · ${city}</p><h1>${name}</h1><p>${desc}</p><a class="cta" href="#contacto">Hablemos</a></section><section id="nosotros"><p class="eyebrow">Nuestra propuesta</p><h2>Un servicio con identidad propia.</h2><p>${desc}</p></section><section id="contacto"><p class="eyebrow">Contacto</p><h2>Cuéntanos qué necesitas.</h2><p>${city}</p>${email||phone?`<a class="cta" href="${esc(href)}">Contactar</a>`:""}${email||phone?"<p>"+esc(contact)+"</p>":"<p>Agrega un correo o teléfono para activar el contacto directo.</p>"}</section></main><footer><strong>${name}</strong><p class="meta">© ${new Date().getFullYear()} · ${city}</p></footer></body></html>`;
+// Compatibility entry point for the original single-HTML MVP.
+import { createSite } from "./engine";
+import { renderPage } from "./render";
+export type { BriefInput as Brief } from "./schema";
+export function generateSite(brief: import("./schema").BriefInput): string {
+  return renderPage(createSite(brief), "index", "single");
 }
