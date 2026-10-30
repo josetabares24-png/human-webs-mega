@@ -11,6 +11,15 @@ Son puertas de verificación, no un test de marketing. Adaptar al alcance y al s
 - [ ] Contenido original: sin copia no autorizada de fotos, tipografías, logos ni textos de terceros.
 - [ ] Publicar en producción, cambiar DNS, habilitar cobros o correos solo con autorización y comprobación de destino.
 
+## Bloqueo de comparación para rediseños de webs existentes
+- [ ] Se leyó la memoria de marca del proyecto y se respetaron las decisiones `LOCKED` (logo, paleta, tipografía, productos y contenido) salvo cambios aprobados.
+- [ ] Capturas **antes y después** en viewports equivalentes, con fotos reales, fuentes y logotipo **cargados y verificables**; no existen huecos de imagen. Si fallan assets, no presentar la demo como comparación acabada.
+- [ ] Funciones, rutas, reservas, idiomas y SEO importantes preservados; cambios justificados y comprobados.
+- [ ] Se documentan mejoras específicas defendibles **y regresiones** respecto al original. Diferente ≠ mejor.
+- [ ] Si el resultado no supera al original o el cliente lo rechaza, se mantiene la versión existente y se proponen mejoras puntuales. No publicar ni vender la alternativa como superior.
+
+Ver [Mil Sabores: caso rechazado](CASES/MIL-SABORES-REJECTED-PROTOTYPE-2026-10-30.md) como referencia de fallo de proceso. Estas reglas aplican a rediseños, no a webs completamente nuevas.
+
 ## Bloqueo de identidad para webs nuevas y rediseños
 - [ ] Se consultaron referencias reales del sector y alguna transversal, registrando URLs, fecha y lo observado; cuando no hubo navegador, se indicó explícitamente y se usaron referencias ya documentadas.
 - [ ] Existen tres direcciones visuales diferenciables en **algo más que el color**, con propuestas de layout, tipografía, fondo, tratamiento de imagen y CTA, documentadas según [ART-DIRECTION](ART-DIRECTION.md).

@@ -6,11 +6,11 @@
 Feedback explícito del usuario (2026-10-30): **fondo terracota recurrente**. Otras combinaciones fáciles (crema + serif elegante + hero centrado + tres tarjetas + CTA redondeado) pueden ser igualmente repetitivas. No utilizar estos patrones como plantilla inicial. No prohibirlos si identidad y función los respaldan.
 
 ## Proceso obligatorio (web nueva o rediseño con libertad visual)
-1. **Reconocer marca:** sector, cliente, público, precio, personalidad, ubicación, contenido real, propósito y materiales licenciados. Respetar identidad preexistente; no imponer un rediseño arbitrario.
+1. **Reconocer marca y baseline:** sector, cliente, público, precio, personalidad, ubicación, contenido real, propósito y materiales licenciados. Si la web ya existe, leer decisiones `LOCKED`, tomar captura del original con imágenes cargadas y registrar qué funciona. **No asumir que una propuesta nueva será mejor.**
 2. **Investigar:** seguir [ART-DIRECTION](ART-DIRECTION.md); comparar webs reales pertinentes y otras de sectores contrastantes. Una galería es un punto de descubrimiento, no prueba de que la web fue inspeccionada.
 3. **Tres direcciones:** formular composiciones diferentes con variación en jerarquía, estructura, tipografía, imagen, paleta, navegación y acción principal. No son el mismo CSS con tres fondos.
 4. **Elegir y justificar:** seleccionar la opción con mejor ajuste a contenido, identidad, conversión, accesibilidad, recursos y coste; documentar por qué se descartaron las otras. No pedir al usuario elegir si el encargo permite autonomía.
-5. **Aplicar al sitio completo:** home, internas, menús, footer, estados vacíos, formularios, responsive. Screenshots en 390px y 1280px. Corregir inconsistencias.
+5. **Aplicar al sitio completo:** home, internas, menús, footer, estados vacíos, formularios, responsive. Screenshots reales en 390px y 1280px con fotos cargadas. Para rediseño, comparar a igual viewport con el original, valorar regresiones y conservar la versión actual si ninguna alternativa la mejora.
 6. **Aprender:** si el usuario rechaza «demasiado IA», registrar qué componentes concretos fallaron, no solo la etiqueta subjetiva.
 
 ## Paleta: sin receta universal

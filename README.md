@@ -20,6 +20,7 @@ Human Webs **no es un bot ni una aplicación para crear webs**. Es la memoria ve
 - [Principios](principles/pre-ai-web-design.md), [copy natural](principles/human-copy.md) y [UX móvil](examples/mobile-ux-patterns.md).
 - [Restaurantes](examples/restaurants/biblioteca.md), [diario de observaciones](examples/restaurants/learning-log.md): observaciones específicas; jamás un molde universal.
 - [Errores](memory/ERRORS.md): incluye el uso repetido de fondos terracota y diseños indistinguibles.
+- [Caso Mil Sabores](memory/CASES/MIL-SABORES-REJECTED-PROTOTYPE-2026-10-30.md): prototipo rechazado frente a una web real existente; **distinto no es mejor**. Las demos incompletas sin imágenes cargadas no son pruebas de superioridad visual.
 
 ## Regla estética fundamental
 

@@ -1,7 +1,7 @@
 # Flujo rápido de construcción utilizando la memoria
 
 ## A. Entender el encargo (sin asumir)
-1. Descubre el repo de destino y el objetivo comercial: qué tiene que lograr el usuario en la web.
+1. Descubre el repo de destino y el objetivo comercial: qué tiene que lograr el usuario en la web. **Para un rediseño:** compara primero el sitio existente con capturas completas y memorias de marca. Registra lo que funciona; no presupongas que hay que empezar desde cero.
 2. Brief mínimo: tipo de negocio, localización, audiencia, servicio, diferencial, idioma, identidad, assets, acciones principales, páginas, requisitos legales, contacto, plazo. Desconocido ≠ permiso para inventar.
 3. Clasifica: web nueva, rediseño, corrección visual, SEO técnico, componente, integración.
 4. Para web nueva/rediseño con libertad de diseño, sigue [ART-DIRECTION](ART-DIRECTION.md): investiga fuentes reales (del sector y de un sector transversal), compara **tres direcciones de arte diferentes**, documenta selección y alternativas rechazadas. No clones una web ajena.
@@ -21,7 +21,7 @@
 
 ## D. Verificar y aprender
 1. Ejecuta herramientas del proyecto (instalación, lint, typecheck, test, build según existan).
-2. Navega en móvil y escritorio con capturas; comprueba todas las rutas y acciones principales.
+2. Navega en móvil y escritorio con capturas **después de comprobar que las imágenes, fuentes y logo han cargado**; comprueba todas las rutas y acciones principales. En rediseños, usa el mismo viewport que el baseline y registra mejoras y regresiones.
 3. Verifica contenido, enlaces, contacto, SEO, seguridad y accesibilidad; revisa `QUALITY-GATES.md`.
 4. Cuando haya un fallo repetible: registra síntoma, causa, solución y test en `ERRORS.md` con el [formato](RECORD-TEMPLATE.md).
 5. Deja commit/PR, evidencia y limitaciones; despliegue productivo solo autorizado.
