@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-30",
+  "status": "research_only",
+  "notes": "All service references researched, none user-approved. Sector restaurant uses legacy links; do not move binary evidence without migration.",
+  "sectors": [
+    {
+      "id": "restaurantes",
+      "index": "restaurantes/README.md",
+      "legacy": [
+        "../REFERENCES/RESTAURANTS-2026-10-30/INDEX.md",
+        "../../design-library/README.md"
+      ]
+    },
+    {
+      "id": "servicios",
+      "index": "servicios/README.md",
+      "subcategories": [
+        {
+          "id": "hogar",
+          "index": "servicios/hogar/README.md",
+          "references": [
+            {
+              "id": "housekeep",
+              "name": "Housekeep",
+              "url": "https://housekeep.com/",
+              "ref": "servicios/hogar/housekeep.md",
+              "status": "researched_not_approved"
+            },
+            {
+              "id": "checkatrade",
+              "name": "Checkatrade",
+              "url": "https://www.checkatrade.com/",
+              "ref": "servicios/hogar/checkatrade.md",
+              "status": "researched_not_approved"
+            },
+            {
+              "id": "fixando",
+              "name": "Fixando",
+              "url": "https://www.fixando.pt/",
+              "ref": "servicios/hogar/fixando.md",
+              "status": "researched_not_approved"
+            },
+            {
+              "id": "zaask",
+              "name": "Zaask",
+              "url": "https://www.zaask.pt/",
+              "ref": "servicios/hogar/zaask.md",
+              "status": "researched_not_approved"
+            }
+          ]
+        },
+        {
+          "id": "belleza",
+          "index": "servicios/belleza/README.md",
+          "references": [
+            {
+              "id": "ruffians",
+              "name": "Ruffians",
+              "url": "https://ruffians.co.uk/pages/locations",
+              "ref": "servicios/belleza/ruffians.md",
+              "status": "researched_not_approved"
+            },
+            {
+              "id": "treatwell",
+              "name": "Treatwell",
+              "url": "https://www.treatwell.co.uk/near-me/hair",
+              "ref": "servicios/belleza/treatwell.md",
+              "status": "researched_not_approved"
+            }
+          ]
+        },
+        {
+          "id": "profesionales",
+          "index": "servicios/profesionales/README.md",
+          "references": [
+            {
+              "id": "plmj",
+              "name": "PLMJ",
+              "url": "https://www.plmj.com/en/services/practices/",
+              "ref": "servicios/profesionales/plmj.md",
+              "status": "researched_not_approved"
+            },
+            {
+              "id": "koto",
+              "name": "Koto",
+              "url": "https://koto.com/",
+              "ref": "servicios/profesionales/koto.md",
+              "status": "researched_not_approved"
+            }
+          ]
+        },
+        {
+          "id": "inmobiliaria-interiores",
+          "index": "servicios/inmobiliaria-interiores/README.md",
+          "references": [
+            {
+              "id": "the-modern-house",
+              "name": "The Modern House",
+              "url": "https://themodernhouse.com/sell",
+              "ref": "servicios/inmobiliaria-interiores/the-modern-house.md",
+              "status": "researched_not_approved"
+            },
+            {
+              "id": "havenly",
+              "name": "Havenly",
+              "url": "https://havenly.com/interior-design-services",
+              "ref": "servicios/inmobiliaria-interiores/havenly.md",
+              "status": "researched_not_approved"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
