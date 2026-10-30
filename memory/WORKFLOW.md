@@ -10,7 +10,8 @@
 1. Lee `AGENTS.md`, `memory/INDEX.md` y solo los módulos relevantes.
 2. Revisa `memory/ERRORS.md`; haz una lista de riesgos concretos.
 3. Inspecciona código y tests existentes del repo de destino; respeta componentes, tokens, estructura y estilo vigentes.
-4. Diseña primero contenido y sitemap/flujo; después plantea tres propuestas de estilo sustancialmente distintas. Rechaza el terracota y la composición habitual como valores por defecto. Elige una opción con criterio documentado en [ficha de dirección](DESIGN-DIRECTION-TEMPLATE.md).
+4. Antes de codificar copy final, prepara el mapa de voz (marca, público, idioma, hechos, CTA) y sigue [VOICE-AND-COPY](VOICE-AND-COPY.md). Revisa cada sección contra las demás y evita titulares intercambiables. No inventes datos para mejorar estilo.
+5. Diseña primero contenido y sitemap/flujo; después plantea tres propuestas de estilo sustancialmente distintas. Rechaza el terracota y la composición habitual como valores por defecto. Elige una opción con criterio documentado en [ficha de dirección](DESIGN-DIRECTION-TEMPLATE.md).
 
 ## C. Construir
 1. Cambios pequeños, reutilizables y fáciles de revisar; crea/usa rama de trabajo.
@@ -22,9 +23,10 @@
 ## D. Verificar y aprender
 1. Ejecuta herramientas del proyecto (instalación, lint, typecheck, test, build según existan).
 2. Navega en móvil y escritorio con capturas **después de comprobar que las imágenes, fuentes y logo han cargado**; comprueba todas las rutas y acciones principales. En rediseños, usa el mismo viewport que el baseline y registra mejoras y regresiones.
-3. Verifica contenido, enlaces, contacto, SEO, seguridad y accesibilidad; revisa `QUALITY-GATES.md`.
-4. Cuando haya un fallo repetible: registra síntoma, causa, solución y test en `ERRORS.md` con el [formato](RECORD-TEMPLATE.md).
-5. Deja commit/PR, evidencia y limitaciones; despliegue productivo solo autorizado.
+3. Para páginas con copy nuevo, revisar titulares/CTA entre rutas y, si corresponde, ejecutar [linter local](../tools/copy/README.md) en borradores .md/.txt de forma consultiva. No borrar keywords ni hacer sustituciones automáticas.
+4. Verifica contenido, enlaces, contacto, SEO, seguridad y accesibilidad; revisa `QUALITY-GATES.md`.
+5. Cuando haya un fallo repetible: registra síntoma, causa, solución y test en `ERRORS.md` con el [formato](RECORD-TEMPLATE.md).
+6. Deja commit/PR, evidencia y limitaciones; despliegue productivo solo autorizado.
 
 ## Entrega mínima al cliente
 - Qué se creó, con enlace a preview o explicación honesta si no existe.

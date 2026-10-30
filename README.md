@@ -17,7 +17,8 @@ Human Webs **no es un bot ni una aplicación para crear webs**. Es la memoria ve
 
 - [Memoria visual documentada](design-library/README.md): referencias, capturas de investigación, medidas y recetas originales. Incluye [búsqueda local](tools/design-library/query.mjs).
 - [Fuentes de inspiración comprobadas](memory/INSPIRATION-SOURCES.md): directorios para investigar webs actuales; visitar y verificar cada sitio original.
-- [Principios](principles/pre-ai-web-design.md), [copy natural](principles/human-copy.md) y [UX móvil](examples/mobile-ux-patterns.md).
+- [Principios](principles/pre-ai-web-design.md), [copy natural](principles/human-copy.md), [guía de voz y copy](memory/VOICE-AND-COPY.md) y [UX móvil](examples/mobile-ux-patterns.md).
+- [Revisor de textos local](tools/copy/README.md): advertencias ES/PT/EN sobre clichés y repeticiones, con pruebas automáticas; [investigación de herramientas externas](memory/COPY-TOOLS.md).
 - [Restaurantes](examples/restaurants/biblioteca.md), [diario de observaciones](examples/restaurants/learning-log.md): observaciones específicas; jamás un molde universal.
 - [Errores](memory/ERRORS.md): incluye el uso repetido de fondos terracota y diseños indistinguibles.
 - [Caso Mil Sabores](memory/CASES/MIL-SABORES-REJECTED-PROTOTYPE-2026-10-30.md): prototipo rechazado frente a una web real existente; **distinto no es mejor**. Las demos incompletas sin imágenes cargadas no son pruebas de superioridad visual.

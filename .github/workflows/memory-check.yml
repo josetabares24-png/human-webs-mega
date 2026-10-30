@@ -10,6 +10,8 @@ on:
       - "prompts/bot.md"
       - "archive/**"
       - "tools/memory/**"
+      - "tools/copy/**"
+      - "principles/human-copy.md"
       - ".github/copilot-instructions.md"
       - ".github/workflows/memory-check.yml"
   push:
@@ -37,3 +39,6 @@ jobs:
       - run: node tools/memory/check.mjs
       - run: node --check tools/design-library/query.mjs
       - run: node tools/design-library/query.mjs --check
+      - run: node --check tools/copy/lint.mjs
+      - run: node --test tools/copy/lint.test.mjs
+      - run: node tools/copy/lint.mjs --lang pt-PT --strict tools/copy/fixtures/good-pt.md
