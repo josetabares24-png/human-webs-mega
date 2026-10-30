@@ -155,3 +155,32 @@ Registro de observaciones reales. Cada entrada viene de una revisión con navega
 6. Ausencia total de sombras, bordes redondeados exagerados y cards genéricas; fotografía de tray real sin over-styling → autenticidad visual sobre food-porn template.
 
 **Anti-IA**: El sitio se siente como la herramienta de un BBQ que lleva años con colas y no necesita venderse con hero marketing o CTAs brillantes. Habla de un trailer en la interestatal, de colas de horas, de “sold out” a las 2-3pm y de ingredientes específicos. La tipografía custom sans de peso bajo + paleta crema/naranja lo hacen sentir como un local de East Austin, no como un constructor de sites. Eso es lo que hay que replicar.
+
+## 2026-10-30 — Tartine Bakery (tartinebakery.com)
+
+**Tipo**: Independiente / craft (panadería y bakery icónica de San Francisco, Chad Robertson y Elisabeth Prueitt; enfoque en craft, comunidad y experiencia cálida).
+
+**Lo que se ve**:
+- Homepage con “Welcome to Tartine” y tagline: “a thoughtful expression of modern craft through good food and warm experiences.”
+- Navegación a Locations (por área: Bay Area 4, Los Angeles 7, Korea 8), Order, special order cakes, pre-order cakes & tarts, gift cards, books, “Who we are”, Tartine Happenings.
+- Fotografía de proceso real: panadero aplicando icing a un cake, añadiendo filling a tart shells.
+- Secciones de productos (libros de Tartine en Amazon), pre-orders de holiday pastry.
+- Copy sobre craft, comunidad y amistad (“We are a product of our communities and our friends”).
+
+**Detalles estéticos (captura en vivo)**:
+- **Tipografía**: Todo en PitchSans (sans custom). Body 16px, peso 400, line-height 24px, color negro rgb(0,0,0). Headings 16-40px, pesos 500-700. Algunos uppercase con letter-spacing (1.12px o 2.27px en títulos de sección). Sin serif, sin display bold exagerado. Sensación de tipografía de imprenta contemporánea, limpia y humana.
+- **Botones**: La mayoría son links de texto (bg transparente, radius 0, color negro o oscuro). Un CTA “Order” filled en acento cálido rgb(200, 126, 30) con texto oscuro, border-radius 0, letter-spacing leve. Estilo discreto, no pills ni alto contraste agresivo.
+- **Colores**: Fondo blanco puro rgb(255,255,255). Texto negro o rgb(35,31,32). Acento único cálido marrón/dorado rgb(200,126,30) para el botón de order. Contraste alto, paleta mínima de papel + un toque de color de horno/craft.
+- **Espaciado / bordes / sombras**: Layout limpio. Sin sombras (box-shadow: none). Bordes y radius 0 en la mayoría de elementos. Fotografía de proceso integrada sin cards. Espaciado generoso entre secciones.
+- **Móvil / estructura**: Estructura funcional con locations por región y links claros. Nav simple.
+- **Copy**: Específico y reflexivo, no promocional hype (“thoughtful expression of modern craft”, menciones a stewardship, inside stories). Fotos con alts narrativos del trabajo real.
+
+**Patrones útiles (anti-IA)**:
+1. Tipografía custom sans (PitchSans) consistente en cuerpo y títulos con pesos moderados (400-600) y tamaños no exagerados → sensación de branding artesanal contemporáneo, no template system.
+2. Paleta ultra-restringida (blanco + negro + un solo acento cálido marrón) → evita paletas “brand” multicolor digitales; evoca papel y luz de cocina.
+3. CTAs principalmente como texto plano; el único filled es discreto, radius 0 y color cálido no neón → reduce el look de botón de conversión de app/SaaS.
+4. Fotografía de proceso (baker icing, filling tarts) en lugar de food-porn finished products genérico → autenticidad del craft, no stock.
+5. Copy con voz de oficio y comunidad (“product of our communities and our friends”, “thoughtful expression”) + listados concretos de locations por área → se siente escrito por la gente del lugar, no por marketing genérico.
+6. Ausencia de sombras, bordes redondeados y cards → layout limpio tipo editorial o carta, no site builder moderno.
+
+**Anti-IA**: El sitio no grita “ORDER NOW” ni usa hero marketing agresivo. Habla de craft, de comunidad y de procesos reales (icing, filling). La tipografía custom PitchSans + paleta blanco/negro/acento cálido + fotos de trabajo lo hacen sentir como la expresión de una panadería que sabe quién es, no como un template generado. Eso es lo que hay que replicar.
