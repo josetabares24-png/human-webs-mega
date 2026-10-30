@@ -63,3 +63,29 @@ Registro de observaciones reales. Cada entrada viene de una revisión con navega
 5. Copy corto y específico (nombres de bowls, ingredientes reales) en vez de marketing vacío.
 
 **Anti-IA**: Aunque es una cadena moderna, evita el look de template SaaS. La tipografía custom ligera, el fondo crema y los CTAs de texto lo hacen más cercano a un local de comida real que a un dashboard de pedido. Útil como contraste con los premium de serif.
+
+## 2026-10-30 — Alinea (alinearestaurant.com)
+
+**Tipo**: Premium / independiente (fine dining modernista en Chicago, Grant Achatz, Michelin 3 estrellas).
+
+**Lo que se ve**:
+- Transición de reservas (Tock hasta 31 oct, OpenTable desde 1 nov).
+- Tres experiencias distintas: Kitchen Table, The Gallery, The Salon.
+- Copy sobre premios (Elite Traveler, World’s 50 Best, Michelin, James Beard) de forma factual.
+- Dirección, emails de contacto y mailing list.
+- Navegación mínima: Reserve, Mailing List.
+
+**Detalles estéticos (captura en vivo)**:
+- **Tipografía**: Títulos en Cormorant Garamond (serif, ~45px, peso 500). Reserva y navegación en adobe-garamond-pro (serif). Cuerpo en sans genérico. Sensación editorial y de invitación.
+- **Botones**: “RESERVE” es texto plano (fondo transparente, radius 0, sin borde). No hay botones filled u outline. Estilo texto puro.
+- **Colores**: Fondo blanco puro (rgb(255,255,255)). Texto negro puro (rgb(0,0,0)). Paleta de papel/impresión, contraste máximo, sin acentos de color.
+- **Espaciado**: Limpio y generoso. Sin sombras ni cards. Layout minimalista.
+
+**Patrones útiles**:
+1. Tipografía serif display (Cormorant Garamond / Adobe Garamond) para títulos y CTAs → se siente como carta o invitación impresa, no como app.
+2. CTAs como texto plano sin fondo ni borde → discreto y editorial, evita el look de botón de conversión.
+3. Paleta absoluta blanco + negro → austeridad y legibilidad máxima, no digital brillante.
+4. Copy factual sobre premios y experiencias concretas (Kitchen Table, Gallery, Salon) sin hype.
+5. Información operativa clara (transición de reservas, direcciones, emails) integrada con la narrativa.
+
+**Anti-IA**: El sitio es la herramienta de un restaurante que no necesita venderse con hero marketing o CTAs brillantes. Habla de experiencias específicas y premios reales. La serif clásica + fondo blanco puro + texto plano lo hacen sentir como una invitación de papel, no como un template. Eso es lo que hay que replicar en premium.
