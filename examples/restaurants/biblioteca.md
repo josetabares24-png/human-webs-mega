@@ -13,6 +13,8 @@ Solo medidas sacadas de `learning-log.md`. Si un número no está en el diario, 
 | Premium invitación | Alinea | adobe-garamond-pro | Reserva y navegación | Serif también en el CTA. |
 | Premium invitación | Alinea | sans genérica | Cuerpo | El contraste es display serif contra cuerpo sans. |
 | Premium cartel | St. JOHN | Georgia, fallback Times, Times New Roman | Todo, UI incluida | Cuerpo 16px / 400 / tracking 0.96px. Nav 20px / 700 / mayúsculas / tracking 1.2px. Barra 14px / 700. H1 de local 120px / 700 / mayúsculas / tracking 7.2px; en móvil 30px / tracking 1.8px. Fecha del menú en itálica 20px. |
+| Premium independiente | Cutler & Co. | Persona / Archivo Narrow | Nav y CTA | Sans, mayúsculas, peso 700, ~15–16px, letter-spacing ~1.1px. |
+| Premium independiente | Cutler & Co. | Caslon / garamond-premier-pro | Cuerpo, platos y precios | Serif, ~16px, peso 400. Body base sans 17px. |
 
 ## Botones
 
@@ -22,6 +24,7 @@ Solo medidas sacadas de `learning-log.md`. Si un número no está en el diario, 
 | Casual | Sweetgreen, "ORDER" | Texto | Fondo transparente, color oscuro | 0 | No | Otros CTA son enlaces "Order now →". |
 | Premium invitación | Alinea, "RESERVE" | Texto | Fondo transparente, sin borde | 0 | No | No hay filled ni outline. |
 | Premium cartel | St. JOHN | Rectángulo | "View Menus" outline 1px negro sobre blanco. "Make a Reservation" filled negro, texto blanco. Misma caja. | 0 | Ninguna | Desktop ~318×57, Georgia 18px / 400, padding 17px. Móvil 310×44, tipo 14px. Inputs iguales: borde 1px, radio 0. |
+| Premium independiente | Cutler & Co., "MAKE A RESERVATION" | Texto | Fondo transparente, sin borde, color `rgb(34, 34, 34)` | 0 | No | Mayúsculas, sans peso 700, letter-spacing 1.12px. |
 
 No usar como defecto el pill rojo `#e31837` de `button-patterns.md`. No coincide con ninguna de estas cuatro webs.
 
@@ -33,6 +36,7 @@ No usar como defecto el pill rojo `#e31837` de `button-patterns.md`. No coincide
 | Casual | Lista de platos escaneable, aire generoso. | Sin cards pesadas ni sombra. |
 | Premium invitación | Bloques de texto e información operativa. | Sin sombra, sin cards, fondo blanco. |
 | Premium cartel | Foto a sangre, sin pie y sin velo. Horarios en columnas. Menú en tabla HTML. | Sin `box-shadow` en botón, nav o foto. El aire lo da el H1, no una card. |
+| Premium independiente | Foto real del comedor y rejilla de fotos. Menú HTML por secciones, con precio. | Sin `box-shadow` y sin cards pesadas. |
 
 Defecto si el caso no pide otra cosa: sin card, sin sombra, sin tres columnas iguales. La tabla de la carta y el borde de 1px del botón no son cards.
 
@@ -44,6 +48,7 @@ Defecto si el caso no pide otra cosa: sin card, sin sombra, sin tres columnas ig
 | Casual | Crema `rgb(244, 243, 231)` | `rgb(14, 21, 14)` | Sin acento brillante en el primer viewport. |
 | Premium invitación | Blanco `rgb(255, 255, 255)` | Negro `rgb(0, 0, 0)` | Ninguno. |
 | Premium cartel | Página `rgb(249, 249, 249)`, html blanco | Negro | Barra superior negra con texto blanco. Sin segundo color. |
+| Premium independiente | Blanco `rgb(255, 255, 255)`, crema `rgb(247, 247, 237)` | `rgb(34, 34, 34)` o negro | Oscuro solo en skip y velos. Sin color de marca brillante. |
 
 ## Al añadir un caso
 

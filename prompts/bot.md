@@ -50,6 +50,7 @@ No promedies los casos. Una taberna independiente no hereda el pill de Dishoom n
 No inventes una familia "con carácter". Elige la fila.
 
 - Premium invitación (Alinea): serif de títulos, CTA de texto, blanco y negro, sin caja.
+- Premium independiente (Cutler & Co.): Caslon o Garamond en carta y cuerpo, Archivo Narrow en mayúsculas para el CTA de texto, sin card.
 - Premium cartel (St. JOHN): una serif de sistema en todo, dos rectángulos sin radio ni sombra, carta en tabla.
 - Editorial (Dishoom): serif en el texto, sans en la UI, crema, botón outline.
 - Casual (Sweetgreen): una sans en todo, CTA de texto, crema, sin card.
