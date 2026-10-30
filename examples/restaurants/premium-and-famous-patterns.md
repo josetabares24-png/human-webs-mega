@@ -1,33 +1,46 @@
 # Patrones detallados — Restaurantes premium y famosos
 
-**Nota de revisión**: La primera versión de este archivo fue demasiado rápida. Esta actualización incluye observaciones directas de sitios reales (con las limitaciones de sitios pesados en JavaScript) y distingue claramente entre datos observados y síntesis de estudios secundarios.
+**Nota de revisión**: Actualizado con capturas del navegador en vivo (no solo scraping o artículos secundarios).
 
-## Observaciones directas (revisión más lenta)
+## Observaciones en vivo (navegador)
 
 ### Noma (noma.dk)
-- Layout extremadamente limpio y textual.
-- CTA principal: “Book a table” que lleva a Tock.
-- Narrativa fuerte sobre la vuelta a Copenhague 2026-2027.
-- No hay menú en la homepage.
-- Productos (pantry, café, libro) integrados sin competir con la reserva.
-- Sensación editorial / notebook más que de “sitio de restaurante clásico”.
+- Header simple: logo “noma” + menú + idiomas (EN/DA).
+- CTA muy claro: “Book a table” / “Reservations” (lleva a Tock).
+- Narrativa larga y personal sobre la vuelta a Copenhague 2026-2027 (carta a los amigos).
+- Secciones de productos (Noma Projects, Noma Kaffe) sin competir con la reserva.
+- No hay menú de platos en homepage. Sensación editorial/notebook.
+- Botón “Unlock reservations!” y teaser de reservas.
+
+### Alinea (alinearestaurant.com)
+- Anuncio destacado de transición Tock → OpenTable (fechas claras).
+- Links directos: “Reserve through October on Tock” y “Reserve November/December on OpenTable”.
+- Descripción de las tres experiencias: Kitchen Table, The Gallery, The Salon.
+- Premios y reconocimientos bien visibles (Michelin 3*, World’s 50 Best, etc.).
+- Mailing list para ticket releases.
+- Dirección y emails de contacto claros.
 
 ### Canlis (canlis.com)
-- Restricción extrema. “Reserve” es la primera palabra de la navegación.
-- Nombre del restaurante en tipografía enorme superpuesta a la foto del edificio.
-- Poco texto, mucha atmósfera. No necesita explicar quiénes son.
-- Enfoque en la experiencia y el espacio más que en platos individuales.
+- Navegación ultra-limpia: **RESERVE** es el primer elemento, luego EXPLORE y PRIVATE EVENTS.
+- Teléfono y dirección visibles arriba.
+- Texto de invitación personal (“The opportunity to meet and serve you is one we don’t take lightly…”).
+- Énfasis en el espacio y la historia del edificio (Roland Terry, 1950).
+- Premios (James Beard, Wine Spectator) y press.
+- Links claros a “Make a reservation”, “Get directions”, “Call the restaurant”.
 
-### Alinea
-- Énfasis en las distintas experiencias (Kitchen Table, Gallery, Salon).
-- Booking externo (Tock).
-- Fotografía de platos tratada como obra de arte.
-- Mailing list para ticket releases.
+### Eleven Madison Park (elevenmadisonpark.com)
+- CTA principal: “Book on Resy”.
+- Dirección y teléfono visibles.
+- Secciones: Wine List, FAQs, Gift Cards, Clemente Bar, Press, Careers, etc.
+- Promoción de The Studio at Clemente Bar (omakase).
+- Enfoque en reserva externa y experiencia.
 
-### Sweetgreen
-- Orientado claramente a conversión. Botón de Order presente y prioritario.
-
-**Limitación**: Muchos sitios premium (Eleven Madison Park, Atelier Crenn, etc.) dependen de JavaScript y carga dinámica, por lo que el scraping automático obtiene contenido incompleto. Los patrones de estos se basan en análisis de diseño y artículos especializados + observaciones parciales.
+### Dishoom (dishoom.com)
+- CTA “Book a table” repetido varias veces.
+- Narrativa fuerte de marca (“From Bombay with Love”, historia de la ciudad).
+- Menús por tipo de comida (breakfast, lunch, dinner, late tipples).
+- Lista de locales y cafés.
+- Enfoque en booking + exploración de menús.
 
 ## Diferencias clave: Casual/QSR vs Premium/Fine dining
 
@@ -87,12 +100,13 @@
 - [ ] Sticky bar de acción
 - [ ] Flujo de pedido en pocos pasos
 
-## Sitios de referencia
+## Sitios de referencia (con observaciones en vivo)
 
-- **Noma**: restricción editorial, booking a Tock, narrativa fuerte.
-- **Canlis**: nombre enorme, “Reserve” primero en nav, atmósfera sobre explicación.
-- **Alinea**: plato como arte, experiencias diferenciadas, Tock.
-- **Eleven Madison Park / Atelier Crenn**: galería cinematográfica, booking externo.
+- **Noma**: restricción editorial, booking a Tock, narrativa fuerte, productos secundarios.
+- **Canlis**: “RESERVE” primero en nav, invitación personal, énfasis en el espacio y la historia.
+- **Alinea**: transición clara de sistemas de reserva, tres experiencias diferenciadas, premios visibles.
+- **Eleven Madison Park**: “Book on Resy”, promoción de experiencias adicionales (Clemente Bar).
+- **Dishoom**: “Book a table” repetido, menús por momento del día, narrativa de marca fuerte.
 - **Sweetgreen / Shake Shack**: orden como infraestructura, CTA dominante.
 
 ## Cómo usar esto
@@ -103,4 +117,4 @@
 4. Pasa el checklist.
 5. Adapta el copy a humano (ver `/principles/human-copy.md`).
 
-El repo sigue creciendo. La investigación de sitios premium es más lenta por naturaleza (muchos son experiencias visuales pesadas).
+El repo sigue creciendo. Las observaciones en vivo confirman los patrones de restricción y claridad en premium, y de CTA dominante en casual.
