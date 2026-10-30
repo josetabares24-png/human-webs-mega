@@ -1,1 +1,1 @@
-PLACEHOLDER_WILL_REPLACE
+See local file - will be the full markdown from /tmp/learning-log.md
