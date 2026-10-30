@@ -24,9 +24,10 @@ for(const name of files) {
 const index=existsSync(resolve(root,"memory/INDEX.md"))?readFileSync(resolve(root,"memory/INDEX.md"),"utf8"):"";
 for(const module of ["DECISIONS","ERRORS","QUALITY-GATES","WORKFLOW","DESIGN","COPY-SEO","TECHNICAL","RECORD-TEMPLATE"])if(!index.includes(module+".md"))errors.push("Índice no enruta "+module);
 const errorsText=existsSync(resolve(root,"memory/ERRORS.md"))?readFileSync(resolve(root,"memory/ERRORS.md"),"utf8"):"";
-for(const match of errorsText.matchAll(/^### (ERR-\d+)\b([\s\S]*?)(?=^### ERR-|\s*$)/gm)){
- const section=match[2];
- for(const req of ["**Prevención:**","**Prueba:**","**Estado:**"])if(!section.includes(req))errors.push("Entrada "+match[1]+" sin "+req);
+const sections=errorsText.split(/^### (ERR-\d+)\b[^\n]*$/m);
+for(let i=1;i<sections.length;i+=2){
+ const id=sections[i], section=sections[i+1]||"";
+ for(const req of ["**Prevención:**","**Prueba:**","**Estado:**"])if(!section.includes(req))errors.push("Entrada "+id+" sin "+req);
 }
 if(errors.length){console.error("Memoria NO válida:\n"+errors.map(x=>"- "+x).join("\n"));process.exitCode=1;}
 else console.log("Memoria válida: "+files.length+" archivos obligatorios, rutas e índice revisados.");
