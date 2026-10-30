@@ -41,3 +41,13 @@ La configuración JSON usa una lista de inclusión cerrada y excluye entornos, s
 Se revisaron las [advertencias de seguridad de Repomix](https://github.com/yamadashy/repomix/security) y se fijó la versión actual en un lockfile separado. Solo se procesa este checkout local; no se activa su servidor MCP, configuración remota, subida, portapapeles ni envío a modelos. La instalación se ejecuta con `--ignore-scripts`. `npm audit` informó cero vulnerabilidades en la instalación registrada. CI vuelve a comprobar instalación, sintaxis, generación y auditoría de la herramienta.
 
 El flujo funcional del builder y los contratos JSON de su IA se mantienen. Esta mejora reduce el contexto de desarrollo que necesito consultar; no altera aprobación de publicación ni fusiona main.
+
+## Ediciones de IA por página
+
+Además del índice de desarrollo, el builder distingue generación completa de edición de una página. La edición usa un contexto selectivo y un parche JSON validado, conservando las otras páginas. Para reproducir el recuento del cuerpo de petición con un fixture de cuatro páginas, instala también las dependencias del builder y ejecuta:
+
+```bash
+npm --prefix tools/context run benchmark:ai
+```
+
+La medición local de ese fixture con o200k_base dio **2162 tokens** para la petición de generación completa frente a **992** para la edición de Servicios: **54,12 % menos**. Incluye esquema, instrucciones y contexto serializados como JSON; no mide tokens facturados por un proveedor ni demuestra calidad del modelo. No realiza llamadas de IA y el porcentaje varía con el contenido y la ruta elegida. Este benchmark usa el contador de Repomix instalado en herramientas, sin añadir dependencias de ejecución a la app.

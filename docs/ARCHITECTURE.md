@@ -4,11 +4,11 @@ La aplicación reutiliza el MVP Next.js/React de `builder/`. No ejecuta código 
 
 ## Flujo
 
-1. `components/studio.tsx`: panel de creación, proyectos, conversación, versiones y previa.
+1. `components/studio.tsx`: panel de creación, proyectos, conversación, versiones y previa. `components/page-editor.tsx` añade edición manual por página; `lib/page-edit.ts` valida parches y sincroniza el titular/introducción del inicio con los campos renderizados.
 2. `lib/schema.ts`: contratos Zod versionados para briefing, sitio, páginas, proyectos y copias. Rutas enumeradas; tamaños limitados; campos desconocidos rechazados.
 3. `lib/engine.ts`: interpretación local conservadora, elección de sector/estilo y cuatro páginas. Un restaurante obtiene carta; otros negocios obtienen servicios. Datos desconocidos quedan pendientes. Edición local explícita y actualización de datos sin perder titulares personalizados.
 4. `lib/design.ts`: tres composiciones originales con tokens de color, familias/fallbacks, radio, borde, sombra, CTA y estructura. `lib/render.ts` comparte cabecera, menú HTML, contacto, navegación y SEO.
-5. La previa es un documento Blob revocable dentro de `sandbox="allow-scripts"`, **sin `allow-same-origin`, formularios ni acceso al documento padre**. Solo un script fijo de navegación está permitido por su hash CSP. No contiene código del usuario o del modelo. Una prueba comprueba el hash y otra comprueba que no puede leer `parent.document`. Los textos siguen escapados.
+5. La previa es un documento Blob revocable dentro de `sandbox="allow-scripts"`, **sin `allow-same-origin`, formularios ni acceso al documento padre**. Solo un script fijo de navegación está permitido por su hash CSP. Notifica únicamente la ruta cerrada al editor por postMessage; el receptor exige que source sea su iframe, origin sea `null` y la ruta pertenezca al sitio. No contiene código del usuario o del modelo. Las pruebas comprueban el hash, la imposibilidad de leer `parent.document` y el rechazo de mensajes externos al iframe. Los textos siguen escapados.
 6. Las webs exportadas son archivos HTML independientes, sin JavaScript ejecutable, fuentes remotas ni fotos ficticias. JSON-LD usa `\\u003c` para impedir salir del elemento. Los enlaces del ZIP apuntan a archivos existentes. Un formulario solo aparece con endpoint HTTPS configurado y consentimiento obligatorio; en la previa está deshabilitado.
 7. `lib/projects.ts`: persistencia local con esquema validado. Hasta 40 proyectos y 50 versiones por proyecto; restaurar añade una versión. La importación crea copias nuevas. Un fallo de lectura o cuota se comunica y no borra los datos originales. Hay copia JSON y descarga de datos originales para recuperación.
 8. `lib/quality.ts`: bloqueos de identidad/contacto, SEO, enlaces, peso y avisos de contenido/dominio/formulario/revisión humana. No certifica WCAG ni Core Web Vitals.
@@ -17,6 +17,8 @@ La aplicación reutiliza el MVP Next.js/React de `builder/`. No ejecuta código 
 ## IA
 
 `POST /api/generate` usa la API compatible Chat Completions de AI Gateway. El modelo se configura en servidor con un ID del catálogo actual; no se inventa un ID ni se guarda una recomendación fija. La salida pide JSON Schema y se valida de nuevo con Zod. La IA puede cambiar copy y estilo, conservando el inventario de rutas y todos los datos operativos originales. Los datos factuales se cambian en Datos o mediante comandos locales explícitos. No hay generación libre de componentes ni ejecución de HTML/CSS/JS del modelo.
+
+El modo `generate` conserva la creación completa. `mode: edit` requiere `pageSlug` válido y usa un esquema de cambios parciales; null significa conservar el valor existente. Se aplica exclusivamente a esa página, con la excepción explícita del estilo global. El contexto omite el texto de las otras páginas y los endpoints de integración, e incluye solo datos operativos relevantes para la ruta. El límite de salida solicitado de edición es 2400 tokens, frente a 4500 en generación; no son cifras de consumo real. El cliente no crea versiones duplicadas cuando el resultado es idéntico. Las actualizaciones de datos generales preservan el texto editado manualmente.
 
 El timeout de proveedor es 45 s; el navegador espera como máximo 55 s. Si falla la primera generación con IA, se entrega el borrador local y se informa. Una edición fallida conserva la versión anterior. La redacción requiere revisión humana: validar el esquema no demuestra que una frase sea cierta.
 

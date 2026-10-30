@@ -1,6 +1,6 @@
 import { z } from "zod";
-import { siteSchema } from "../../../lib/schema";
-import { generateWithAi } from "../../../lib/server/ai";
+import { pageSchema, siteSchema } from "../../../lib/schema";
+import { editPageWithAi, generateWithAi } from "../../../lib/server/ai";
 import {
   ApiError,
   errorResponse,
@@ -11,7 +11,12 @@ import {
 export const runtime = "nodejs";
 export const maxDuration = 60;
 const requestSchema = z
-  .object({ site: siteSchema, instruction: z.string().trim().min(1).max(3000) })
+  .object({
+    site: siteSchema,
+    instruction: z.string().trim().min(1).max(3000),
+    mode: z.enum(["generate", "edit"]).default("generate"),
+    pageSlug: pageSchema.shape.slug.optional(),
+  })
   .strict();
 export async function POST(request: Request): Promise<Response> {
   try {
@@ -21,10 +26,16 @@ export async function POST(request: Request): Promise<Response> {
     if (!parsed.success)
       throw new ApiError(400, "Briefing o instrucción inválidos.");
     const started = performance.now();
-    const site = await generateWithAi(
-      parsed.data.site,
-      parsed.data.instruction,
-    );
+    const { site: current, instruction, mode, pageSlug } = parsed.data;
+    if (
+      mode === "edit" &&
+      (!pageSlug || !current.pages.some((page) => page.slug === pageSlug))
+    )
+      throw new ApiError(400, "Selecciona una página válida para editar.");
+    const site =
+      mode === "edit"
+        ? await editPageWithAi(current, instruction, pageSlug!)
+        : await generateWithAi(current, instruction);
     return Response.json(
       { site, source: "ai", durationMs: performance.now() - started },
       { headers: { "Cache-Control": "no-store" } },

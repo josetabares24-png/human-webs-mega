@@ -3,6 +3,9 @@ import AxeBuilder from "@axe-core/playwright";
 import { createSite } from "../../lib/engine";
 import { briefSchema } from "../../lib/schema";
 import { exportFiles, siteDigest } from "../../lib/export";
+import { updatePage } from "../../lib/page-edit";
+import { readFile } from "node:fs/promises";
+import { unzipSync, strFromU8 } from "fflate";
 
 const brief = briefSchema.parse({
   name: "Oficio",
@@ -59,14 +62,18 @@ test("create, edit, restore, reload, export and guard publication", async ({
       }
     }),
   ).toBe(true);
-  await page.getByLabel("Página", { exact: true }).selectOption("index");
+  await page
+    .getByRole("combobox", { name: "Página", exact: true })
+    .selectOption("index");
   await page.getByLabel("Pide un cambio").fill("Titular: Corte con oficio.");
   await page.getByRole("button", { name: "Aplicar cambio" }).click();
   await expect(
     frame.getByRole("heading", { name: "Corte con oficio.", exact: true }),
   ).toBeVisible();
   await page.getByRole("tab", { name: "Versiones" }).click();
-  await expect(page.getByText("V2 · Titular: Corte con oficio.")).toBeVisible();
+  await expect(
+    page.getByText("V2 · [Inicio] Titular: Corte con oficio."),
+  ).toBeVisible();
   await page
     .getByRole("button", { name: "Restaurar", exact: true })
     .last()
@@ -95,6 +102,150 @@ test("create, edit, restore, reload, export and guard publication", async ({
   });
   expect(errors).toEqual([]);
 });
+test("page editor follows preview navigation and preserves edits through export and reload", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await page.getByLabel("Importar proyectos JSON").setInputFiles({
+    name: "site.json",
+    mimeType: "application/json",
+    buffer: Buffer.from(JSON.stringify(createSite(brief))),
+  });
+  await page.getByRole("button", { name: /Oficio.*Barbería/ }).click();
+  const frame = page.frameLocator("iframe");
+  await frame.getByRole("link", { name: "Servicios", exact: true }).click();
+  await expect(
+    page.getByRole("combobox", { name: "Página", exact: true }),
+  ).toHaveValue("servicios");
+  await page.getByRole("tab", { name: "Página", exact: true }).click();
+  await page
+    .getByLabel("Titular de la página", { exact: true })
+    .fill("Corte y barba, con cita.");
+  await page
+    .getByLabel("Texto de la página", { exact: true })
+    .fill("Consulta los servicios antes de reservar.");
+  await page
+    .getByLabel("Título SEO", { exact: true })
+    .fill("Servicios de Oficio en Lisboa");
+  await page
+    .getByLabel("Descripción SEO", { exact: true })
+    .fill("Servicios de corte y barba con cita en Lisboa.");
+  await page.getByRole("button", { name: "Guardar página y versión" }).click();
+  await expect(
+    frame.getByRole("heading", {
+      name: "Corte y barba, con cita.",
+      exact: true,
+    }),
+  ).toBeVisible();
+  const downloadPromise = page.waitForEvent("download");
+  await page.getByRole("button", { name: "Descargar código" }).click();
+  const path = await (await downloadPromise).path();
+  expect(path).not.toBeNull();
+  const files = unzipSync(await readFile(path!));
+  expect(strFromU8(files["servicios.html"])).toContain(
+    "<title>Servicios de Oficio en Lisboa</title>",
+  );
+  expect(strFromU8(files["index.html"])).toContain(
+    "<h1>Barbería en Lisboa.</h1>",
+  );
+  await page
+    .getByRole("combobox", { name: "Página", exact: true })
+    .selectOption("nosotros");
+  await page
+    .getByLabel("Texto de la página", { exact: true })
+    .fill("Historia revisada por el negocio.");
+  await page.getByRole("button", { name: "Guardar página y versión" }).click();
+  await page.getByRole("tab", { name: "Datos", exact: true }).click();
+  await page
+    .getByLabel("Correo o teléfono", { exact: true })
+    .fill("nuevo@example.com");
+  await page.getByRole("button", { name: "Guardar datos y versión" }).click();
+  await expect(
+    frame.getByText("Historia revisada por el negocio.", { exact: true }),
+  ).toBeVisible();
+  await page.reload();
+  await page.getByRole("button", { name: /Mis proyectos/ }).click();
+  await page.getByRole("button", { name: /Oficio.*Barbería/ }).click();
+  await page.evaluate(() =>
+    window.postMessage({ type: "human-webs:page", slug: "visita" }, "*"),
+  );
+  await expect(
+    page.getByRole("combobox", { name: "Página", exact: true }),
+  ).toHaveValue("index");
+  await page
+    .getByRole("combobox", { name: "Página", exact: true })
+    .selectOption("servicios");
+  await expect(
+    frame.getByRole("heading", {
+      name: "Corte y barba, con cita.",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await page.getByRole("tab", { name: "Página", exact: true }).click();
+  const a11y = await new AxeBuilder({ page })
+    .disableRules(["frame-tested"])
+    .withTags(["wcag2a", "wcag2aa", "wcag21aa"])
+    .analyze();
+  expect(a11y.violations).toEqual([]);
+  await page.screenshot({
+    path: "test-results/page-editor.png",
+    fullPage: true,
+  });
+});
+
+test("conversational AI editing sends the selected page as an edit operation", async ({
+  page,
+}) => {
+  await page.route("**/api/capabilities", (route) =>
+    route.fulfill({ json: { ai: true, publish: false, github: false } }),
+  );
+  let edits = 0;
+  await page.route("**/api/generate", async (route) => {
+    const request = route.request().postDataJSON();
+    expect(request.mode).toBe("edit");
+    expect(request.pageSlug).toBe("servicios");
+    edits++;
+    await route.fulfill({
+      json: {
+        site: updatePage(request.site, request.pageSlug, {
+          heading: "Servicios revisados con IA.",
+        }),
+      },
+    });
+  });
+  await page.goto("/");
+  await page.getByRole("button", { name: "Conexiones y copias" }).click();
+  await page
+    .getByLabel("Clave de operador del taller")
+    .fill("test-only-mocked-ai-editing");
+  await page.getByLabel(/Usar IA para generar y editar/).check();
+  await page.getByLabel("Importar proyectos JSON").setInputFiles({
+    name: "site.json",
+    mimeType: "application/json",
+    buffer: Buffer.from(JSON.stringify(createSite(brief))),
+  });
+  await page.getByRole("button", { name: /Oficio.*Barbería/ }).click();
+  await page
+    .getByRole("combobox", { name: "Página", exact: true })
+    .selectOption("servicios");
+  await page.getByLabel("Pide un cambio").fill("Haz el titular más directo.");
+  await page.getByRole("button", { name: "Aplicar cambio" }).click();
+  const frame = page.frameLocator("iframe");
+  await expect(
+    frame.getByRole("heading", {
+      name: "Servicios revisados con IA.",
+      exact: true,
+    }),
+  ).toBeVisible();
+  expect(edits).toBe(1);
+  await page
+    .getByRole("combobox", { name: "Página", exact: true })
+    .selectOption("index");
+  await expect(
+    frame.getByRole("heading", { name: "Barbería en Lisboa.", exact: true }),
+  ).toBeVisible();
+});
+
 test("JSON backups import as independent projects and corrupt storage is preserved", async ({
   page,
 }) => {
@@ -359,4 +510,17 @@ test("API blocks unauthenticated, cross-origin and unapproved publication reques
       })
     ).status(),
   ).toBe(503);
+  expect(
+    (
+      await request.post("/api/generate", {
+        headers: { Authorization, origin },
+        data: {
+          site: createSite(brief),
+          instruction: "Cambia el titular",
+          mode: "edit",
+          pageSlug: "carta",
+        },
+      })
+    ).status(),
+  ).toBe(400);
 });

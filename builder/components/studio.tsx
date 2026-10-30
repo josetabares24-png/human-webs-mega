@@ -29,8 +29,10 @@ import { checkQuality } from "../lib/quality";
 import { designs } from "../lib/design";
 import { BriefForm } from "./brief-form";
 import { PublishPanel } from "./publish-panel";
+import { PageEditor } from "./page-editor";
 
-type Tab = "chat" | "data" | "design" | "history" | "quality" | "publish";
+type Tab =
+  "chat" | "page" | "data" | "design" | "history" | "quality" | "publish";
 type Capabilities = { ai: boolean; publish: boolean; github: boolean };
 type Message = { role: "user" | "assistant"; text: string };
 function download(content: BlobPart, filename: string, type: string) {
@@ -70,9 +72,12 @@ export default function Studio() {
   const [paintMs, setPaintMs] = useState<number | null>(null);
   const previewStarted = useRef<number | null>(null);
   const importing = useRef<HTMLInputElement>(null);
+  const previewFrame = useRef<HTMLIFrameElement>(null);
   const active = projects.find((p) => p.id === activeId);
   const version = active?.versions[active.versions.length - 1];
   const site = version?.site;
+  const selectedPage =
+    site?.pages.find((item) => item.slug === page) || site?.pages[0];
   const html = useMemo(
     () => (site ? renderPage(site, page, "preview") : ""),
     [site, page],
@@ -89,6 +94,30 @@ export default function Studio() {
     return () => URL.revokeObjectURL(url);
   }, [html]);
   const quality = useMemo(() => (site ? checkQuality(site) : []), [site]);
+
+  useEffect(() => {
+    const navigate = (event: MessageEvent) => {
+      if (
+        event.source !== previewFrame.current?.contentWindow ||
+        event.origin !== "null"
+      )
+        return;
+      if (
+        event.data?.type !== "human-webs:page" ||
+        typeof event.data.slug !== "string"
+      )
+        return;
+      if (site?.pages.some((item) => item.slug === event.data.slug))
+        setPage(event.data.slug);
+    };
+    window.addEventListener("message", navigate);
+    return () => window.removeEventListener("message", navigate);
+  }, [site]);
+
+  useEffect(() => {
+    if (site && !site.pages.some((item) => item.slug === page))
+      setPage("index");
+  }, [site, page]);
 
   useEffect(() => {
     try {
@@ -129,20 +158,36 @@ export default function Studio() {
     durationMs = 0,
   ) => {
     if (!active) return;
+    if (
+      JSON.stringify(nextSite) ===
+      JSON.stringify(active.versions[active.versions.length - 1].site)
+    ) {
+      setStatus("No hay cambios que guardar.");
+      return;
+    }
     const next = addVersion(active, nextSite, label, source, durationMs);
     previewStarted.current = performance.now();
     setPaintMs(null);
     persist(projects.map((p) => (p.id === active.id ? next : p)));
     setBrief(nextSite.brief);
   };
-  const callAi = async (site: Site, instruction: string): Promise<Site> => {
+  const callAi = async (
+    site: Site,
+    instruction: string,
+    pageSlug?: string,
+  ): Promise<Site> => {
     const response = await fetch("/api/generate", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${operatorToken}`,
       },
-      body: JSON.stringify({ site, instruction }),
+      body: JSON.stringify({
+        site,
+        instruction,
+        mode: pageSlug ? "edit" : "generate",
+        ...(pageSlug ? { pageSlug } : {}),
+      }),
       signal: AbortSignal.timeout(55000),
     });
     const data = await response.json();
@@ -208,7 +253,8 @@ export default function Studio() {
     }
   };
   const edit = async () => {
-    if (!site || !active || !instruction.trim() || busy) return;
+    if (!site || !active || !selectedPage || !instruction.trim() || busy)
+      return;
     const text = instruction.trim();
     const started = performance.now();
     setBusy(true);
@@ -221,16 +267,18 @@ export default function Studio() {
     try {
       const result = aiMode
         ? {
-            site: await callAi(site, text),
+            site: await callAi(site, text, selectedPage.slug),
             changed: true,
             message:
               "He aplicado la instrucción con IA. Revisa el texto generado antes de entregarlo.",
           }
-        : editLocally(site, text);
-      if (result.changed)
+        : editLocally(site, text, selectedPage.slug);
+      const changed =
+        result.changed && JSON.stringify(result.site) !== JSON.stringify(site);
+      if (changed)
         commit(
           result.site,
-          text,
+          `[${selectedPage.label}] ${text}`,
           aiMode ? "ai" : "local",
           performance.now() - started,
         );
@@ -238,7 +286,13 @@ export default function Studio() {
         ...prev,
         [active.id]: [
           ...(prev[active.id] || []),
-          { role: "assistant", text: result.message },
+          {
+            role: "assistant",
+            text:
+              result.changed && !changed
+                ? "La página ya tiene esos valores; no he creado una versión duplicada."
+                : result.message,
+          },
         ],
       }));
     } catch (e) {
@@ -550,6 +604,7 @@ export default function Studio() {
                   {(
                     [
                       ["chat", "Conversación"],
+                      ["page", "Página"],
                       ["data", "Datos"],
                       ["design", "Estilo"],
                       ["history", "Versiones"],
@@ -579,6 +634,11 @@ export default function Studio() {
                     <div className="chat-panel">
                       <p className="kicker">TU WEB, A TU MANERA</p>
                       <h2>Seguimos afinando.</h2>
+                      <p className="hint">
+                        Página seleccionada:{" "}
+                        <strong>{selectedPage?.label}</strong>. El estilo y el
+                        contacto se aplican a toda la web.
+                      </p>
                       <div className="messages" aria-live="polite">
                         {(
                           messages[active.id] || [
@@ -622,9 +682,18 @@ export default function Studio() {
                       <p className="hint">
                         {aiMode
                           ? "La IA redacta con los datos confirmados. Revisa el resultado."
-                          : "Modo local: estilo, «Titular: …», «Descripción: …» o «Contacto: …»."}
+                          : "Página: «Titular: …», «Texto: …», «SEO: …» o «Título SEO: …». Datos generales: «Descripción: …» y «Contacto: …»."}
                       </p>
                     </div>
+                  )}
+                  {tab === "page" && selectedPage && (
+                    <PageEditor
+                      key={`${version.id}:${selectedPage.slug}`}
+                      site={site}
+                      slug={selectedPage.slug}
+                      disabled={busy}
+                      onSave={(next, label) => commit(next, label, "manual")}
+                    />
                   )}
                   {tab === "data" && (
                     <div className="panel-content">
@@ -811,6 +880,7 @@ export default function Studio() {
                 <div className={`preview-canvas ${mobile ? "mobile" : ""}`}>
                   {previewUrl && (
                     <iframe
+                      ref={previewFrame}
                       title="Vista previa del sitio generado"
                       sandbox="allow-scripts"
                       src={previewUrl}

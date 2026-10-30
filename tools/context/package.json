@@ -2,7 +2,15 @@
   "name": "human-webs-context-tools",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=22" },
-  "scripts": { "pack": "node pack.mjs", "benchmark": "node pack.mjs --benchmark" },
-  "devDependencies": { "repomix": "1.18.1" }
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "pack": "node pack.mjs",
+    "benchmark": "node pack.mjs --benchmark",
+    "benchmark:ai": "node ../../builder/node_modules/tsx/dist/cli.mjs ai-benchmark.ts"
+  },
+  "devDependencies": {
+    "repomix": "1.18.1"
+  }
 }

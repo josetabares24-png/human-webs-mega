@@ -24,8 +24,8 @@ npm run start
 1. Escribe una idea, por ejemplo «Necesito una web para una barbería premium en Lisboa». El modo local reconoce sector, ciudad y estilo; no inventa nombre ni contacto.
 2. Completa los datos reales. Servicios/carta admite una línea por concepto: `Nombre | precio | descripción`. Precio y descripción pueden quedar vacíos.
 3. Crea la primera versión. Navega dentro de la previa o usa su selector de páginas; alterna escritorio/móvil.
-4. Conversación local: «hazlo más elegante», «hazlo oscuro», `Titular: …`, `Descripción: …` y `Contacto: …`. Las instrucciones no reconocidas explican sus límites. Con IA configurada puedes pedir cambios abiertos de copy y dirección visual.
-5. Datos actualiza el negocio; Estilo cambia composición; Versiones restaura sin borrar versiones anteriores; Calidad muestra bloqueos y avisos.
+4. Selecciona una página en la previa. Conversación local: `Titular: …`, `Texto: …`, `SEO: …` y `Título SEO: …` cambian esa página. «Hazlo más elegante» o «hazlo oscuro» cambian el estilo de toda la web; `Descripción: …` y `Contacto: …` modifican datos generales. Las instrucciones no reconocidas explican sus límites. Con IA configurada puedes pedir cambios abiertos de copy y dirección visual.
+5. Página permite editar navegación, titular, texto y metadatos sin IA. Guarda antes de cambiar de página o herramienta; cada guardado con cambios crea una versión. Datos actualiza el negocio; Estilo cambia composición; Versiones restaura sin borrar versiones anteriores; Calidad muestra bloqueos y avisos. La navegación dentro de la previa sincroniza la página seleccionada del editor.
 6. Descarga el ZIP con HTML, proyecto editable, informe, configuración Vercel y sitemap/robots cuando hayas indicado una URL final.
 7. Mis proyectos y Conexiones permiten exportar/importar copias JSON. Los proyectos se guardan en este navegador: no están sincronizados en la nube. Hasta 40 proyectos y 50 versiones por proyecto. Usa una pestaña de edición y conserva copias.
 
@@ -45,7 +45,7 @@ Copia `.env.example` a `.env.local` y configura únicamente las integraciones qu
 | `HUMAN_WEBS_VERCEL_TEAM_ID` | Equipo Vercel opcional. |
 | `HUMAN_WEBS_GITHUB_TOKEN` | Credencial de la cuenta que creará repositorios privados dedicados; necesita crear repositorios y escribir contenido. Usa un token con alcance mínimo apropiado a tu cuenta. |
 
-Reinicia el servidor. En Conexiones introduce solo la **clave de operador**, que vive en memoria; las credenciales de proveedores permanecen en el servidor. Activa IA conscientemente: enviarás el briefing al proveedor y consumirás sus créditos. La IA devuelve JSON validado, nunca código arbitrario. No puede cambiar contactos, endpoints ni rutas; los hechos del negocio se editan en Datos. Si una generación inicial falla, la app conserva una alternativa local; una edición fallida no sustituye la versión anterior.
+Reinicia el servidor. En Conexiones introduce solo la **clave de operador**, que vive en memoria; las credenciales de proveedores permanecen en el servidor. Activa IA conscientemente: enviarás el briefing al proveedor y consumirás sus créditos. La IA devuelve JSON validado, nunca código arbitrario. No puede cambiar contactos, endpoints ni rutas; los hechos del negocio se editan en Datos. La generación inicial prepara el sitio completo; las ediciones posteriores envían al proveedor solo la página seleccionada y los datos relevantes, y reciben un parche de campos. El estilo puede cambiar para toda la web. Si una generación inicial falla, la app conserva una alternativa local; una edición fallida no sustituye la versión anterior.
 
 ## Publicar con aprobación
 

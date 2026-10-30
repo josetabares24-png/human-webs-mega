@@ -6,6 +6,7 @@ import {
   type Site,
 } from "./schema";
 import { chooseStyle } from "./design";
+import { updatePage } from "./page-edit";
 const normalize = (s: string) =>
   s
     .normalize("NFD")
@@ -133,17 +134,19 @@ export function updateSiteBrief(site: Site, input: BriefInput): Site {
             : p.description,
         heading:
           p.heading === original.heading ? replacement.heading : p.heading,
-        body:
-          ["nosotros", "servicios", "carta"].includes(p.slug) ||
-          p.body === original.body
-            ? replacement.body
-            : p.body,
+        body: p.body === original.body ? replacement.body : p.body,
       };
     }),
   });
 }
-export function editLocally(site: Site, instruction: string): EditResult {
-  const next = siteSchema.parse(site);
+export function editLocally(
+  site: Site,
+  instruction: string,
+  slug = "index",
+): EditResult {
+  let next = siteSchema.parse(site);
+  if (!next.pages.some((page) => page.slug === slug))
+    throw new Error("La página seleccionada no existe.");
   const input = normalize(instruction);
   let changed = true;
   if (/^(?:cambia (?:la cabecera|el titular)|titular)\s*:/i.test(instruction)) {
@@ -152,9 +155,18 @@ export function editLocally(site: Site, instruction: string): EditResult {
       .trim()
       .slice(0, 150);
     if (headline) {
-      next.headline = headline;
-      next.pages[0].heading = headline;
+      next = updatePage(next, slug, { heading: headline });
     } else changed = false;
+  } else if (/^(texto|seo|titulo seo)\s*:/.test(input)) {
+    const command = input.slice(0, input.indexOf(":")).trim();
+    const value = instruction.slice(instruction.indexOf(":") + 1).trim();
+    next = updatePage(next, slug, {
+      [command === "texto"
+        ? "body"
+        : command === "seo"
+          ? "description"
+          : "title"]: value,
+    });
   } else if (/^descripcion\s*:/.test(input)) {
     const description = instruction
       .slice(instruction.indexOf(":") + 1)
@@ -181,6 +193,6 @@ export function editLocally(site: Site, instruction: string): EditResult {
     changed,
     message: changed
       ? "Cambio aplicado. He creado una versión que puedes restaurar."
-      : "En modo local puedo cambiar el estilo o aplicar «Titular: …», «Descripción: …» y «Contacto: …». Para instrucciones abiertas, configura IA en Conexiones.",
+      : "En modo local puedo cambiar el estilo o usar «Titular: …», «Texto: …», «SEO: …» y «Título SEO: …» en la página seleccionada. «Descripción: …» y «Contacto: …» cambian los datos generales. Para instrucciones abiertas, configura IA en Conexiones.",
   };
 }

@@ -11,16 +11,16 @@ Windows, Node 24.16.0, npm 11.13.0, Next 15.5.28, React 19.3.1; Chromium 156 med
 | Instalación | Dependencias fijadas y package-lock; instalación sin alertas tras corregir PostCSS |
 | `npm run lint` | Correcto, ESLint 10 y reglas Next/TypeScript |
 | `npm run typecheck` | Correcto |
-| `npm test` | 22 pruebas correctas de motor, seguridad, persistencia, ZIP y contratos externos |
-| `npm run build` | Correcto: `/`, 404 y cuatro rutas API; 148 kB First Load JS del taller |
+| `npm test` | 30 pruebas correctas de motor, seguridad, edición por página, persistencia, ZIP y contratos externos |
+| `npm run build` | Correcto: `/`, 404 y cuatro rutas API; 150 kB First Load JS del taller |
 | `npm run format:check` | Correcto |
 | `npm audit` | 0 vulnerabilidades conocidas en la ejecución registrada |
-| `npm run test:e2e` | 9 recorridos correctos, sin omitidos ni flaky en la última suite completa |
-| Primera previa local | Última suite completa: **346 ms desde clic hasta encabezado visible**, con la app ya cargada; otra muestra: 133 ms |
+| `npm run test:e2e` | 11 recorridos correctos, sin omitidos ni flaky en la última suite completa |
+| Primera previa local | Última suite completa: **174 ms desde clic hasta encabezado visible**, con la app ya cargada; una muestra anterior dio 346 ms |
 
 El tiempo no incluye abrir el navegador, cargar la app por primera vez, instalar o compilar. No mide IA remota. No se garantiza esa cifra en otro equipo ni se afirma un SLA. La UI distingue el tiempo de generación del tiempo hasta cargar la previa; las versiones manuales sin medición dicen «Duración no medida».
 
-[Resumen de la ejecución](local-test-results.json). Las capturas de `previews/` muestran el producto real y un negocio **de prueba**, no una web publicada de un cliente: [editor](previews/studio-desktop.png), [panel móvil](previews/studio-mobile.png), [cuaderno](previews/generated-editorial-desktop.png), [invitación](previews/generated-minimal-desktop.png), [cartel](previews/generated-bold-desktop.png).
+[Resumen de la ejecución con edición por página](page-edit-test-results.json) y [medición anterior del MVP ampliado](local-test-results.json). Las capturas de `previews/` muestran el producto real y un negocio **de prueba**, no una web publicada de un cliente: [edición de página](previews/page-editor.png), [editor inicial](previews/studio-desktop.png), [panel móvil](previews/studio-mobile.png), [cuaderno](previews/generated-editorial-desktop.png), [invitación](previews/generated-minimal-desktop.png), [cartel](previews/generated-bold-desktop.png).
 
 ## Recorridos del navegador
 
@@ -31,6 +31,8 @@ El tiempo no incluye abrir el navegador, cargar la app por primera vez, instalar
 5. Panel a 390px: sin scroll horizontal y sin infracciones detectadas por las reglas automáticas seleccionadas.
 6–8. Las cuatro rutas de cada una de las tres direcciones visuales: navegación real entre archivos, un H1 por página, sin overflow a 390px y sin infracciones detectadas por axe para WCAG 2 A/AA y 2.1 AA.
 9. API: rechazar operaciones sin clave, origen ajeno, publicación sin aprobación y generación con IA no configurada.
+10. Edición manual de una página: titular, texto y SEO en el ZIP; conservación tras recargar y al actualizar datos generales; navegación de la previa sincronizada y rechazo de mensajes ajenos al iframe.
+11. Edición conversacional con respuesta controlada: el cliente indica mode edit y la ruta seleccionada, y el inicio permanece igual al cambiar Servicios. Las pruebas de lógica verifican que el proveedor recibe solo el contexto de esa página y que el parche no puede alterar otras rutas ni endpoints.
 
 La revisión automatizada del panel excluye el iframe de origen opaco de la comprobación `frame-tested`; sus contenidos se comprueban por separado como HTML exportado. Hay además una comprobación que confirma que la previa no puede leer el documento padre. No se ha certificado WCAG completa, probado dispositivos físicos, Safari o Firefox, ni medido Core Web Vitals de producción. Hace falta revisión manual de teclado/lector de pantalla y de contenido con cada negocio.
 
@@ -44,6 +46,11 @@ La revisión automatizada del panel excluye el iframe de origen opaco de la comp
 - Actualización de datos podía dejar SEO y textos predeterminados antiguos: se sincronizan preservando titulares personalizados.
 - Comandos como `Titular: Un corte elegante` podían confundirse con cambios de estilo: las instrucciones explícitas tienen prioridad y hay regresión cubierta.
 - Las versiones manuales tenían un cero como ausencia de duración: la UI ya no lo presenta como una medición de velocidad.
+- Los contadores de caracteres se incorporaban al nombre accesible de los campos del nuevo editor: se añadieron nombres explícitos y se verificó el recorrido y axe. La prueba también se ajustó para distinguir el selector de página del tabpanel homónimo.
+
+## Edición parcial y contexto de IA
+
+El panel Página permite editar navegación, titular, texto y metadatos sin credenciales. Los cambios se guardan en versiones; las demás páginas y hechos del negocio se conservan. La petición al proveedor en modo edit usa un esquema de parche con campos null para los que no cambian. La primera generación sigue preparando todas las páginas. En el fixture local de cuatro páginas, contar el JSON del cuerpo de petición con o200k_base dio 2162 tokens para generación completa y 992 para edición de Servicios (54,12 % menos). No se ha medido facturación ni calidad con un modelo remoto; [reproducción y límites](TOKEN-CONTEXT.md#ediciones-de-ia-por-página).
 
 ## Estado por fases y trabajo pendiente
 
