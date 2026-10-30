@@ -31,4 +31,46 @@ Verificar antes/después reales, atribuciones, alcance y precio, políticas de d
 
 **Prohibido:** usar sus imágenes, testimonios, logos, copy o precios para clientes sin licencia y verificación. La ficha es investigación, NO una plantilla ni una auditoría visual completa.
 
+## Auditoría visual ampliada (investigación, no aprobación)
+
+**Idea central del caso:** Dos paquetes comparables y prueba de transformación visible.  
+**Evidencia consultada:** Oficial actual + archivos de captura históricos de terceros.  
+**Confianza en la observación:** alta para paquete/flujo actual, baja para estética basada en archivos antiguos; sin CSS ni móviles propios..
+
+### Evidencia visual y límites
+- [Material visual o página de estudio atribuido](https://maxibestof.one/websites/5641-havenly). Se consulta como **referencia**, no como imagen disponible para reutilizar en una web comercial.
+- Sitios oficiales y recorridos verificados: [fuente](https://havenly.com/interior-design-services) · [fuente](https://havenly.com/pricing).
+- **Sin captura propia nueva de móvil/escritorio, sin inspección de CSS computado, sin tipografías licenciadas extraídas, sin prueba de conversión.** La imagen puede reflejar una versión anterior. No afirmar lo contrario.
+
+### Anatomía de la identidad
+
+| Dimensión | Observación y alcance |
+|---|---|
+| Fondo y color | Los archivos visuales históricos muestran interiores claros, blanco/gris suave y muebles con textura; **no** usarlo como receta universal de interiorismo. |
+| Tipografía | En capturas históricas, títulos serif serenos sobre grandes fotos de habitaciones; la página oficial actual prioriza comparación textual de paquetes. No hay medición de familia de fuentes actual. |
+| Fotografía y recursos | Habitaciones reales y ejemplos de antes/después; la página «How it works» dispone de control para comparar transformaciones y renders. La diferencia entre render y obra acabada debe etiquetarse. |
+| Primer viewport | La página consultada permite elegir modalidad online o presencial con costes/entregables, no únicamente un «estilo de vida» abstracto. |
+| Composición interior | Tabla/segmentos que comparan precios, rapidez, participación del cliente y entregables; secuencia de trabajo y prueba antes/después; preguntas frecuentes que despejan objeciones. |
+| Navegación/acción | La decisión se organiza por paquetes y servicio. Una empresa pequeña que únicamente hace visitas presenciales no debe inventar opción online. |
+
+**Lo que la hace diferente:** Mostrar exactamente qué recibe el cliente, cuánto participa y qué viene después, con fotos reales.
+
+### Qué adaptar en una empresa de servicios pequeña
+Para interiorista independiente: 2 modalidades solo si existen, proyectos antes/después autorizados, alcance confirmado y llamada para primera conversación; precios expresados como cotización si no hay tarifa fija.
+
+### Boceto original para una pyme
+Composición dividida: fotografías antes/después del mismo espacio y columna con «qué cambiamos»; sección de propuesta con entregables específicos, sin copiar renders o muebles.
+
+**Ejemplo de copy humano (hipotético, revisar datos antes de publicar):** ««Tem uma divisão que ainda não funciona como queria? Veja os projetos que realizámos e o que incluímos em cada serviço». Solo con portafolio real.»
+
+**No copiar:** No copiar tarifas o promociones de Havenly, promesas de 3-14 días o garantías que no aplica la pyme. No presentar renders como obra terminada.
+
+### Preguntas de QA y móvil
+El control antes/después debe funcionar con táctil y teclado, tener textos alternativos separados, evitar cambios de tamaño y mostrar alcance/precio sin comparadores horizontales rotos.
+
+### Estado de aprendizaje
+- **Investigación:** documentada el 30/10/2026; ver fuentes y límites arriba.
+- **Preferencia del usuario:** **PENDIENTE**, no asumir que le gustan colores o tipografía de este caso.
+- **Para elevar a patrón aprobado:** recibir captura/sección concreta y comentario explícito; verificar web actual, capturas propias 390/1280 px y, si corresponde, reproducir función con datos reales del cliente.
+
 [Volver a la subcategoría](README.md) · [Playbook](../PLAYBOOK.md).
