@@ -14,7 +14,7 @@ node --test tools/copy/lint.test.mjs
 
 Analiza frases genéricas editables en `phrases.json`, palabras consecutivas duplicadas, secuencias de cuatro palabras repetidas en distintas líneas, encabezados Markdown que arrancan igual y exceso de algunos adjetivos.
 
-Por defecto devuelve advertencias y **exit 0**. Con `--strict`, advierte y devuelve **exit 1**. Activar strict **solo sobre un copy final revisado**, no sobre documentos del repo ni código. Los falsos positivos son normales: marcas, direcciones, keywords SEO y eslóganes autorizados pueden requerir repetición. `--allow` registra excepciones puntuales al ejecutar el comando.
+Por defecto devuelve advertencias y **exit 0**. Con `--strict`, advierte y devuelve **exit 1**. Activar strict **solo sobre un copy final revisado**, no sobre documentos del repo ni código. Los fragmentos de direcciones con nombres propios se excluyen en los casos reconocibles, pero los falsos positivos siguen siendo posibles: marcas, direcciones, keywords SEO y eslóganes autorizados pueden requerir repetición. `--allow` registra excepciones puntuales al ejecutar el comando.
 
 ## Límites
 

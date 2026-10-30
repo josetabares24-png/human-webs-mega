@@ -48,6 +48,10 @@ test("CLI strict mode enforces warnings, default does not", () => {
   const strict = spawnSync(process.execPath, [command, "--lang", "es", "--strict", file], { encoding: "utf8" });
   assert.equal(strict.status, 1, strict.stderr);
 });
+test("repeated street names are not a copy error", () => {
+  const result = reviewCopy("# Brunch na Rua da Prata\n\nVeja a carta na Rua da Prata antes de sair.", { lang: "pt" });
+  assert.ok(!result.some((item) => item.rule === "repeated-phrase"));
+});
 test("CLI a good pt-PT example in strict mode passes", () => {
   const command = resolve("tools/copy/lint.mjs");
   const file = resolve("tools/copy/fixtures/good-pt.md");

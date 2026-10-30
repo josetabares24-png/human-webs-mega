@@ -60,6 +60,9 @@ export function reviewCopy(input, options = {}) {
       const part = words.slice(i, i + 4);
       const keys = part.map((word) => word.value);
       if (keys.filter((key) => !filler.has(key)).length < 2) continue;
+      // Place names like "na Rua da Prata" are factual, not copy repetition.
+      const capitals = part.filter((word) => /^\p{Lu}/u.test(word.original)).length;
+      if (capitals >= 2 && (filler.has(keys[0]) || capitals >= 3)) continue;
       const key = keys.join(" ");
       if (!ngrams.has(key)) ngrams.set(key, []);
       ngrams.get(key).push({ line: li, column: part[0].index });
