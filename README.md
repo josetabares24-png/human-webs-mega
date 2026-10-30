@@ -11,6 +11,9 @@
 4. Incorpora nuevos aprendizajes mediante [Plantilla de registro](memory/RECORD-TEMPLATE.md).
 5. Ejecuta `node tools/memory/check.mjs` para comprobar referencias y estructura de la memoria.
 
+## Usar desde un proyecto de cliente
+Si Codex trabaja en **otro** repositorio, no leerá automáticamente estas instrucciones. Usa el [prompt de arranque para IA externas](memory/START-HERE.md) y dale acceso de lectura a Human Webs.
+
 ## Fuentes de conocimiento existentes
 - [Principios de diseño](principles/pre-ai-web-design.md), [redacción humana](principles/human-copy.md) y [filtro de clichés](principles/anti-ai-checklist.md).
 - [Biblioteca de restaurantes](examples/restaurants/biblioteca.md) y [registro de investigación](examples/restaurants/learning-log.md): observaciones útiles, no componentes copiables ni verdades universales.
