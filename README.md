@@ -36,6 +36,9 @@ Estas fichas de servicios **son referencias investigadas, no diseños aprobados*
 - [Preflight de dirección artística](tools/design-preflight/README.md): verificador sin dependencias que marca propuestas que solo cambian color, falta de fuentes o baseline no documentado; **no puntúa ni verifica belleza**.
 - [Seis conceptos de Estaba en Lisboa rechazados](memory/CASES/ESTABA-LISBOA-SIX-BRANDED-MOCKUPS-REJECTED-2026-10-31.md): feedback negativo explícito, no repetir.
 
+## Evidencia visual real, no solo guías escritas
+- [Capturador y comparador antes/después](tools/visual-evidence/README.md): 8 capturas de Chromium con metadatos de carga, hash y reporte local de home/interior × móvil/escritorio. Requiere Playwright y acceso a las webs; el CI comprueba la herramienta usando datos sintéticos, **NO visita ni certifica las webs reales**.
+
 ## Biblioteca y conocimiento conservado
 
 - [Memoria visual documentada](design-library/README.md): referencias, capturas de investigación, medidas y recetas originales. Incluye [búsqueda local](tools/design-library/query.mjs).
