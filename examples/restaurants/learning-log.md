@@ -25,7 +25,7 @@ These patterns favor restraint, specific tracking, and operational honesty over 
 Independent casual Hawaiian-style fried chicken (multiple Seattle locations, Squarespace).
 
 **Observed:**
-- Structure and CTAs: Full-bleed bright yellow background. Top nav text links (Menu, Locations, About, Contact, FAQ) + orange Catering button. Hero: oversized “HAWAIIAN STYLE FRIED CHICKEN” + prominent “ORDER ONLINE”. Short location cards (West Seattle / Benbow Room, etc.). Repeating marquee “CRISPY ✱ JUICY ✱ ALOHA”. About page leads with pronunciation and personal family story.
+- Structure and CTAs: Full-bleed bright yellow background. Top nav text links (Menu, Locations, About, Contact, FAQ) + orange Catering button. Hero: oversized “HAWAIIAN STYLE FRIED CHICKEN” + prominent “ORDER ONLINE”. Short location cards (West Seattle / Benbow Room, etc.). Repeating marquee “CRISPY ∗ JUICY ∗ ALOHA”. About page leads with pronunciation and personal family story.
 - Typography: Display headings use custom “obviously-narrow” (Typekit, weight 800) at large sizes (~63px hero, ~45px marquee, ~28px section heads). Body is system sans-serif 16px / 400. Some buttons/nav use “degular” or “Varela Round”. Extreme weight and size contrast; dark navy text on yellow.
 - Buttons: Primary CTAs (ORDER ONLINE, Catering, skip-to-content) are filled orange rgb(226, 75, 37), white text, modest border-radius ~6px, padding ~16px. Nav items are plain text links (no fill). High contrast against yellow.
 - Colors: Dominant bright yellow bg rgb(254, 195, 59), dark navy text rgb(27, 36, 46), orange accent. Saturated, energetic palette; no gradients or muted tones.
@@ -35,9 +35,30 @@ Independent casual Hawaiian-style fried chicken (multiple Seattle locations, Squ
 **4-6 concrete patterns for anti-AI webs:**
 1. Full-bleed saturated brand color as page background (bright yellow instead of white/gray) — instantly personal and non-template.
 2. Ultra-bold custom display face (obviously-narrow 800) at very large sizes for headlines, paired with plain body text — strong hierarchy without relying on default system or trendy sans.
-3. Idiosyncratic repeating marquee with special characters (✱) — playful, human detail that AI generators rarely invent with consistent personality.
+3. Idiosyncratic repeating marquee with special characters (∗) — playful, human detail that AI generators rarely invent with consistent personality.
 4. Cheeky, operational menu copy that includes practical asides (“first dipping sauce is free…”) — reads like a real kitchen, not marketing polish.
 5. High-energy filled orange buttons with modest radius on yellow field — avoids both soft pastels and pure black/white defaults.
 6. Hyper-specific personal origin story (named family members, exact place Kauai/Koke‘e, picnic chicken memory) — concrete detail over generic passion statements.
 
 These patterns favor loud, specific personality and operational voice over restrained luxury or polished marketing defaults.
+
+## Sweetgreen (sweetgreen.com) — 2026-10-31
+Casual chain focused on salads, warm bowls, and healthier fast-casual (multiple US locations, custom site).
+
+**Observed:**
+- Structure and CTAs: Cream off-white full page. Nav includes Our Menu, Our Mission, Fundraising, Outpost, Catering, Locations, Order (text links + prominent Order). Hero/product sections with large playful headlines over photography. Primary CTAs are bright lime "Order now" / "Let us know" pills. Sections for menu categories (Salads, Warm Bowls) and locations/team. Mobile shows hamburger toggle for main menu.
+- Typography: Custom SweetSans / SweetSansText (sans, body 16px/400) for most text and buttons. Large display headlines (~63px, weight 400) in SweetSans. Category headers and some big titles use Grenette (serif, weight 200, ~38–63px, negative letter-spacing ~-1.8px). Logo in dark green. Strong size contrast; light weights on serif display.
+- Buttons: Primary CTAs are extreme pill shapes (border-radius 1000px), filled bright lime/yellow-green rgb(230, 255, 85), dark green text rgb(0, 71, 60), padding ~15px 60px. Some circular icon buttons same color. Nav items plain text (no fill, 0 radius). High contrast on cream bg. Skip-to-content is outlined-ish.
+- Colors: Warm cream/off-white bg rgb(244, 243, 231), near-black/dark green text rgb(14, 21, 14) or rgb(0, 71, 60). Accent is the vivid lime rgb(230, 255, 85) on buttons. No gradients observed; organic, health-oriented palette.
+- Spacing / borders / shadows / photography: Almost no box-shadows or decorative borders (flat). High-quality product photography (detailed food shots of wraps, salads, bowls from Contentful CDN, strong alts describing ingredients). Generous space; type and images create rhythm. Clean, airy, no heavy chrome.
+- Menu / mobile / copy: On-site menu with ingredient lists and practical allergen notes ("Contains milk, eggs, fish, meat, wheat"). Playful, specific headlines ("The Caesar Got Dilly", "And Rolled Into A Wrap", "Where should we open next?"). Menu page uses large Grenette serif for "We source the best ingredients from farm..." and category heads. Copy is transparent and seasonal rather than pure marketing. Mobile hamburger; desktop has expanded nav.
+
+**4-6 concrete patterns for anti-AI webs:**
+1. Warm cream background rgb(244, 243, 231) instead of pure white — softer, more organic/human feel that avoids clinical template defaults.
+2. Extreme pill buttons (radius 1000px) in vivid brand lime with dark text — distinctive energy and high contrast without relying on standard blue/black fills or soft shadows.
+3. Light-weight custom serif (Grenette 200) at large sizes with slight negative tracking for category/headline display, paired with custom sans body — editorial yet approachable hierarchy, not system fonts.
+4. Ingredient-transparent menu copy with explicit allergen lists next to playful product names — operational honesty + personality that reads like a real kitchen, not AI-generated polish.
+5. Product photography that is detailed and specific (hand-held wraps, ingredient-focused) without UI chrome, shadows, or frames — images do the selling; layout stays flat and clean.
+6. Seasonal, idiosyncratic headlines ("The Caesar Got Dilly") over generic benefit statements — concrete, human voice that AI generators struggle to keep consistent and non-cliché.
+
+These patterns favor brand-specific custom type, warm organic color, transparent operational details, and playful specificity over generic polished marketing or default system aesthetics.
