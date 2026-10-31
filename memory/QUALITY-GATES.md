@@ -32,7 +32,7 @@ Estos controles aplican a web nueva y rediseño visual, no obligan a rediseñar 
 ## Revisión UX / visual
 - [ ] Dirección visual coincide con el brief y se aplica a home, navegación, pie, páginas internas y estados de formulario.
 - [ ] Títulos específicos, jerarquía tipográfica, márgenes, contraste y botones coherentes.
-- [ ] Sin flechas decorativas añadidas a CTA/cards/enlaces por costumbre; los iconos de orientación deben cumplir una función real y documentada. Comprobar en home, interiores y móvil; ver [interacciones](TEXT-FIRST-INTERACTIONS.md).
+- [ ] Sin flechas decorativas añadidas a CTA/cards/enlaces por costumbre; los iconos de orientación deben cumplir una función real y documentada. Comprobar en home, interiores y móvil; escaneo orientativo disponible en [auditoría de flechas](../tools/design-audit/README.md), sin sustituir revisión manual; ver [interacciones](TEXT-FIRST-INTERACTIONS.md).
 - [ ] Si se transfirió una idea de otro sector, registrar origen/evidencia, necesidad, principio transferido y qué se evitó copiar; no asumir aprobación estética. Ver [cruce entre bibliotecas](CROSS-SECTOR-IDEAS.md).
 - [ ] Revisar viewport 390px y 1280px; menús, imágenes, lectura, foco visible, teclado y target táctil cuando corresponda.
 - [ ] No usar capturas de una única página como prueba de que todo el sitio está bien.
