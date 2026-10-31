@@ -13,6 +13,7 @@ on:
       - "tools/copy/**"
       - "tools/sectors/**"
       - "tools/design-preflight/**"
+      - "tools/inspiration/**"
       - "principles/human-copy.md"
       - ".github/copilot-instructions.md"
       - ".github/workflows/memory-check.yml"
@@ -44,6 +45,9 @@ jobs:
       - run: node tools/memory/check.mjs
       - run: node --check tools/design-library/query.mjs
       - run: node tools/design-library/query.mjs --check
+      - run: node --check tools/inspiration/bridge.mjs
+      - run: node tools/inspiration/bridge.mjs --check
+      - run: node --test tools/inspiration/bridge.test.mjs
       - run: node --check tools/design-preflight/check.mjs
       - run: node --test tools/design-preflight/check.test.mjs
       - run: node tools/design-preflight/check.mjs tools/design-preflight/fixtures/good-new.json
