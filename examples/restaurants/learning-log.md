@@ -195,3 +195,52 @@ See full content pushed from local /tmp/learning-log-full.md - the complete log 
 6. **Copy personal-operativo con nombres y reglas reales**: Aaron/Stacy, Duroc pigs, holiday closures específicos, sister restaurant. Nada de “experiencia BBQ inolvidable”; la verdad operativa (sold out, bring chair) es el contenido.
 
 **Honestidad:** Cookie banner presente al cargar. Font “cheap-pine-sans” y “voltage” son custom de Squarespace. No medí viewport móvil forzado. Sombras nulas. Todo de getComputedStyle y texto visible en la sesión. Sitio carga limpio, sin Cloudflare block. Fotos reales de trays y espacio.
+
+---
+
+## Observación: Eleven Madison Park (elevenmadisonpark.com) — 31 octubre 2026
+
+**Tipo:** Premium independiente / fine dining (NYC, Chef Daniel Humm, 3 Michelin). Captura en navegador en vivo (Squarespace, viewport ~800×600).
+
+### Estructura y CTAs
+- Homepage extremadamente mínima: logo wordmark, nav hamburger ("Open Menu"), y CTA persistente "Book on Resy". El resto es fotografía a sangre de platos, equipo, Magic Farms y detalles. Footer operativo con dirección (11 Madison Avenue), teléfono, newsletter.
+- CTA principal: "Book on Resy" (filled, acento naranja-rojo) y "Reservations" como enlace de texto en nav. Lleva a Resy. Otras acciones: Wine List, Gift Cards, Clemente Bar, Press.
+- Menú de comida NO se publica online (se explica en About: "Due to the hyper-seasonal nature of our menu, all courses are subject to change. As such, we are unable to share our food menus online."). Solo lists de vino y cócteles.
+- Nav con folders: About Us, Team, Magic Farms, Events, Stories, Shop.
+
+### Tipografía
+- Display / títulos: "nobel" (sans light), peso 300, ~36px en h1 ("Welcome to Eleven Madison Park"), letter-spacing ligero.
+- Cuerpo: "EB Garamond" (serif), ~18.88px, peso 400. Elegante y legible.
+- Nav y labels: nobel peso 300, ~17px. Algunos elementos Inter Tight o EB Garamond en botones.
+- Contraste serif cuerpo vs sans light display. Pesos bajos (300-400), sin bold extremos. Evita Inter genérico.
+
+### Botones
+- "Book on Resy": filled, fondo rgb(252, 72, 55) (naranja-rojo), texto blanco, nobel ~18px peso 700, border-radius ~6.4px, padding horizontal, sin sombra.
+- "Reserve": filled negro, Helvetica Neue, radio 0 en algunos contextos.
+- Nav y "Reservations": texto puro, fondo transparente, radio 0, nobel peso 300. Sin outline ni pills en acciones principales.
+- Estilo mixto: filled con ligero radio solo en el CTA de reserva; resto texto.
+
+### Colores
+- Fondo: blanco rgb(255,255,255).
+- Texto: negro rgb(0,0,0).
+- Acento: naranja-rojo rgb(252, 72, 55) exclusivamente en el botón Book on Resy.
+- Paleta muy restringida; el color y la riqueza vienen de las fotografías de comida y granjas. Contraste alto en el CTA.
+
+### Espaciado, bordes, sombras, fotografía
+- Mucho aire, diseño editorial mínimo. Bordes 0, box-shadow none en elementos inspeccionados.
+- Fotografía de alta calidad con alts descriptivos precisos: platos (Tardivo salad with blood orange, Scallop marinated with kohlrabi, Tonburi with cauliflower), equipo (dining room team meeting), Magic Farms (tunnels, produce, Chef Humm). Comunica proceso, origen y plato sin stock.
+- Imágenes de Squarespace CDN, reales y específicas.
+
+### Menú, móvil y copy
+- Menú de comida ausente a propósito (hiperestacional). Horas exactas en About: Mon-Thu 5:30-10pm, Fri-Sun lunch + dinner. Bar walk-ins + reservations. Plant-based option explícita.
+- Móvil: nav hamburger, estructura minimalista que escala. Viewport meta estándar de Squarespace. No se forzó resize completo.
+- Copy: factual y operativo. Ubicación exacta, partnership con Magic Farms (produce exclusivo), "choice between dishes", "fully plant-based". Sin adjetivos marketing vacíos ni storytelling inflado. La restricción del menú se explica con honestidad.
+
+### 5 patrones concretos para webs anti-IA
+1. **Display light (nobel peso 300) + serif cuerpo (EB Garamond)**: títulos finos y cuerpo serif clásico. Evita el look bold Inter/Roboto de IA; más editorial y humano.
+2. **Homepage mínima con fotografía de plato + origen (farms/team)**: no hero de stock ni copy generada. Alts precisos en fotos comunican el producto real.
+3. **CTA de reserva filled en acento cálido único (naranja-rojo) con radio ligero**: único color de acento, decisión clara a Resy. Resto de navegación es texto puro.
+4. **Honestidad operativa sobre el menú**: "unable to share our food menus online" por naturaleza hiperestacional. Anti-genérico; el valor está en la experiencia, no en listar platos estáticos.
+5. **Copy factual con datos concretos y opciones reales**: horas exactas, dirección, Magic Farms, opción plant-based, bar walk-in. Nada de "experiencia culinaria transformadora"; la precisión es el contenido.
+
+**Honestidad:** Homepage tan visual y quieta que el texto principal está en About. El botón filled naranja se observa en contextos de reserva. Móvil no se midió con viewport forzado. Sombras nulas. Todo basado en getComputedStyle, texto extraído y alts de imágenes en la sesión de navegador. Sitio carga limpio en Squarespace.
