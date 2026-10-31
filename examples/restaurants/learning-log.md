@@ -83,3 +83,24 @@ Premium independent family-owned fine dining restaurant in Seattle since 1950 (c
 6. Photography without any chrome: Large images have 0 radius, 0 shadow, 0 border; they sit directly in the layout. Soft shadows only on functional UI (dropdowns, alerts), not on content.
 
 These patterns emphasize custom type pairing, dramatic but restrained scale, warm operational voice, and pure photographic presence. Strong for anti-AI restaurant sites aiming for established, family-run luxury rather than generic polished templates.
+
+## Padella (padella.co) — 2026-10-31
+Casual independent Italian pasta bar with locations in Borough Market, Shoreditch & Soho, London (custom WordPress theme).
+
+**Observed:**
+- Structure & CTAs: Dark full-bleed hero with video (timelapse of pasta making). Large location cards/links (Borough Market, Shoreditch, Soho) with photos. Daily menu is the main content right after, dated (e.g. "SATURDAY 31ST OCTOBER"). Nav is minimal: Vouchers, Careers + hamburger toggle. No prominent filled CTAs; links are text or large type.
+- Typography: Body uses "Roboto Condensed", sans-serif, 16px, weight 400, line-height 24px, white on black. Headings and nav use Oswald, sans-serif (condensed), 18-30px, weights 400/700, some with tight letter-spacing (-0.25px). High contrast, bold condensed for locations and categories (ANTIPASTI, PASTA).
+- Buttons: Almost none. Navigation and actions are text links or the hamburger button (Oswald, transparent bg, 0 radius, letter-spacing 0.8px, padding). No filled, outline, or pill buttons. Pure text hierarchy.
+- Colors: Pure black background rgb(0,0,0), pure white text rgb(255,255,255). No accent colors, no gradients. Photography and video provide all color. Stark monochrome.
+- Spacing, borders, shadows, photography: Zero borders, zero radius, zero shadows on content. Location images are medium-sized webp photos of interiors/food. Hero is video. Layout is straightforward vertical stack with the menu as long text list. Airy enough but content-dense on the menu.
+- Menu / mobile / copy: Full daily menu with prices (£4–£16.5), specific items (Nocellara olives, Tagliarini with Dorset crab, Pici cacio & pepe, note about extra Parmesan 50p). Categories in uppercase. Copy is personal and direct: "Padella is the culmination of Tim and Jordan’s long held dream to open a pasta bar serving fresh, hand rolled pasta... inspired by their trips to Italy." Mentions other restaurant Trullo. Group bookings via email. Mobile has clear "Toggle navigation" button; desktop shows limited links.
+
+**4-6 concrete patterns for anti-AI webs:**
+1. Pure black + white with condensed display type: Oswald (700) for big location names and menu categories on pure black creates a bold, high-contrast, non-soft look that AI generators rarely default to (they prefer light modes and geometric sans).
+2. Menu as the primary homepage content: Dated daily menu with exact prices, specific supplier/ingredient names, and practical notes sits immediately after locations — operational and transparent instead of a hero with marketing copy + separate menu page.
+3. Text-only hierarchy with zero button chrome: No filled or rounded CTAs at all; navigation and locations are large type or plain links. Avoids the generic button-heavy AI aesthetic.
+4. Founder-specific, non-polished copy: Explicit names (Tim and Jordan), "long held dream", "hand rolled pasta", trips to Italy, and a sister restaurant mention — reads like real people, not generated marketing language.
+5. Video + photography without frames: Timelapse video as atmosphere and unbordered location photos carry the visual interest; the rest is pure type on black. No cards, shadows, or overlays.
+6. Dual condensed sans pairing: Roboto Condensed for readable body + Oswald for stronger display creates a consistent condensed-Italian-casual feel without mixing serifs or trendy weights.
+
+These patterns favor stark contrast, menu-first practicality, personal voice, and zero decorative chrome. Useful for anti-AI sites that should feel like a real neighborhood pasta bar rather than a polished digital brochure.
