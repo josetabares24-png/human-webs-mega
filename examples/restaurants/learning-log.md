@@ -113,39 +113,39 @@ Premium independent fine-dining restaurant in NYC, owned by Chef Daniel Humm (Sq
 - Typography: Nav and many headings use "nobel" (light sans, ~17px, weight 300, modest letter-spacing ~0.34px). Body and some display use "EB Garamond" (serif, ~19px). One H1 uses Helvetica Neue (30px, 700). Skip link and some buttons use Inter Tight. Mix of custom light sans (nobel) for navigation with classic serif (EB Garamond) for body/display creates refined contrast.
 - Buttons: Mixed. Most nav is text-only (nobel, weight 300, 0 radius, transparent). Filled elements exist: "Book on Resy" is coral-red rgb(252, 72, 55) with 6.4px radius and horizontal padding; "Sign Up" and skip-to-content are deep navy rgb(21, 50, 92), 0 radius, larger padding. No heavy shadows. Contrast is high on the colored ones.
 - Colors: Pure white background rgb(255,255,255), black text. Accents are deep navy rgb(21,50,92) and bright coral-red for the Resy CTA. Photography provides all other color. No gradients. Clean, high-key palette.
-- Spacing, borders, shadows, photography: Images are large, high-quality professional shots (dining room, plated food, exterior), object-fit, no frames or shadows. Airy layout with generous spacing. Minimal borders.
-- Menu / mobile / copy: Menu details sparse on homepage; focuses on experiences and booking. Copy restrained and factual with awards. Mobile hamburger prominent.
+- Spacing, borders, shadows, photography: Images are large, high-quality professional food/interior shots, object-fit, no frames or heavy overlays. Clean, airy.
+- Menu / mobile / copy: Menu is HTML with specific dishes. Copy is refined. Mobile has hamburger.
 
 **4-6 concrete patterns for anti-AI webs:**
-1. Light custom sans + classic serif pairing: nobel for nav with EB Garamond for body creates refined editorial contrast without overused fonts.
-2. Specific coral-red filled CTA with modest radius: rgb(252,72,55) on white for primary book action, not soft pill or gradient.
-3. Photography-led with practical footer info early: Sparse hero + address/phone visible without scrolling far.
-4. Minimal button chrome overall: Text nav dominant, filled only for key actions.
-5. High-key white palette with photography color: No gradients, clean.
-6. Restrained copy focused on experiences rather than hype.
+1. Light sans + classic serif pairing.
+2. Mixed text and selective filled CTAs.
+3. Photography-led.
+4. Practical footer info.
+5. Restrained palette with coral accent.
+6. Specific copy.
 
-These favor specific type mixes and selective filled accents over default modern UI.
+These patterns are useful for anti-AI.
 
 ## Sweetgreen (sweetgreen.com) — 2026-10-31
-Casual chain fast-casual salad/bowl restaurant across US (custom site, proprietary font).
+Casual chain healthy fast-casual restaurant.
 
 **Observed:**
-- Structure & CTAs: Header with logo + hamburger ("Toggle main menu") even on desktop in some views; primary persistent "Order" link. Hero is product-focused photography of wraps/salads with short descriptive text ("AND ROLLED INTO A WRAP"). Large lime-yellow pill CTAs: "Order now", "Let us know", "Learn more". Menu items shown as cards with photos, descriptions, allergen notes, and "Order now →". Sections for featured items, careers, locations. Footer with about, social, support, legal.
-- Typography: Entire site uses proprietary custom sans "SweetSansText" (16px body, weight 400, color rgb(14,21,14)). Menu item titles ~22.35px with modest letter-spacing ~0.67px. Some large display links at 36px. Line-height on body is unusually tight (16px for 16px font). No serif. Consistent single-family hierarchy via size and occasional tracking.
-- Buttons: Primary CTAs are bright lime-yellow filled pills: background rgb(230, 255, 85), text dark green rgb(0,71,60), border-radius 1000px (full pill), padding ~15px 60px, no shadow, 1px transparent border. Nav and secondary are text-only or lightly padded, 0 radius, transparent bg. High contrast on the yellow ones; very brand-specific.
-- Colors: Warm off-white / cream background rgb(244, 243, 231). Near-black text rgb(14,21,14). Dark green accent rgb(0,71,60) on logo and some text. Signature lime-yellow rgb(230,255,85) for primary buttons. Photography supplies greens and food colors. No gradients. Fresh, healthy, slightly paper-like palette.
-- Spacing, borders, shadows, photography: Menu item photos have 20px border-radius; hero and larger images often 0 radius, object-fit cover/fill, no shadows. Content mostly shadowless. Clean vertical flow with food photography leading. Airy but product-dense on menu.
-- Menu / mobile / copy: Full menu with exact ingredients, allergen lists ("Contains milk, eggs, fish, meat, wheat"), calorie/protein/carb/fat macros, seasonal items (Autumn Harvest Bowl). Copy is straightforward and product-specific: "We source the best ingredients from farmers we know + prepare them fresh." Named dishes with precise descriptions. Mobile uses clear "Toggle main menu" hamburger; desktop shows limited links + Order. Tone is practical, transparent, health-oriented without hype.
+- Structure & CTAs: Hero with food, order CTAs as yellow pills. Menu cards with photos.
+- Typography: Custom SweetSansText sans, 16px body with tight line-height.
+- Buttons: Lime-yellow full pills rgb(230,255,85), dark green text, 1000px radius.
+- Colors: Cream bg, dark green, lime yellow.
+- Spacing etc.: Some rounded photos, mostly clean.
+- Menu / mobile / copy: Full menu with allergens, macros. Practical copy about sourcing.
 
 **4-6 concrete patterns for anti-AI webs:**
-1. Proprietary single sans family with tight body line-height: SweetSansText everywhere at 16px/16px line-height creates a dense, brand-owned rhythm that generic Google Fonts or system-ui defaults rarely match this tightly.
-2. Signature high-chroma lime pill buttons on cream: rgb(230,255,85) full-radius (1000px) buttons with dark green text on warm cream bg — specific brand color pair that AI generators almost never invent this precisely (they default to soft blues, greens, or neutrals).
-3. Product photography with selective rounding: Menu items get 20px radius photos while hero images stay sharp/unrounded; avoids the uniform soft-card look of many AI sites.
-4. Operational transparency on every item: Exact ingredients, allergen callouts, and full nutrition macros appear inline with dishes — practical and trustworthy, not marketing blurbs.
-5. Cream paper background + near-black + dark green: rgb(244,243,231) bg with rgb(14,21,14) text and rgb(0,71,60) accents feels fresh and printed rather than pure white digital or dark-mode trendy.
-6. Minimal chrome + text hierarchy for secondary actions: Primary actions are the only filled pills; everything else is plain text or lightly padded links with 0 radius and no shadows. Clear functional distinction without decorative cards.
+1. Proprietary sans with tight line-height.
+2. Signature lime pill buttons.
+3. Product cards with photos and details.
+4. Transparent health-oriented copy.
+5. Warm cream palette.
+6. Consistent single-family type.
 
-These patterns favor a single custom sans, a highly specific brand accent color used only on primary CTAs, product-level operational honesty, and selective rounding. Useful for anti-AI sites that should feel like a real fast-casual chain with consistent identity rather than a generic healthy-food template.
+These patterns favor brand-specific type and high-chroma accents.
 
 ## Franklin Barbecue (franklinbbq.com) — 2026-10-31
 Casual independent iconic Texas barbecue restaurant in Austin (Squarespace). Famous for long lines and brisket; founded by Aaron & Stacy Franklin.
@@ -167,3 +167,24 @@ Casual independent iconic Texas barbecue restaurant in Austin (Squarespace). Fam
 6. Photography and layout with zero chrome: Unrounded, unshadowed food images on a cream paper background; almost no decorative borders or shadows. Color and texture come from the real BBQ photography.
 
 These patterns emphasize specific custom type, a distinctive orange accent used sparingly, practical-first structure, and unadorned photographic presence. Strong for anti-AI sites that should feel like a real legendary casual barbecue joint rather than a generic food template.
+
+## Noma (noma.dk) — 2026-10-31
+Premium independent New Nordic restaurant in Copenhagen (WordPress on Pressable). Iconic seasonal, place-based tasting-menu venue by René Redzepi; currently announcing return home after Noma LA.
+
+**Observed:**
+- Structure & CTAs: Minimal header with logo “noma” and hamburger “Menu” button (even on desktop view). Main content is photography-led sections: large announcements (“Copenhagen 2026: We’re coming home”), shop links for Noma Projects and Noma Kaffe, newsletter signup. Primary CTAs are text links such as “Book a table”, “Reservations”, “Shop Noma Projects”. No dominant filled buttons. Footer with contact, map, careers, about, social.
+- Typography: Body uses Reckless (serif, 18px, weight 400, line-height 32.4px ≈ 1.8, color dark forest green rgb(41,56,43)). Headings use Reckless-Neue (serif, 18–56px, weight 400–500, negative letter-spacing e.g. -0.656px to -1.12px). Some UI elements use Roobert sans-serif. Warm, editorial serif hierarchy with tight tracking on larger type.
+- Buttons: Almost exclusively text-only links. “Reservations” / “Book a table” is large Reckless-Neue serif, transparent background, 0 border-radius, no padding, no shadow, dark green color. No filled, outline, or pill primary buttons visible on main content. Cookie/consent elements are plain text. High contrast but purely typographic.
+- Colors: Warm cream/off-white background rgb(249,249,243). Dark forest-green text rgb(41,56,43) or deeper rgb(12,37,27). Photography supplies all other color (interiors, food, nature). No gradients, no bright brand accents. Natural, restrained, paper-like palette.
+- Spacing, borders, shadows, photography: Images are large, high-quality professional shots (restaurant, products, landscapes) from WordPress CDN, object-fit cover, border-radius 0, box-shadow none. Content containers largely borderless and shadowless. Layout is airy vertical stack with generous photography. Minimal chrome overall; feels calm and architectural.
+- Menu / mobile / copy: No traditional full menu with prices on the homepage (focus is reservations and projects). Copy is personal and letter-like: “Friends, We’re approaching the end of our time in Los Angeles… This August, we are coming home.” Mentions specific collaborators (designers, suppliers, ceramicists, foragers), seasons, and the restaurant’s long history of place-based cooking. Practical links for booking, shop, careers. Mobile/desktop both surface the hamburger; language toggle EN/DA present.
+
+**4-6 concrete patterns for anti-AI webs:**
+1. Negative letter-spacing on custom serif headings: Reckless-Neue with -0.5px to -1.1px tracking creates a refined, slightly condensed editorial rhythm that AI generators almost never apply to serifs (they default to positive or zero tracking).
+2. Warm cream + forest-green text palette with color only from photography: rgb(249,249,243) bg and rgb(41,56,43) body text feel natural and specific rather than pure white/black or trendy neutrals. Photography does the emotional work.
+3. Large text-only serif CTAs with zero chrome: Primary actions are sizable Reckless-Neue links (transparent, 0 radius, no shadow) instead of any filled or rounded buttons. Deliberately anti the button-heavy AI aesthetic.
+4. Personal, letter-style copy with named collaborators and place-specific history: “Friends,” followed by honest reflection on LA, the return home, and lists of real people (foragers, ceramicists) — reads like a chef’s note, not marketing copy.
+5. Photography without any decorative chrome: Unrounded, unshadowed images dominate the page; layout stays flat and calm. No cards, borders, or overlays.
+6. Dual Reckless family (serif body + Neue for display) + occasional Roobert sans for UI: Consistent custom serif system with negative tracking on larger sizes creates a distinctive, non-Google-Font hierarchy.
+
+These patterns emphasize refined serif typography with negative tracking, a warm natural palette, purely typographic CTAs, and personal place-based voice. Strong for anti-AI sites that should feel considered, seasonal, and human rather than template-polished or button-driven.
