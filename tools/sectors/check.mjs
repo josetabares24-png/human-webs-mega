@@ -40,27 +40,32 @@ for (const sector of catalog.sectors || []) {
       }
       if (typeof record.url !== "string" || !record.url.startsWith("https://"))
         errors.push("URL HTTPS ausente: " + record.id);
-      if (!doc || !doc.includes(record.url) || !doc.includes("PENDIENTE") ||
-          !doc.includes("## Fuentes originales consultadas") ||
-          !doc.includes("## Principio reutilizable") ||
-          !doc.includes("## Qué no copiar") ||
-          !doc.includes("## Auditoría visual ampliada") ||
-          !doc.includes("### Evidencia visual y límites") ||
-          !doc.includes("| Fondo y color |") ||
-          !doc.includes("| Tipografía |") ||
-          !doc.includes("| Fotografía y recursos |") ||
-          !doc.includes("### Boceto original para una pyme") ||
-          !doc.includes("### Preguntas de QA y móvil")) {
+      const common = doc && doc.includes(record.url) && doc.includes("PENDIENTE") &&
+        doc.includes("## Fuentes originales consultadas") &&
+        doc.includes("## Principio reutilizable") &&
+        doc.includes("## Qué no copiar") &&
+        doc.includes("## Auditoría visual ampliada") &&
+        doc.includes("| Fondo y color |") &&
+        doc.includes("| Tipografía |") &&
+        doc.includes("| Fotografía y recursos |");
+      const serviceFields = doc && doc.includes("### Evidencia visual y límites") &&
+        doc.includes("### Boceto original para una pyme") &&
+        doc.includes("### Preguntas de QA y móvil");
+      const tourismFields = doc && doc.includes("## Evidencia visual y límites") &&
+        doc.includes("### Boceto original para un negocio pequeño") &&
+        doc.includes("## QA, móvil y aceptación") && doc.includes("sin medición de CSS");
+      if (!common || (sector.id === "servicios" && !serviceFields) ||
+          (sector.id === "turismo" && !tourismFields)) {
         errors.push("Ficha sin evidencia, estado o límites: " + record.ref);
       }
-      const requiredDir = "servicios/" + sub.id + "/";
+      const requiredDir = sector.id + "/" + sub.id + "/";
       if (!record.ref.startsWith(requiredDir))
         errors.push("Ficha fuera de su subcategoría: " + record.ref);
     }
   }
 }
-if (!sectorIds.has("restaurantes") || !sectorIds.has("servicios")) errors.push("Sector básico ausente");
-if (count === 0) errors.push("No hay fichas de servicios indexadas");
+if (!["restaurantes","servicios","turismo"].every((id) => sectorIds.has(id))) errors.push("Falta un sector básico");
+if (count < 12) errors.push("Faltan fichas sectoriales; hay solo " + count);
 const checkLocalLinks = (base, doc) => {
   for (const match of doc.matchAll(/(?<!!)\[[^\]]+\]\(([^)]+)\)/g)) {
     const link = match[1].split("#")[0].split("?")[0];
@@ -84,5 +89,5 @@ if (errors.length) {
   process.exitCode = 1;
 } else {
   console.log("Sectores válidos: " + sectorIds.size +
-    " tipos y " + count + " fichas de servicios; rutas y estados comprobados.");
+    " tipos y " + count + " fichas sectoriales; rutas y estados comprobados.");
 }
