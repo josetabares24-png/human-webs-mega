@@ -20,3 +20,24 @@ Premium independent Korean tasting-menu restaurant in NYC (Squarespace).
 6. Dual-font with custom serif for brand mark only: Ambroise Std used sparingly for logo/heading, Heebo everywhere else — restrained hierarchy instead of everything in one trendy sans.
 
 These patterns favor restraint, specific tracking, and operational honesty over polished marketing defaults.
+
+## Ma‘ono Fried Chicken (maonoseattle.com) — 2026-10-31
+Independent casual Hawaiian-style fried chicken (multiple Seattle locations, Squarespace).
+
+**Observed:**
+- Structure and CTAs: Full-bleed bright yellow background. Top nav text links (Menu, Locations, About, Contact, FAQ) + orange Catering button. Hero: oversized “HAWAIIAN STYLE FRIED CHICKEN” + prominent “ORDER ONLINE”. Short location cards (West Seattle / Benbow Room, etc.). Repeating marquee “CRISPY ✱ JUICY ✱ ALOHA”. About page leads with pronunciation and personal family story.
+- Typography: Display headings use custom “obviously-narrow” (Typekit, weight 800) at large sizes (~63px hero, ~45px marquee, ~28px section heads). Body is system sans-serif 16px / 400. Some buttons/nav use “degular” or “Varela Round”. Extreme weight and size contrast; dark navy text on yellow.
+- Buttons: Primary CTAs (ORDER ONLINE, Catering, skip-to-content) are filled orange rgb(226, 75, 37), white text, modest border-radius ~6px, padding ~16px. Nav items are plain text links (no fill). High contrast against yellow.
+- Colors: Dominant bright yellow bg rgb(254, 195, 59), dark navy text rgb(27, 36, 46), orange accent. Saturated, energetic palette; no gradients or muted tones.
+- Spacing / borders / shadows / photography: Essentially no box-shadows or decorative borders. Squarespace food and location photos (some full-size). Marquee creates motion. Bold type provides visual rhythm more than spacing system.
+- Menu / mobile / copy: On-site menu with photos and casual descriptions (e.g. “Your first dipping sauce is free but you should probably get more”). Locations list hours and practical notes (pick-up door, alley entrance). Copy is personal and specific (Kauai summers with grandparents, secret seasoning, King’s Hawaiian bun, “so ono”). Mobile shows hamburger “Open Menu”; desktop is open nav.
+
+**4-6 concrete patterns for anti-AI webs:**
+1. Full-bleed saturated brand color as page background (bright yellow instead of white/gray) — instantly personal and non-template.
+2. Ultra-bold custom display face (obviously-narrow 800) at very large sizes for headlines, paired with plain body text — strong hierarchy without relying on default system or trendy sans.
+3. Idiosyncratic repeating marquee with special characters (✱) — playful, human detail that AI generators rarely invent with consistent personality.
+4. Cheeky, operational menu copy that includes practical asides (“first dipping sauce is free…”) — reads like a real kitchen, not marketing polish.
+5. High-energy filled orange buttons with modest radius on yellow field — avoids both soft pastels and pure black/white defaults.
+6. Hyper-specific personal origin story (named family members, exact place Kauai/Koke‘e, picnic chicken memory) — concrete detail over generic passion statements.
+
+These patterns favor loud, specific personality and operational voice over restrained luxury or polished marketing defaults.
