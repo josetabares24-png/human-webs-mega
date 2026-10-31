@@ -15,6 +15,8 @@
 
 **Estudios cruzados:** [comparativa de doce webs](COMPARATIVA-VISUAL.md) · [playbook de turismo](PLAYBOOK.md) · [estándar de investigación](ESTANDAR-DE-FICHAS.md).
 
+**Estética y dirección artística para una guía:** [auditoría visual comparativa de 8 referentes](AUDITORIA-ESTETICA-CIUDADES-2026-10-31.md), basada en lectura de originales y capturas públicas (no test visual actual de CSS/móvil). Separar Monocle/Broadsheet/TRANSIT (diseño) de Romeing/Inside Kyoto (negocio y arquitectura). 
+
 **Estudio específico de medios y guías de ciudad:** [20 webs internacionales comparadas para Estaba en Lisboa](REFERENCIAS-20-GUIAS-MUNDO-2026-10-31.md). Es investigación textual de modelo editorial, navegación, SEO y monetización, **no capturas/CSS medidos ni diseños aprobados**; no confundir con las 12 fichas de modelos turísticos y las 6 de dirección de arte.
 
 ## Antes de diseñar: qué es el negocio
