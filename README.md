@@ -22,6 +22,12 @@ Human Webs **no es un bot ni una aplicación para crear webs**. Es la memoria ve
 
 Estas fichas de servicios **son referencias investigadas, no diseños aprobados** por el usuario ni capturas CSS medidas. No se ha construido ningún constructor ni se han tocado webs de clientes.
 
+## Radar 2027 y control antiplantilla
+- [Tendencias candidatas 2027](memory/TRENDS-2027.md): investigación basada en fuentes de 2026, con usos, riesgos y casos en que evitar cada técnica.
+- [Repositorios de GitHub evaluados](memory/TOOLS-2027.md): Anthropic, Microsoft, Vercel, Playwright, axe-core, Lighthouse CI y alternativas sin instalar paquetes externos.
+- [Preflight de dirección artística](tools/design-preflight/README.md): verificador sin dependencias que marca propuestas que solo cambian color, falta de fuentes o baseline no documentado; **no puntúa ni verifica belleza**.
+- [Seis conceptos de Estaba en Lisboa rechazados](memory/CASES/ESTABA-LISBOA-SIX-BRANDED-MOCKUPS-REJECTED-2026-10-31.md): feedback negativo explícito, no repetir.
+
 ## Biblioteca y conocimiento conservado
 
 - [Memoria visual documentada](design-library/README.md): referencias, capturas de investigación, medidas y recetas originales. Incluye [búsqueda local](tools/design-library/query.mjs).

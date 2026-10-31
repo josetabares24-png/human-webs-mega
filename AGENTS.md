@@ -18,6 +18,9 @@ Este repositorio es una **MEMORIA MAESTRA versionada para construir páginas web
 - Si dos fuentes de este repositorio se contradicen: aplica la más específica y reciente **solo si está verificada**; registra el conflicto. No promociones ejemplos a reglas universales.
 - Verifica hechos cambiantes (leyes, licencias, APIs, SEO, accesibilidad, librerías, precios, horarios) en fuentes oficiales actuales antes de aplicarlos.
 
+## Radar de diseño y herramientas para 2027
+La [investigación 2027](memory/TRENDS-2027.md) sirve como **tendencias candidatas**, nunca como mandato ni preferencias aprobadas. Para webs nuevas/rediseños importantes, consulta la [herramienta de preflight](tools/design-preflight/README.md): requiere fuentes y tres opciones diferenciadas más allá del color; en rediseños documenta capturas baseline y continuidad. **El checker valida campos, no inspecciona capturas ni certifica estética.** En el repo cliente, Playwright/axe-core/Lighthouse CI pueden apoyar la QA conforme a [herramientas evaluadas](memory/TOOLS-2027.md); no se instalan por defecto.
+
 ## Reglas siempre activas
 - Nunca inventes testimonios, reseñas, clientes, certificaciones, disponibilidad, imágenes del local, precios, contacto, enlaces, resultados de SEO ni pruebas.
 - No copies marca, fotografías, textos ni fuentes comerciales de webs de referencia sin autorización y licencia. Extrae principios, crea soluciones originales.

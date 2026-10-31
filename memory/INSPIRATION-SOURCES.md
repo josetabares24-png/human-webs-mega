@@ -9,6 +9,9 @@ Verificados como puntos de descubrimiento el **30 de octubre de 2026**. Estos di
 | [Curated Design](https://curated.design/) | Explorar sectores, estilos y secciones reales antes de buscar el sitio original | Algunas funciones de búsqueda avanzada son de pago; no asumir acceso |
 | [Godly](https://godly.design/sites/) | Contraste visual: agencias, tecnología, e-commerce y referencias expresivas | No replicar animación pesada sin necesidad ni medición |
 
+## Radar de tendencias 2027
+Para tendencias **como hipótesis**, consultar [TRENDS-2027](TRENDS-2027.md) con fechas y límites; las referencias visuales modernas no son estilos automáticamente aprobados. Para calidad y herramientas reales, ver [TOOLS-2027](TOOLS-2027.md) y [preflight](../tools/design-preflight/README.md).
+
 ## Consultas útiles
 - Negocio local: `[sector] independent studio website`, `[ciudad] [sector] design website`, `[sector] typographic editorial website`.
 - Opciones contrastantes: `[sector] bold color website`, `[sector] minimal black white website`, `[sector] unconventional navigation`.

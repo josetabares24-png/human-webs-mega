@@ -14,8 +14,9 @@
 | Encargo | Documentación |
 |---|---|
 | Crear web nueva o rediseño | **[ART-DIRECTION](ART-DIRECTION.md)**, [WORKFLOW](WORKFLOW.md), [DESIGN](DESIGN.md), [QUALITY-GATES](QUALITY-GATES.md) |
+| Futuro del diseño 2027 y herramientas | **[RADAR-2027](TRENDS-2027.md)**, [herramientas GitHub](TOOLS-2027.md), [preflight](../tools/design-preflight/README.md) |
 | Buscar ideas, evitar terracota repetido | [INSPIRATION-SOURCES](INSPIRATION-SOURCES.md), [biblioteca visual](../design-library/README.md), [ficha creativa](DESIGN-DIRECTION-TEMPLATE.md) |
-| Lecciones de rediseño rechazado | [Mil Sabores: prototipo inferior](CASES/MIL-SABORES-REJECTED-PROTOTYPE-2026-10-30.md), **[Estaba en Lisboa: Atlántico rechazado por apariencia IA](CASES/ESTABA-EN-LISBOA-ATLANTICO-REJECTED-2026-10-31.md)**, [errores](ERRORS.md) |
+| Lecciones de rediseño rechazado | [Mil Sabores: prototipo inferior](CASES/MIL-SABORES-REJECTED-PROTOTYPE-2026-10-30.md), **[Estaba en Lisboa: Atlántico rechazado por apariencia IA](CASES/ESTABA-EN-LISBOA-ATLANTICO-REJECTED-2026-10-31.md)**, [seis mockups con marca también rechazados](CASES/ESTABA-LISBOA-SIX-BRANDED-MOCKUPS-REJECTED-2026-10-31.md), [errores](ERRORS.md) |
 | Turismo: mapas, tours, viajes y hoteles | **[Turismo](SECTORS/turismo/README.md)**, [12 estudios](SECTORS/turismo/COMPARATIVA-VISUAL.md), **[6 referencias editoriales cruzadas](SECTORS/turismo/direccion-arte-editorial/README.md)**, [playbook](SECTORS/turismo/PLAYBOOK.md), [catálogo](SECTORS/catalog.json) |
 | Web de servicios — presupuesto, cita o consulta | **[Servicios](SECTORS/servicios/README.md)**, [comparativa de 10 webs](SECTORS/servicios/COMPARATIVA-VISUAL.md), [playbook](SECTORS/servicios/PLAYBOOK.md), [catálogo](SECTORS/catalog.json) |
 | Referencias de restaurante en revisión (5 casos) | [Ursula, La Semilla, BAVET, Lucky Folks y Brunchit](REFERENCES/RESTAURANTS-2026-10-30/INDEX.md) — **pendiente de preferencias del usuario** |

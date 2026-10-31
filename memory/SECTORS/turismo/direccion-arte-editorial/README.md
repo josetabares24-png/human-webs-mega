@@ -36,6 +36,8 @@ Esta carpeta es una **colección transversal** de aprendizaje editorial dentro d
 4. [Branding del proyecto original](https://github.com/josetabares24-png/portugal-autentico-v2) y capturas nuevas antes de decidir cambios.
 5. Cualquier aplicación se propone como **hipótesis localizada**, no como reemplazo de la home. Se registra aceptación explícita del usuario antes de elevar un patrón.
 
+**Revisión posterior (31/10/2026):** el usuario rechazó como «insípidos e IA» **los seis bocetos con marca generados a partir de estas referencias**, no los seis sitios originales. [Caso negativo](../../../CASES/ESTABA-LISBOA-SIX-BRANDED-MOCKUPS-REJECTED-2026-10-31.md). No convertir la investigación en un moodboard de templates ni declarar estética aprobada.
+
 ## Evidencia que falta
 
 - Capturas actuales de original y de cada referencia (desktop 1280, móvil 390) con fuentes y medios cargados.

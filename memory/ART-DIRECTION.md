@@ -20,6 +20,7 @@ Antes de componer: ¿qué negocio es?, ¿para quién?, ¿qué producto/servicio 
 - Si no hay navegador: declarar la limitación. Usar 2–3 fichas verificadas de la biblioteca o recursos entregados, sin afirmar inspección nueva. Si hay urgencia, investigación compacta pero honesta.
 
 ## 4. Tres propuestas de sistema visual
+**Antes de pasar al código**, usa un briefing local basado en [tools/design-preflight](../tools/design-preflight/README.md) si el encargo es una nueva web o rediseño importante. El verificador alerta cuando composición/tipografía/imagen/navegación/interacción/contenido son casi iguales y solo cambia la paleta, o cuando un rediseño no documenta cuatro capturas del original. **No confundas pasar este test con aprobación estética o una comparación visual real.** Ver [seis mockups rechazados](CASES/ESTABA-LISBOA-SIX-BRANDED-MOCKUPS-REJECTED-2026-10-31.md).
 Antes de codificar se redactan **3 direcciones sustancialmente diferentes**, no tres variaciones del mismo CSS. Cada una define:
 - Identidad narrativa en una frase específica del negocio.
 - Fondo dominante y motivo, acentos y contraste comprobable.
