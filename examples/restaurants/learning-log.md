@@ -104,3 +104,24 @@ Casual independent Italian pasta bar with locations in Borough Market, Shoreditc
 6. Dual condensed sans pairing: Roboto Condensed for readable body + Oswald for stronger display creates a consistent condensed-Italian-casual feel without mixing serifs or trendy weights.
 
 These patterns favor stark contrast, menu-first practicality, personal voice, and zero decorative chrome. Useful for anti-AI sites that should feel like a real neighborhood pasta bar rather than a polished digital brochure.
+
+## Eleven Madison Park (elevenmadisonpark.com) — 2026-10-31
+Premium independent fine-dining restaurant in NYC, owned by Chef Daniel Humm (Squarespace). Iconic plant-forward tasting menu venue overlooking Madison Square Park.
+
+**Observed:**
+- Structure & CTAs: Minimal header with logo and "Open Menu" hamburger (even on desktop in the snapshot). Nav links appear in menu (Reservations, About Us, Team, Magic Farms, Events, Stories, Gift Cards, Shop). Hero features photography and short promo text ("Join us in The Studio at Clemente Bar"). Primary practical CTAs include "Book on Resy" (filled coral-red) and text links. Address, phone, and Instagram appear in footer early. Sparse, photography-led homepage.
+- Typography: Nav and many headings use "nobel" (light sans, ~17px, weight 300, modest letter-spacing ~0.34px). Body and some display use "EB Garamond" (serif, ~19px). One H1 uses Helvetica Neue (30px, 700). Skip link and some buttons use Inter Tight. Mix of custom light sans (nobel) for navigation with classic serif (EB Garamond) for body/display creates refined contrast.
+- Buttons: Mixed. Most nav is text-only (nobel, weight 300, 0 radius, transparent). Filled elements exist: "Book on Resy" is coral-red rgb(252, 72, 55) with 6.4px radius and horizontal padding; "Sign Up" and skip-to-content are deep navy rgb(21, 50, 92), 0 radius, larger padding. No heavy shadows. Contrast is high on the colored ones.
+- Colors: Pure white background rgb(255,255,255), black text. Accents are deep navy rgb(21,50,92) and bright coral-red for the Resy CTA. Photography provides all other color. No gradients. Clean, high-key palette.
+- Spacing, borders, shadows, photography: Images are large, high-quality professional shots (dining room, plated dishes like scallop/kohlrabi, farm tunnels, wine pouring) from Squarespace CDN, 0 border-radius, 0 box-shadow, object-fit fill or contain. Sections have substantial vertical padding in places (e.g. 273px top on some). Almost no borders or content shadows. Airy, image-forward layout.
+- Menu / mobile / copy: Explicitly states they cannot share food menus online due to hyper-seasonal nature ("all courses are subject to change. As such, we are unable to share our food menus online."). Hours, pricing ($385 tasting / $255 bar), cancellation policy (all sales final), dietary notes, and FAQs are practical and direct. Copy is factual and specific: partnership with Magic Farms, choice of dishes including fully plant-based option, named chef, exact address and hours. Mobile uses clear "Open Menu" button; desktop also relies on hamburger in the observed state. No superlative marketing language.
+
+**4-6 concrete patterns for anti-AI webs:**
+1. Light-weight custom sans (nobel 300) for navigation paired with classic serif (EB Garamond) for body: Creates a refined, non-default hierarchy that feels considered rather than system or Google Fonts generic.
+2. Selective filled CTAs with specific brand colors: Most actions are text links; the key reservation CTA is a modest-radius coral-red button, while secondary filled elements use sharp navy. Avoids uniform pill buttons everywhere.
+3. Explicit operational refusal to show menu online: Honest statement about hyper-seasonal menu and inability to publish it online, with prices and structure given in FAQ instead — reads like real constraints, not a designed marketing page.
+4. Photography without any chrome on white: Large unframed, unshadowed professional images (dining room with tall windows, specific plated dishes, farm) sit directly on pure white; text is sparse and secondary.
+5. Practical, constraint-heavy copy: Exact hours, phone, address, cancellation policy (non-refundable), pricing, dietary change process, and farm partnership details appear without hype. Feels like an operator answering real guest questions.
+6. Mixed radius strategy: Sharp 0-radius navy buttons alongside a 6.4px radius coral Resy button — small intentional variation instead of everything rounded or everything sharp.
+
+These patterns emphasize typeface specificity (nobel + Garamond), selective color accents, photographic restraint, and transparent operational limits. Useful for anti-AI sites that should feel established and precise rather than polished-template or overly promotional.
