@@ -29,6 +29,7 @@ on:
       - "archive/**"
       - "tools/memory/**"
       - "tools/design-preflight/**"
+      - "tools/inspiration/**"
       - "tools/sectors/**"
       - "tools/copy/**"
       - ".github/copilot-instructions.md"
