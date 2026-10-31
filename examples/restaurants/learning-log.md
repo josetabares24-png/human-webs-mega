@@ -104,3 +104,24 @@ Premium-casual independent/chain hybrid (Bombay-inspired Indian restaurants acro
 6. Operational honesty woven into story (Halal sourcing, dietary accommodations, exact location personalities) — practical detail that grounds the romance and resists AI polish.
 
 These patterns favor authored narrative typography, paper-like color, mixed CTA restraint, and hyper-specific cultural storytelling over polished marketing defaults or trendy UI.
+
+## Franklin Barbecue (franklinbbq.com) — 2026-10-31
+Independent casual Texas barbecue in Austin (Squarespace). Famous for the line and brisket; started as a trailer in 2009.
+
+**Observed:**
+- Structure and CTAs: Cream full-page background. Horizontal text-link nav (About, Menu, Private Events, Sauces & Rubs, Ship, Visit Us) plus "Open Menu" hamburger (visible on desktop in this capture). Hero is large quoted pull from Texas Monthly in orange. Primary CTAs are filled orange "Order in Advance" / skip-to-content. Practical blocks for location, hours, announcements. Sparse, functional.
+- Typography: Entire site (headings, body, nav, buttons) uses custom "cheap-pine-sans" (weight 400). Hero quote ~45px, section heads ~30px, body 16px. No system font fallback visible; consistent custom face. Orange headings, teal for addresses.
+- Buttons: Primary filled rectangles in orange rgb(230, 116, 55), white text, border-radius 0px on main CTAs (e.g. Order in Advance), padding modest. Skip-to-content uses same orange with ~20px radius. Nav items are plain text links (0 radius, no fill). High contrast.
+- Colors: Warm cream bg rgb(239, 238, 222), body text muted gray-brown rgb(78, 75, 78). Accent orange rgb(230, 116, 55) for headings and buttons; secondary teal rgb(93, 195, 188) for location details. No gradients; BBQ-tray photography supplies the rest of the color.
+- Spacing / borders / shadows / photography: Minimal box-shadows (mostly none on key elements). 0px radius dominant; occasional 20px. Large unbordered photos of BBQ trays (brisket, ribs, sides on paper/wood), interiors, and event space from Squarespace CDN. Detailed alts. Flat, practical layout.
+- Menu / mobile / copy: Full on-site menu with prices by the pound ($42/lb brisket, $44/lb beef rib Fri–Sun, sandwiches $16–21, sides $5). Explicit notes: "Available Friday, Saturday, & Sunday", "Optional: Slaw, Pickles, and Onions", "hot or chilled". Copy is operational and specific: hours "11AM-Sold Out (2 or 3pm)", "Bring a chair!", sourcing (USDA Prime, heritage Duroc pigs), origin story with Aaron & Stacy, trailer on interstate 2009, named awards. Mobile hamburger; desktop also shows Open Menu.
+
+**4-6 concrete patterns for anti-AI webs:**
+1. Single custom display font (cheap-pine-sans) used for every text level from hero quote to body and nav — creates a consistent, slightly idiosyncratic personality that avoids both system-ui and trendy multi-font AI defaults.
+2. Warm cream background rgb(239, 238, 222) paired with saturated orange headings/CTAs — organic, non-clinical field that feels like butcher paper or Texas heat rather than pure white template.
+3. Sharp (0 radius) filled orange primary buttons on cream — direct, high-contrast operational CTAs without the soft pill or shadow treatment common in generated sites.
+4. Hyper-specific operational menu and hours language ("until sold out", prices by the pound, day-restricted beef rib, "bring a chair") — reads like a real pitmaster’s note, not marketing copy.
+5. Documentary BBQ photography of actual trays and paper with no chrome, frames, or heavy overlays — the food does the work; layout stays flat and honest.
+6. Named personal origin (Aaron & Stacy Franklin, 2009 trailer on the interstate, specific awards and books) woven into practical pages — concrete biography over generic passion statements.
+
+These patterns favor a single custom face, warm practical color, operational specificity, and unadorned food photography over polished multi-font marketing or default UI chrome.
