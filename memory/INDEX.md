@@ -13,6 +13,7 @@
 ## Leer solo según el encargo
 | Encargo | Documentación |
 |---|---|
+| Tipografías, botones CTA y animaciones | **[Biblioteca tipográfica y de microinteracciones](TYPOGRAPHY-CTA-MOTION.md)**: referencias, parejas, implementación en Next y autoprompt; NO instalar todas por defecto |
 | Crear web nueva o rediseño | **[ART-DIRECTION](ART-DIRECTION.md)**, [WORKFLOW](WORKFLOW.md), [DESIGN](DESIGN.md), [QUALITY-GATES](QUALITY-GATES.md) |
 | Futuro del diseño 2027 y herramientas | **[RADAR-2027](TRENDS-2027.md)**, [herramientas GitHub](TOOLS-2027.md), [preflight](../tools/design-preflight/README.md) |
 | Buscar ideas, evitar terracota repetido | [INSPIRATION-SOURCES](INSPIRATION-SOURCES.md), [biblioteca visual](../design-library/README.md), [ficha creativa](DESIGN-DIRECTION-TEMPLATE.md) |
