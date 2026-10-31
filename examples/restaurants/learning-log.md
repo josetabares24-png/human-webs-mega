@@ -20,3 +20,24 @@ Premium independent Korean tasting-menu restaurant in NYC (Squarespace).
 6. Dual-font with custom serif for brand mark only: Ambroise Std used sparingly for logo/heading, Heebo everywhere else — restrained hierarchy instead of everything in one trendy sans.
 
 These patterns favor restraint, specific tracking, and operational honesty over polished marketing defaults.
+
+## Cutler & Co. (cutlerandco.com.au) — 2026-10-31
+Premium independent modern Australian restaurant in Fitzroy, Melbourne (Squarespace). Flagship of Andrew McConnell / Trader House.
+
+**Observed:**
+- Structure & CTAs: Clean horizontal nav with high-tracking uppercase links (Reservations, Menu, Drinks, Private Dining, Gift Vouchers, Journal, Sundays at Cutler). Hero mixes logo + large interior/food photography. Prominent practical info (location, hours, contact) early. Primary CTA is text-style "MAKE A RESERVATION" with modest tracking; no big filled buttons dominating.
+- Typography: Body and many headings use Caslon / garamond-premier-pro (serif, 16px, weight 400, line-height 24px / 1.5). Nav and section labels use Persona / Archivo Narrow (sans, ~15px, weight 700, uppercase, letter-spacing ~3px). Logo area uses larger tracked sans. Mix of classic serif body + condensed bold sans for navigation creates editorial print feel.
+- Buttons: Almost no traditional filled buttons. Nav links are text-only with tracking and uppercase, zero radius, no background, no shadow. "MAKE A RESERVATION" is plain uppercase bold text link. Skip-to-content is a solid dark rectangle (one of the few filled elements). High contrast black/near-black on white, no rounded pills.
+- Colors: Off-white / cream backgrounds, deep charcoal text rgb(34,34,34). Minimal accent — photography provides color. No gradients, no bright brand colors. Very restrained palette.
+- Spacing, borders, shadows, photography: Generous vertical padding (e.g. 135px top on sections). Zero borders and zero box-shadows on content. Large high-quality professional photography (interiors with brick, plants, tables; food close-ups) from Squarespace CDN, object-fit, no frames or heavy overlays. Grid of images lower on page. Airy, print-like layout.
+- Menu / mobile / copy: Full HTML menu with categories (APPETISERS, SEASONAL SEAFOOD, ENTRÉES, CUTLER CLASSICS, etc.), prices inline, dish names in mixed case with some uppercase emphasis. Copy is specific and human: origin story about the metalworks factory, ethos of "refined, simple, hospitable dining", seasonal notes, concrete dishes (Cutler Donuts with salmon roe, dry-aged rib eye since day one). No superlatives. Mobile uses hamburger (Open Menu button); desktop is clean horizontal.
+
+**4-6 concrete patterns for anti-AI webs:**
+1. Serif body + condensed tracked sans nav: Caslon for readable body text (16px/1.5) paired with Persona/Archivo Narrow uppercase + 3px tracking for navigation — creates a magazine/print hierarchy that AI templates almost never mix this deliberately.
+2. Text-only CTAs with tracking instead of buttons: Primary actions are uppercase letter-spaced text links, not rounded filled buttons. Avoids the generic "CTA pill" look common in AI-generated sites.
+3. Zero-chrome photography and layout: Large unframed, unshadowed professional images with generous whitespace; sections have substantial vertical padding but no borders or cards. Feels architectural and calm.
+4. Honest operational details early: Location, exact hours, phone, and email appear high on the page before marketing copy. Practical and trustworthy.
+5. Specific, non-marketing copy with concrete dishes and history: Mentions the former metalworks factory, exact opening year, specific classics that have been on the menu "from day one", and seasonal approach — reads like an operator's voice, not a prompt.
+6. Sharp everything + restrained palette: 0px border-radius, no shadows, charcoal-on-cream, color coming only from photography. Opposite of soft modern AI defaults (rounded, shadowed, gradient-heavy).
+
+These patterns emphasize editorial typography pairing, text-based hierarchy, photographic calm, and operational specificity. Useful for anti-AI restaurant sites that should feel considered and human rather than template-polished.
