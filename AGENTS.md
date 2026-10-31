@@ -54,3 +54,7 @@ Codex detecta AGENTS.md automáticamente **solo en el árbol de trabajo actual**
 
 ## Madurez medible y autocrítica
 Cuando el encargo sea mejorar la capacidad de Human Webs, consultar [autoprompt de 67 a 90](memory/AUTOPROMPT-MADUREZ-90-100.md). No afirmar que se alcanzó una puntuación mayor sin comparar sitios y medir resultados reales. El CI valida código y coherencia documental, no belleza, SEO ni conversiones. Para rediseños reales, usar [captura y comparación visual](tools/visual-evidence/README.md) con PNG originales y evidencia de navegador; sin imágenes reales no se eleva la nota.
+
+
+## Bloqueo creativo específico: Estaba en Lisboa
+Si el encargo es proponer/rediseñar Estaba en Lisboa, leer antes [rechazo visual y autoprompt de dirección de arte](memory/SECTORS/turismo/AUTOPROMPT-LISBOA-ANTIREGRESION-VISUAL-2026-10-31.md). Las tres láminas MASTER A/B/C de 31/10/2026 fueron rechazadas: no son propuestas a continuar. La referencia inicial es un estándar de impacto y formato, no un diseño autorizado para copiar; usar imágenes originales y el logo auténtico. Proteger función de guía turística, no convertirla en portfolio editorial beige. No implementar ni entregar tres clones de split hero por haber pasado tests.
