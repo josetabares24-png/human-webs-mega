@@ -22,7 +22,7 @@
 
 ## D. Verificar y aprender
 1. Ejecuta herramientas del proyecto (instalación, lint, typecheck, test, build según existan).
-2. Navega en móvil y escritorio con capturas **después de comprobar que las imágenes, fuentes y logo han cargado**; comprueba todas las rutas y acciones principales. En rediseños, usa el mismo viewport que el baseline y registra mejoras y regresiones.
+2. Navega en móvil y escritorio con capturas **después de comprobar que las imágenes, fuentes y logo han cargado**; comprueba todas las rutas y acciones principales. En rediseños, usa el mismo viewport que el baseline y registra mejoras y regresiones. Cuando dispongas de navegador/Playwright, usa [evidencias visuales](../tools/visual-evidence/README.md) para generar capturas originales con hashes y cotejar antes/después; ejecutar su validador no sustituye inspección manual.
 3. Para páginas con copy nuevo, revisar titulares/CTA entre rutas y, si corresponde, ejecutar [linter local](../tools/copy/README.md) en borradores .md/.txt de forma consultiva. No borrar keywords ni hacer sustituciones automáticas.
 4. Verifica contenido, enlaces, contacto, SEO, seguridad y accesibilidad; revisa `QUALITY-GATES.md`. Para código web, aplica opcionalmente [auditoría de flechas](../tools/design-audit/README.md) y revisa cada aviso sin borrar iconos direccionales funcionales.
 5. Si la web necesitó ideas externas al sector, registra los principios extraídos del [puente de bibliotecas](CROSS-SECTOR-IDEAS.md) y evidencia de adaptación propia.
