@@ -113,16 +113,16 @@ Premium independent fine-dining restaurant in NYC, owned by Chef Daniel Humm (Sq
 - Typography: Nav and many headings use "nobel" (light sans, ~17px, weight 300, modest letter-spacing ~0.34px). Body and some display use "EB Garamond" (serif, ~19px). One H1 uses Helvetica Neue (30px, 700). Skip link and some buttons use Inter Tight. Mix of custom light sans (nobel) for navigation with classic serif (EB Garamond) for body/display creates refined contrast.
 - Buttons: Mixed. Most nav is text-only (nobel, weight 300, 0 radius, transparent). Filled elements exist: "Book on Resy" is coral-red rgb(252, 72, 55) with 6.4px radius and horizontal padding; "Sign Up" and skip-to-content are deep navy rgb(21, 50, 92), 0 radius, larger padding. No heavy shadows. Contrast is high on the colored ones.
 - Colors: Pure white background rgb(255,255,255), black text. Accents are deep navy rgb(21,50,92) and bright coral-red for the Resy CTA. Photography provides all other color. No gradients. Clean, high-key palette.
-- Spacing, borders, shadows, photography: Images are large, high-quality professional shots (dining room, plated dishes like scallop/kohlrabi, farm tunnels, wine pouring) from Squarespace CDN, 0 border-radius, 0 box-shadow, object-fit fill or contain. Sections have substantial vertical padding in places (e.g. 273px top on some). Almost no borders or content shadows. Airy, image-forward layout.
-- Menu / mobile / copy: Explicitly states they cannot share food menus online due to hyper-seasonal nature ("all courses are subject to change. As such, we are unable to share our food menus online."). Hours, pricing ($385 tasting / $255 bar), cancellation policy (all sales final), dietary notes, and FAQs are practical and direct. Copy is factual and specific: partnership with Magic Farms, choice of dishes including fully plant-based option, named chef, exact address and hours. Mobile uses clear "Open Menu" button; desktop also relies on hamburger in the observed state. No superlative marketing language.
+- Spacing, borders, shadows, photography: Images are large, high-quality professional shots (dining room with tall windows, specific plated dishes, farm) sit directly on pure white; text is sparse and secondary. Zero or minimal borders/shadows on content. Airy, photography-led.
+- Menu / mobile / copy: Menu details with prices and structure given in FAQ instead — reads like real constraints, not a designed marketing page. Practical, constraint-heavy copy: Exact hours, phone, address, cancellation policy (non-refundable), pricing, dietary change process, and farm partnership details appear without hype. Feels like an operator answering real guest questions. Mobile has hamburger; desktop clean.
 
 **4-6 concrete patterns for anti-AI webs:**
-1. Light-weight custom sans (nobel 300) for navigation paired with classic serif (EB Garamond) for body: Creates a refined, non-default hierarchy that feels considered rather than system or Google Fonts generic.
-2. Selective filled CTAs with specific brand colors: Most actions are text links; the key reservation CTA is a modest-radius coral-red button, while secondary filled elements use sharp navy. Avoids uniform pill buttons everywhere.
-3. Explicit operational refusal to show menu online: Honest statement about hyper-seasonal menu and inability to publish it online, with prices and structure given in FAQ instead — reads like real constraints, not a designed marketing page.
-4. Photography without any chrome on white: Large unframed, unshadowed professional images (dining room with tall windows, specific plated dishes, farm) sit directly on pure white; text is sparse and secondary.
-5. Practical, constraint-heavy copy: Exact hours, phone, address, cancellation policy (non-refundable), pricing, dietary change process, and farm partnership details appear without hype. Feels like an operator answering real guest questions.
-6. Mixed radius strategy: Sharp 0-radius navy buttons alongside a 6.4px radius coral Resy button — small intentional variation instead of everything rounded or everything sharp.
+1. Custom light sans (nobel) + classic serif (EB Garamond): Specific non-Google pairing for nav (weight 300) and body creates refined contrast AI tools rarely replicate precisely.
+2. Selective filled accents: Coral-red Resy button with modest radius alongside sharp navy elements — intentional variation instead of uniform style.
+3. Photography without any chrome on white: Large unframed, unshadowed professional images sit directly; text secondary.
+4. Practical, constraint-heavy copy: Exact operational details without hype.
+5. Flat high-key palette: Pure white + specific navy and coral accents only.
+6. Mixed radius strategy: Sharp 0-radius navy buttons alongside a 6.4px radius coral Resy button — small intentional variation.
 
 These patterns emphasize typeface specificity (nobel + Garamond), selective color accents, photographic restraint, and transparent operational limits. Useful for anti-AI sites that should feel established and precise rather than polished-template or overly promotional.
 
@@ -146,3 +146,24 @@ Casual-premium independent restaurant group (Bombay-inspired cafés) with multip
 6. Dual-font with bold sans only for CTAs: Serif for almost all content and nav text, gill-sans-nova 700 reserved for buttons — clear functional hierarchy without mixing many weights or trendy geometric sans everywhere.
 
 These patterns emphasize warm literary typography, paper-like neutrals, sharp operational CTAs, and story-driven specificity. Strong for anti-AI sites that should feel like a considered, culturally rooted café group rather than a generic polished template.
+
+## Sweetgreen (sweetgreen.com) — 2026-10-31
+Casual chain fast-casual salad/bowl restaurant across US (custom site, proprietary font).
+
+**Observed:**
+- Structure & CTAs: Header with logo + hamburger ("Toggle main menu") even on desktop in some views; primary persistent "Order" link. Hero is product-focused photography of wraps/salads with short descriptive text ("AND ROLLED INTO A WRAP"). Large lime-yellow pill CTAs: "Order now", "Let us know", "Learn more". Menu items shown as cards with photos, descriptions, allergen notes, and "Order now →". Sections for featured items, careers, locations. Footer with about, social, support, legal.
+- Typography: Entire site uses proprietary custom sans "SweetSansText" (16px body, weight 400, color rgb(14,21,14)). Menu item titles ~22.35px with modest letter-spacing ~0.67px. Some large display links at 36px. Line-height on body is unusually tight (16px for 16px font). No serif. Consistent single-family hierarchy via size and occasional tracking.
+- Buttons: Primary CTAs are bright lime-yellow filled pills: background rgb(230, 255, 85), text dark green rgb(0,71,60), border-radius 1000px (full pill), padding ~15px 60px, no shadow, 1px transparent border. Nav and secondary are text-only or lightly padded, 0 radius, transparent bg. High contrast on the yellow ones; very brand-specific.
+- Colors: Warm off-white / cream background rgb(244, 243, 231). Near-black text rgb(14,21,14). Dark green accent rgb(0,71,60) on logo and some text. Signature lime-yellow rgb(230,255,85) for primary buttons. Photography supplies greens and food colors. No gradients. Fresh, healthy, slightly paper-like palette.
+- Spacing, borders, shadows, photography: Menu item photos have 20px border-radius; hero and larger images often 0 radius, object-fit cover/fill, no shadows. Content mostly shadowless. Clean vertical flow with food photography leading. Airy but product-dense on menu.
+- Menu / mobile / copy: Full menu with exact ingredients, allergen lists ("Contains milk, eggs, fish, meat, wheat"), calorie/protein/carb/fat macros, seasonal items (Autumn Harvest Bowl). Copy is straightforward and product-specific: "We source the best ingredients from farmers we know + prepare them fresh." Named dishes with precise descriptions. Mobile uses clear "Toggle main menu" hamburger; desktop shows limited links + Order. Tone is practical, transparent, health-oriented without hype.
+
+**4-6 concrete patterns for anti-AI webs:**
+1. Proprietary single sans family with tight body line-height: SweetSansText everywhere at 16px/16px line-height creates a dense, brand-owned rhythm that generic Google Fonts or system-ui defaults rarely match this tightly.
+2. Signature high-chroma lime pill buttons on cream: rgb(230,255,85) full-radius (1000px) buttons with dark green text on warm cream bg — specific brand color pair that AI generators almost never invent this precisely (they default to soft blues, greens, or neutrals).
+3. Product photography with selective rounding: Menu items get 20px radius photos while hero images stay sharp/unrounded; avoids the uniform soft-card look of many AI sites.
+4. Operational transparency on every item: Exact ingredients, allergen callouts, and full nutrition macros appear inline with dishes — practical and trustworthy, not marketing blurbs.
+5. Cream paper background + near-black + dark green: rgb(244,243,231) bg with rgb(14,21,14) text and rgb(0,71,60) accents feels fresh and printed rather than pure white digital or dark-mode trendy.
+6. Minimal chrome + text hierarchy for secondary actions: Primary actions are the only filled pills; everything else is plain text or lightly padded links with 0 radius and no shadows. Clear functional distinction without decorative cards.
+
+These patterns favor a single custom sans, a highly specific brand accent color used only on primary CTAs, product-level operational honesty, and selective rounding. Useful for anti-AI sites that should feel like a real fast-casual chain with consistent identity rather than a generic healthy-food template.
