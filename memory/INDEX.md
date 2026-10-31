@@ -1,6 +1,6 @@
 # Índice de memoria maestra
 
-**Objetivo:** navegación selectiva, no un prompt gigantesco. Version: 1.1 · Actualizado: 2026-10-30.
+**Objetivo:** navegación selectiva, no un prompt gigantesco. Versión: 1.2 · Actualizado: 2026-10-31.
 
 ## Ruta universal (leer primero)
 - [Decisiones vigentes](DECISIONS.md): qué es Human Webs y prioridades.
@@ -10,14 +10,27 @@
 ## Biblioteca por sector — entrada recomendada
 **[Elegir sector antes de investigar](SECTORS/README.md):** restaurantes, servicios y **turismo**; este último distingue destinos, excursiones, agencias y alojamiento. La sección servicios está dividida en hogar, belleza, profesionales e inmobiliaria/interiores. Leer solo la carpeta pertinente y **nunca asumir que una referencia estudiada fue aprobada**.
 
+**[Fallo de entrega de Lisboa y autoprompt antirregresión](SECTORS/turismo/AUTOPROMPT-LISBOA-ANTIREGRESION-VISUAL-2026-10-31.md):** tres propuestas visuales rechazadas, evaluación cualitativa 28/100 de los bocetos y puertas obligatorias de fotografía, marca real, originalidad, home/interior/móvil antes de enseñar una versión.
+
+## Autoprompt de madurez
+**[Autoevaluación 67/100 y autoprompt para alcanzar 90/100](AUTOPROMPT-MADUREZ-90-100.md):** guía operativa para Codex/otras IA con investigación, comparación visual verdadera, QA adversarial y criterios medibles. No confundir el éxito de checks documentales con calidad de una web real.
+
 ## Leer solo según el encargo
 | Encargo | Documentación |
 |---|---|
+| CTAs sin flechas decorativas ni iconos gratuitos | **[Interacciones de texto primero](TEXT-FIRST-INTERACTIONS.md)** y [auditoría de flechas](../tools/design-audit/README.md): regla aprobada y revisión orientativa |
+| Aprovechar una idea de otro sector sin copiar la web | **[Cruce entre bibliotecas](CROSS-SECTOR-IDEAS.md)** y [consulta CLI](../tools/inspiration/README.md): usarlo solo cuando resuelva una necesidad |
 | Tipografías, botones CTA y animaciones | **[Biblioteca tipográfica y de microinteracciones](TYPOGRAPHY-CTA-MOTION.md)**: referencias, parejas, implementación en Next y autoprompt; NO instalar todas por defecto |
+| Probar rediseño en navegador con capturas antes/después | **[Capturador y reporte visual](../tools/visual-evidence/README.md)**: 8 PNG reales, metadatos, hashes y comparativa local; no afirma calidad por sí solo |
 | Crear web nueva o rediseño | **[ART-DIRECTION](ART-DIRECTION.md)**, [WORKFLOW](WORKFLOW.md), [DESIGN](DESIGN.md), [QUALITY-GATES](QUALITY-GATES.md) |
 | Futuro del diseño 2027 y herramientas | **[RADAR-2027](TRENDS-2027.md)**, [herramientas GitHub](TOOLS-2027.md), [preflight](../tools/design-preflight/README.md) |
 | Buscar ideas, evitar terracota repetido | [INSPIRATION-SOURCES](INSPIRATION-SOURCES.md), [biblioteca visual](../design-library/README.md), [ficha creativa](DESIGN-DIRECTION-TEMPLATE.md) |
+| Primer ensayo real de la metodología en Lisboa | **[Auditoría fuente vs preview y ensayo de capturas](CASES/ESTABA-LISBOA-PRIMER-ENSAYO-VISUAL-2026-10-31.md)**: pruebas pasadas, discrepancia de rutas, SSO y riesgos estéticos antes de aceptar un rediseño |
 | Lecciones de rediseño rechazado | [Mil Sabores: prototipo inferior](CASES/MIL-SABORES-REJECTED-PROTOTYPE-2026-10-30.md), **[Estaba en Lisboa: Atlántico rechazado por apariencia IA](CASES/ESTABA-EN-LISBOA-ATLANTICO-REJECTED-2026-10-31.md)**, [seis mockups con marca también rechazados](CASES/ESTABA-LISBOA-SIX-BRANDED-MOCKUPS-REJECTED-2026-10-31.md), [errores](ERRORS.md) |
+| Turismo: auditoría profunda de 16 medios editoriales | **[16 fichas críticas y oportunidades](SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md)** y [buscador por tema](../tools/inspiration/README.md): observado vs hipótesis, SEO/negocio, riesgos y acciones sin duplicar lo existente |
+| Turismo: 16 referencias de diseño adicionales | **[Investigación ampliada de 16 webs](SECTORS/turismo/16-REFERENCIAS-ADICIONALES-EDITORIALES-2026-10-31.md)**: Trippin, ROADBOOK, Wildsam, Thisispaper, Cereal, guías locales, mapas y monetización |
+| Turismo: mejores estéticas editoriales de viajes | **[Auditoría estética de 8 referentes](SECTORS/turismo/AUDITORIA-ESTETICA-CIUDADES-2026-10-31.md)**: Monocle, Broadsheet, TRANSIT, Salt in Our Hair, Emergence, Hoxton, Casa Cook, Black Tomato; capturas históricas, no CSS medido |
+| Turismo: 20 guías de ciudad comparadas para Lisboa | **[Estudio internacional de 20 webs](SECTORS/turismo/REFERENCIAS-20-GUIAS-MUNDO-2026-10-31.md)**: guías personales, medios urbanos, SEO y afiliación; investigación sin capturas medidas ni aprobación |
 | Turismo: mapas, tours, viajes y hoteles | **[Turismo](SECTORS/turismo/README.md)**, [12 estudios](SECTORS/turismo/COMPARATIVA-VISUAL.md), **[6 referencias editoriales cruzadas](SECTORS/turismo/direccion-arte-editorial/README.md)**, [playbook](SECTORS/turismo/PLAYBOOK.md), [catálogo](SECTORS/catalog.json) |
 | Web de servicios — presupuesto, cita o consulta | **[Servicios](SECTORS/servicios/README.md)**, [comparativa de 10 webs](SECTORS/servicios/COMPARATIVA-VISUAL.md), [playbook](SECTORS/servicios/PLAYBOOK.md), [catálogo](SECTORS/catalog.json) |
 | Referencias de restaurante en revisión (5 casos) | [Ursula, La Semilla, BAVET, Lucky Folks y Brunchit](REFERENCES/RESTAURANTS-2026-10-30/INDEX.md) — **pendiente de preferencias del usuario** |

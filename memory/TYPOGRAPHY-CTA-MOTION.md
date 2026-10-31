@@ -14,6 +14,9 @@ Esta memoria maestra es documentación, no un producto SaaS ni un paquete de com
 - [Google Design: guía de tipografías web](https://design.google/library/choosing-web-fonts-beginners-guide) · tamaño, contraste de estilos y legibilidad.
 - **Límite:** no se han medido ni verificado las familias tipográficas EXACTAS usadas en el CSS de esas marcas. No afirmarlas.
 
+### Caso documentado de simplificación visual: Thisispaper (31/10/2026)
+[Su documentación pública de sistema visual](https://www.thisispaper.com/design-system) declara una única familia tipográfica (Favorit, **propietaria** y **no instalable automáticamente**), tres pesos, énfasis por escala, animación mínima de color y casi ningún efecto sobre tarjetas. El hallazgo confirma que **coherencia de decisiones**, más que multiplicar fuentes/CTAs o añadir flechas, puede expresar una identidad. No copiar su CSS, tokens, fuentes, fotos o marca; medir con navegador antes de aplicar. Véase [16 ejemplos ampliados](SECTORS/turismo/16-REFERENCIAS-ADICIONALES-EDITORIALES-2026-10-31.md).
+
 ## Banco de tipografías abiertas y criterio
 Todas las alternativas nuevas propuestas proceden de Google Fonts / Open Font License; verificar licencias concretas al instalar y mantener avisos cuando corresponda.
 
@@ -26,7 +29,7 @@ Todas las alternativas nuevas propuestas proceden de Google Fonts / Open Font Li
 La tercera pareja NO obliga a utilizar Playfair/Plus Jakarta en otros clientes; en Lisboa ya están disponibles desde `src/components/DocumentShell.tsx`. El resto se prueba con `next/font/google` autohospedado por ruta (no por todo el sitio). En producción cargar **una sola pareja**, con `display:swap`, subsets necesarios y fallback métricamente ajustado; no cargar familias de biblioteca en todas las páginas. [Next.js: fuentes](https://nextjs.org/docs/app/api-reference/components/font).
 
 ## Banco de botones reutilizables, no una plantilla de sectores
-1. **Primario**: acción comercial real, por ejemplo «Ver actividades», «Consultar opciones». Fondo de alto contraste; estado hover con icono desplazándose de 2 a 3px.
+1. **Primario**: acción comercial real, por ejemplo «Ver actividades», «Consultar opciones». Fondo de alto contraste; hover discreto con cambio de color/borde, **sin flecha ni icono ornamental predeterminado**.
 2. **Secundario**: lectura o comparación, borde y fondo calmado («Ver itinerarios»).
 3. **Editorial**: enlace sin caja («Leer la guía»), con foco de teclado visible.
 4. **Acción contextual**: solamente para promesa respaldada por datos («Consultar horarios» si existe enlace y disponibilidad real). No «Reservar ahora» cuando solo lleva a una guía.
@@ -36,14 +39,16 @@ La tercera pareja NO obliga a utilizar Playfair/Plus Jakarta en otros clientes; 
 
 ## Motion: catálogo de microinteracciones
 - Transición de botón: `transform:translateY(-2px)` + color, 180–240ms.
-- Flecha de CTA: `translateX(3px)`, 180–240ms.
+- CTA de texto primero: transición sutil de fondo, borde, subrayado o contraste (180–240ms); **no animar flechas decorativas**. La dirección se indica solo si la acción la requiere.
 - Tarjetas: elevación ≤5px y foto escala ≤1.045; no reordenar ni simular clics.
 - Entradas: opacidad y `translateY(16px)`, solo en primeras secciones, 600–800ms y sin ocultar contenido a Google o a usuarios sin JS.
 - Reducir/desactivar para `prefers-reduced-motion:reduce` y ofrecer switch de movimiento en herramientas de demostración. No parallax continuo ni contenido que se desplace sin control.
 - **Rendimiento:** animar `transform` y `opacity` preferentemente: [web.dev](https://web.dev/articles/animations-guide). [Motion](https://motion.dev/docs/react-accessibility) solo si el caso necesita estados complejos; no dependencia por moda.
 
+**Preferencia aprobada (31/10/2026):** no usar flechas (→, ↗, iconos ArrowRight/ArrowUpRight) como decoración habitual; las capturas del piloto anterior no invalidan esta nueva regla. Ver [interacciones de texto primero](TEXT-FIRST-INTERACTIONS.md).
+
 ## AUTOPROMPT OPERATIVO (reutilizable por IA constructora)
-> Actúa como un director de arte editorial y un ingeniero front-end senior. Primero identifica sector, público, acción principal, SEO actual, fotos/licencias y estilos existentes. Investiga 3 referencias reales, registra qué has observado y qué NO verificaste (no inventes familias CSS). Propón 3 parejas tipográficas contrastadas y explica cuál protegería mejor la identidad. Crea tokens compartidos, componentes CTA (primario, secundario, editorial, contextual), filtros accesibles y microinteracciones de rendimiento seguro. Si hay Next.js, usa `next/font` autoalojado o archivos locales con licencia correcta. Carga un máximo de 2 familias en la página final. Mantén imágenes, rutas, schema, canonical, afiliados y métricas existentes. Construye en rama aislada, con demo que permita comparar tipografía, hover y modo de movimiento reducido. Ejecuta typecheck, build, revisa visual en desktop/móvil, accesibilidad y LCP/CLS/INP. No inventes precios, puntuaciones, disponibilidad ni resultados de test. No publiques ni cambies producción sin aprobación. Entrega link verificado, diferencias respecto a la web previa y riesgos restantes.
+> Actúa como un director de arte editorial y un ingeniero front-end senior. Primero identifica sector, público, acción principal, SEO actual, fotos/licencias y estilos existentes. Investiga 3 referencias reales, registra qué has observado y qué NO verificaste (no inventes familias CSS). Propón 3 parejas tipográficas contrastadas y explica cuál protegería mejor la identidad. Crea tokens compartidos, componentes CTA (primario, secundario, editorial, contextual) **sin flechas decorativas**, filtros accesibles y microinteracciones de rendimiento seguro. Si hay Next.js, usa `next/font` autoalojado o archivos locales con licencia correcta. Carga un máximo de 2 familias en la página final. Mantén imágenes, rutas, schema, canonical, afiliados y métricas existentes. Construye en rama aislada, con demo que permita comparar tipografía, hover y modo de movimiento reducido. Ejecuta typecheck, build, revisa visual en desktop/móvil, accesibilidad y LCP/CLS/INP. No inventes precios, puntuaciones, disponibilidad ni resultados de test. No publiques ni cambies producción sin aprobación. Entrega link verificado, diferencias respecto a la web previa y riesgos restantes.
 
 ## Requisitos de aceptación
 - 3 alternativas evaluables; la ganadora no se declara aprobada sin feedback.

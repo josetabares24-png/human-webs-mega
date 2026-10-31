@@ -24,6 +24,8 @@ La [investigación 2027](memory/TRENDS-2027.md) sirve como **tendencias candidat
 ## Reglas siempre activas
 - Nunca inventes testimonios, reseñas, clientes, certificaciones, disponibilidad, imágenes del local, precios, contacto, enlaces, resultados de SEO ni pruebas.
 - No copies marca, fotografías, textos ni fuentes comerciales de webs de referencia sin autorización y licencia. Extrae principios, crea soluciones originales.
+- **Interacciones de texto primero:** no incorporar flechas decorativas por defecto en CTAs, cards, enlaces ni títulos (incluidos iconos ArrowRight/ArrowUpRight, ↗ y →). Respetar excepción de navegación realmente direccional y controles ya aprobados; ver [TEXT-FIRST-INTERACTIONS](memory/TEXT-FIRST-INTERACTIONS.md) y [escáner orientativo](tools/design-audit/README.md) si hay código de interfaz disponible.
+- **Bibliotecas que colaboran cuando aporta valor:** para una necesidad concreta, consultar opcionalmente [CROSS-SECTOR-IDEAS](memory/CROSS-SECTOR-IDEAS.md) y el buscador `tools/inspiration/bridge.mjs`. Extraer un principio de otro sector, no su estética, marca, contenido ni código; no forzar el cruce.
 - **Antirrepetición obligatoria:** nada de fondo terracota/arcilla, beige cálido ni el mismo hero, tarjetas y botones por defecto. Ni siquiera repetir la misma solución con una paleta diferente. Solo usar esos colores si los exige una identidad existente o hay un motivo concreto documentado.
 - En web nueva/rediseño, **investiga referencias actuales y originales** (fuente, fecha, características verificables), explora **tres direcciones visuales sustancialmente diferentes** y decide según marca, contenido, accesibilidad y conversión. Si no puedes navegar, usa referencias verificadas de la biblioteca y declara esa limitación. No afirmes haber visitado una web sin haberlo hecho.
 - Compara paleta, estructura, tipografía, navegación, fotografía y CTAs con los proyectos previos disponibles; evita repetir su huella visual. Registra elección y opciones descartadas en el trabajo del cliente; sigue `memory/ART-DIRECTION.md`.
@@ -48,3 +50,11 @@ Desde la raíz ejecuta `node tools/memory/check.mjs`. Si trabajas en un sitio de
 
 ## Usar esta memoria desde OTRO repositorio
 Codex detecta AGENTS.md automáticamente **solo en el árbol de trabajo actual**. No suponerse que ha leído Human Webs si el sitio del cliente está en otro repositorio. Antes de programar en un cliente, abrir esta memoria como segundo checkout o acceso GitHub y seguir `memory/START-HERE.md`; el AGENTS.md del cliente sigue aplicándose a sus archivos. Otras IA también requieren cargar el índice de forma explícita. Confirmar qué rutas se leyeron; no fingir acceso.
+
+
+## Madurez medible y autocrítica
+Cuando el encargo sea mejorar la capacidad de Human Webs, consultar [autoprompt de 67 a 90](memory/AUTOPROMPT-MADUREZ-90-100.md). No afirmar que se alcanzó una puntuación mayor sin comparar sitios y medir resultados reales. El CI valida código y coherencia documental, no belleza, SEO ni conversiones. Para rediseños reales, usar [captura y comparación visual](tools/visual-evidence/README.md) con PNG originales y evidencia de navegador; sin imágenes reales no se eleva la nota.
+
+
+## Bloqueo creativo específico: Estaba en Lisboa
+Si el encargo es proponer/rediseñar Estaba en Lisboa, leer antes [rechazo visual y autoprompt de dirección de arte](memory/SECTORS/turismo/AUTOPROMPT-LISBOA-ANTIREGRESION-VISUAL-2026-10-31.md). Las tres láminas MASTER A/B/C de 31/10/2026 fueron rechazadas: no son propuestas a continuar. La referencia inicial es un estándar de impacto y formato, no un diseño autorizado para copiar; usar imágenes originales y el logo auténtico. Proteger función de guía turística, no convertirla en portfolio editorial beige. No implementar ni entregar tres clones de split hero por haber pasado tests.

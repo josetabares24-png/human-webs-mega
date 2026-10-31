@@ -1,0 +1,13 @@
+{
+  "project": "Ejemplo de rediseño — reemplazar URLs con sitios reales",
+  "pages": {
+    "home": {
+      "baseline": "https://production.example.invalid/",
+      "candidate": "https://preview.example.invalid/"
+    },
+    "interior": {
+      "baseline": "https://production.example.invalid/guia",
+      "candidate": "https://preview.example.invalid/guia"
+    }
+  }
+}

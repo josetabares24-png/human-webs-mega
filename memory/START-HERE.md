@@ -12,8 +12,10 @@ git clone https://github.com/josetabares24-png/human-webs-mega.git
 
 Opción B: adjuntar en el contexto de la IA estos archivos, en este orden: `AGENTS.md`, `memory/INDEX.md`, `memory/DECISIONS.md`; después solo los módulos del encargo. Si el agente tiene integración GitHub con acceso al repo, puede leer directamente las rutas en main. No adjuntar todo el repositorio.
 
+Si la tarea consiste en **elevar el nivel de diseño con pruebas reales**, seguir el [autoprompt de madurez 67 a 90](AUTOPROMPT-MADUREZ-90-100.md), sin tratar la puntuación estimada como una métrica automática.
+
 ## Prompt de inicio (pegar en Codex/IA)
-> Estás construyendo un sitio en el repositorio de **[REPO_CLIENTE]**. Usa **josetabares24-png/human-webs-mega** como MEMORIA MAESTRA de consulta, no como aplicación. Primero confirma que puedes acceder a sus archivos. Lee AGENTS.md, memory/INDEX.md y memory/DECISIONS.md desde la rama main, luego abre únicamente las guías relevantes para este encargo y memory/ERRORS.md + memory/QUALITY-GATES.md. Si creas o rediseñas una web, cumple memory/ART-DIRECTION.md: investiga referencias reales, compara tres direcciones visuales distintas, descarta el terracota como fondo por defecto y no repitas el mismo layout. Respeta las instrucciones específicas del repositorio del cliente. Construye el sitio real sin inventar contenido o resultados, prueba rutas, móvil, SEO, funcionalidad y build, y entrega evidencia. No alteres la memoria salvo que un aprendizaje verificado necesite registrarse; en ese caso propón el cambio separado. No publiques producción sin autorización.
+> Estás construyendo un sitio en el repositorio de **[REPO_CLIENTE]**. Usa **josetabares24-png/human-webs-mega** como MEMORIA MAESTRA de consulta, no como aplicación. Primero confirma que puedes acceder a sus archivos. Lee AGENTS.md, memory/INDEX.md y memory/DECISIONS.md desde la rama main, luego abre únicamente las guías relevantes para este encargo y memory/ERRORS.md + memory/QUALITY-GATES.md. Si creas o rediseñas una web, cumple memory/ART-DIRECTION.md: investiga referencias reales, compara tres direcciones visuales distintas, descarta el terracota como fondo por defecto y no repitas el mismo layout. Prefiere acciones de texto claro y no añadas flechas decorativas en enlaces, botones o tarjetas; lee memory/TEXT-FIRST-INTERACTIONS.md. Si una necesidad lo justifica, usa memory/CROSS-SECTOR-IDEAS.md y tools/inspiration/bridge.mjs para buscar un principio útil en otro sector, sin copiar identidad ni código. Si tienes acceso a los archivos del sitio, ejecuta tools/design-audit/arrows.mjs contra el repositorio cliente y revisa las alertas, sin eliminar iconos funcionales. Respeta las instrucciones específicas del repositorio del cliente. Construye el sitio real sin inventar contenido o resultados, prueba rutas, móvil, SEO, funcionalidad y build, y entrega evidencia. No alteres la memoria salvo que un aprendizaje verificado necesite registrarse; en ese caso propón el cambio separado. No publiques producción sin autorización.
 
 ## Lista de arranque verificable
 - [ ] Nombre exacto del repositorio cliente y rama de trabajo.
@@ -21,6 +23,8 @@ Opción B: adjuntar en el contexto de la IA estos archivos, en este orden: `AGEN
 - [ ] Confirmación de que se leyeron **AGENTS.md + INDEX + DECISIONS** (no afirmarlo sin leer).
 - [ ] Guías específicas seleccionadas, con rutas.
 - [ ] Errores relevantes conocidos, restricciones del cliente y plan de pruebas.
+- [ ] Justificación si se incluye un icono direccional; prueba de CTA sin flechas ornamentales.
+- [ ] Si hubo inspiración transversal, registrar fuente, principio adaptado y qué se descartó (no copiar).
 - [ ] Al final: qué se creó, qué pruebas se ejecutaron y qué aprendizaje se propone guardar.
 
 ## Si no hay acceso

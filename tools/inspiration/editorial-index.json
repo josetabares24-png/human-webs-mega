@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-31",
+  "status": "qualitative_research_not_visual_qa",
+  "note": "Inspección web textual y fuentes propias, sin capturas gráficas propias 390/1280; no asumir aprobación ni CSS medido.",
+  "references": [
+    {
+      "id": "trippin",
+      "name": "Trippin",
+      "url": "https://trippin.world/destination/lisbon",
+      "tags": [
+        "barrios",
+        "mapas",
+        "entidades",
+        "navegacion"
+      ],
+      "insight": "Unificar datos de lugares, rutas y mapas sin duplicar contenido.",
+      "evidence": "official_page",
+      "reviewStatus": "researched_not_approved",
+      "detailFile": "memory/SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md"
+    },
+    {
+      "id": "roadbook",
+      "name": "ROADBOOK",
+      "url": "https://roadbook.com/",
+      "tags": [
+        "patrocinio",
+        "editorial",
+        "monetizacion",
+        "marca"
+      ],
+      "insight": "Etiquetar colaboraciones útiles manteniendo plantilla y credibilidad.",
+      "evidence": "official_page",
+      "reviewStatus": "researched_not_approved",
+      "detailFile": "memory/SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md"
+    },
+    {
+      "id": "thisispaper",
+      "name": "Thisispaper",
+      "url": "https://www.thisispaper.com/design-system",
+      "tags": [
+        "tipografia",
+        "tokens",
+        "accesibilidad",
+        "cta",
+        "imagen"
+      ],
+      "insight": "Limitar componentes y justificar cada decisión; revisar contraste y foco.",
+      "evidence": "published_design_system",
+      "reviewStatus": "researched_not_approved",
+      "detailFile": "memory/SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md"
+    },
+    {
+      "id": "wildsam",
+      "name": "Wildsam",
+      "url": "https://www.gladeye.com/work/wildsam",
+      "tags": [
+        "arquitectura",
+        "layout",
+        "componentes",
+        "mapas"
+      ],
+      "insight": "Componentes por tipo de relato, no una plantilla para todas las páginas.",
+      "evidence": "agency_case_study",
+      "reviewStatus": "researched_not_approved",
+      "detailFile": "memory/SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md"
+    },
+    {
+      "id": "cereal",
+      "name": "Cereal",
+      "url": "https://www.studiofaculty.com/work/cereal-website",
+      "tags": [
+        "archivo",
+        "taxonomia",
+        "seo",
+        "busqueda"
+      ],
+      "insight": "Hacer recuperables artículos antiguos mediante índices útiles.",
+      "evidence": "agency_case_study",
+      "reviewStatus": "researched_not_approved",
+      "detailFile": "memory/SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md"
+    },
+    {
+      "id": "softer-volumes",
+      "name": "Softer Volumes",
+      "url": "https://softervolumes.com/",
+      "tags": [
+        "fotografia",
+        "curaduria",
+        "guias",
+        "editorial"
+      ],
+      "insight": "Seleccionar fotos por información y procedencia en lugar de rellenar tarjetas.",
+      "evidence": "official_page_indexed",
+      "reviewStatus": "researched_not_approved",
+      "detailFile": "memory/SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md"
+    },
+    {
+      "id": "petite-passport",
+      "name": "Petite Passport",
+      "url": "https://petite-passport.myshopify.com/products/the-lisbon-guide-online",
+      "tags": [
+        "lugares",
+        "mapas",
+        "patrocinio",
+        "fichas"
+      ],
+      "insight": "Describir razones y límites verificables por lugar y marcar revisión.",
+      "evidence": "official_product_page",
+      "reviewStatus": "researched_not_approved",
+      "detailFile": "memory/SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md"
+    },
+    {
+      "id": "spotted-by-locals",
+      "name": "Spotted by Locals",
+      "url": "https://www.spottedbylocals.com/cities/lisbon",
+      "tags": [
+        "autoria",
+        "confianza",
+        "lugares",
+        "revision"
+      ],
+      "insight": "Mostrar quién investigó cada recomendación, cómo y cuándo.",
+      "evidence": "official_page",
+      "reviewStatus": "researched_not_approved",
+      "detailFile": "memory/SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md"
+    },
+    {
+      "id": "lost-in",
+      "name": "LOST iN",
+      "url": "https://lostin.com/pages/digital-guides",
+      "tags": [
+        "producto",
+        "guias",
+        "monetizacion",
+        "membresia"
+      ],
+      "insight": "Distinguir información gratuita de formatos extra que ahorran tiempo.",
+      "evidence": "official_page",
+      "reviewStatus": "researched_not_approved",
+      "detailFile": "memory/SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md"
+    },
+    {
+      "id": "neighborhood-guide",
+      "name": "Neighborhood Guide",
+      "url": "https://www.neighborhood.guide/",
+      "tags": [
+        "mapas",
+        "pdf",
+        "producto",
+        "offline"
+      ],
+      "insight": "Un solo contenido para web imprimible y mapa/guía portátil.",
+      "evidence": "official_product_page",
+      "reviewStatus": "researched_not_approved",
+      "detailFile": "memory/SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md"
+    },
+    {
+      "id": "lodestars",
+      "name": "Lodestars Anthology",
+      "url": "https://lodestarsanthology.co.uk/",
+      "tags": [
+        "colecciones",
+        "editorial",
+        "fotografia",
+        "archivo"
+      ],
+      "insight": "Agrupar contenidos de barrio o patrimonio en colecciones útiles.",
+      "evidence": "official_page",
+      "reviewStatus": "researched_not_approved",
+      "detailFile": "memory/SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md"
+    },
+    {
+      "id": "wallpaper",
+      "name": "Wallpaper* Travel",
+      "url": "https://futureplc.com/news/wallpaper-brings-back-its-iconic-pocket-sized-travel-guides-reimagined-for-todays-design-conscious-traveller/",
+      "tags": [
+        "autoria",
+        "producto",
+        "guias",
+        "editorial"
+      ],
+      "insight": "Poner la experiencia local real del autor como argumento diferenciador.",
+      "evidence": "publisher_press_release",
+      "reviewStatus": "researched_not_approved",
+      "detailFile": "memory/SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md"
+    },
+    {
+      "id": "fathom",
+      "name": "Fathom",
+      "url": "https://www.fathomaway.com/",
+      "tags": [
+        "navegacion",
+        "monetizacion",
+        "newsletter",
+        "cta"
+      ],
+      "insight": "Separar descubre, planifica y reserva según intención del visitante.",
+      "evidence": "official_page",
+      "reviewStatus": "researched_not_approved",
+      "detailFile": "memory/SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md"
+    },
+    {
+      "id": "afar",
+      "name": "AFAR",
+      "url": "https://www.afar.com/magazine/best-things-to-do-in-lisbon",
+      "tags": [
+        "seo",
+        "revision",
+        "autoria",
+        "fuentes"
+      ],
+      "insight": "Trazabilidad de revisión real de datos variables y fecha visible.",
+      "evidence": "official_article",
+      "reviewStatus": "researched_not_approved",
+      "detailFile": "memory/SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md"
+    },
+    {
+      "id": "the-spaces",
+      "name": "The Spaces",
+      "url": "https://thespaces.com/",
+      "tags": [
+        "fotografia",
+        "cultura",
+        "arquitectura",
+        "editorial"
+      ],
+      "insight": "Imágenes que enseñen detalles de arquitectura, no solo rellenen.",
+      "evidence": "official_page",
+      "reviewStatus": "researched_not_approved",
+      "detailFile": "memory/SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md"
+    },
+    {
+      "id": "cc-magazine",
+      "name": "CC/magazine",
+      "url": "https://ccmagazine.es/es/about/",
+      "tags": [
+        "monetizacion",
+        "colaboracion",
+        "editorial",
+        "newsletter"
+      ],
+      "insight": "Vender reportajes patrocinados útiles, transparentes y medibles.",
+      "evidence": "official_about",
+      "reviewStatus": "researched_not_approved",
+      "detailFile": "memory/SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md"
+    }
+  ]
+}
