@@ -16,8 +16,13 @@ const tokenize = (value) =>
   );
 const escapeRegexp = (value) => [...value].map((ch) =>
   "\\.^$*+?()[]{}|".includes(ch) ? "\\" + ch : ch).join("");
+// Text between <!-- copy-lint:ignore-start --> and <!-- copy-lint:ignore-end -->
+// is blanked (newlines kept) so documented bad examples are not reported.
+const ignoreBlocks = (value) =>
+  value.replace(/<!--\s*copy-lint:ignore-start\s*-->[\s\S]*?<!--\s*copy-lint:ignore-end\s*-->/g,
+    (m) => m.replace(/[^\n]/g, " "));
 const scrubMarkup = (value) =>
-  value.replace(/\x60{3}[\s\S]*?\x60{3}/g, (m) => m.replace(/[^\n]/g, " "))
+  ignoreBlocks(value).replace(/\x60{3}[\s\S]*?\x60{3}/g, (m) => m.replace(/[^\n]/g, " "))
     .replace(/\x60[^\x60\n]+\x60/g, (m) => " ".repeat(m.length))
     .replace(/https?:\/\/[^\s)]+/g, (m) => " ".repeat(m.length))
     .replace(/<[^>]+>/g, (m) => " ".repeat(m.length))

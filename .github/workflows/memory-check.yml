@@ -13,7 +13,10 @@ on:
       - "tools/copy/**"
       - "tools/sectors/**"
       - "tools/design-preflight/**"
-      - "principles/human-copy.md"
+      - "principles/**"
+      - "examples/**"
+      - "flows/**"
+      - "monetization.md"
       - ".github/copilot-instructions.md"
       - ".github/workflows/memory-check.yml"
   push:
@@ -30,6 +33,10 @@ on:
       - "tools/design-preflight/**"
       - "tools/sectors/**"
       - "tools/copy/**"
+      - "principles/**"
+      - "examples/**"
+      - "flows/**"
+      - "monetization.md"
       - ".github/copilot-instructions.md"
       - ".github/workflows/memory-check.yml"
 permissions:
@@ -47,6 +54,8 @@ jobs:
       - run: node --check tools/design-preflight/check.mjs
       - run: node --test tools/design-preflight/check.test.mjs
       - run: node tools/design-preflight/check.mjs tools/design-preflight/fixtures/good-new.json
+      - run: "! node tools/design-preflight/check.mjs tools/design-preflight/fixtures/bad-recolored-clones.json"
+      - run: "! node tools/design-preflight/check.mjs tools/design-preflight/fixtures/bad-redesign-no-baseline.json"
       - run: node --check tools/sectors/check.mjs
       - run: node tools/sectors/check.mjs
       - run: node --check tools/copy/lint.mjs

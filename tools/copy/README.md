@@ -16,6 +16,8 @@ Analiza frases genéricas editables en `phrases.json`, palabras consecutivas dup
 
 Por defecto devuelve advertencias y **exit 0**. Con `--strict`, advierte y devuelve **exit 1**. Activar strict **solo sobre un copy final revisado**, no sobre documentos del repo ni código. Los fragmentos de direcciones con nombres propios se excluyen en los casos reconocibles, pero los falsos positivos siguen siendo posibles: marcas, direcciones, keywords SEO y eslóganes autorizados pueden requerir repetición. `--allow` registra excepciones puntuales al ejecutar el comando.
 
+Para citar frases malas como ejemplo dentro de un documento (guías, antes/después), envolverlas entre `<!-- copy-lint:ignore-start -->` y `<!-- copy-lint:ignore-end -->`. Funciona en la misma línea o en varias. Lo de dentro no se revisa; si falta el cierre, no se ignora nada. No usarlo en copy real de un cliente.
+
 ## Límites
 
 El motor usa reglas simples sin análisis morfológico o semántico profundo: no resuelve conjugaciones, no comprueba veracidad ni detecta todos los clichés. Un resultado sin avisos NO significa que el texto sea natural, aprobado, accesible o correcto. Para gramática multilingüe usar [LanguageTool](https://github.com/languagetool-org/languagetool) por separado si se necesita, y seguir [guía editorial](../../memory/VOICE-AND-COPY.md).

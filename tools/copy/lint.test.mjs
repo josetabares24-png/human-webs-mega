@@ -58,3 +58,14 @@ test("CLI a good pt-PT example in strict mode passes", () => {
   const result = spawnSync(process.execPath, [command, "--lang", "pt-PT", "--strict", file], { encoding: "utf8" });
   assert.equal(result.status, 0, result.stderr + result.stdout);
 });
+test("copy-lint ignore markers skip quoted examples only", () => {
+  const text = "<!-- copy-lint:ignore-start -->\nAntes: «una experiencia única».\n" +
+    "<!-- copy-lint:ignore-end -->\nTambién «momentos inolvidables» aquí.\n" +
+    "Ojo: <!-- copy-lint:ignore-start -->«explosión de sabores»<!-- copy-lint:ignore-end --> fin.";
+  const result = reviewCopy(text, { lang: "es" });
+  assert.deepEqual(result.map((item) => [item.line, item.match]), [[4, "momentos inolvidables"]]);
+});
+test("an unclosed ignore-start does not hide the rest of the file", () => {
+  const result = reviewCopy("<!-- copy-lint:ignore-start -->\nVive momentos inolvidables.", { lang: "es" });
+  assert.ok(result.some((item) => item.rule === "generic-phrase"));
+});

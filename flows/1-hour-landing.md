@@ -1,5 +1,8 @@
 # Flujo de 1 hora: Landing humana
 
+> **HISTÓRICO.** Borrador antiguo, de cuando el repo era un bot. No es un modelo ni un proceso vigente: no cumple los [QUALITY-GATES](../memory/QUALITY-GATES.md) (tres direcciones, baseline del sitio actual). El proceso real está en [AGENTS.md](../AGENTS.md). No copiar.
+
+
 Para cuando necesitas entregar rápido algo que no se sienta a IA.
 
 ## Minutos 0–10: Brief y mensaje

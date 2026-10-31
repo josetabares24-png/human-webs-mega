@@ -10,6 +10,8 @@ Una voz humana no es siempre informal: un despacho jurídico, una cafetería, un
 
 ## Antes / después
 
+<!-- copy-lint:ignore-start -->
+
 **ES — antes:** «Descubre una experiencia única y déjate seducir por una explosión de sabores».
 
 **ES — después (ejemplo con datos conocidos):** «Brunch, café y gelados en Rua da Prata 152. Mira la carta antes de venir». No publicar sin confirmar contenido y voz de marca.
@@ -17,6 +19,8 @@ Una voz humana no es siempre informal: un despacho jurídico, una cafetería, un
 **PT-PT — antes:** «Uma experiência inesquecível no coração da cidade».
 
 **PT-PT — después (ejemplo con datos conocidos):** «Está pela Baixa? Consulte a carta do Mil Sabores na Rua da Prata 152».
+
+<!-- copy-lint:ignore-end -->
 
 ## Cómo revisar
 
