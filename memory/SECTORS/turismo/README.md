@@ -15,6 +15,8 @@
 
 **Estudios cruzados:** [comparativa de doce webs](COMPARATIVA-VISUAL.md) · [playbook de turismo](PLAYBOOK.md) · [estándar de investigación](ESTANDAR-DE-FICHAS.md).
 
+**Análisis detallado y hallazgos no obvios:** [revisión individual de 16 sitios, datos comprobados, hipótesis, riesgos y prioridades para Lisboa](ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md). Este informe **no** equivale a capturas actuales ni a mediciones CSS; sí distingue qué oportunidades están ya cubiertas por Estaba en Lisboa.
+
 **Nueva ronda de 16 referentes:** [Trippin, ROADBOOK, Wildsam, Thisispaper y otras 12 webs](16-REFERENCIAS-ADICIONALES-EDITORIALES-2026-10-31.md). Incluye arquitectura de la guía de Lisboa de Trippin, sistema de diseño documentado de Thisispaper y caso técnico de Wildsam. Estas referencias son ideas por transferir, **no diseños aprobados ni capturas actuales verificadas**.
 
 **Estética y dirección artística para una guía:** [auditoría visual comparativa de 8 referentes](AUDITORIA-ESTETICA-CIUDADES-2026-10-31.md), basada en lectura de originales y capturas públicas (no test visual actual de CSS/móvil). Separar Monocle/Broadsheet/TRANSIT (diseño) de Romeing/Inside Kyoto (negocio y arquitectura). 
