@@ -30,7 +30,8 @@ Estas fichas de servicios **son referencias investigadas, no diseños aprobados*
 - [Revisor de textos local](tools/copy/README.md): advertencias ES/PT/EN sobre clichés y repeticiones, con pruebas automáticas; [investigación de herramientas externas](memory/COPY-TOOLS.md).
 - [Restaurantes](examples/restaurants/biblioteca.md), [diario de observaciones](examples/restaurants/learning-log.md): observaciones específicas; jamás un molde universal.
 - [Errores](memory/ERRORS.md): incluye el uso repetido de fondos terracota y diseños indistinguibles.
-- [Caso Mil Sabores](memory/CASES/MIL-SABORES-REJECTED-PROTOTYPE-2026-10-30.md): prototipo rechazado frente a una web real existente; **distinto no es mejor**. Las demos incompletas sin imágenes cargadas no son pruebas de superioridad visual.
+- [Caso Mil Sabores](memory/CASES/MIL-SABORES-REJECTED-PROTOTYPE-2026-10-30.md): prototipo rechazado frente a una web real existente; **distinto no es mejor**.
+- [Caso Estaba en Lisboa — Atlántico](memory/CASES/ESTABA-EN-LISBOA-ATLANTICO-REJECTED-2026-10-31.md): prototipo de turismo rechazado por ser «terriblemente IA», generado sin baseline ni identidad justificada. Un hero dividido con paleta alternativa tampoco evita una plantilla. Las demos incompletas sin imágenes cargadas no son pruebas de superioridad visual.
 
 ## Regla estética fundamental
 
