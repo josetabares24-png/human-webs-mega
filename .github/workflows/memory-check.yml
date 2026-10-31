@@ -48,6 +48,9 @@ jobs:
       - run: node tools/memory/check.mjs
       - run: node --check tools/design-library/query.mjs
       - run: node tools/design-library/query.mjs --check
+      - run: node --check tools/inspiration/editorial.mjs
+      - run: node tools/inspiration/editorial.mjs --check
+      - run: node --test tools/inspiration/editorial.test.mjs
       - run: node --check tools/inspiration/bridge.mjs
       - run: node tools/inspiration/bridge.mjs --check
       - run: node --test tools/inspiration/bridge.test.mjs
