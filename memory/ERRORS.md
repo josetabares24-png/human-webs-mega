@@ -72,3 +72,10 @@ Cada entrada: síntoma, evidencia/alcance, causa probable, corrección, prueba d
 - **Prevención:** exigir **4 puertas de rediseño**: capturas reales del sitio existente, contrato de continuidad visual/funcional, dirección original basada en el negocio y comparación/screenshot funcional antes de entregar. No reemplazar terracota por verde/azul como atajo. Ver [caso Atlántico](CASES/ESTABA-EN-LISBOA-ATLANTICO-REJECTED-2026-10-31.md).
 - **Prueba:** revisión lado a lado (390 y 1280px) con misma calidad de medios; guías internas, enlaces, mapa y CTA reales probados; tres mejoras defendibles y posibles regresiones documentadas. Si no se puede validar, **no afirmar que el rediseño es superior**.
 - **Estado:** RECHAZADO, sin usarlo como referencia positiva ni publicar cambios sobre `estabaenlisboa.com`.
+
+### ERR-011 — Flechas decorativas repetidas en botones y tarjetas
+- **Observado:** el usuario rechaza expresamente el empleo repetido de flechas por asociarlo con una estética generada por IA (2026-10-31). Los laboratorios anteriores contienen flechas y no son estilos aprobados.
+- **Causa:** hipótesis de proceso: la guía de CTA recomendaba animar un icono direccional como efecto por defecto. No se ha medido impacto en conversión.
+- **Prevención:** diseñar controles de texto primero, sin flechas o iconos ornamentales automáticos; conservar las excepciones de orientación funcional y la identidad existente. Ver [interacciones de texto primero](TEXT-FIRST-INTERACTIONS.md).
+- **Prueba:** revisión del JSX/HTML y capturas de home e internas en 390px/1280px, semántica, foco y excepciones documentadas. Las demos antiguas deberán corregirse en su repositorio propio si se retoman.
+- **Estado:** vigente; todavía no aplicado a las ramas de laboratorio del proyecto de Lisboa.
