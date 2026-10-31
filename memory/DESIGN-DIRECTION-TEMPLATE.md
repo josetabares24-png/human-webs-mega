@@ -34,6 +34,9 @@ Si no hubo navegación: indicar cuáles fichas de `design-library/` se consultar
 **Descartadas y razones:**  
 **Huella visual frente a webs previas:** fondo / tipografía / hero / imágenes / CTA.  
 **¿Terracota/beige predominante?** no / sí (si sí, evidencia de marca que lo exige).  
+**¿Flechas decorativas en CTA/cards/enlaces?** no / sí (justificación funcional y prueba).  
+**Transferencia de otro sector, solo si aporta valor:** URL + fecha + evidencia / problema / principio adaptado / qué NO copiar / validación.  
+**Patrones visuales que descartamos:** hero genérico / tarjetas sin función / sellos/círculos redundantes / botones idénticos / copy intercambiable (anotar los pertinentes).  
 **Licencias de imágenes y tipografías comprobadas:**  
 **Pruebas visuales desktop/móvil:** rutas y estado, capturas o límites.  
 **Preguntas/pendientes de datos no inventados:**  
