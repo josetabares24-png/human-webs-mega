@@ -62,3 +62,24 @@ Premium iconic French/California restaurant in Yountville, Napa Valley (Thomas K
 6. Flat, high-contrast navy-on-white palette with no chrome: Pure white, specific navy accent, zero gradients or soft shadows. Feels archival and confident.
 
 These patterns favor extreme restraint, specific typeface pairing, and photographic priority over interactive marketing defaults. Ideal for anti-AI sites that should feel established and considered rather than generated.
+
+## Canlis (canlis.com) — 2026-10-31
+Premium independent family-owned fine dining restaurant in Seattle since 1950 (custom site).
+
+**Observed:**
+- Structure & CTAs: Minimal top nav with text links (RESERVE, EXPLORE dropdown, PRIVATE EVENTS). Yellow alert bar for events at top. Hero is large photography (tableside salad prep, exterior night shot) with overlaid or nearby text. Primary CTA is plain text "RESERVE". Practical info (phone, address, social) near top. Sparse, invitation-style layout.
+- Typography: Body and many elements use GTSectraBook (contemporary serif, 13px, weight 400, line-height 19.5px). Large titles (e.g. "Menu") use GTSectraDisplayLight (112px, weight 400). Nav/UI links use HelveticaNeue-Medium (sans, ~11.7px, weight 400, letter-spacing 0.65px, uppercase). Mix of custom serif family for editorial content and classic sans for navigation.
+- Buttons: Almost none. CTAs are text-only links ("RESERVE") with zero or minimal padding, transparent background, no border, border-radius ~5px (but effectively flat), no shadow. High contrast dark text on warm bg. No filled or outline primary buttons.
+- Colors: Warm off-white / beige background rgb(239, 240, 235), dark brown-gray text rgb(39, 35, 32). Yellow-orange accent rgb(240, 170, 72) only for the alert bar. Photography provides all other color. No gradients. Restrained, warm neutral palette.
+- Spacing, borders, shadows, photography: Large high-resolution professional photos (2560px tableside, exteriors, plated dishes) with object-fit fill, zero borders, zero radius, zero shadows. Content containers mostly borderless and shadowless. Some UI elements (alert bar, nav dropdown) have soft shadows. Generous airy layout with photography leading. Alert bar has padding and subtle shadow.
+- Menu / mobile / copy: Menu is HTML with course structure (One/Two/Three), specific dishes with ingredients (SABLEFISH matsutake, chili, dulse, and XO; CANLIS SALAD as tableside add-on), practical notes (6-course, choose 3, 20% service charge retained, dietary FAQ). Copy is warm and specific: "AN INVITATION" with "the opportunity to meet and serve you is one we don’t take lightly, not for the past 75 years", architects named (Roland Terry, Jim Cutler, George Suyama), awards factual. Mobile has dedicated dropdown class (site-nav-dropdown-mobile); desktop is clean horizontal text nav.
+
+**4-6 concrete patterns for anti-AI webs:**
+1. Custom serif family for content + classic sans for UI: GTSectraBook/Display for body and massive titles (up to 112px) paired with HelveticaNeue-Medium for small tracked nav links — creates a considered editorial hierarchy that AI tools rarely replicate with non-Google Fonts this specifically.
+2. Extreme type scale for section titles: 112px display serif for "Menu" against 13px body creates dramatic, print-like presence without needing heavy weights or colors.
+3. Text-only CTAs with near-zero chrome: Primary "RESERVE" is a plain tracked sans link with no fill, border, or meaningful shadow — avoids the ubiquitous rounded filled button of AI-generated designs.
+4. Warm neutral palette with color only from photography and rare accents: Beige bg + dark brown text, yellow used solely for temporary alerts. Photography (high-res, unframed) carries the emotional weight.
+5. Operational honesty mixed with warm invitation: Explicit service charge, course structure details, tableside salad as paid add-on, named architects and year, alongside human phrasing like "our favorite thing in the world is taking care of others". Feels like a real restaurant, not a prompt.
+6. Photography without any chrome: Large images have 0 radius, 0 shadow, 0 border; they sit directly in the layout. Soft shadows only on functional UI (dropdowns, alerts), not on content.
+
+These patterns emphasize custom type pairing, dramatic but restrained scale, warm operational voice, and pure photographic presence. Strong for anti-AI restaurant sites aiming for established, family-run luxury rather than generic polished templates.
