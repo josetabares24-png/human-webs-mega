@@ -62,3 +62,24 @@ Casual chain focused on salads, warm bowls, and healthier fast-casual (multiple 
 6. Seasonal, idiosyncratic headlines ("The Caesar Got Dilly") over generic benefit statements — concrete, human voice that AI generators struggle to keep consistent and non-cliché.
 
 These patterns favor brand-specific custom type, warm organic color, transparent operational details, and playful specificity over generic polished marketing or default system aesthetics.
+
+## Cutler & Co. (cutlerandco.com.au) — 2026-10-31
+Premium independent fine-dining restaurant in Fitzroy, Melbourne (Squarespace). Former metalworks factory; chef Andrew McConnell.
+
+**Observed:**
+- Structure and CTAs: Horizontal uppercase nav (Reservations, Menu, Drinks, Private Dining, Gift Vouchers, Journal, Sundays at Cutler). Hero area is mostly large photography of the dining room (plants, brick, tables) with logo. Practical sidebar-like blocks: MAKE A RESERVATION, LOCATION (address), OPENING HOURS, CONTACT (phone + email). CTAs are text links, not prominent filled buttons. Sparse, functional layout. Mobile has "Open Menu" hamburger.
+- Typography: Nav and section heads use Persona + Archivo Narrow (sans, ~15-16px, weight 700, letter-spacing ~1.1–3px, uppercase). Body and menu items use Caslon / garamond-premier-pro (serif, 16px, weight 400). Logo is image-based. High tracking on nav; serif for readable menu text.
+- Buttons: Almost no filled buttons. Primary actions are plain text links (0 radius, no fill, no border). "MAKE A RESERVATION" is uppercase text with modest tracking. Skip-to-content is dark filled rectangle. High contrast black/dark on white; editorial restraint.
+- Colors: Pure white bg rgb(255,255,255), dark text rgb(34,34,34) or black. No strong accent colors, no gradients. Minimalist monochrome palette. Photography provides all color.
+- Spacing / borders / shadows / photography: No box-shadows, no decorative borders, 0 border-radius everywhere. Large high-quality professional photos (interiors with brick/plants, plated dishes, wine cellar, people dining) from Squarespace CDN, unbordered, no overlays or frames. Generous white space; type hierarchy is subtle. Airy, calm, premium.
+- Menu / mobile / copy: Full on-site text menu with prices and specific Australian produce (Corner Inlet calamari, Loddon Valley lamb, Yarra Valley salmon roe, Martins Bay whitebait). Categories like APPETISERS, CUTLER CLASSICS. Copy is factual and place-specific: origin in former metalworks factory 2009, ethos "refined, simple, hospitable", walk-in bar vs reserve dining room, acknowledgement of Wurundjeri Woi Wurrung Traditional Custodians. Hours and address prominent. No marketing fluff.
+
+**4-6 concrete patterns for anti-AI webs:**
+1. Text-link CTAs with heavy tracking and uppercase instead of filled pills or buttons — creates deliberate editorial restraint that avoids the default "rounded blue CTA" look AI sites love.
+2. Serif body (Caslon/garamond) for menu items paired with condensed sans (Archivo Narrow) for heads — classic newspaper-like hierarchy that feels human and non-system-ui.
+3. Practical operational blocks (hours, address, phone, email) sitting prominently next to photography — functional honesty over hero slogans or benefit claims.
+4. Specific geographic and seasonal menu language (named bays, valleys, farms) with prices in plain text — reads like a real kitchen list, not generated descriptions.
+5. Zero chrome on photography (no shadows, radii, or frames) + pure white canvas — images and white space do the work; layout stays flat and timeless.
+6. Place-rooted origin story with concrete details (former metalworks factory, glass façade, Fitzroy) and cultural acknowledgement — specific local voice instead of generic "passionate about food" statements.
+
+These patterns favor editorial typography, operational transparency, and photographic restraint over polished marketing defaults or trendy UI chrome.
