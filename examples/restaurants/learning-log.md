@@ -125,3 +125,24 @@ Premium independent fine-dining restaurant in NYC, owned by Chef Daniel Humm (Sq
 6. Mixed radius strategy: Sharp 0-radius navy buttons alongside a 6.4px radius coral Resy button — small intentional variation instead of everything rounded or everything sharp.
 
 These patterns emphasize typeface specificity (nobel + Garamond), selective color accents, photographic restraint, and transparent operational limits. Useful for anti-AI sites that should feel established and precise rather than polished-template or overly promotional.
+
+## Dishoom (dishoom.com) — 2026-10-31
+Casual-premium independent restaurant group (Bombay-inspired cafés) with multiple locations in UK (custom Next.js + Sanity site).
+
+**Observed:**
+- Structure & CTAs: Cookie banner with witty copy ("The best cookies are for dipping... preferably into a warming cup of our House Chai"). Header has logo + "Toggle Menu" + "Book a table" button. Hero is quote-driven with large photography and "FROM BOMBAY WITH LOVE". Multiple "Book a table" CTAs, "View menus", café location lists, store, recipes. Sections for awards, stories, cafés. Practical navigation to locations and menus.
+- Typography: Body and many headings use cheltenhamBT (serif, 16px body, weight 400, line-height 24px). Some larger display quotes use the same serif at 24px with 2.4px letter-spacing. Buttons and certain UI use gill-sans-nova (sans, 13-15px, weight 700, letter-spacing 0.65-0.75px). Warm, literary serif for content; bold condensed-feeling sans for actions.
+- Buttons: Mixed styles. Primary "Book a table" is filled dark charcoal rgb(53,56,57) with white/cream text, 0px radius, 2px solid border same color, padding 10px 16px, gill-sans-nova 700. One variant is pill (9999px radius) outline white on dark. No shadows. High contrast, sharp on main ones.
+- Colors: Warm cream/off-white background rgb(240, 236, 224), dark charcoal text rgb(53,56,57). Accents from photography and dark filled buttons. Some light text on dark overlays. No bright brand colors or gradients dominating. Earthy, paper-like palette.
+- Spacing, borders, shadows, photography: Zero or minimal box-shadows and borders on content cards/sections (0 radius, none shadow). Large professional photography of food, interiors, historical references (e.g. old Bombay cafés). Airy vertical flow with quotes and location grids. Photography carries color and atmosphere.
+- Menu / mobile / copy: Menus linked (including seasonal like Christmas feast). Copy is highly literary and specific: "Each Dishoom is a love letter to Bombay – its food and its culture, its many varied people, its rich history and its endless eccentricities." References real places (B. Merwan on Grant Road, 1914), dishes like Bun Maska, chai. Locations listed plainly (Battersea, Borough, etc.). Awards section. Mobile has clear Toggle Menu; desktop shows selective links. Tone is warm, narrative, non-hype.
+
+**4-6 concrete patterns for anti-AI webs:**
+1. Literary serif (Cheltenham BT) for body and quotes with generous tracking on display: 16px/24px line-height body and 2.4px tracking on 24px quotes create a bookish, non-default reading rhythm that AI templates rarely apply to serif pairings this specifically.
+2. Sharp filled charcoal buttons (0 radius) alongside occasional pill outline: Primary CTAs are square dark buttons with matching border; avoids the soft rounded-everything default while still offering one pill variant for hierarchy.
+3. Warm cream paper background + charcoal text: rgb(240,236,224) bg with rgb(53,56,57) text feels printed/editorial rather than pure white digital default or dark-mode trendy.
+4. Narrative, place-specific copy with historical anchors: Explicit "love letter to Bombay", real street/café names and dates, specific comfort foods — reads like a founder's essay, not generated marketing blurbs.
+5. Photography + quote-led structure without chrome: Large unframed images and pull-quotes dominate; sections have no card shadows or borders. Atmosphere comes from photos and type, not UI decoration.
+6. Dual-font with bold sans only for CTAs: Serif for almost all content and nav text, gill-sans-nova 700 reserved for buttons — clear functional hierarchy without mixing many weights or trendy geometric sans everywhere.
+
+These patterns emphasize warm literary typography, paper-like neutrals, sharp operational CTAs, and story-driven specificity. Strong for anti-AI sites that should feel like a considered, culturally rooted café group rather than a generic polished template.
