@@ -50,3 +50,7 @@ Desde la raíz ejecuta `node tools/memory/check.mjs`. Si trabajas en un sitio de
 
 ## Usar esta memoria desde OTRO repositorio
 Codex detecta AGENTS.md automáticamente **solo en el árbol de trabajo actual**. No suponerse que ha leído Human Webs si el sitio del cliente está en otro repositorio. Antes de programar en un cliente, abrir esta memoria como segundo checkout o acceso GitHub y seguir `memory/START-HERE.md`; el AGENTS.md del cliente sigue aplicándose a sus archivos. Otras IA también requieren cargar el índice de forma explícita. Confirmar qué rutas se leyeron; no fingir acceso.
+
+
+## Madurez medible y autocrítica
+Cuando el encargo sea mejorar la capacidad de Human Webs, consultar [autoprompt de 67 a 90](memory/AUTOPROMPT-MADUREZ-90-100.md). No afirmar que se alcanzó una puntuación mayor sin comparar sitios y medir resultados reales. El CI valida código y coherencia documental, no belleza, SEO ni conversiones.
