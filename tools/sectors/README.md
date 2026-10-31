@@ -8,6 +8,8 @@ Comprueba que los sectores estén accesibles desde `memory/SECTORS/catalog.json`
 
 **Esto no comprueba que las webs externas sigan online, no captura pantallas, no valida preferencias del usuario ni mide calidad estética.** Para diseñar una web real: inspeccionar la fuente actual en navegador, tener activos autorizados, revisar móvil y seguir `memory/QUALITY-GATES.md`.
 
+Turismo dispone de 12 fichas bajo `memory/SECTORS/turismo/` con fuente oficial, evidencia visual marcada, QA, uso para negocio pequeño y aprobación PENDIENTE. El checker distingue su estructura de la de servicios, sin exigir que ambos tengan plantillas idénticas.
+
 Para agregar un sector: crear carpeta con índice y ejemplos sustantivos; registrar en el catálogo con el estado correspondiente y actualizar el verificador sin fijar un número rígido de casos. No añadir directorios vacíos ni duplicar capturas de la biblioteca histórica.
 
 [Catálogo de sectores](../../memory/SECTORS/README.md).

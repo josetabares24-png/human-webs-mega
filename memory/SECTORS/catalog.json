@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30",
+  "updatedAt": "2026-10-31",
   "status": "research_only",
-  "notes": "All service references researched, none user-approved. Sector restaurant uses legacy links; do not move binary evidence without migration. Ten extended source-grounded visual studies added 2026-10-30. Historical images are NOT actual CSS measurements.",
+  "notes": "All service references researched, none user-approved. Sector restaurant uses legacy links; do not move binary evidence without migration. Ten extended source-grounded visual studies added 2026-10-30. Historical images are NOT actual CSS measurements. Added tourism sector 2026-10-31: twelve documented case studies across destination, excursions, operators and hospitality. No current CSS measurements or approval.",
   "sectors": [
     {
       "id": "restaurantes",
@@ -126,6 +126,144 @@
               "ref": "servicios/inmobiliaria-interiores/havenly.md",
               "status": "researched_not_approved",
               "reviewLevel": "visual_sources_not_measured",
+              "mobileScreenshotsVerified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turismo",
+      "index": "turismo/README.md",
+      "subcategories": [
+        {
+          "id": "destinos-guias",
+          "index": "turismo/destinos-guias/README.md",
+          "references": [
+            {
+              "id": "visit-iceland",
+              "name": "Visit Iceland",
+              "url": "https://www.visiticeland.com/",
+              "ref": "turismo/destinos-guias/visit-iceland.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "official_sites_plus_attributed_visual_refs_not_measured",
+              "mobileScreenshotsVerified": false
+            },
+            {
+              "id": "visit-faroe-islands",
+              "name": "Visit Faroe Islands",
+              "url": "https://visitfaroeislands.com/en",
+              "ref": "turismo/destinos-guias/visit-faroe-islands.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "official_sites_plus_attributed_visual_refs_not_measured",
+              "mobileScreenshotsVerified": false
+            },
+            {
+              "id": "visit-copenhagen",
+              "name": "Visit Copenhagen",
+              "url": "https://www.visitcopenhagen.com/",
+              "ref": "turismo/destinos-guias/visit-copenhagen.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "official_sites_plus_attributed_visual_refs_not_measured",
+              "mobileScreenshotsVerified": false
+            }
+          ]
+        },
+        {
+          "id": "excursiones-actividades",
+          "index": "turismo/excursiones-actividades/README.md",
+          "references": [
+            {
+              "id": "getyourguide",
+              "name": "GetYourGuide",
+              "url": "https://www.getyourguide.com/lisbon-l42/",
+              "ref": "turismo/excursiones-actividades/getyourguide.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "official_sites_plus_attributed_visual_refs_not_measured",
+              "mobileScreenshotsVerified": false
+            },
+            {
+              "id": "guruwalk",
+              "name": "GuruWalk",
+              "url": "https://www.guruwalk.com/lisbon",
+              "ref": "turismo/excursiones-actividades/guruwalk.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "official_sites_plus_attributed_visual_refs_not_measured",
+              "mobileScreenshotsVerified": false
+            },
+            {
+              "id": "atlas-obscura",
+              "name": "Atlas Obscura",
+              "url": "https://www.atlasobscura.com/things-to-do/lisbon-portugal",
+              "ref": "turismo/excursiones-actividades/atlas-obscura.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "official_sites_plus_attributed_visual_refs_not_measured",
+              "mobileScreenshotsVerified": false
+            }
+          ]
+        },
+        {
+          "id": "agencias-circuitos",
+          "index": "turismo/agencias-circuitos/README.md",
+          "references": [
+            {
+              "id": "intrepid-travel",
+              "name": "Intrepid Travel",
+              "url": "https://www.intrepidtravel.com/en/portugal",
+              "ref": "turismo/agencias-circuitos/intrepid-travel.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "official_sites_plus_attributed_visual_refs_not_measured",
+              "mobileScreenshotsVerified": false
+            },
+            {
+              "id": "g-adventures",
+              "name": "G Adventures",
+              "url": "https://www.gadventures.com/travel-styles/",
+              "ref": "turismo/agencias-circuitos/g-adventures.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "official_sites_plus_attributed_visual_refs_not_measured",
+              "mobileScreenshotsVerified": false
+            },
+            {
+              "id": "black-tomato",
+              "name": "Black Tomato",
+              "url": "https://www.blacktomato.com/",
+              "ref": "turismo/agencias-circuitos/black-tomato.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "official_sites_plus_attributed_visual_refs_not_measured",
+              "mobileScreenshotsVerified": false
+            }
+          ]
+        },
+        {
+          "id": "alojamientos",
+          "index": "turismo/alojamientos/README.md",
+          "references": [
+            {
+              "id": "the-hoxton",
+              "name": "The Hoxton",
+              "url": "https://thehoxton.com/",
+              "ref": "turismo/alojamientos/the-hoxton.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "official_sites_plus_attributed_visual_refs_not_measured",
+              "mobileScreenshotsVerified": false
+            },
+            {
+              "id": "casa-cook",
+              "name": "Casa Cook",
+              "url": "https://casacook.com/",
+              "ref": "turismo/alojamientos/casa-cook.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "official_sites_plus_attributed_visual_refs_not_measured",
+              "mobileScreenshotsVerified": false
+            },
+            {
+              "id": "sublime-hotels",
+              "name": "Sublime Hotels",
+              "url": "https://www.sublimehotels.pt/en/",
+              "ref": "turismo/alojamientos/sublime-hotels.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "official_sites_plus_attributed_visual_refs_not_measured",
               "mobileScreenshotsVerified": false
             }
           ]

@@ -44,6 +44,18 @@ Estos controles aplican a web nueva y rediseño visual, no obligan a rediseñar 
 - [ ] Hechos, horarios, ingredientes, precios y promesas tienen fuente real. No inventar para parecer más humano.
 - [ ] Para borradores críticos se utilizó el [revisor local](../tools/copy/README.md) y se atendieron manualmente sus advertencias, o se documentó por qué no aplicaba. No afirmar una puntuación de «humanidad».
 
+## Puerta de calidad para turismo, excursiones, agencias y alojamientos
+- [ ] Queda claro si la web **informa**, **solicita disponibilidad**, **confirma reserva**, **vende entrada** o **redirige a un proveedor externo**. El CTA describe la acción real.
+- [ ] Recorridos, puntos de encuentro, mapas, alojamientos y localizaciones provienen de información autorizada/actual; rutas y tiempos no son inventados.
+- [ ] Tarifas, monedas, impuestos/recargos, idioma, edad mínima, inclusiones, accesibilidad, condiciones y cancelaciones están confirmados o marcados pendientes.
+- [ ] No se simula inventario, plazas, horarios de tours, reservas ni opiniones. La compra o solicitud tiene destino comprobado y estados de error reales.
+- [ ] Tours con enlaces externos/afiliados identificados correctamente; divulgación comercial según normativa aplicable.
+- [ ] El mapa tiene alternativa de lista accesible, funciona en móvil, y se verifica cuándo se debe mostrar ruta/ubicación.
+- [ ] Se comprueban traducciones, temporada, cierres, aviso de seguridad y fechas de última revisión donde corresponda.
+- [ ] Fotografías de habitaciones, paisajes y actividades describen productos/lugares reales; derechos y licencia verificados, sin presentar imagen generada como establecimiento existente.
+
+[Playbook y 12 casos turísticos](SECTORS/turismo/README.md).
+
 ## SEO / contenido
 - [ ] Cada ruta indexable tiene título/description útil y único, H1 adecuado, enlaces internos y contenido original.
 - [ ] Canonical, sitemap, robots, redirects, hreflang y datos estructurados **solo cuando correspondan**; verificar dominio real y contenido publicado.

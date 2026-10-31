@@ -8,7 +8,6 @@
 
 ## Fuentes originales consultadas
 - https://casacook.com/
-- https://casacook.com/hotels/
 
 ## Evidencia visual y límites
 La portada oficial ofrece etiquetas de imágenes con piscinas al atardecer, paisajes/arquitectura y selector «Where / Select your dates / Who». No se ha capturado un screenshot visual propio ni medido estilos CSS actuales.

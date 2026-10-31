@@ -8,8 +8,9 @@
 |---|---|---|
 | Restaurantes, cafeterías, brunch | Carta, reservas, ubicación, platos, experiencia del local | [Restaurantes](restaurantes/README.md) |
 | Servicios profesionales y locales | Presupuestos, citas, zona, confianza, equipo, portafolio | [Servicios](servicios/README.md) y [comparativa visual](servicios/COMPARATIVA-VISUAL.md) |
+| Turismo y viajes | Guías, itinerarios, experiencias, agencias y alojamientos | **[Turismo](turismo/README.md)** y [12 casos comparados](turismo/COMPARATIVA-VISUAL.md) |
 
-No se han creado carpetas vacías para sectores aún no estudiados (tiendas, hoteles, medios, etc.). Se abrirán cuando existan ejemplos y necesidades verificadas.
+No se han creado carpetas vacías para sectores aún no estudiados (p. ej., tiendas o medios no turísticos). Los **hoteles** se incluyen ahora en Turismo. Se abrirán otros sectores cuando existan estudios concretos. Se abrirán cuando existan ejemplos y necesidades verificadas.
 
 ## Orden de lectura para cada web
 1. [Reglas generales](../INDEX.md), [errores](../ERRORS.md), [dirección artística](../ART-DIRECTION.md) y [voz](../VOICE-AND-COPY.md).
@@ -24,6 +25,8 @@ No se han creado carpetas vacías para sectores aún no estudiados (tiendas, hot
 - **Investigación con captura publicada:** material visual de tercero o histórico, con fecha/atribución; no asegura apariencia actual.
 - **Medida en navegador:** capturas propias y medidas con evidencia almacenada; consultar [biblioteca visual](../../design-library/README.md).
 - **Aprobada por usuario:** solo tras comentario explícito indicando elemento aprobado y contexto. Pedir la captura o frase para precisar; no inferir de una selección de sitios para investigar.
+
+**Turismo:** elegir primero entre guía, excursión, agencia o alojamiento. Un mapa puede ser fundamental para itinerarios y excursiones; en hoteles y operadores también importa la disponibilidad y condiciones. No simular plazas o inventar fotos de destinos.
 
 **Importante:** un sitio de servicios debe generar confianza mostrando trabajo y personas reales, explicar pasos y canal de contacto. Que un ejemplo sea de una empresa grande NO significa que un proveedor pequeño deba copiar sus flujos ni sus recursos.
 
