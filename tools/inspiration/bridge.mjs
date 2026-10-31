@@ -1,10 +1,7 @@
 #!/usr/bin/env node
 // Cruza catálogos locales de investigación sin importar código ni decidir estética.
 import { readFile } from "node:fs/promises";
-import { fileURLToPath } from "node:url";
-
-const root = fileURLToPath(new URL("../../", import.meta.url));
-const load = async (relative) => JSON.parse(await readFile(new URL(relative, `file://${root}`), "utf8"));
+const load = async (relative) => JSON.parse(await readFile(new URL(`../../${relative}`, import.meta.url), "utf8"));
 const args = process.argv.slice(2);
 
 try {
