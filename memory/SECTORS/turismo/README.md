@@ -1,6 +1,6 @@
 # Turismo y viajes — memoria de Human Webs
 
-**Estado:** 12 referencias investigadas el 31/10/2026 en 4 subcategorías. **Ninguna se ha aprobado estéticamente por el usuario**, ninguna se ha medido con CSS ni se han capturado versiones móviles actuales. Las imágenes históricas y documentación de agencias están identificadas como tales. Este directorio es **memoria**, no un constructor de webs ni un motor de reservas.
+**Estado:** 12 referencias de modelos de negocio estudiadas en 4 subcategorías y 6 referencias adicionales de arte editorial transversal. **Ninguna se ha aprobado estéticamente por el usuario**, ninguna se ha medido con CSS ni se han capturado versiones móviles actuales. Las imágenes históricas y documentación de agencias están identificadas como tales. Este directorio es **memoria**, no un constructor de webs ni un motor de reservas.
 
 ## Seleccionar solo la necesidad real
 
@@ -10,6 +10,8 @@
 | [Excursiones y actividades](excursiones-actividades/README.md) | Tours, puntos de encuentro, condiciones, idiomas y CTA | GetYourGuide, GuruWalk, Atlas Obscura |
 | [Agencias y circuitos](agencias-circuitos/README.md) | Viajes en grupo o a medida, itinerarios por día y consultas | Intrepid Travel, G Adventures, Black Tomato |
 | [Hoteles y alojamientos](alojamientos/README.md) | Habitaciones, localización, fechas y políticas | The Hoxton, Casa Cook, Sublime Hotels |
+
+**Nueva colección transversal:** **[6 referencias de dirección de arte editorial](direccion-arte-editorial/README.md)** — TRANSIT, Emergence, Kudanil, The Pudding, Tengile MalaMala y Nomad Magazine. Es investigación de composición, tipografía, fotografía e interacciones, **no una quinta clase de negocio**; ningún caso está aprobado por el usuario. [Comparativa de seis](direccion-arte-editorial/COMPARATIVA-VISUAL.md).
 
 **Estudios cruzados:** [comparativa de doce webs](COMPARATIVA-VISUAL.md) · [playbook de turismo](PLAYBOOK.md) · [estándar de investigación](ESTANDAR-DE-FICHAS.md).
 
