@@ -24,9 +24,10 @@
 1. Ejecuta herramientas del proyecto (instalación, lint, typecheck, test, build según existan).
 2. Navega en móvil y escritorio con capturas **después de comprobar que las imágenes, fuentes y logo han cargado**; comprueba todas las rutas y acciones principales. En rediseños, usa el mismo viewport que el baseline y registra mejoras y regresiones.
 3. Para páginas con copy nuevo, revisar titulares/CTA entre rutas y, si corresponde, ejecutar [linter local](../tools/copy/README.md) en borradores .md/.txt de forma consultiva. No borrar keywords ni hacer sustituciones automáticas.
-4. Verifica contenido, enlaces, contacto, SEO, seguridad y accesibilidad; revisa `QUALITY-GATES.md`.
-5. Cuando haya un fallo repetible: registra síntoma, causa, solución y test en `ERRORS.md` con el [formato](RECORD-TEMPLATE.md).
-6. Deja commit/PR, evidencia y limitaciones; despliegue productivo solo autorizado.
+4. Verifica contenido, enlaces, contacto, SEO, seguridad y accesibilidad; revisa `QUALITY-GATES.md`. Para código web, aplica opcionalmente [auditoría de flechas](../tools/design-audit/README.md) y revisa cada aviso sin borrar iconos direccionales funcionales.
+5. Si la web necesitó ideas externas al sector, registra los principios extraídos del [puente de bibliotecas](CROSS-SECTOR-IDEAS.md) y evidencia de adaptación propia.
+6. Cuando haya un fallo repetible: registra síntoma, causa, solución y test en `ERRORS.md` con el [formato](RECORD-TEMPLATE.md).
+7. Deja commit/PR, evidencia y limitaciones; despliegue productivo solo autorizado.
 
 ## Entrega mínima al cliente
 - Qué se creó, con enlace a preview o explicación honesta si no existe.
