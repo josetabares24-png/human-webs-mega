@@ -2,6 +2,8 @@
 
 **Aplicación:** Estaba en Lisboa / Human Webs · **Estado:** exploración documentada, sin aprobación estética · **Prioridad:** leer con [20 webs de ciudad](REFERENCIAS-20-GUIAS-MUNDO-2026-10-31.md) y [auditoría estética](AUDITORIA-ESTETICA-CIUDADES-2026-10-31.md).
 
+**Profundización añadida posteriormente:** [análisis individual de las 16 y oportunidades menos visibles](ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md). Este archivo inicial era una panorámica y no una auditoría completa de cada web.
+
 ## Método y límites
 Se buscaron **16 nuevos referentes, sin duplicar los 20**. Se consultaron sus sitios oficiales y descripciones de contenidos accesibles por navegación web, más una selección de **capturas o casos publicados** por estudios/premios de diseño. **No se tomaron screenshots propios actuales a 390/1280px**, no se midió CSS ni se probaron todas las interacciones, Core Web Vitals, conversiones o menús móviles con un navegador gráfico. Las imágenes de archivos/portafolios pueden ser versiones históricas y no identifican el estado exacto actual. Las valoraciones son cualitativas, basadas en transferencia a una guía local española, **no rankings absolutos de calidad ni tráfico**.
 
