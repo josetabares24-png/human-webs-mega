@@ -10,6 +10,8 @@
 ## Biblioteca por sector — entrada recomendada
 **[Elegir sector antes de investigar](SECTORS/README.md):** restaurantes, servicios y **turismo**; este último distingue destinos, excursiones, agencias y alojamiento. La sección servicios está dividida en hogar, belleza, profesionales e inmobiliaria/interiores. Leer solo la carpeta pertinente y **nunca asumir que una referencia estudiada fue aprobada**.
 
+**[Fallo de entrega de Lisboa y autoprompt antirregresión](SECTORS/turismo/AUTOPROMPT-LISBOA-ANTIREGRESION-VISUAL-2026-10-31.md):** tres propuestas visuales rechazadas, evaluación cualitativa 28/100 de los bocetos y puertas obligatorias de fotografía, marca real, originalidad, home/interior/móvil antes de enseñar una versión.
+
 ## Autoprompt de madurez
 **[Autoevaluación 67/100 y autoprompt para alcanzar 90/100](AUTOPROMPT-MADUREZ-90-100.md):** guía operativa para Codex/otras IA con investigación, comparación visual verdadera, QA adversarial y criterios medibles. No confundir el éxito de checks documentales con calidad de una web real.
 
