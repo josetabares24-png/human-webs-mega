@@ -1,5 +1,8 @@
 # Turismo y viajes — memoria de Human Webs
 
+**Rediseños de Estaba en Lisboa: fallo de dirección artística y criterio de bloqueo:** [autoprompt antirregresión visual](AUTOPROMPT-LISBOA-ANTIREGRESION-VISUAL-2026-10-31.md). Tres láminas de recuperación rechazadas; no reproducir split hero, fondos beige de revista ni logo recreado. Comparar contra la primera referencia con intensidad turística y baseline real antes de renderizar HTML. La memoria documenta hipótesis, no una propuesta aprobada.
+
+
 **Estado:** 12 referencias de modelos de negocio estudiadas en 4 subcategorías y 6 referencias adicionales de arte editorial transversal. **Ninguna se ha aprobado estéticamente por el usuario**, ninguna se ha medido con CSS ni se han capturado versiones móviles actuales. Las imágenes históricas y documentación de agencias están identificadas como tales. Este directorio es **memoria**, no un constructor de webs ni un motor de reservas.
 
 ## Seleccionar solo la necesidad real
