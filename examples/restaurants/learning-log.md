@@ -118,13 +118,13 @@ Independent casual Texas barbecue in Austin (Squarespace). Famous for the line a
 
 **4-6 concrete patterns for anti-AI webs:**
 1. Single custom display font (cheap-pine-sans) used for every text level from hero quote to body and nav — creates a consistent, slightly idiosyncratic personality that avoids both system-ui and trendy multi-font AI defaults.
-2. Warm cream background rgb(239, 238, 222) paired with saturated orange headings/CTAs — organic, non-clinical field that feels like butcher paper or Texas heat rather than pure white template.
-3. Sharp (0 radius) filled orange primary buttons on cream — direct, high-contrast operational CTAs without the soft pill or shadow treatment common in generated sites.
-4. Hyper-specific operational menu and hours language ("until sold out", prices by the pound, day-restricted beef rib, "bring a chair") — reads like a real pitmaster’s note, not marketing copy.
-5. Documentary BBQ photography of actual trays and paper with no chrome, frames, or heavy overlays — the food does the work; layout stays flat and honest.
-6. Named personal origin (Aaron & Stacy Franklin, 2009 trailer on the interstate, specific awards and books) woven into practical pages — concrete biography over generic passion statements.
+2. Warm cream background rgb(239, 238, 222) paired with saturated orange headings/CTAs — organic, non-clinical field that feels like butcher paper or Texas heat rather than pure white templates.
+3. Zero-radius filled orange rectangles for primary CTAs on cream — sharp, practical buttons that reject both pill and soft-shadow AI defaults.
+4. Explicit operational menu language with prices by the pound and day-specific notes (“Available Friday, Saturday, & Sunday”) — reads like a real pit, not generated descriptions.
+5. Sparse practical homepage with hours that include “Sold Out” and practical advice (“Bring a chair!”) — honest limitation over marketing completeness.
+6. Persistent hamburger even on desktop + flat unbordered BBQ photography — deliberate simplicity and photographic honesty over chrome or mega-menus.
 
-These patterns favor a single custom face, warm practical color, operational specificity, and unadorned food photography over polished multi-font marketing or default UI chrome.
+These patterns favor a single idiosyncratic custom font, warm organic color, sharp operational CTAs, and blunt practical copy over polished multi-font marketing or default rounded aesthetics.
 
 ## Eleven Madison Park (elevenmadisonpark.com) — 2026-10-31
 Premium independent fine-dining restaurant in NYC (Squarespace). Chef Daniel Humm; tasting menus, Magic Farms partnership.
@@ -146,3 +146,24 @@ Premium independent fine-dining restaurant in NYC (Squarespace). Chef Daniel Hum
 6. Persistent hamburger nav even on desktop — deliberate simplicity that resists the full horizontal mega-menu AI templates often default to.
 
 These patterns favor serif body text, a single high-contrast operational CTA, photographic restraint, and honest seasonal limitations over polished multi-section marketing sites or default rounded-button aesthetics.
+
+## Restaurant Daniel (danielnyc.com) — 2026-10-31
+Premium independent French fine-dining restaurant in NYC (custom site). Chef Daniel Boulud; Relais & Châteaux, Michelin-starred.
+
+**Observed:**
+- Structure and CTAs: Warm beige full-page background. Minimal top area with “Reservations” and “Private Dining” as prominent links. Hero/main content is sparse practical block: “Book a Table”, exact hours (Tuesday–Sunday 5:00PM–9:30PM), full address (60 East 65th Street, New York, NY 10065), phone (212) 288-0033. Secondary links for Inquiries, Gift Cards, Careers, Mailing List. Awards logos (Michelin, Relais & Châteaux, Forbes, etc.) as images. No long marketing hero copy. Mobile likely simple; desktop shows clean, uncluttered layout.
+- Typography: Entire visible text uses custom “__nimbusroman” (serif, body 16px/400, line-height 24px). CTAs and heads use ultra-light weight 100 with deliberate letter-spacing (1.8px on nav-style links, 2.7px on “Book a Table” h2 at 30px). No sans-serif primary; classic Roman serif throughout. High tracking on actions creates airy luxury.
+- Buttons: “Reservations” appears as outline (1px solid white, white text, 0 radius, padding 10px, weight 100) and as filled white rectangle (dark text rgb(56,52,49), padding 8px 48px, 0 radius). No pills, no heavy fills beyond white. High contrast against beige. Other actions are plain text links.
+- Colors: Warm paper/beige bg rgb(234, 230, 221), black or dark brown text. Accents are subtle (occasional rgb(219,219,200) for secondary areas); photography and award logos supply color. No gradients or bright brand colors dominating.
+- Spacing / borders / shadows / photography: Generous padding on CTAs. Minimal borders (mostly none or thin on outline buttons). Subtle box-shadow observed on some elements (rgba(0,0,0,0.1) 0 4px 10px). Large award badge images; site feels photographic in spirit but homepage prioritizes practical text over big food shots in the captured view. Flat, calm, editorial.
+- Menu / mobile / copy: Homepage is operational: hours, address, phone, “Book a Table”. No menu visible on home (likely linked elsewhere or seasonal). Copy is factual and restrained—no superlatives, just logistics and contact. Awards presented as logos rather than boastful text. Mobile would collapse to simple links; desktop is sparse and functional.
+
+**4-6 concrete patterns for anti-AI webs:**
+1. Ultra-light serif weight (100) + high letter-spacing (1.8–2.7px) on CTAs and heads in a classic Roman face (Nimbus Roman) — creates deliberate, airy luxury that AI generators almost never produce (they default to 400–700 and normal tracking).
+2. Warm beige/paper background rgb(234, 230, 221) instead of pure white — softer, more tactile and human than clinical template white, with black text for high readability.
+3. Sparse practical homepage dominated by exact hours, full street address, and phone next to one primary booking action — functional honesty over slogan hero or multi-section marketing.
+4. Mixed CTA treatments (thin white outline + solid white filled rectangle, both 0 radius, light weight) on beige — avoids both pill defaults and heavy colored fills while keeping clear hierarchy.
+5. Single custom serif used for everything (body + UI) with extreme weight contrast (100 vs 400) — restrained hierarchy that feels authored and non-system, unlike multi-font AI kits.
+6. Awards shown as quiet logos rather than text claims; layout stays flat with only subtle shadow — photographic restraint and operational voice over polished boast or chrome-heavy UI.
+
+These patterns favor classic serif restraint, paper-like color, extreme light weights with tracking, and pure operational logistics over trendy sans, rounded buttons, or generated marketing copy.
