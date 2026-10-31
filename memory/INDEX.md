@@ -1,6 +1,6 @@
 # Índice de memoria maestra
 
-**Objetivo:** navegación selectiva, no un prompt gigantesco. Version: 1.1 · Actualizado: 2026-10-30.
+**Objetivo:** navegación selectiva, no un prompt gigantesco. Versión: 1.2 · Actualizado: 2026-10-31.
 
 ## Ruta universal (leer primero)
 - [Decisiones vigentes](DECISIONS.md): qué es Human Webs y prioridades.
@@ -13,6 +13,8 @@
 ## Leer solo según el encargo
 | Encargo | Documentación |
 |---|---|
+| CTAs sin flechas decorativas ni iconos gratuitos | **[Interacciones de texto primero](TEXT-FIRST-INTERACTIONS.md)**: regla aprobada, excepciones funcionales y QA |
+| Aprovechar una idea de otro sector sin copiar la web | **[Cruce entre bibliotecas](CROSS-SECTOR-IDEAS.md)** y [consulta CLI](../tools/inspiration/README.md): usarlo solo cuando resuelva una necesidad |
 | Tipografías, botones CTA y animaciones | **[Biblioteca tipográfica y de microinteracciones](TYPOGRAPHY-CTA-MOTION.md)**: referencias, parejas, implementación en Next y autoprompt; NO instalar todas por defecto |
 | Crear web nueva o rediseño | **[ART-DIRECTION](ART-DIRECTION.md)**, [WORKFLOW](WORKFLOW.md), [DESIGN](DESIGN.md), [QUALITY-GATES](QUALITY-GATES.md) |
 | Futuro del diseño 2027 y herramientas | **[RADAR-2027](TRENDS-2027.md)**, [herramientas GitHub](TOOLS-2027.md), [preflight](../tools/design-preflight/README.md) |
