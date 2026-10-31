@@ -20,7 +20,7 @@ Una marca elegante puede ser concisa sin sonar fría; una informal puede ser sim
 
 - **Producto/valor primero.** En la primera pantalla explicar qué se ofrece, dónde (si importa) y qué puede hacer el visitante. El titular puede ser expresivo, pero el contexto debe resolver la duda.
 - **Variar de verdad la redacción:** cada sección debe aportar una idea distinta. No empezar todos los módulos con «Descubre», «Conoce», «Vive» o «Nuestra pasión».
-- **Evitar eslóganes intercambiables.** «Experiencia inolvidable», «un lugar único», «explosión de sabores», «feito com amor», «no coração de», «más que un restaurante» son alertas de revisión **contextual**, NO prohibiciones globales. Una frase auténtica de una marca puede ser válida.
+- **Evitar eslóganes intercambiables.** <!-- copy-lint:ignore-start -->«Experiencia inolvidable», «un lugar único», «explosión de sabores», «feito com amor», «no coração de», «más que un restaurante»<!-- copy-lint:ignore-end --> son alertas de revisión **contextual**, NO prohibiciones globales. Una frase auténtica de una marca puede ser válida.
 - **Usar datos concretos autorizados:** nombres reales de platos, ingredientes verificados, dirección, proceso, personas e historia con permiso. No fabricar ingredientes, reseñas, fotos, premios, promesas, horarios ni testimonios para que el copy parezca más real.
 - **Ritmo conversacional:** alternar frases cuando ayude, leer en voz alta, preferir verbos precisos. Quitar relleno, no convertir cada párrafo en una pregunta publicitaria.
 - **CTA con destino real:** «Ver carta», «Cómo llegar», «Consultar horarios», «Escribir por WhatsApp» (solo si el enlace y número son reales). «Descubre más» tiene poco valor si puede decirse cuál es la acción.
@@ -32,6 +32,8 @@ Una marca elegante puede ser concisa sin sonar fría; una informal puede ser sim
 ## 3. Ejemplos antes/después (sólo demostración editorial)
 
 Estos son ejemplos de transformación de copy; **no son textos aprobados para producción**.
+
+<!-- copy-lint:ignore-start -->
 
 ### Ejemplo ES — restaurante con datos comprobados
 
@@ -58,6 +60,8 @@ Por qué: suena a una conversación práctica y natural en PT-PT. El tratamiento
 ### LIMA! ficticio — no inventar hechos por estética
 
 Si el cliente todavía **no ha confirmado** carta, precios o local, usar copy verificable o campos pendientes en preview: «Aquí irá la carta confirmada», «Dirección pendiente de confirmar», no inventar una «cocina de autor» ni una ubicación para rellenar la composición.
+
+<!-- copy-lint:ignore-end -->
 
 ## 4. Revisión en dos fases
 
