@@ -32,6 +32,7 @@ Para comprobar el JSON **sin lanzar un navegador**, añade `--check-config` a un
 node --check tools/visual-evidence/report.mjs
 node --test tools/visual-evidence/report.test.mjs
 python -m py_compile tools/visual-evidence/capture.py
+python -m unittest discover -s tools/visual-evidence -p "test_*.py"
 ```
 
 Los tests generan **PNGs sintéticos exclusivamente para probar el validador**. No los uses como evidencia de un cliente. La CI ejecuta el verificador y las pruebas pero **no abre ni inspecciona ninguna web externa**.
