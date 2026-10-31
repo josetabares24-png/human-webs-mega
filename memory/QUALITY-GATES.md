@@ -82,6 +82,9 @@ Estos controles aplican a web nueva y rediseño visual, no obligan a rediseñar 
 - [ ] Semántica HTML, nombres accesibles, teclado, labels, errores de formulario, color/contraste y reduced motion.
 - [ ] Automatizar Lighthouse/axe cuando estén disponibles y revisar manualmente: un resultado automático no certifica WCAG.
 
+## Evidencia visual reproducible
+Si hay acceso a un navegador con capturas, utilizar [captura y comparación verificable](../tools/visual-evidence/README.md): 8 PNG reales (home/interior × 390/1280 × antes/después), manifest con hash y reporte local. **Un test de hashes que pasa solo acredita integridad de ficheros, no belleza o UX.** Cuando no se haya ejecutado la captura, informar `not_captured`; no crear rutas falsas. Las capturas del primer viewport no cubren la página completa, estados ni flujos; comprobarlos aparte.
+
 ## Evidencia final
 Para una propuesta de **rediseño integral**, mostrar la lámina coherente de 3 vistas aprobada como formato (home escritorio, interior escritorio y móvil) y **separarla de la prueba**: capturas reales antes/después en mismos viewports, activos cargados, estado de CTAs, conservación de SEO y regresiones identificadas. Un mockup conceptual no cuenta como prueba en navegador. Si la mejora no se demuestra, no recomendar publicar.
 Entregar: rutas y funcionalidades cambiadas, commit/PR, URL preview si existe, comandos y resultados de pruebas, capturas o mediciones relevantes, limitaciones y pendientes. Distinguir **propuesto / implementado / probado / desplegado**.
