@@ -7,12 +7,14 @@
 - **Nivel de investigación:** Alta para contenido y estructura textual actual; media para composición de captura de proyecto 2025; no medido en CSS/móvil.
 - **No es plantilla:** la ficha sirve para aprender principios aplicables a un medio de turismo con contenido propio, no para copiar estructura/color/fuentes.
 
-## Fuentes originales y evidencia atribuida
+## Fuentes originales consultadas
 
 - https://transit.jp/
 - https://transit.jp/about/
 - https://www.evinari.jp/work/transit
 - https://therethere.tokyo/
+
+## Evidencia visual y límites
 
 **Evidencia visual principal:** https://www.evinari.jp/work/transit
 
@@ -39,7 +41,7 @@ Conservar la identidad aprobada de Estaba en Lisboa y probar en concepto una «h
 
 Una sección anual o mensual con una historia visual protagonista, una breve entradilla firmada y artículos satélite; una columna lateral con capítulos que estén publicados. El resto de la web permanece navegable desde categorías y búsqueda actuales.
 
-**Ejemplo de copy humano (hipótesis, sujeto a contenido publicado):** ««Alfama a pie: cómo orientarse entre miradores, calles y cuestas» — ejemplo editorial para artículo real, no slogan de home.»
+**Ejemplo de copy humano (hipótesis, sujeto a contenido publicado):** «Alfama a pie: cómo orientarse entre miradores, calles y cuestas — ejemplo editorial para artículo real, no slogan de home.»
 
 ## Qué no copiar
 
@@ -49,6 +51,7 @@ No copiar portada central superpuesta, fotomontajes, banda roja, pestañas estre
 
 En móvil, la portada ilustrativa no debe bloquear títulos ni navegación; comprobar contraste sobre foto, peso/decodificación, alt, enlaces de capítulo, fecha de publicación y SEO. Animaciones desactivables; baseline y comparación reales con la web actual antes de programar.
 
+- **Nivel de verificación:** sin medición de CSS y sin capturas propias actuales; no registrar como caso medido.
 - **Inspección propia en navegador:** NO efectuada para las seis. La consulta de HTML oficial y capturas publicadas por terceros **no** autoriza afirmar que conocemos valores CSS exactos, detalles de scroll actuales o la captura móvil 390/1280 px.
 - **Preferencia expresa del usuario:** NO recibida sobre esta referencia. El encargo fue investigarla, no aprobarla.
 - **Antes de usar en un rediseño:** ver [caso Atlántico rechazado](../../../CASES/ESTABA-EN-LISBOA-ATLANTICO-REJECTED-2026-10-31.md): captura verificable del sitio actual, contrato de continuidad y comparación antes/después.

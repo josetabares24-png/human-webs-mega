@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "updatedAt": "2026-10-31",
   "status": "research_only",
-  "notes": "All service references researched, none user-approved. Sector restaurant uses legacy links; do not move binary evidence without migration. Ten extended source-grounded visual studies added 2026-10-30. Historical images are NOT actual CSS measurements. Added tourism sector 2026-10-31: twelve documented case studies across destination, excursions, operators and hospitality. No current CSS measurements or approval.",
+  "notes": "All service references researched, none user-approved. Sector restaurant uses legacy links; do not move binary evidence without migration. Ten extended source-grounded visual studies added 2026-10-30. Historical images are NOT actual CSS measurements. Added tourism sector 2026-10-31: twelve documented case studies across destination, excursions, operators and hospitality. No current CSS measurements or approval. Six cross-sector editorial studies added October 31, 2026: historical visual references explicitly distinguished from current DOM; no user aesthetic approvals.",
   "sectors": [
     {
       "id": "restaurantes",
@@ -264,6 +264,67 @@
               "ref": "turismo/alojamientos/sublime-hotels.md",
               "status": "researched_not_approved",
               "reviewLevel": "official_sites_plus_attributed_visual_refs_not_measured",
+              "mobileScreenshotsVerified": false
+            }
+          ]
+        },
+        {
+          "id": "direccion-arte-editorial",
+          "index": "turismo/direccion-arte-editorial/README.md",
+          "purpose": "cross_sector_design_research_not_business_model",
+          "references": [
+            {
+              "id": "transit",
+              "name": "TRANSIT",
+              "url": "https://transit.jp/",
+              "ref": "turismo/direccion-arte-editorial/transit.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "original_site_and_attributed_archive_no_measured_css",
+              "mobileScreenshotsVerified": false
+            },
+            {
+              "id": "emergence",
+              "name": "Emergence Magazine",
+              "url": "https://emergencemagazine.org/",
+              "ref": "turismo/direccion-arte-editorial/emergence.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "original_site_and_attributed_archive_no_measured_css",
+              "mobileScreenshotsVerified": false
+            },
+            {
+              "id": "kudanil",
+              "name": "Kudanil Explorer",
+              "url": "https://www.kudanil.com/",
+              "ref": "turismo/direccion-arte-editorial/kudanil.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "original_site_and_attributed_archive_no_measured_css",
+              "mobileScreenshotsVerified": false
+            },
+            {
+              "id": "the-pudding",
+              "name": "The Pudding",
+              "url": "https://pudding.cool/",
+              "ref": "turismo/direccion-arte-editorial/the-pudding.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "original_site_and_attributed_archive_no_measured_css",
+              "mobileScreenshotsVerified": false
+            },
+            {
+              "id": "tengile-malamala",
+              "name": "Tengile MalaMala Collection",
+              "url": "https://tengilemalamala.com/",
+              "ref": "turismo/direccion-arte-editorial/tengile-malamala.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "original_site_and_attributed_archive_no_measured_css",
+              "mobileScreenshotsVerified": false
+            },
+            {
+              "id": "nomad-magazine",
+              "name": "Nomad Magazine",
+              "url": "https://nomad-magazine.com/",
+              "ref": "turismo/direccion-arte-editorial/nomad-magazine.md",
+              "status": "researched_not_approved",
+              "reviewLevel": "original_site_and_attributed_archive_no_measured_css",
               "mobileScreenshotsVerified": false
             }
           ]

@@ -7,13 +7,15 @@
 - **Nivel de investigación:** Alta para catálogo y arquitectura de web actual; alta para collage de páginas oficiales de edición 003; baja para CSS del portal y movimientos en móvil.
 - **No es plantilla:** la ficha sirve para aprender principios aplicables a un medio de turismo con contenido propio, no para copiar estructura/color/fuentes.
 
-## Fuentes originales y evidencia atribuida
+## Fuentes originales consultadas
 
 - https://nomad-magazine.com/
 - https://nomad-magazine.com/editions/
 - https://nomad-magazine.com/press-kit
 - https://nomad-magazine.com/our-story/
 - https://curves.digital/cases/ngm
+
+## Evidencia visual y límites
 
 **Evidencia visual principal:** https://nomad-magazine.com/press-kit
 
@@ -40,7 +42,7 @@ Para Estaba en Lisboa, explorar recursos editoriales de impresión **con relaci�
 
 Una guía descargable opcional y realmente preparada, con portada original, tabla de contenidos por zonas y mapas verificados; en el artículo web conservar accesibilidad, SEO, lectura y fotografía autorizada. No obligar a dejar email para leer el contenido básico.
 
-**Ejemplo de copy humano (hipótesis, sujeto a contenido publicado):** ««Un fin de semana por la Baixa y Alfama: mapa, cuestas y paradas» — índice útil para un material real, no «masterpiece» publicitario.»
+**Ejemplo de copy humano (hipótesis, sujeto a contenido publicado):** «Un fin de semana por la Baixa y Alfama: mapa, cuestas y paradas — índice útil para un material real, no «masterpiece» publicitario.»
 
 ## Qué no copiar
 
@@ -50,6 +52,7 @@ No copiar identidad NGM, recortes de ojos, collages, letras de revista, arte de 
 
 Verificar PDF realmente generado y descargable, licencias y créditos, peso y accesibilidad del documento, privacidad/consentimiento de newsletter, fallback táctil para efectos de hover y métricas de LCP.
 
+- **Nivel de verificación:** sin medición de CSS y sin capturas propias actuales; no registrar como caso medido.
 - **Inspección propia en navegador:** NO efectuada para las seis. La consulta de HTML oficial y capturas publicadas por terceros **no** autoriza afirmar que conocemos valores CSS exactos, detalles de scroll actuales o la captura móvil 390/1280 px.
 - **Preferencia expresa del usuario:** NO recibida sobre esta referencia. El encargo fue investigarla, no aprobarla.
 - **Antes de usar en un rediseño:** ver [caso Atlántico rechazado](../../../CASES/ESTABA-EN-LISBOA-ATLANTICO-REJECTED-2026-10-31.md): captura verificable del sitio actual, contrato de continuidad y comparación antes/después.

@@ -7,13 +7,15 @@
 - **Nivel de investigación:** Alta para contenidos actuales de home y página del yate; alta para intención del diseño declarada por Konpo; media para capturas publicadas; sin medidas CSS ni test móvil.
 - **No es plantilla:** la ficha sirve para aprender principios aplicables a un medio de turismo con contenido propio, no para copiar estructura/color/fuentes.
 
-## Fuentes originales y evidencia atribuida
+## Fuentes originales consultadas
 
 - https://www.kudanil.com/
 - https://www.kudanil.com/the-yacht
 - https://www.konpo.studio/work/kudanil
 - https://www.nocodesupply.co/item/kudanil-explorer
 - https://www.unsection.com/section/kudanil-luxury-travel-hero-design
+
+## Evidencia visual y límites
 
 **Evidencia visual principal:** https://www.nocodesupply.co/item/kudanil-explorer
 
@@ -40,7 +42,7 @@ En Estaba en Lisboa, aprender a separar exploración visual de una historia de u
 
 En una guía de miradores real, un plano/imagen autorizada con 3 puntos de interés y leyenda, y la lista equivalente para móvil. La fotografía grande solo abre esa historia; el bloque de llegar se presenta limpio, compacto y verificado.
 
-**Ejemplo de copy humano (hipótesis, sujeto a contenido publicado):** ««Desde este mirador se ven [hitos comprobados]. Te enseñamos dónde colocarte y cómo llegar» — datos de hitos por confirmar.»
+**Ejemplo de copy humano (hipótesis, sujeto a contenido publicado):** «Desde este mirador se ven [hitos comprobados]. Te enseñamos dónde colocarte y cómo llegar — datos de hitos por confirmar.»
 
 ## Qué no copiar
 
@@ -50,6 +52,7 @@ No copiar secuencias de scrollytelling, yate/planos, paleta náutica, logos, fue
 
 Performance de imagen/vídeo LCP, alt y captions, reduced motion, fallback sin JavaScript, interacción táctil/teclado del plano, datos geográficos, mantener copy sin lorem-ipsum.
 
+- **Nivel de verificación:** sin medición de CSS y sin capturas propias actuales; no registrar como caso medido.
 - **Inspección propia en navegador:** NO efectuada para las seis. La consulta de HTML oficial y capturas publicadas por terceros **no** autoriza afirmar que conocemos valores CSS exactos, detalles de scroll actuales o la captura móvil 390/1280 px.
 - **Preferencia expresa del usuario:** NO recibida sobre esta referencia. El encargo fue investigarla, no aprobarla.
 - **Antes de usar en un rediseño:** ver [caso Atlántico rechazado](../../../CASES/ESTABA-EN-LISBOA-ATLANTICO-REJECTED-2026-10-31.md): captura verificable del sitio actual, contrato de continuidad y comparación antes/después.

@@ -1,5 +1,7 @@
 # Turismo: doce ideas visuales diferentes (no doce plantillas)
 
+**Esta comparativa reúne las primeras 12 referencias de servicios turísticos.** Las seis referencias de dirección de arte posteriores están en [otra comparativa complementaria](direccion-arte-editorial/COMPARATIVA-VISUAL.md).
+
 **Consulta:** 31/10/2026. Tabla comparativa de páginas originales e imágenes de proyectos atribuidos. **No** hay medición CSS ni screenshots propios actuales en móvil/escritorio. La validación del usuario aún está **PENDIENTE**.
 
 | Web | Patrón singular documentado | Función decisiva | Qué no repetir |

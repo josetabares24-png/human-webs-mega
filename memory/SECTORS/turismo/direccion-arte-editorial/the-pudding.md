@@ -7,13 +7,15 @@
 - **Nivel de investigación:** Alta para contenido actual y estructura de navegación; media-alta para captura de portada agosto 2026; experiencias individuales no probadas de punta a punta en navegador.
 - **No es plantilla:** la ficha sirve para aprender principios aplicables a un medio de turismo con contenido propio, no para copiar estructura/color/fuentes.
 
-## Fuentes originales y evidencia atribuida
+## Fuentes originales consultadas
 
 - https://pudding.cool/
 - https://pudding.cool/2026/02/happy-map/
 - https://pudding.cool/2026/06/menu-collection/
 - https://cogimator.net/en/sites/pudding-cool/
 - https://shouldseethis.com/website/the-pudding/
+
+## Evidencia visual y límites
 
 **Evidencia visual principal:** https://cogimator.net/en/sites/pudding-cool/
 
@@ -40,7 +42,7 @@ En Estaba en Lisboa, una herramienta **con información real** podría ayudar a 
 
 Un reportaje «Lisboa en un mapa de tiempos reales» basado en datos públicos contrastados: seleccionar barrio → ver distancias/tiempos con fuente, itinerario actualizado, enlaces a la guía. Versión alternativa sin JS para accesibilidad/SEO.
 
-**Ejemplo de copy humano (hipótesis, sujeto a contenido publicado):** ««Desde Alfama hasta Belém: qué trayecto conviene para cada hora» — solo con rutas y fuentes comprobadas.»
+**Ejemplo de copy humano (hipótesis, sujeto a contenido publicado):** «Desde Alfama hasta Belém: qué trayecto conviene para cada hora — solo con rutas y fuentes comprobadas.»
 
 ## Qué no copiar
 
@@ -50,6 +52,7 @@ No copiar logotipo de pegatina, gráficos, personajes, dataset, animaciones espe
 
 Verificar procedencia/frescura de dataset, errores y vacíos, accesibilidad teclado/táctil, reducción de movimiento, CSS con contrastes suficientes, HTML indexable, mobile 320/390 y peso JS.
 
+- **Nivel de verificación:** sin medición de CSS y sin capturas propias actuales; no registrar como caso medido.
 - **Inspección propia en navegador:** NO efectuada para las seis. La consulta de HTML oficial y capturas publicadas por terceros **no** autoriza afirmar que conocemos valores CSS exactos, detalles de scroll actuales o la captura móvil 390/1280 px.
 - **Preferencia expresa del usuario:** NO recibida sobre esta referencia. El encargo fue investigarla, no aprobarla.
 - **Antes de usar en un rediseño:** ver [caso Atlántico rechazado](../../../CASES/ESTABA-EN-LISBOA-ATLANTICO-REJECTED-2026-10-31.md): captura verificable del sitio actual, contrato de continuidad y comparación antes/después.

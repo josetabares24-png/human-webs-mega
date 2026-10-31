@@ -7,13 +7,15 @@
 - **Nivel de investigación:** Alta para contenido/navegación actuales y diseño descrito por estudio creador; media para lectura de titulares escalonados por reseña de octubre 2026; sin CSS/móvil medidos.
 - **No es plantilla:** la ficha sirve para aprender principios aplicables a un medio de turismo con contenido propio, no para copiar estructura/color/fuentes.
 
-## Fuentes originales y evidencia atribuida
+## Fuentes originales consultadas
 
 - https://tengilemalamala.com/
 - https://tengilemalamala.com/accommodation
 - https://dashdigital.studio/
 - https://www.globalwebdesignawards.com/sites/tengile-malamala
 - https://dokle.design/awards/tengile-malamala-staircase-page-titles
+
+## Evidencia visual y límites
 
 **Evidencia visual principal:** https://www.globalwebdesignawards.com/sites/tengile-malamala
 
@@ -40,7 +42,7 @@ En Estaba en Lisboa, pensar en jerarquía tipográfica específica para **una se
 
 Un reportaje sobre azulejos o miradores con un titular de dos niveles (sin reproducir la escalera literal) que responda al contenido; mapa de 3 ubicaciones con nombre y acceso verificados, más pie de foto y relato. No implementar como hero estándar.
 
-**Ejemplo de copy humano (hipótesis, sujeto a contenido publicado):** ««Tres miradores. Tres maneras de mirar el Tajo» — ejemplo creativo sujeto a que el reportaje realmente trate esos tres puntos.»
+**Ejemplo de copy humano (hipótesis, sujeto a contenido publicado):** «Tres miradores. Tres maneras de mirar el Tajo — ejemplo creativo sujeto a que el reportaje realmente trate esos tres puntos.»
 
 ## Qué no copiar
 
@@ -50,6 +52,7 @@ No imitar la escalera serif de dos líneas, posición del titular, transiciones,
 
 Títulos claros y responsivos, no solapados ni cortados 320/390, preferencia reduce-motion, vídeo con poster, no autoplay obligado, accesibilidad del mapa, contraste, SEO con un solo H1 semántico y CTA de texto.
 
+- **Nivel de verificación:** sin medición de CSS y sin capturas propias actuales; no registrar como caso medido.
 - **Inspección propia en navegador:** NO efectuada para las seis. La consulta de HTML oficial y capturas publicadas por terceros **no** autoriza afirmar que conocemos valores CSS exactos, detalles de scroll actuales o la captura móvil 390/1280 px.
 - **Preferencia expresa del usuario:** NO recibida sobre esta referencia. El encargo fue investigarla, no aprobarla.
 - **Antes de usar en un rediseño:** ver [caso Atlántico rechazado](../../../CASES/ESTABA-EN-LISBOA-ATLANTICO-REJECTED-2026-10-31.md): captura verificable del sitio actual, contrato de continuidad y comparación antes/después.

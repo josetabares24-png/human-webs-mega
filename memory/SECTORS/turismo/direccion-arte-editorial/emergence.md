@@ -7,13 +7,15 @@
 - **Nivel de investigación:** Alta para secciones actuales y productor creativo; media para capturas históricas 2018 y archivo de editorial alternativo; sin DOM/CSS medido.
 - **No es plantilla:** la ficha sirve para aprender principios aplicables a un medio de turismo con contenido propio, no para copiar estructura/color/fuentes.
 
-## Fuentes originales y evidencia atribuida
+## Fuentes originales consultadas
 
 - https://emergencemagazine.org/
 - https://emergencemagazine.org/about/
 - https://emergencemagazine.org/event/behind-the-scenes-of-our-design-process/
 - https://www.csswinner.com/details/emergence-magazine/12862
 - https://httpster.net/website/emergence-magazine/
+
+## Evidencia visual y límites
 
 **Evidencia visual principal:** https://www.csswinner.com/details/emergence-magazine/12862
 
@@ -40,7 +42,7 @@ En Estaba en Lisboa, dar tratamiento especial a una crónica histórica original
 
 Un artículo largo con introducción firmada, una imagen/ilustración editorial original y una cronología o pequeño mapa documentado en un único punto del texto, sin llenar cada sección de ornamentos.
 
-**Ejemplo de copy humano (hipótesis, sujeto a contenido publicado):** ««Qué cambió en esta calle de Lisboa, y qué queda hoy» — titular posible solo cuando exista investigación original y fuentes.»
+**Ejemplo de copy humano (hipótesis, sujeto a contenido publicado):** «Qué cambió en esta calle de Lisboa, y qué queda hoy — titular posible solo cuando exista investigación original y fuentes.»
 
 ## Qué no copiar
 
@@ -50,6 +52,7 @@ No copiar imágenes de papel rasgado, recortes, maquetación exacta, ilustracion
 
 Comprobar que las páginas largas siguen siendo legibles a 320/390 px; audio con controles y transcripción, imágenes con créditos y permisos, contenido buscable/indexable y no oculto tras scroll JS.
 
+- **Nivel de verificación:** sin medición de CSS y sin capturas propias actuales; no registrar como caso medido.
 - **Inspección propia en navegador:** NO efectuada para las seis. La consulta de HTML oficial y capturas publicadas por terceros **no** autoriza afirmar que conocemos valores CSS exactos, detalles de scroll actuales o la captura móvil 390/1280 px.
 - **Preferencia expresa del usuario:** NO recibida sobre esta referencia. El encargo fue investigarla, no aprobarla.
 - **Antes de usar en un rediseño:** ver [caso Atlántico rechazado](../../../CASES/ESTABA-EN-LISBOA-ATLANTICO-REJECTED-2026-10-31.md): captura verificable del sitio actual, contrato de continuidad y comparación antes/después.

@@ -43,4 +43,4 @@ Esta carpeta es una **colección transversal** de aprendizaje editorial dentro d
 - Verificación funcional de microinteracciones, rendimiento, reduced motion y navegación táctil.
 - Comentarios del usuario señalando qué detalle le agrada o rechaza.
 
-[Turismo](../README.md) · [Memoria maestra](../../INDEX.md).
+[Turismo](../README.md) · [Memoria maestra](../../../INDEX.md).
