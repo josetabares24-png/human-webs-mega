@@ -15,3 +15,16 @@ La herramienta combina `memory/SECTORS/catalog.json` (referencias exploratorias)
 Salida JSON: `sectorReferences` (referencias de ese sector), `crossSectorIdeas` (principios a explorar de otro), `limits` y estado de aprobación. Cualquier fuente externa requiere volver a verificarse; nunca copiar fotos, textos ni marcas. El puente debe satisfacer una tarea real: si no hay necesidad de cruzar sectores, no se utiliza.
 
 Para personalizar una nueva transferencia, añadir un caso con identificadores reales de los catálogos y ejecutar `--check`. Ver [método completo](../../memory/CROSS-SECTOR-IDEAS.md).
+
+## Búsqueda transversal de 16 webs editoriales investigadas
+El [índice estructurado](editorial-index.json) contiene 16 referencias internacionales con etiquetas, fuente oficial/estudio, límite de evidencia y una idea transferible; todas apuntan al [análisis profundo](../../memory/SECTORS/turismo/ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md).
+
+```sh
+node tools/inspiration/editorial.mjs --check
+node tools/inspiration/editorial.mjs monetizacion
+node tools/inspiration/editorial.mjs mapas
+node tools/inspiration/editorial.mjs tipografia
+node --test tools/inspiration/editorial.test.mjs
+```
+
+No confundir búsqueda documental con navegador gráfico ni considerar aprobada una referencia por estar catalogada. La consulta muestra a lo sumo seis coincidencias con origen y advertencia.
