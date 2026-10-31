@@ -12,6 +12,7 @@ on:
       - "tools/memory/**"
       - "tools/copy/**"
       - "tools/sectors/**"
+      - "tools/design-preflight/**"
       - "principles/human-copy.md"
       - ".github/copilot-instructions.md"
       - ".github/workflows/memory-check.yml"
@@ -26,6 +27,9 @@ on:
       - "prompts/bot.md"
       - "archive/**"
       - "tools/memory/**"
+      - "tools/design-preflight/**"
+      - "tools/sectors/**"
+      - "tools/copy/**"
       - ".github/copilot-instructions.md"
       - ".github/workflows/memory-check.yml"
 permissions:
@@ -40,6 +44,9 @@ jobs:
       - run: node tools/memory/check.mjs
       - run: node --check tools/design-library/query.mjs
       - run: node tools/design-library/query.mjs --check
+      - run: node --check tools/design-preflight/check.mjs
+      - run: node --test tools/design-preflight/check.test.mjs
+      - run: node tools/design-preflight/check.mjs tools/design-preflight/fixtures/good-new.json
       - run: node --check tools/sectors/check.mjs
       - run: node tools/sectors/check.mjs
       - run: node --check tools/copy/lint.mjs

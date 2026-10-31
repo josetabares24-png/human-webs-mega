@@ -56,6 +56,12 @@ Estos controles aplican a web nueva y rediseño visual, no obligan a rediseñar 
 
 [Playbook y 12 casos turísticos](SECTORS/turismo/README.md).
 
+## Puerta de preflight creativa para nuevas webs y rediseños grandes
+- [ ] Brief con sector, tarea principal, identidad respaldada y referencias originales fechadas, con límites.
+- [ ] Al menos tres direcciones realmente distintas de **estructura y contenido**, no tres recoloreos; ejecutar opcionalmente [preflight](../tools/design-preflight/README.md) sobre JSON de propuesta.
+- [ ] Cada propuesta evita copiar marcas, diseños completos y fotos de terceros; un premio de 2026 no equivale a gusto aprobado.
+- [ ] Para 2027, usar tendencias como hipótesis contextualizadas y [herramientas QA](TOOLS-2027.md) solo en el repositorio que necesita la prueba. **Una comprobación estática no certifica calidad visual.**
+
 ## Bloqueo de rediseños de webs ya existentes — aplicar antes de codificar
 - [ ] Capturas verdaderas del sitio existente en 390px y 1280px con logo/fuentes/fotos cargadas; al menos portada y una página interna. **Sin baseline no presentar prototipo como mejora del diseño actual.**
 - [ ] Contrato de continuidad firmado/documentado: qué sistema gráfico, fotos, voz, contenidos, navegación, SEO, ingresos y funciones permanecen y qué puede cambiar.
