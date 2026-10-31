@@ -1,44 +1,48 @@
-# Estaba en Lisboa — primera prueba real de Human Webs (2026-10-31)
+# Estaba en Lisboa — primera prueba visual con navegador real
+**Fecha:** 2026-10-31 · **Estado:** 8/8 capturas reales + comparación reproducible COMPLETADAS; prototipo NO APROBADO para sustitución de la home. **Alcance:** viewport inicial, no experiencia completa ni medición de conversiones.
 
-**Estado:** prueba de código SUPERADA; **cuatro capturas reales del sitio original completadas** en Chromium; render del laboratorio local BLOQUEADO con HTTP 307. Comparación completa NO realizada; inspección visual humana y del candidato PENDIENTES. **No reemplazar la home pública ni promover a aprobado.** Una prueba renderizada y una propuesta mejor son hitos distintos.
+## Fuentes y trazabilidad real
+- Proyecto cliente: `josetabares24-png/portugal-autentico-v2`.
+- **Producción (solo lectura):** https://estabaenlisboa.com/ y https://estabaenlisboa.com/itinerarios/lisboa-1-dia-lo-esencial .
+- **Candidato:** rama `preview/human-web-design-system-2026-10-31`, ruta `/human-web-system` en un servidor Next local de GitHub Actions. No se desactivó protección SSO de Vercel; no se publicó ni cambió producción.
+- **Prueba de código del laboratorio:** [GitHub run 41228613178](https://github.com/josetabares24-png/portugal-autentico-v2/actions/runs/41228613178), **success**: existencia de imágenes y slugs, accesos internos, noindex, estado de controles, foco/reduced-motion y ausencia de flechas ornamentales en ese componente.
+- **Navegador real y evidencia:** [GitHub Actions run 41229533193](https://github.com/josetabares24-png/portugal-autentico-v2/actions/runs/41229533193) **success**; [descargar artefacto de capturas y reporte HTML](https://github.com/josetabares24-png/portugal-autentico-v2/actions/runs/41229533193/artifacts/13053495449). Usó **Chromium 140.0.7339.16** vía Playwright con el mismo navegador en ambas versiones. Se registraron 8 PNG con hash SHA256 verificado: `baseline/candidate` × `home/interior` × `390×844 móvil / 1280×800 escritorio`.
+- **Código de portadas:** `src/app/[locale]/page.tsx` es **idéntico** en main y rama lab (blob `9bedd0be21fcf6a566d350bbcbee1f94cbf8e795`). La versión alternativa vive en otra ruta. `src/app/[locale]/itinerarios/lisboa-1-dia-lo-esencial/page.tsx` también coincide (blob `8986667b034a6ed7772750b9572e447570e87e5f`).
+- **Tipo de comparación:** **portada editorial pública vs una portada DEMO de estilos**; artículo interior existente vs el mismo artículo interior en rama local. **No es A/B validado de páginas equivalentes**, ni presentación de un rediseño completo, aunque permite observar diferencias de jerarquía de portada.
 
-## Repositorios, versiones y evidencia
-- **Origen real:** `https://estabaenlisboa.com/`, y artículo interior `/itinerarios/lisboa-1-dia-lo-esencial`.
-- **Candidato:** rama `preview/human-web-design-system-2026-10-31` de `josetabares24-png/portugal-autentico-v2`, componente `src/components/human-web/HumanWebLab.tsx`, CSS módulo homónimo, y ruta `src/app/[locale]/human-web-system/page.tsx` (robots noindex, nofollow). Su código no reemplaza la home principal: es una página de laboratorio con biblioteca de controles y pruebas.
-- **Estado Vercel:** último despliegue del laboratorio `e9bb642c...` marcado READY, pero acceso de previews SSO habilitado. READY no equivale a prueba de pantalla/UX. No eliminar protección para facilitar captura.
-- **Integridad del baseline código:** `src/app/[locale]/page.tsx` tiene blob SHA `9bedd0be21fcf6a566d350bbcbee1f94cbf8e795` en main y rama de preview. El artículo `src/app/[locale]/itinerarios/lisboa-1-dia-lo-esencial/page.tsx` coincide (`8986667b...`). Por eso «comparar / vs / entre ramas» **no** sería una prueba válida de rediseño: solo la ruta lab presenta diseño diferente.
-- **Prueba automática de código:** GitHub Actions [Human Web preview source audit](https://github.com/josetabares24-png/portugal-autentico-v2/actions/runs/41228613178) terminó con éxito. Verifica 6 rutas de imágenes presentes, fichas de actividades con slugs, CTA internos, noindex, ausencia de iconos de flecha del laboratorio, botones con estado, foco visible y soporte reduced-motion. No revisa la pantalla.
-- **Captura reproducible:** [GitHub Actions — segundo ensayo con base capturada](https://github.com/josetabares24-png/portugal-autentico-v2/actions/runs/41229088620) y [tercer ensayo con diagnóstico HTTP](https://github.com/josetabares24-png/portugal-autentico-v2/actions/runs/41229186155). La captura baseline tuvo éxito para 4 combinaciones (home/interior × móvil 390px/escritorio 1280px), descargables como [artefacto del tercer ensayo](https://github.com/josetabares24-png/portugal-autentico-v2/actions/runs/41229186155/artifacts/13052643884). **No existe comparación de 8 capturas**, ni HTML de before/after completo, porque el servidor local del candidato devolvió HTTP 307 en el control de acceso inicial; Next.js reportó Ready, y la solicitud a `/human-web-system` no produjo HTTP 200. La [prueba de diagnóstico 41229426647](https://github.com/josetabares24-png/portugal-autentico-v2/actions/runs/41229426647) determinó la causa: `x-middleware-rewrite: http://localhost:3000/es/human-web-system` pero la petición entraba por `http://127.0.0.1:3000/human-web-system`; `Location: /human-web-system` causaba `ERR_TOO_MANY_REDIRECTS`. Es un **bucle por inconsistencia de host en el entorno de captura**, no evidencia de que el diseño sea malo. Se cambió el flujo de prueba para usar `localhost` en servidor y URLs de candidato (commit `b943173...`). La captura del candidato queda pendiente del nuevo resultado. El proyecto se mantuvo aislado. La home candidata será **/human-web-system** en servidor local, no la home de preview, por lo que esta comparación es **concepto editorial vs sitio real**, NO prueba de migración de idénticas rutas.
-- **Aislamiento:** el workflow instala Next y Playwright en GitHub Actions, accede a producción **solo lectura** y al candidato mediante localhost. No cambia producción ni desactiva SSO, no sube capturas a rama pública; artefacto privado temporal del run.
+## Resultado del ensayo real
+| Punto | Original | Laboratorio | Veredicto |
+|---|---|---|---|
+| Home móvil (390×844) | Mensaje personal `La Lisboa que le enseño a quien viene a verme`, dos CTA y comienzo de sección útil aparecen en el primer viewport | Barra de selección de fuentes y movimiento antes del hero; CTA en parte inferior de foto; contenido siguiente queda fuera del primer viewport | **Original superior en claridad de identidad y acceso temprano a contenido.** La barra es de laboratorio, no de usuario final; debe excluirse de cualquier propuesta real. |
+| Home escritorio (1280×800) | Imagen luminosa y mensaje personal visible; siguiente sección `¿Qué necesitas resolver en Lisboa?` comienza sin otro bloque intermedio | Overlay oscuro, titular genérico `La Lisboa de verdad`, CTA de tours por delante de la lógica de guía; sección posterior apenas visible | **Mantener la home existente**. La nueva tipografía puede estudiarse aisladamente, no hay prueba de que el hero completo sea mejor. |
+| Interior móvil/escritorio | Itinerario de un día con título, descripción, datos de duración/paradas/horario/modo y fotografía | **Casi idéntico**, ya que comparte el archivo original | **Sin mejora atribuible al prototipo**; no sirve como prueba de continuidad de una futura nueva plantilla de artículos. |
+| Documentos/capturas | Todas las páginas HTTP 200; H1 único en cada captura; sin imágenes visibles rotas ni overflow detectado | Lo mismo | Paso de integridad de primer viewport, **no certificado WCAG/Lighthouse/SEO**. |
+| Font/cookies | **Una advertencia `fonts_not_ready`** en home desktop; aviso de cookies visible en diversas capturas | Sin alertas de captura; estado visual del aviso de cookies diferente | **Comparación parcialmente desigual**; normalizar preferencias de cookies y esperar tipografías/hidratación antes de presentar un nuevo rediseño. |
 
-## Inspección inicial de código: pruebas y riesgos
-| Dimensión | Evidencia | Resultado / siguiente revisión |
-|---|---|---|
-| Assets | `/images/lisboa-originales/alfama-lisboa-tejados-rio-tejo.jpg`, `/images/alfama-panoramica.jpg`, y cuatro imágenes de actividades existen en el repo | Cumple presencia estática; comprobar realmente carga/crop y contraste de texto en viewport |
-| Enlaces | Tres slugs de actividades están en `src/data/activities.ts`; `/free-tours-lisboa`, `/itinerarios`, `/actividades` y páginas de información existen | Cumple catálogo; falta probar navegación real, destino final del proveedor |
-| SEO | ruta lab con noindex/nofollow; main homepage sin cambios | Riesgo productivo bajo; no concluye sobre SEO del rediseño |
-| Interacción | filtros de experiencias y botones font/motion enlazados a estado; CSS focus-visible + reduced-motion | Fuente correcta; falta prueba de teclado/tacto y estados en navegador |
-| **Acentos** | `--hw-clay:#af4f35` usado de forma amplia; fondo papel cálido y chips | Riesgo: regresar a la estética arcilla repetida explícitamente rechazada, incluso sin flechas |
-| **Retícula** | 4 cards escritorio, 2 cards a 990px/680px; cuatro accesos en móvil; tarjeta con chip y sombra | Riesgo de «plantilla IA» y densidad al mostrar actividades en 390px |
-| **Móvil legibilidad** | CSS usa 10px en categorías/etiquetas y 11px en descripciones de cards | Riesgo de legibilidad/target; no afirmar WCAG incumplido sin inspección real |
-| **Voz** | H1 «La Lisboa de verdad» + párrafo de tours vs baseline H1 «La Lisboa que le enseño a quien viene a verme» | Riesgo de perder el posicionamiento de guía personal y poner reservas por delante de contenido útil |
-| **Tipografía** | selector carga Newsreader/DM Sans, Fraunces/Instrument Sans y fallback de continuidad | Variantes exploratorias, ninguna aprobada ni demostrada mejor por la marca |
-| **Formato Brisa** | home del laboratorio + módulo de muestras; NO una solución con home real/interior/móvil coherente | Falla la puerta de entrega del diseño completo; falta mantener continuidad interior |
+### Controles de resultado que no deben confundirse
+- **Capturas:** 4 baseline + 4 candidate y **4 parejas** en un informe HTML. `sameBrowser: true`; `captureWarnings: 1` (solo producción/home/desktop, `fonts_not_ready`). Todos los ocho endpoints respondieron HTTP 200, H1=1, sin `brokenVisibleImages` o `horizontalOverflow` detectados.
+- **Fuentes:** una alerta de `fontStatus` no prueba que la fuente finalmente fallase; el capturador puede coincidir con cargas posteriores. Revisar fonts computadas y estabilizar el screenshot en el siguiente ensayo.
+- **Cookie banner:** las capturas muestran estados diferentes del consentimiento; **no comparar el espacio ocupado por el aviso como si fuera una elección del diseño**.
+- **Alcance:** primera pantalla solamente; faltan viewport completo, menú abierto, filtros tocados, keyboard, pantalla inferior, conversiones, Core Web Vitals y revisión SEO semántica. No afirmar que se completó esa QA.
+- **Aprobación:** el usuario había rechazado visualizaciones de estética genérica en turnos previos, pero **no ha emitido aprobación sobre este ensayo**. No declarar preferencia explícita nueva sin consulta.
 
-## Resultado operacional comprobado y diagnóstico pendiente
-- Ejecución del smoke en rama de prueba: `success`, [run 41228613178](https://github.com/josetabares24-png/portugal-autentico-v2/actions/runs/41228613178).
-- Ensayo 1: fallo por no alcanzar HTTP 200 en 75 intentos; no llegó a capturar la home original.
-- Ensayos 2 y 3: **captura baseline exitosa, 4 PNG reales**; el candidato no fue capturado. Artefactos comprimidos contienen baseline y log, pero **no** comparación completa.
-- Ensayo 3: HTTP 000 inicial y 307 después; luego un ensayo diagnóstico mostró `x-middleware-rewrite` a localhost desde 127.0.0.1 y error de Playwright `ERR_TOO_MANY_REDIRECTS`. Lección: al capturar apps con middleware de idioma, conservar idéntico `hostname` en servidor, URL y redirecciones internas. Reintento configurado con `localhost`, resultado aún pendiente.
-- No hay evidencia de mejora de SEO, WCAG, rendimiento ni conversión; no aumentar puntuación de madurez.
+## Tres aciertos de la metodología demostrados
+1. La revisión del código detectó que la home en main y preview no cambió, evitando una falsa comparación de dos portadas iguales.
+2. Los enlaces de actividad, imágenes y marcadores accesibles se validaron por CI; Chromium capturó ocho pantallas con fuente y metadatos verificables.
+3. Se documentó y resolvió un fallo de las pruebas **sin cambiar producción**: `127.0.0.1` frente a `localhost` provocaba un bucle en Next-intl (`307`, `x-middleware-rewrite` y `ERR_TOO_MANY_REDIRECTS`). Se corrigió el hostname en el workflow (commit `b943173...`) y la ejecución final pasó.
 
-## Decisión provisional (hasta inspección de screenshots)
-No recomendar el reemplazo de producción. El laboratorio es válido como **muestrario aislado de tipografía/CTA**, no como nueva home apta. Mantener prioridad de contenido local, logo original, navegación útil, SEO y fotos propias.
+## Riesgos detectados (demostrados por las capturas o código)
+1. **Uniformidad de plantilla:** gran fotografía oscurecida, un único bloque enorme, CTA y tarjetas repetitivas, bandas de accesos e iconos sin mayor personalidad; especialmente arriesgado en móvil.
+2. **Marca desplazada:** titular y CTA del laboratorio priorizan estética y tours sobre voz local/guías; no conserva el mensaje real de la marca.
+3. **Legibilidad:** CSS del laboratorio utiliza descripciones y chips alrededor de 10–11px en móvil; verificar tamaño/contraste reales con un test de accesibilidad antes de trasplantar componentes.
+4. **Evidencia incompleta:** una advertencia de fuentes y estados de cookies diferentes; artículo interior idéntico, no un rediseño propio.
 
-## Pruebas pendientes
-1. Captura baseline (4 PNG) **ya completada**, revisar capturas. Completar 4 PNG del candidato tras resolver el 307 y validar los 8 hashes/manifiestos antes de generar reporte HTML; abrir menús/estados como prueba adicional.
-2. Verificar si el servidor local reproduce fuentes/activos y no hay redirecciones de locale, errores o imágenes rotas.
-3. Revisar si la propuesta mejora realmente jerarquía, legibilidad y clics cualificados, y si el artículo interior queda coherente. Conservar al menos tres mejoras y dos riesgos con evidencia.
-4. Cualquier segunda iteración requiere una dirección editorial elegida por el usuario, implementada en rama aislada y verificada; no tocar `main` ni publicar.
+## Decisión editorial
+**NO publicar ni fusionar el diseño del laboratorio en producción. Mantener la portada actual.** El laboratorio puede seguir como banco de prueba independiente de familias tipográficas y controles si se desea, pero no pasa la puerta de `home + interior + móvil` como propuesta coherente y superior.
 
-**Nivel de madurez:** se conserva 67/100 hasta resultados aplicados y aprobados. Añadir scripts o contar capturas no sube una nota.
+**Siguiente experimento necesario:** partir del baseline de la web pública, conservar explícitamente logo, voz, fotografía, itinerarios y canonicals; presentar **tres direcciones realmente distintas** en la lámina coherente Brisa, desarrollar solo la elegida en una rama aislada y repetir capturas en estados de cookies/font equivalentes. Añadir pruebas de navegación y accesibilidad con resultado. La decisión estética posterior requiere feedback del usuario y evidencia comparativa, no puntuaciones ficticias.
+
+## Resultado de la madurez
+Se conserva el valor **67/100 (estimación editorial)**. El proceso alcanzó por primera vez 8 capturas reproducibles sobre un caso real, pero **no** ha generado aún una propuesta aprobada ni una medición de resultados de negocio. No elevar a 90 por una CI que pasó.
+
+**Verificaciones:** [source QA](https://github.com/josetabares24-png/portugal-autentico-v2/actions/runs/41228613178) · [captura visual final](https://github.com/josetabares24-png/portugal-autentico-v2/actions/runs/41229533193) · [evidencia y HTML](https://github.com/josetabares24-png/portugal-autentico-v2/actions/runs/41229533193/artifacts/13053495449).
