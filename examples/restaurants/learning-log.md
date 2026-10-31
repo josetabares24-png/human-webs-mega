@@ -41,3 +41,24 @@ Premium independent modern Australian restaurant in Fitzroy, Melbourne (Squaresp
 6. Sharp everything + restrained palette: 0px border-radius, no shadows, charcoal-on-cream, color coming only from photography. Opposite of soft modern AI defaults (rounded, shadowed, gradient-heavy).
 
 These patterns emphasize editorial typography pairing, text-based hierarchy, photographic calm, and operational specificity. Useful for anti-AI restaurant sites that should feel considered and human rather than template-polished.
+
+## The French Laundry (thomaskeller.com/tfl) — 2026-10-31
+Premium iconic French/California restaurant in Yountville, Napa Valley (Thomas Keller Restaurant Group site).
+
+**Observed:**
+- Structure & CTAs: Very sparse horizontal navigation with text links (About, Reservations, Menus & Stories, Wine & Spirits, Private Dining & Events, Culinary Garden). Hero is a large full-width photograph of the restaurant or food. Primary CTA is a plain text "Reservations" link. No prominent filled buttons; everything is typographic navigation. Submenus expand in place (e.g. Daily Menus).
+- Typography: Nav and key headings use Filosofia (Bodoni-revival serif by Zuzana Licko / Emigre, ~17.4px, weight 400, navy color). Body uses Ideal Sans (humanist sans by Hoefler & Co., 11.6px, weight ~400, dark gray rgb(51,51,51)). Some secondary links use mrs-eaves. Letter-spacing modest on some nav (~1.3px). Small body size creates dense, print-like reading.
+- Buttons: Essentially none. CTAs and nav are text-only links with no background fill, no padding, border-radius 0 or 1px, no shadows. Color is navy rgb(0,47,101) on white. High contrast, flat, editorial.
+- Colors: Pure white background, navy blue accent rgb(0,47,101) for links/headings, dark gray body text. Photography supplies the only color. No gradients, no secondary brand colors.
+- Spacing / borders / shadows / photography: Minimal chrome — almost no borders or box-shadows on content containers. Generous margins (e.g. large bottom margin on some regions). Large professional photographs (restaurant exterior/interior, plated food) from the site’s media, object-fit fill, no frames. Layout feels airy yet tightly typeset.
+- Menu / mobile / copy: Menu page is extremely restrained: simply "Two tasting menus are offered daily: CHEF'S TASTING MENU / TASTING OF VEGETABLES". No prices, no descriptions, no marketing language. Copy overall is sparse and factual. Mobile appears to use a collapsible menu wrapper; desktop is clean text nav. Site prioritizes atmosphere and reservation intent over detailed online menu browsing.
+
+**4-6 concrete patterns for anti-AI webs:**
+1. Text-only navy serif CTAs: Primary actions are plain Filosofia links in rgb(0,47,101) with zero fill or radius — deliberately anti the rounded filled-button default of most AI generators.
+2. Extreme size contrast: 11.6px Ideal Sans body vs 17.4px Filosofia nav creates a specific, non-standard hierarchy that feels intentional and print-derived rather than system-ui.
+3. Restrained dual-font pairing (Didone serif + humanist sans): Filosofia for display/nav and Ideal Sans for body signals luxury craft without trendy geometric sans or overused Google Fonts.
+4. Photography-led minimalism: Large unframed images dominate; text is secondary and sparse. No cards, shadows, or overlays.
+5. Operational minimalism on menu: Just the names of the two daily tasting menus, nothing else — honest and sparse, not a designed menu page with prices and blurbs.
+6. Flat, high-contrast navy-on-white palette with no chrome: Pure white, specific navy accent, zero gradients or soft shadows. Feels archival and confident.
+
+These patterns favor extreme restraint, specific typeface pairing, and photographic priority over interactive marketing defaults. Ideal for anti-AI sites that should feel established and considered rather than generated.
