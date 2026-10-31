@@ -125,3 +125,24 @@ Independent casual Texas barbecue in Austin (Squarespace). Famous for the line a
 6. Named personal origin (Aaron & Stacy Franklin, 2009 trailer on the interstate, specific awards and books) woven into practical pages — concrete biography over generic passion statements.
 
 These patterns favor a single custom face, warm practical color, operational specificity, and unadorned food photography over polished multi-font marketing or default UI chrome.
+
+## Eleven Madison Park (elevenmadisonpark.com) — 2026-10-31
+Premium independent fine-dining restaurant in NYC (Squarespace). Chef Daniel Humm; tasting menus, Magic Farms partnership.
+
+**Observed:**
+- Structure and CTAs: White page. Persistent “Open Menu” hamburger (even on desktop capture) revealing uppercase text links (RESERVATIONS, ABOUT, EVENTS, STORIES, SHOP, etc.). Hero is large photography (dining room, food, farm). Prominent filled “Book on Resy” CTA. Sparse homepage with address, phone, Instagram, newsletter. Practical footer-style links (Wine List, FAQs, Gift Cards, Clemente Bar). Announcement dialog for Studio at Clemente Bar.
+- Typography: Nav and many links use “nobel” (light weight 300, ~17px, slight letter-spacing 0.34px). Body and longer text use EB Garamond (serif, ~16–19px, weight 400, modest tracking). Menu toggle uses EB Garamond. Skip-to-content uses Inter Tight. Hierarchy is serif body + light sans nav; no heavy display faces.
+- Buttons: Primary “Book on Resy” is filled rgb(252, 72, 55) (warm red-orange), white text, nobel weight 700, modest border-radius ~6.4px, padding ~0 18px. Nav items are plain text (0 radius, no fill). Skip-to-content is dark blue filled rectangle. No heavy outlines or pills on main CTAs.
+- Colors: Pure white bg rgb(255,255,255), black text. Accent is the saturated red-orange on the reservation button. Photography supplies all other color (food plating, farm produce, interiors, people). No gradients.
+- Spacing / borders / shadows / photography: Flat layout, minimal or no decorative borders/shadows on key elements. Large unbordered high-resolution photos of plated dishes (Scallop, Tonburi, Tardivo), Magic Farms tunnels/lettuces/beets, chefs, dining room team, wine pours (Squarespace CDN, detailed alts). Generous white space; images carry the page.
+- Menu / mobile / copy: Explicitly no online food menu (“Due to the hyper-seasonal nature of our menu, all courses are subject to change. As such, we are unable to share our food menus online.”). About page is factual: Art Deco building overlooking Madison Square Park, Magic Farms exclusive produce, plant-based option on tasting menu, specific hours for restaurant and bar, Resy reservations, walk-ins at bar. Copy is operational and place-specific rather than marketing superlatives. Mobile uses same hamburger; desktop also shows Open Menu.
+
+**4-6 concrete patterns for anti-AI webs:**
+1. Light-weight custom sans (nobel 300) exclusively for nav/links paired with classic serif (EB Garamond) for body — restrained editorial hierarchy that avoids both system-ui and trendy heavy display fonts.
+2. Single saturated filled CTA (warm red-orange rgb(252,72,55), modest 6px radius) for the one critical action (Book on Resy) against pure white — high-contrast operational focus without pill/shadow defaults.
+3. Explicit refusal to publish the menu online due to hyper-seasonality — operational honesty that AI generators almost never produce; builds trust through limitation instead of fake completeness.
+4. Documentary photography of real farm (Magic Farms tunnels, named farmer, specific produce like Badger Flame Beets) and kitchen process without chrome or frames — images do the storytelling; layout stays flat.
+5. Sparse practical homepage (address + phone + one CTA) with longer factual about page containing exact hours, partnership details, and plant-based choice — functional over decorative or slogan-driven.
+6. Persistent hamburger nav even on desktop — deliberate simplicity that resists the full horizontal mega-menu AI templates often default to.
+
+These patterns favor serif body text, a single high-contrast operational CTA, photographic restraint, and honest seasonal limitations over polished multi-section marketing sites or default rounded-button aesthetics.
