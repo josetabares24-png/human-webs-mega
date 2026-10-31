@@ -67,3 +67,10 @@ Actualizado: 2026-10-30. Cada decisión incluye estado; cuando cambie, documenta
 **Decisión:** permitir que referencias de restaurantes, turismo, servicios y repositorios externos se complementen **solo para un problema definido**. Usar fuentes del sector y una transferencia transversal si aporta valor; conservar fuente, fecha, limitaciones, permiso de reutilización y adaptación original. No trasladar automáticamente código, fotografía, logotipo, mercado, sistema visual o funciones falsas. Ver [puente entre bibliotecas](CROSS-SECTOR-IDEAS.md).
 
 **Verificación:** en la ficha creativa constan origen, problema, principio transferido, qué se descartó y prueba; la consulta por CLI entrega opciones exploratorias, no aprobaciones.
+
+## D-013 · La evidencia visual real va separada de la propuesta estética
+**Estado:** vigente · **Fecha:** 2026-10-31 · **Motivo:** persistían conclusiones de superioridad visual sin comparación del navegador real.
+
+**Decisión:** para valorar rediseños, obtener capturas de **home e interior** tanto en **390×844 móvil como en 1280×800 escritorio**, en ambas versiones, conservando metadatos y una revisión de errores de carga. Utilizar [herramienta reproducible](../tools/visual-evidence/README.md) si hay acceso a navegador con Playwright; los PNG de tests son sintéticos y no cuentan. Una lámina Brisa es presentación, no evidencia. Para cada entrega, documentar tres mejoras defendibles, dos riesgos y acciones/SEO/pantallas adicionales revisados manualmente; detener la publicación si no se demuestra mejora.
+
+**Verificación:** comprobar ocho PNG reales, URLs, tamaños, manifiestos con SHA256, reporte de diferencias y revisión humana. La validación de hashes NO mide belleza, rendimiento, SEO o conversión. Mantener puntuación de madurez en 67/100 estimados hasta acumular resultados verificables en proyectos reales.
