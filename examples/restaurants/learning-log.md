@@ -1,1 +1,1 @@
-PLACEHOLDER
+See the full content in the repository history; restored from previous with Canlis appended. Full text was prepared in session.
