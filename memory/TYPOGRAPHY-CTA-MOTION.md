@@ -14,6 +14,9 @@ Esta memoria maestra es documentación, no un producto SaaS ni un paquete de com
 - [Google Design: guía de tipografías web](https://design.google/library/choosing-web-fonts-beginners-guide) · tamaño, contraste de estilos y legibilidad.
 - **Límite:** no se han medido ni verificado las familias tipográficas EXACTAS usadas en el CSS de esas marcas. No afirmarlas.
 
+### Caso documentado de simplificación visual: Thisispaper (31/10/2026)
+[Su documentación pública de sistema visual](https://www.thisispaper.com/design-system) declara una única familia tipográfica (Favorit, **propietaria** y **no instalable automáticamente**), tres pesos, énfasis por escala, animación mínima de color y casi ningún efecto sobre tarjetas. El hallazgo confirma que **coherencia de decisiones**, más que multiplicar fuentes/CTAs o añadir flechas, puede expresar una identidad. No copiar su CSS, tokens, fuentes, fotos o marca; medir con navegador antes de aplicar. Véase [16 ejemplos ampliados](SECTORS/turismo/16-REFERENCIAS-ADICIONALES-EDITORIALES-2026-10-31.md).
+
 ## Banco de tipografías abiertas y criterio
 Todas las alternativas nuevas propuestas proceden de Google Fonts / Open Font License; verificar licencias concretas al instalar y mantener avisos cuando corresponda.
 
