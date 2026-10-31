@@ -38,6 +38,8 @@ La [investigación 2027](memory/TRENDS-2027.md) sirve como **tendencias candidat
 - Prioriza HTML semántico, accesibilidad, móvil, contenido útil, SEO verificable, rendimiento y seguridad. No uses una puntuación «anti-IA» sin evidencias ni afirmes perfección.
 - Aprende de las correcciones: cada error repetible merece una entrada verificable en `memory/ERRORS.md` y, cuando proceda, una prueba automatizada.
 
+- **Formato visual permanente (D-010):** cuando muestres una propuesta de web, usar como formato de entrega la referencia aportada «Brisa»: una lámina con tres vistas **coherentes** (home escritorio, interior/catálogo escritorio y móvil), suficientemente detalladas para juzgar el conjunto. Es una **preferencia de presentación aprobada**, no autorización para copiar la estética o la marca Brisa. Identificar como concepto lo no capturado ni implementado y respetar baseline, originalidad, SEO y aprobación de publicación. Ver [D-010](memory/DECISIONS.md#d-010--formato-de-presentación-visual-de-webs-referencia-brisa).
+
 ## Mantenimiento
 Modifica documentación bajo `memory/` en un commit separado de cambios de sitios de clientes siempre que sea práctico. Usa `memory/RECORD-TEMPLATE.md` para nuevas lecciones, con fuente, fecha, alcance, estado y prueba de no regresión. No guardes datos privados de clientes, credenciales ni materiales sin permiso.
 
