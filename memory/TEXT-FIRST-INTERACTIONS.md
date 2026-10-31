@@ -15,6 +15,9 @@
 - Mostrar hover con variación sutil de fondo, subrayado o borde; no crear movimiento gratuito. Evitar layout shift; respetar `prefers-reduced-motion`.
 - Si se decide mantener un icono funcional, documentar el porqué y comprobar que la etiqueta no depende del icono.
 
+## Comprobación de código (opcional y orientativa)
+El escáner [arrows.mjs](../tools/design-audit/README.md) recorre archivos de interfaz del sitio de destino y reporta usos sospechosos de iconos y flechas visibles con ubicación. Usar `node tools/design-audit/arrows.mjs <ruta-sitio>`; con `--strict` permite exigir revisión documentada antes de aprobar. **No determina por sí solo qué es decorativo ni modifica componentes.**
+
 ## Inspección antes de entregar
 1. Revisar home, páginas interiores, navegación, tarjetas y CTA en 390px y 1280px, no solo el hero.
 2. Buscar flechas visibles y componentes `ArrowRight/ArrowUpRight/ChevronRight` y clasificar cada uso: funcional, decoración no justificada o navegación propia de la marca.
