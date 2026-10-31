@@ -53,4 +53,4 @@ Codex detecta AGENTS.md automáticamente **solo en el árbol de trabajo actual**
 
 
 ## Madurez medible y autocrítica
-Cuando el encargo sea mejorar la capacidad de Human Webs, consultar [autoprompt de 67 a 90](memory/AUTOPROMPT-MADUREZ-90-100.md). No afirmar que se alcanzó una puntuación mayor sin comparar sitios y medir resultados reales. El CI valida código y coherencia documental, no belleza, SEO ni conversiones.
+Cuando el encargo sea mejorar la capacidad de Human Webs, consultar [autoprompt de 67 a 90](memory/AUTOPROMPT-MADUREZ-90-100.md). No afirmar que se alcanzó una puntuación mayor sin comparar sitios y medir resultados reales. El CI valida código y coherencia documental, no belleza, SEO ni conversiones. Para rediseños reales, usar [captura y comparación visual](tools/visual-evidence/README.md) con PNG originales y evidencia de navegador; sin imágenes reales no se eleva la nota.
