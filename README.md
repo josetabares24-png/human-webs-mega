@@ -13,6 +13,10 @@ Human Webs **no es un bot ni una aplicación para crear webs**. Es la memoria ve
 5. Antes de entregar, comprobar [errores conocidos](memory/ERRORS.md), [calidad](memory/QUALITY-GATES.md) y pruebas del proyecto.
 6. Documentar el aprendizaje con la [plantilla](memory/RECORD-TEMPLATE.md).
 
+## Cambios de criterio: CTAs sin flechas y cruces selectivos
+- [Interacciones de texto primero](memory/TEXT-FIRST-INTERACTIONS.md): las flechas ornamentales no se agregan a botones, cards o enlaces por costumbre. Excepciones solo para controles direccionales reales, con evidencia.
+- [Puente entre bibliotecas sectoriales](memory/CROSS-SECTOR-IDEAS.md): referencias de otro sector pueden aportar **un principio concreto**, sin arrastrar su marca ni su plantilla. [Consulta local](tools/inspiration/README.md): `node tools/inspiration/bridge.mjs turismo conversion`.
+
 ## Bibliotecas organizadas por tipo de web
 
 - [Ver sectores](memory/SECTORS/README.md) y su [catálogo estructurado](memory/SECTORS/catalog.json).
