@@ -1,0 +1,76 @@
+{
+  "project": {
+    "name": "Guía urbana ficticia para pruebas",
+    "mode": "new",
+    "sector": "turismo editorial",
+    "primaryTask": "Ayudar a buscar zonas y rutas comprensibles",
+    "brandEvidence": "Fixture sintético: no describe una marca ni autoriza un rediseño real"
+  },
+  "sources": [
+    {
+      "url": "https://transit.jp/",
+      "reviewedAt": "2026-10-31",
+      "evidenceType": "official",
+      "observed": "Organiza contenido editorial y viajes alrededor de ediciones reales.",
+      "limitation": "Sin medición CSS ni prueba actual de responsive."
+    },
+    {
+      "url": "https://pudding.cool/",
+      "reviewedAt": "2026-10-31",
+      "evidenceType": "official",
+      "observed": "Cada visualización interactiva explora una pregunta ligada a datos.",
+      "limitation": "No se inspeccionaron interacciones en navegador."
+    }
+  ],
+  "directions": [
+    {
+      "id": "index",
+      "idea": "Explorar estructura editorial con contenido real y una razón de negocio",
+      "reason": "Permite encontrar información específica sin decorar los bloques por defecto",
+      "risk": "Se debe probar lectura en móvil y accesibilidad de acciones",
+      "signature": {
+        "composition": "chapter-index",
+        "typography": "compact-sans",
+        "imagery": "captioned-doc-photo",
+        "navigation": "jump-to-sections",
+        "interaction": "anchor-links",
+        "contentStructure": "topic-guide",
+        "color": "brand-palette"
+      }
+    },
+    {
+      "id": "essay",
+      "idea": "Explorar estructura editorial con contenido real y una razón de negocio",
+      "reason": "Permite encontrar información específica sin decorar los bloques por defecto",
+      "risk": "Se debe probar lectura en móvil y accesibilidad de acciones",
+      "signature": {
+        "composition": "full-bleed-essay",
+        "typography": "display-and-body",
+        "imagery": "single-photo-essay",
+        "navigation": "linear-reading",
+        "interaction": "optional-footnotes",
+        "contentStructure": "story-chapters",
+        "color": "neutral"
+      }
+    },
+    {
+      "id": "map",
+      "idea": "Explorar estructura editorial con contenido real y una razón de negocio",
+      "reason": "Permite encontrar información específica sin decorar los bloques por defecto",
+      "risk": "Se debe probar lectura en móvil y accesibilidad de acciones",
+      "signature": {
+        "composition": "map-with-legend",
+        "typography": "caption-first",
+        "imagery": "verified-map-pins",
+        "navigation": "map-list-switch",
+        "interaction": "select-map-pin",
+        "contentStructure": "place-index",
+        "color": "wayfinding"
+      }
+    }
+  ],
+  "selection": {
+    "id": "index",
+    "why": "Para un caso ficticio, el acceso rápido por capítulos permite localizar temas."
+  }
+}
