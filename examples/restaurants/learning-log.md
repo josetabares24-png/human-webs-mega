@@ -83,3 +83,24 @@ Premium independent fine-dining restaurant in Fitzroy, Melbourne (Squarespace). 
 6. Place-rooted origin story with concrete details (former metalworks factory, glass façade, Fitzroy) and cultural acknowledgement — specific local voice instead of generic "passionate about food" statements.
 
 These patterns favor editorial typography, operational transparency, and photographic restraint over polished marketing defaults or trendy UI chrome.
+
+## Dishoom (dishoom.com) — 2026-10-31
+Premium-casual independent/chain hybrid (Bombay-inspired Indian restaurants across UK, custom Next.js site). Strong narrative voice.
+
+**Observed:**
+- Structure and CTAs: Cream full-page background. Header has logo + "Toggle Menu" (hamburger visible even on desktop in capture) + "Book a table" pill. Hero opens with large quoted text ("Look across the bay...") and "LISTEN IN" / "ALL WELCOME" / "FROM BOMBAY WITH LOVE". Primary CTAs are "VIEW MENUS" and "BOOK A TABLE". Sections for locations (Cafés / Permit Rooms), story blocks with historical photos, awards. Footer-like practical links (menus, reservations, store). Sparse but story-dense.
+- Typography: Body and most headings use Cheltenham BT (serif, 16px body / 400 weight, line-height 24px; larger display ~44px uppercase with extreme letter-spacing 8.8px on "FOOD AND DRINK"). Nav/UI links use Gill Sans Nova (sans, 14px / 600-700, modest tracking). High contrast between warm serif narrative and cleaner sans for actions. Letter-spacing used deliberately on big heads.
+- Buttons: Mixed. "Book a table" appears as thin outline pill (border-radius 9999px, 1px solid cream, cream text) and as filled dark rectangle (rgb(53,56,57) bg, cream text, 0 radius, padding 10px 16px, weight 700). Nav items are plain text. Cookie buttons are outline or muted fill. No heavy shadows; modest or zero radius on primary fills.
+- Colors: Warm cream/beige bg rgb(240, 236, 224), dark charcoal text rgb(53, 56, 57). Accents are cream-on-dark or dark fills. Photography supplies most color (warm interiors, food, historical Bombay). No bright gradients; muted, paper-like palette.
+- Spacing / borders / shadows / photography: Generous padding (e.g. 72-96px vertical on sections). Almost no box-shadows or decorative borders. Large unbordered photographs of food, interiors, and historical Bombay scenes (with captions like "ABOVE: The legendary B. Merwan..."). Flat layout; type and image rhythm dominate. Airy but dense with story.
+- Menu / mobile / copy: Menu page is narrative-first ("Bombay comfort food", specific street references like Vada Pau, Chicken Ruby, House Black Daal, Mohammed Ali Road). Explicit dietary notes (Halal, gluten-free, vegan options). Copy is literary and place-rooted: long paragraphs about Bombay's history, eccentricities, love letters to the city, chef trips, awards. Practical booking and location lists sit alongside. Mobile uses hamburger "Toggle Menu"; desktop still shows toggle in this capture.
+
+**4-6 concrete patterns for anti-AI webs:**
+1. Extreme letter-spacing (8.8px) on large uppercase serif display headings — creates deliberate, book-like rhythm that AI generators almost never produce consistently.
+2. Dual-font system with warm classic serif (Cheltenham BT) for all narrative/body and clean sans (Gill Sans Nova) only for nav/CTAs — editorial hierarchy that feels authored, not system-default.
+3. Mixed button treatments (thin cream outline pill + solid dark 0-radius rectangle) on cream field — avoids single-style "rounded primary" default while keeping high contrast.
+4. Literary, historically specific copy with concrete Bombay references (named streets, cafés from 1914, chef trips, "scraped every crumb") instead of generic benefit language — reads like a published essay, not marketing.
+5. Cream/beige paper background rgb(240,236,224) + unbordered documentary photography with explicit "ABOVE:" captions — magazine/book aesthetic that sidesteps pure-white template look and stock-photo chrome.
+6. Operational honesty woven into story (Halal sourcing, dietary accommodations, exact location personalities) — practical detail that grounds the romance and resists AI polish.
+
+These patterns favor authored narrative typography, paper-like color, mixed CTA restraint, and hyper-specific cultural storytelling over polished marketing defaults or trendy UI.
