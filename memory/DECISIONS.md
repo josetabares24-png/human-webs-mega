@@ -42,3 +42,14 @@ Actualizado: 2026-10-30. Cada decisión incluye estado; cuando cambie, documenta
 **Estado:** vigente · **Decisión:** en webs nuevas y rediseños con libertad visual, consultar referencias del sector más una dirección de otro sector, verificar cada web original (si se dispone de navegador) y registrar contexto, fecha, observación y límites. Nunca copiar assets no autorizados.  
 **Por qué:** reutilizar una estética por hábito reduce diferenciación.  
 **Verificación:** ficha creativa de [ART-DIRECTION](ART-DIRECTION.md) y revisión comparativa en móvil/escritorio.
+
+## D-010 · Formato de presentación visual de webs (referencia Brisa)
+**Estado:** vigente · **Fecha:** 2026-10-31 · **Fuente:** preferencia visual explícita del usuario, imagen de referencia compartida en conversación.
+
+**Decisión:** cuando se solicite una propuesta visual de web, entregar preferentemente **una sola lámina coherente con tres vistas de la misma solución**: (1) home de escritorio con hero y secciones reales, (2) página interior o catálogo/servicio en escritorio, y (3) versión móvil de esa misma web. La referencia «Brisa Brunch Club» define el **formato de entrega y nivel de detalle**, no una estética, paleta, logo ni estructura a copiar.
+
+**Aplicación:** enseñar navegación, CTAs, tipografía, imágenes, tarjetas/secciones y adaptación responsive, con contenido propio del negocio; no mostrar únicamente un hero ni tres diseños inconexos. Distinguir claramente maqueta conceptual de captura real. Nunca inventar precios, reseñas, disponibilidad, testimonios ni funciones operativas. Conservar logotipo, identidad, fotografías autorizadas y URLs/SEO del sitio de destino cuando se trate de un rediseño; mostrar riesgos y razones de los cambios. No sustituye capturas del baseline, QA móvil/escritorio ni aprobación explícita antes de producción.
+
+**Caso Estaba en Lisboa:** la meta comercial es mejorar decisiones y clics cualificados hacia tours, entradas y actividades sin convertir el medio editorial en un marketplace inventado. Priorizar guías propias, contexto local, transparencia afiliada y destinos de reserva reales.
+
+**Verificación:** al entregar, comprobar que las tres vistas describen el mismo diseño y que el usuario puede juzgar home, interior y móvil; si falta una, explicar la limitación en vez de prometer fidelidad no verificada.
