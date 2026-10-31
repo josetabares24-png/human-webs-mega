@@ -78,4 +78,12 @@ Cada entrada: síntoma, evidencia/alcance, causa probable, corrección, prueba d
 - **Causa:** hipótesis de proceso: la guía de CTA recomendaba animar un icono direccional como efecto por defecto. No se ha medido impacto en conversión.
 - **Prevención:** diseñar controles de texto primero, sin flechas o iconos ornamentales automáticos; conservar las excepciones de orientación funcional y la identidad existente. Ver [interacciones de texto primero](TEXT-FIRST-INTERACTIONS.md).
 - **Prueba:** revisión del JSX/HTML y capturas de home e internas en 390px/1280px, semántica, foco y excepciones documentadas. Las demos antiguas deberán corregirse en su repositorio propio si se retoman.
-- **Estado:** vigente; todavía no aplicado a las ramas de laboratorio del proyecto de Lisboa.
+- **Estado:** vigente. El laboratorio experimental `preview/human-web-design-system-2026-10-31` fue corregido en sus componentes principales el 31/10/2026; no equivale a revisión visual final ni a publicación de producción.
+
+
+### ERR-012 — Confundir pruebas documentales con validación visual del sitio real
+- **Observado:** los checks de memoria se completaban correctamente aunque las referencias carecían de capturas propias comparables y las demos no acreditaban mejoras visuales. El usuario pide seguir aprendiendo y pulir la estética, no solo guardar fuentes.
+- **Causa:** las pruebas verificaban existencia de archivos, campos, patrones sintácticos y herramientas, sin imágenes baseline/candidate reales de páginas equivalentes.
+- **Prevención:** comparar la web real antes/después con [capturador reproducible](../tools/visual-evidence/README.md), cuatro viewports por versión y registro de errores, sin declarar calidad por el número de tests. Separar mockup editorial Brisa del registro de QA y de una aprobación real del usuario.
+- **Prueba:** `node --test tools/visual-evidence/report.test.mjs` valida integridad de capturas sintéticas; la comprobación real requiere ejecutar `capture.py` en un navegador con acceso a ambos sitios, revisar `evidence-report.html`, verificar SEO/acciones y documentar mejoras/riesgos. No afirmar que esta última se ejecutó mientras no exista evidencia.
+- **Estado:** infraestructura de prueba añadida y CI ejecutada; aplicación visual a una web real pendiente.
