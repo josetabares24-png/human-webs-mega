@@ -6,6 +6,7 @@
 El usuario ha observado fondos terracota repetidos. **No empezar con terracota, beige cálido, arcilla, serif + tres tarjetas, hero centrado con imagen superpuesta ni otra combinación que la IA repita por costumbre.** Si la marca real usa terracota, sí puede ser correcto, pero documentar evidencia y diferenciación. Tampoco convertir el azul, negro o verde en nuevos valores por defecto.
 
 ## 1. Baseline antes de proponer un rediseño
+**Puerta de bloqueo, no consejo opcional:** antes de crear HTML/React o desplegar cualquier rediseño, registrar capturas verificables del sitio actual a 390 y 1280px **y** un contrato de continuidad visual/funcional. Si faltan, detener la reconstrucción y limitarse a diagnóstico o ajustes puntuales. Un deploy READY no es una revisión visual. Aprendizaje de [Atlántico rechazado](CASES/ESTABA-EN-LISBOA-ATLANTICO-REJECTED-2026-10-31.md): reetiquetar un hero 50/50 con menta/turquesa, serif, sellos, barras de accesos, tarjetas y mapa tampoco es una dirección original.
 Si existe una web actual, primero obtener capturas auténticas (desktop y móvil) **con imágenes, fuentes y logotipo cargados** y documentar qué funciona. Respetar `LOCKED` en memoria de marca. Comparar calidad, conversiones y funciones cuando haya métricas; **novedad no implica mejora**. Si las alternativas no mejoran al original, quedarse con el original y ofrecer refinamientos. Aprendizaje: [Mil Sabores rechazado](CASES/MIL-SABORES-REJECTED-PROTOTYPE-2026-10-30.md).
 
 ## 2. Diagnóstico de marca

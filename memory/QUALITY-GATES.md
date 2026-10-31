@@ -56,6 +56,13 @@ Estos controles aplican a web nueva y rediseño visual, no obligan a rediseñar 
 
 [Playbook y 12 casos turísticos](SECTORS/turismo/README.md).
 
+## Bloqueo de rediseños de webs ya existentes — aplicar antes de codificar
+- [ ] Capturas verdaderas del sitio existente en 390px y 1280px con logo/fuentes/fotos cargadas; al menos portada y una página interna. **Sin baseline no presentar prototipo como mejora del diseño actual.**
+- [ ] Contrato de continuidad firmado/documentado: qué sistema gráfico, fotos, voz, contenidos, navegación, SEO, ingresos y funciones permanecen y qué puede cambiar.
+- [ ] La dirección no repite automáticamente hero partido, titulares abstractos, bandas de accesos, tres tarjetas, sello ornamental ni mapa decorativo; tampoco hace «recolor» a azul/verde para escapar del terracota.
+- [ ] Propuesta y original se comparan a igual viewport y con acciones/activos funcionales. Se registran tres mejoras defendibles y regresiones, o se rechaza la nueva dirección.
+- [ ] Si no se inspeccionó la preview en un navegador, declarar explícitamente «desplegado, no verificado visualmente» y no recomendar un reemplazo. Ver [rechazo de Atlántico](CASES/ESTABA-EN-LISBOA-ATLANTICO-REJECTED-2026-10-31.md).
+
 ## SEO / contenido
 - [ ] Cada ruta indexable tiene título/description útil y único, H1 adecuado, enlaces internos y contenido original.
 - [ ] Canonical, sitemap, robots, redirects, hreflang y datos estructurados **solo cuando correspondan**; verificar dominio real y contenido publicado.

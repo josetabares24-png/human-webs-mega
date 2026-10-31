@@ -11,6 +11,9 @@
 | Diseñar un viaje a medida | Ejemplos propios y alcance de servicio | «Solicitar propuesta» |
 | Elegir alojamiento | Habitación, fotos, fechas, ocupación, llegada y cancelación | «Comprobar disponibilidad» con inventario real |
 
+## Rediseños turísticos: no transformar un medio en una plantilla de viajes
+El prototipo **Atlántico** de Estaba en Lisboa fue rechazado por el usuario como «Terriblemente IA». Se convirtió un medio con identidad y contenido existente en una landing editorial intercambiable (hero partido, gran serif, menta/teal, selector, tarjetas, mapa). No usarlo como referencia positiva. Antes de generar otro diseño: [caso documentado](../../CASES/ESTABA-EN-LISBOA-ATLANTICO-REJECTED-2026-10-31.md), baseline de home e internas, identidad visual conservada y prueba de que cada interacción cumple su propósito.
+
 ## Diseño basado en evidencia
 1. Leer la categoría apropiada y las fichas, comprobar enlaces/fechas y revisar estética actual con navegador **antes** de inferir CSS.
 2. Realizar tres direcciones **diferentes en composición, navegación, imagen y jerarquía**, no tres fondos de color. Mantener branding LOCKED del cliente.
