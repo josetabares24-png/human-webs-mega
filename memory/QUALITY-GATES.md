@@ -83,4 +83,5 @@ Estos controles aplican a web nueva y rediseño visual, no obligan a rediseñar 
 - [ ] Automatizar Lighthouse/axe cuando estén disponibles y revisar manualmente: un resultado automático no certifica WCAG.
 
 ## Evidencia final
+Para una propuesta de **rediseño integral**, mostrar la lámina coherente de 3 vistas aprobada como formato (home escritorio, interior escritorio y móvil) y **separarla de la prueba**: capturas reales antes/después en mismos viewports, activos cargados, estado de CTAs, conservación de SEO y regresiones identificadas. Un mockup conceptual no cuenta como prueba en navegador. Si la mejora no se demuestra, no recomendar publicar.
 Entregar: rutas y funcionalidades cambiadas, commit/PR, URL preview si existe, comandos y resultados de pruebas, capturas o mediciones relevantes, limitaciones y pendientes. Distinguir **propuesto / implementado / probado / desplegado**.
