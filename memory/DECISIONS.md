@@ -53,3 +53,17 @@ Actualizado: 2026-10-30. Cada decisión incluye estado; cuando cambie, documenta
 **Caso Estaba en Lisboa:** la meta comercial es mejorar decisiones y clics cualificados hacia tours, entradas y actividades sin convertir el medio editorial en un marketplace inventado. Priorizar guías propias, contexto local, transparencia afiliada y destinos de reserva reales.
 
 **Verificación:** al entregar, comprobar que las tres vistas describen el mismo diseño y que el usuario puede juzgar home, interior y móvil; si falta una, explicar la limitación en vez de prometer fidelidad no verificada.
+
+## D-011 · Eliminar flechas ornamentales de las propuestas
+**Estado:** vigente · **Fecha:** 2026-10-31 · **Fuente:** preferencia explícita del usuario.
+
+**Decisión:** no emplear flechas `→`, `↗`, `›` ni iconos tipo `ArrowRight` como adorno habitual de botones, tarjetas, enlaces o títulos. Priorizar textos claros, contraste, jerarquía y estados. No reemplazarlas por otra decoración genérica. Permitir iconos direccionales cuando la orientación es necesaria para la tarea (carrusel, volver, breadcrumb), sin borrar interacciones aprobadas de una web existente. Ver [interacciones de texto primero](TEXT-FIRST-INTERACTIONS.md).
+
+**Verificación:** revisar home, páginas interiores y móvil; justificar cada excepción funcional; no afirmar que el diseño pasó QA sin inspección.
+
+## D-012 · Bibliotecas de ideas complementarias, sin copiar proyectos
+**Estado:** vigente · **Fecha:** 2026-10-31.
+
+**Decisión:** permitir que referencias de restaurantes, turismo, servicios y repositorios externos se complementen **solo para un problema definido**. Usar fuentes del sector y una transferencia transversal si aporta valor; conservar fuente, fecha, limitaciones, permiso de reutilización y adaptación original. No trasladar automáticamente código, fotografía, logotipo, mercado, sistema visual o funciones falsas. Ver [puente entre bibliotecas](CROSS-SECTOR-IDEAS.md).
+
+**Verificación:** en la ficha creativa constan origen, problema, principio transferido, qué se descartó y prueba; la consulta por CLI entrega opciones exploratorias, no aprobaciones.
