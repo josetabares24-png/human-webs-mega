@@ -121,3 +121,27 @@ Tipo: Fine dining de Thomas Keller, 3 Michelin stars, en edificio histórico de 
 6. **Fotografía del lugar real (edificio histórico) + un dish contextual**: Exterior del river rock cottage y una tart simple. Humaniza el espacio físico en lugar de aislar platos perfectos. Evita el look de generación IA de comida flotante con luz de estudio.
 
 Estos patrones combinan restricción tipográfica extrema, paleta institucional limpia, copy de archivo histórico y presentación de menú casi ausente para crear una web que se siente como el sitio de una institución culinaria establecida, no como un landing generado.
+
+## 2026-11-01 — Cutler (premium, independiente, Melbourne / Fitzroy)
+Sitio: https://www.cutlerandco.com.au/
+Tipo: Fine dining de Andrew McConnell (Trader House), en antigua fábrica de metalurgia en Gertrude Street, Fitzroy. Modern Australian, seasonal, con bar y dining room.
+
+### Lo que vi (honesto)
+- Fondo blanco puro `rgb(255, 255, 255)`, texto `rgb(34, 34, 34)` / casi negro. Limpio y frío, sin crema ni acentos fuertes visibles.
+- Tipografía: Headings en Persona / "Archivo Narrow" (sans condensada, 16px, peso 700). Body parece sans-serif ~17px; algunos elementos en Caslon / garamond-premier-pro (serif). Densidad editorial, no grande y aireada genérica. Nav y links en la misma sans condensada bold.
+- CTAs: Casi todo texto puro. Nav links (Reservations, Menu, Drinks, Private Dining, etc.) sin fondo, radius 0, border 0, padding mínimo. "MAKE A RESERVATION" como heading/link de texto. No filled, no outline, no pills. Solo algún skip-to-content con fondo oscuro.
+- Fotografía: Imágenes reales del comedor (mesas con manteles, gente comiendo, camareros, paredes de ladrillo, arcos de fábrica, luz cálida de servicio). No platos flotantes aislados; ambiente industrial-elegante con diners y staff. Alts a veces vacíos o genéricos.
+- Espaciado: Generoso pero práctico. Home empieza con bloques de info útil (MAKE A RESERVATION, LOCATION, OPENING HOURS, CONTACT) en texto, luego welcome narrativo y galería de fotos. Pocas sombras o bordes; look de Squarespace limpio.
+- Menú: Página de texto puro con secciones (APPETISERS, SEASONAL SEAFOOD, ENTRÉES, CUTLER CLASSICS, MAIN COURSES...) y items + precios al lado (ej. Homemade FOCACCIA 12). Intro narrativa: "Our menu reflects how we like to cook, dine and eat right now. It is spontaneous, thoughtful and modern cooking...". Incluye classics y seasonal. No cards ni grids de producto.
+- Móvil: Botón "Open Menu" presente (hamburger). Estructura adaptable; info práctica y nav accesible.
+- Copy: Personal y histórico. "Andrew McConnell opened Cutler & Co. in 2009 in a former metal works factory in Fitzroy, Melbourne’s first suburb. Behind a glass façade that has reflected the changes around it for over sixteen years... Our ethos – refined, simple, hospitable dining – has not changed...". Menciona evolución, barrio, walk-ins en bar. Acknowledgment to Traditional Custodians al final. No marketing inflado.
+
+### 6 patrones concretos para webs anti-IA
+1. **Info práctica (horarios, dirección, contacto, reserva) como primer bloque de home**: No enterrado en footer o menú. Texto claro y directo arriba. Anti-IA porque prioriza utilidad real sobre hero narrativo genérico o foto grande sin contexto.
+2. **Sans condensada (Archivo Narrow / Persona) bold a tamaño similar al body**: Headings 16px 700 sobre body ~17px. Da densidad de carta impresa o periódico, no el look grande-serif o Inter aireado típico de IA. Carácter industrial-editorial.
+3. **CTAs y nav de texto puro, radius 0, sin fill**: Links uppercase o title-case sin decoración. El peso y color hacen la jerarquía. Menos "botón de template" o pill moderna, más directorio o menú de restaurante físico.
+4. **Paleta blanco puro + gris casi negro**: #FFFFFF fondo, #222222 texto. Limpio, institucional, sin cremas cálidas ni pasteles. Sensación de catálogo o web de grupo serio, no de landing AI premium suave.
+5. **Menú como lista de texto con precios y secciones claras**: Items + precio en línea, intro corta sobre el estilo de cocina. Evita product cards o grids visuales. Sensación de carta real, no e-commerce de platos.
+6. **Fotografía del comedor real con gente y arquitectura industrial**: Mesas ocupadas, servicio, ladrillos y arcos de la antigua fábrica. Humaniza el espacio físico y el ambiente (no solo comida perfecta). Evita el look generado de dishes aislados con luz de estudio.
+
+Estos patrones combinan utilidad práctica visible, tipografía condensada con carácter, restricción extrema en botones y fotografía de ambiente real para una web que se siente como el sitio de un restaurante establecido con historia de barrio, no como un landing generado.
