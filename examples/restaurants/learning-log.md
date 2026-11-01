@@ -145,3 +145,27 @@ Tipo: Fine dining de Andrew McConnell (Trader House), en antigua fábrica de met
 6. **Fotografía del comedor real con gente y arquitectura industrial**: Mesas ocupadas, servicio, ladrillos y arcos de la antigua fábrica. Humaniza el espacio físico y el ambiente (no solo comida perfecta). Evita el look generado de dishes aislados con luz de estudio.
 
 Estos patrones combinan utilidad práctica visible, tipografía condensada con carácter, restricción extrema en botones y fotografía de ambiente real para una web que se siente como el sitio de un restaurante establecido con historia de barrio, no como un landing generado.
+
+## 2026-11-01 — Eleven Madison Park (premium, independiente, New York)
+Sitio: https://www.elevenmadisonpark.com/
+Tipo: Fine dining de Daniel Humm, 3 Michelin stars, en edificio Art Deco histórico overlooking Madison Square Park. Tasting menu (con opciones plant-based), bar tasting y à la carte en bar. Reserva vía Resy.
+
+### Lo que vi (honesto)
+- Fondo blanco puro `rgb(255, 255, 255)`, texto negro puro `rgb(0, 0, 0)`. Limpio y de alto contraste, sin cremas ni tonos cálidos. Acento navy profundo `rgb(21, 50, 92)` en algunos elementos como skip-link o posiblemente CTAs.
+- Tipografía: Headings en "EB Garamond" (serif elegante, ~18.88px, peso 400). Body en sans-serif genérica a 16px. Nav links en peso 300. Sensación editorial serif para títulos, body funcional. No tracking extremo.
+- CTAs: Principalmente texto puro / links. "Book on Resy", "Reserve", "Reservations" como links sin fill, radius 0, background transparente. Algunos botones filled en contextos específicos (ej. skip-to-content navy con texto blanco, padding generoso). No pills agresivas. Nav con hamburger "Open Menu".
+- Fotografía: Imágenes reales del chef Daniel Humm en cocina, entrada del restaurante (Art Deco), platos como Romanesco with Masa. Wordmark de hojas. No stock flotante; contexto de lugar, chef y comida real. Alts descriptivos en algunos.
+- Espaciado: Generoso en secciones. Home con anuncio de The Studio at Clemente Bar (chef's counter omakase). Estructura de Squarespace típica: header con logo + menu toggle, contenido principal, footer con dirección, teléfono, newsletter.
+- Menú: Explícitamente no publicado online. "Due to the hyper-seasonal nature of our menu, all courses are subject to change. As such, we are unable to share our food menus online." Enfoque en reserva controlada. Horarios detallados, links a wine list, cocktail list.
+- Móvil: Hamburger presente. Estructura adaptable. Info práctica (dirección 11 Madison Avenue, teléfono) visible en footer.
+- Copy: Factual y personal. Describe la ubicación, partnership con Magic Farms, opción plant-based, bar abierto a walk-ins. Anuncio específico de The Studio con Eiji Ichimura. No lenguaje inflado de "unforgettable culinary journey"; más institucional y preciso.
+
+### 5 patrones concretos para webs anti-IA
+1. **Declaración explícita de no publicar el menú**: Texto claro sobre la naturaleza hiper-estacional y por qué no se comparte online. Anti-IA porque rechaza el product catalog genérico y mantiene misterio/control de la experiencia degustación.
+2. **Serif elegante (EB Garamond) para headings + sans funcional para body**: Contraste tipográfico editorial sin ser genérico Inter. Da peso de revista o carta fina, no de landing SaaS.
+3. **CTAs de texto puro y links, con acento navy puntual**: La mayoría sin fill ni radius. El navy solo en elementos funcionales (skip). Prioriza "Book on Resy" sin botones brillantes. Menos template, más navegación de directorio.
+4. **Paleta blanco + negro puro + navy institucional**: #FFFFFF fondo, #000 texto, #15325C acentos. Alto contraste, serio, no crema cálida ni pasteles AI. Sensación de institución establecida en NYC.
+5. **Fotografía de chef, lugar y plato real (no flotante)**: Imágenes de Daniel Humm en cocina, entrada Art Deco, Romanesco. Humaniza el oficio y el espacio físico. Evita el look generado de dishes perfectos aislados.
+6. **Copy práctico con anuncio específico y horarios detallados**: Información útil (horarios bar vs dining, walk-ins, Magic Farms) + promo concreta de The Studio. Suena a comunicación real del restaurante, no a prompt genérico.
+
+Estos patrones enfatizan restricción en menú público, tipografía serif con carácter, paleta de alto contraste institucional y fotografía contextual del lugar/chef para una web que se siente como el sitio de un restaurante de alto nivel establecido, no como un landing generado.
