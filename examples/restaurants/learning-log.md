@@ -98,3 +98,28 @@ Tipo: Deli judío histórico desde 1888, Lower East Side. Fuerte foco en shippin
 6. **Copy histórico y operativo, no marketing**: Habla de 1888, hand-carved, shipping real. Suena a negocio con historia, no a prompt de "iconic NYC experience".
 
 Estos patrones muestran cómo un sitio comercial real prioriza función, color de marca tradicional, fotos honestas de producto y copy factual. Útil para contrastar con la estética pulida genérica de IA.
+
+## 2026-11-01 — Dishoom (cadena indie, multi-location, Reino Unido)
+Sitio: https://www.dishoom.com/
+Tipo: Cadena de cafés indios inspirados en los Irani cafés de Bombay. Múltiples sedes en UK, fuerte storytelling cultural, comida comfort de Bombay.
+
+### Lo que vi (honesto)
+- Fondo crema cálido de papel `rgb(240, 236, 224)`, texto oscuro `rgb(53, 56, 57)`. Sensación de carta impresa o menú de café antiguo.
+- Tipografía: CheltenhamBT (serif, fallback ui-serif/Georgia) en body 16px weight 400 y headings ~21px weight 400. Serif editorial clásica, no sans moderna. Contraste suave pero legible.
+- CTAs: "Book a table" filled oscuro `rgb(53, 56, 57)`, texto claro `rgb(255, 253, 249)`, border 2px solid mismo color, border-radius 0px (cuadrado), padding 10px 16px, 13px bold 700. No pills ni outlines redondeados. Nav con "Toggle Menu".
+- Fotografía: históricas y de ambiente (B. Merwan Grant Road 1914, spreads de comida, chefs). Captions "ABOVE:" y "RIGHT:". Reales, con contexto cultural, no solo platos aislados perfectos.
+- Espaciado generoso, separadores horizontales, estética de revista o menú largo. Sin sombras agresivas.
+- Menú: texto narrativo por momentos del día (breakfast, lunch, afternoon chai, dinner). Platos específicos con nombres evocadores (Bacon Naan Roll, House Black Daal, Vada Pau). Enlace a menús detallados.
+- Estructura: hero con cita, "From Bombay with Love", lista de cafés por ciudad, secciones de food, gifts, awards. Multi-location claro.
+- Mobile (emulado): "Toggle Menu" + "Book" prominentes, texto fluye bien, no se rompe.
+- Copy: altamente narrativo y específico — "Each Dishoom is a love letter to Bombay", referencias a cafés históricos, "scoured the streets", "Chef-wallas". No genérico "authentic Indian cuisine".
+
+### 6 patrones concretos para webs anti-IA
+1. **Serif editorial clásica como cuerpo principal**: CheltenhamBT / Georgia-like para todo el texto. Evita sans geométricas genéricas. Da peso de carta impresa o libro, anti-template digital.
+2. **Fondo crema de papel + texto oscuro suave**: `rgb(240, 236, 224)` + `rgb(53, 56, 57)`. No blanco puro ni negro. Sensación táctil de menú físico.
+3. **CTA filled cuadrado oscuro, sin radius**: Botón principal sólido, edges sharp, color de texto. Jerarquía clara sin parecer UI kit moderno o AI-rounded.
+4. **Fotografía con captions y contexto histórico**: Imágenes etiquetadas "ABOVE:" de lugares reales o spreads. Humaniza por la narrativa visual, evita look de stock o generación perfecta.
+5. **Copy de storytelling cultural específico**: Habla de Bombay, Irani cafés, viajes de chefs, platos con nombres propios. Suena a voz de marca con historia, no a prompt de "welcoming atmosphere".
+6. **Estructura multi-location + momentos del día**: Lista clara de sedes + menú organizado por desayuno/almuerzo/chai. Funcional y humano, menos catálogo abstracto.
+
+Estos patrones combinan restricción tipográfica serif, paleta de papel, botones geométricos simples, fotos contextuales y copy narrativo real para romper la estética pulida genérica de IA.
