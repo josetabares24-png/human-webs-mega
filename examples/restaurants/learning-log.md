@@ -49,3 +49,28 @@ Tipo: Fine dining Michelin, chef Daniel Humm, enfoque plant-based con opciones, 
 6. **Nav compacta con hamburger y CTA reserva siempre accesible**: Incluso en desktop aparece "Open Menu"; en mobile es claro. Dirección, contacto y reserva visibles rápido. Prioriza la acción sin saturación de links.
 
 Estos patrones enfatizan restricción tipográfica con fuentes específicas, jerarquía de CTAs, fotos de proceso humano y copy que suena a restaurante real (no a prompt de IA).
+
+## 2026-11-01 — Le Bernardin (premium, independiente, Nueva York)
+Sitio: https://www.le-bernardin.com/
+Tipo: Fine dining de mariscos, Michelin 3 estrellas, de Maguy Le Coze y Eric Ripert. En Midtown Manhattan desde 1986.
+
+### Lo que vi (honesto)
+- Fondo blanco puro `rgb(255, 255, 255)`, texto gris medio `rgb(102, 102, 102)`. Contraste moderado, no negro puro. Sensación limpia y quieta.
+- Tipografía: Helvetica Neue variants (W01-45Ligh ~14px body, Thin para UI/nav ~14px). Uppercase con letter-spacing 1.5px en CTAs y microcopy. Weights light/thin. Sans-serif pura, sin serif. No Inter ni Roboto.
+- CTAs: texto puro uppercase tracked, sin filled, sin outline, sin border-radius. "RESERVATIONS" como link principal. Dirección y teléfono como links clickeables. Ningún botón visual destacado.
+- Fotografía: grandes imágenes de platos reales (tartare de wagyu, lobster, etc.) como hero/slider. Overhead o close-up de comida en plato blanco. Poca o ninguna gente o ambiente en las capturas iniciales. Alts vacíos en varios.
+- Espaciado generoso, cero sombras (`box-shadow: none`), bordes mínimos o inexistentes. Estética de galería o editorial fotográfica.
+- Menú: HTML estructurado por filosofía (Almost Raw / Barely Touched / Lightly Cooked). Prix fixe claro ($225 dinner 4 courses). Platos específicos con descripciones cortas. También PDFs descargables. Lounge menu separado.
+- Reserva: a Resy. Políticas explícitas (abre el 1 del mes a las 7AM ET, cancelación 48h / $150 pp, no lounge). Copy operativo, no aspiracional.
+- Mobile (viewport 375px): dirección, teléfono, snippet de About y links a PDFs de menú visibles. Hamburger implícito para nav completa. Estructura se mantiene minimal.
+- Copy: factual e histórico breve ("Arriving from Paris in 1986, we quietly opened..."). Habla de la comida (fish only, fresh, simple, respect), no de "experiencia excepcional" genérica. Dress code y reglas claras.
+
+### 5 patrones concretos para webs anti-IA
+1. **Tipografía sans light/thin con tracking**: Helvetica Neue Thin/Light + uppercase letter-spaced para UI. Evita serifs "luxury AI" y fuentes genéricas. Da sensación de quietud y precisión, no de template.
+2. **Restricción extrema: solo el plato y el nombre**: Fondo blanco, texto gris, una foto grande de comida real. Nada de grids, cards ni elementos decorativos. Menos es más, anti-generativo.
+3. **CTAs de texto puro tracked**: Links uppercase con spacing, sin botones filled ni outline. La jerarquía viene del peso tipográfico y posición, no de forma. Evita el look de SaaS o UI kit.
+4. **Fotografía de plato específico, no stock ni perfecta**: Imágenes reales de tartare, caviar, lobster sobre plato. No flotando, no luz de estudio genérica. Humaniza por la especificidad del plato.
+5. **Menú como carta conceptual, no catálogo**: Categorías como "Almost Raw" en vez de Appetizers/Mains. Texto simple con precios y descripciones. Invita a la experiencia real. Menos product cards, más restaurante.
+6. **Copy operativo y histórico, no marketing**: Políticas de reserva exactas, historia breve, dress code. Suena a lugar real con reglas, no a prompt de "luxury dining experience".
+
+Estos patrones priorizan quietud tipográfica, restricción visual extrema, fotos de platos reales específicos y copy factual para evitar cualquier estética generativa o template.
