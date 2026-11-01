@@ -73,3 +73,27 @@ Tipo: Pasta bar casual e independiente en Borough Market, Shoreditch y Soho. Men
 6. **Estructura menu-first con locations como cards simples**: Prioriza el menú diario sobre hero narrativo. Locations como artículos limpios. En móvil hamburger. Útil y directo, menos scroll de storytelling genérico.
 
 Estos patrones destacan restricción extrema (negro/blanco, texto puro), menú como protagonista y fotografía de contexto real para evitar la estética pulida genérica de IA.
+
+## 2026-11-01 — El Celler de Can Roca (premium, independiente, Girona)
+Sitio: https://cellercanroca.com/en/ (portal del universo Roca) y https://cellercanroca.com/en/el-celler-de-can-roca/ (página del restaurante)
+Tipo: Fine dining de los hermanos Roca (Joan, Josep, Jordi), Michelin, en Girona. Parte de un universo más amplio (hoteles, heladería, tiendas, otros restaurantes).
+
+### Lo que vi (honesto)
+- Fondo blanco puro `rgb(255, 255, 255)`, texto casi negro `rgb(1, 1, 1)`. Limpio y frío, no crema. Acento naranja puntual `rgb(243, 141, 15)` / ~#F38D0F en algunos headings o links (muy poco uso).
+- Tipografía: Source Sans Pro (headings, pesos 300-700, 12-32px) + Montserrat (body y nav, 14-16px). Todo sans, profesional y legible. No serif editorial. Body 16px Montserrat. Letter-spacing mínimo o nulo.
+- CTAs: Casi exclusivamente texto puro o links. "Reserve", "BOOK", "Start" sin fondo, radius 0, padding moderado. En nav son links grises/oscuros. Solo botones filled en el cookie banner (negro y naranja). No pills ni outlines fuertes.
+- Fotografía: Imágenes reales del restaurante, interiores, proyectos del universo (Esperit Roca, Casa Cacao, etc.). Slides de comida/lugar en la página del Celler. No stock idealizado; contexto de local y ambiente. Algunos alts vacíos.
+- Espaciado: Generoso en hero (h1 con margin 40px). Estructura de portal: grid de cards/imágenes de proyectos con labels pequeños (RESTAURANT, HOTEL) y links BOOK. Pocas sombras; alguna presente pero no dominante. Bordes mínimos.
+- Menú: No hay carta pública con precios visible fácilmente en el home o página principal. Enfoque en reserva controlada. Copy de reserva: "Reservations are accepted up to 11 months in advance", requiere tarjeta, mesas 2-12.
+- Móvil: Viewport meta estándar (width=device-width). Nav con links textuales; no detecté hamburger explícito en desktop view, pero estructura adaptable.
+- Copy: Muy humano y filosófico. Hero en la página del restaurante: cita de Joan Roca "Creating a restaurant takes time; it is a long-term project. A way of life... You need to be able to be happy throughout this journey of making others happy." Intro sobre evolución de 35 años, autenticidad, generosidad. No "exceptional experience" genérico.
+
+### 6 patrones concretos para webs anti-IA
+1. **Cita personal del chef/dueño como hero principal**: Frase larga y reflexiva de Joan Roca sobre el tiempo, la felicidad diaria y el oficio. Sustituye el hero de "Welcome to exceptional dining" por voz real. Anti-IA porque suena a persona, no a prompt optimizado.
+2. **Portal de universo multi-proyecto con grid simple**: Home como directorio de entidades relacionadas (restaurante, hotel, tienda) con foto + label pequeño + link BOOK. Útil para grupos o marcas con varios brazos. Menos storytelling genérico, más mapa claro.
+3. **CTAs de texto puro en mayúsculas pequeñas**: "BOOK", "RESERVE" como links sin fill, outline ni radius. Color gris/oscuro sobre blanco. El peso tipográfico hace el trabajo. Evita botones brillantes de template.
+4. **Paleta blanco + casi-negro + acento naranja mínimo**: #FFF fondo, texto #010101, naranja #F38D0F solo en puntos. Limpio y profesional, no cálido-crema ni oscuro dramático. Sensación de catálogo serio, no de landing AI.
+5. **Fotografía de lugares y proyectos reales, no platos flotantes**: Imágenes de interiores, edificios, ambientes del universo Roca. Humaniza el ecosistema completo. Evita el look de generación IA de comida perfecta aislada.
+6. **Copy controlado y práctico en reservas**: Texto claro sobre límites (11 meses, tarjeta, tamaño de mesa) sin florituras. Combina con la cita filosófica. Menos marketing, más información útil y voz de autoridad real.
+
+Estos patrones enfatizan voz personal del fundador, estructura de directorio claro, restricción en botones y paleta limpia para crear una web que se siente institucional y humana, no generativa.
