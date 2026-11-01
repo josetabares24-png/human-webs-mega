@@ -123,3 +123,28 @@ Tipo: Cadena de cafés indios inspirados en los Irani cafés de Bombay. Múltipl
 6. **Estructura multi-location + momentos del día**: Lista clara de sedes + menú organizado por desayuno/almuerzo/chai. Funcional y humano, menos catálogo abstracto.
 
 Estos patrones combinan restricción tipográfica serif, paleta de papel, botones geométricos simples, fotos contextuales y copy narrativo real para romper la estética pulida genérica de IA.
+
+## 2026-11-01 — Lilia (casual independiente, Williamsburg, Brooklyn)
+Sitio: https://www.lilianewyork.com/
+Tipo: Restaurante italiano casual de chef Missy Robbins. Wood-fired seafood, pastas hechas a mano, en un antiguo taller. Foco en ingredientes simples y hospitalidad cálida. Reserva vía Resy o email.
+
+### Lo que vi (honesto)
+- Fondo blanco puro `rgb(255, 255, 255)`, texto oscuro suave `rgb(52, 52, 52)`. Contraste legible, no extremo.
+- Tipografía: **Pinyon Script** (cursive/script, weight 400, 36-44px) para todos los headings (About, Menu, Reservations, categorías de menú). **Raleway** (sans, 16px body). Contraste de carácter: script elegante y personal vs sans limpia. No Inter/Roboto.
+- CTAs: mayoría texto o outline. "About Us" outline blanco sobre foto (border 2px solid white, radius 0, uppercase, 13.6px). "Email Signup" texto verde-oliva `rgb(114, 123, 78)` uppercase. Nav con "Toggle Navigation Menu". Ningún filled grande o pill.
+- Fotografía: hero gallery de imágenes reales del local (Lilia-0192.jpg, etc., probablemente interior/comida/ambiente). Alts vacíos. No stock perfecto ni generativo; se siente de lugar real.
+- Espaciado: secciones con padding horizontal ~64px, generoso. Cero sombras (`box-shadow: none`). Bordes mínimos. Estética limpia y aireada.
+- Menú: categorías en Pinyon Script (Aperativi Salati / COCKTAIL SNACKS, Antipasti / TO START, Piccoli Pesci...). Platos con nombres específicos (Cacio e Pepe Frittelle, Prosciutto con Balsamic Mustard, Housemade Mozzarella...). No vi precios en el HTML principal (común en sitios de este tipo). Estructura de texto, no cards.
+- Estructura: hero full-height gallery, secciones About/Menu/Reservations con split layouts. Dirección visible arriba. Reserva: "Reservations can be made through RESY or by emailing us at reservations@lilianewyork.com".
+- Mobile: hay botón "Toggle Navigation Menu" claro. Estructura se mantiene legible (no pude forzar viewport exacto en la herramienta, pero el hamburger está presente).
+- Copy: personal y específico. Habla de Missy Robbins (Spiaggia, A Voce, James Beard, libros PASTA y Breakfast Lunch Dinner...Life), "wood-fired seafood, handcrafted pastas", "honoring regional traditions and the many Italian grandmothers who cooked before us". No genérico "exceptional dining experience". Suena a voz de chef real.
+
+### 6 patrones concretos para webs anti-IA
+1. **Script/cursive para headings + sans limpia para cuerpo**: Pinyon Script da personalidad y calidez humana (parece escrito a mano o de carta), Raleway mantiene legibilidad. Evita la uniformidad sans geométrica de templates AI. Contraste tipográfico con propósito emocional.
+2. **CTAs outline o texto puro, radius 0, uppercase ligero**: Outline blanco sobre imagen o texto de color. Edges sharp, no pills redondeados ni filled saturados. Sensación de diseño editorial o de menú impreso, no de UI kit SaaS.
+3. **Paleta blanco + gris oscuro suave + acento oliva puntual**: Fondo blanco, texto #343434, acento verde-oliva en microcopy. Evita negro puro y pasteles "AI luxury". Limpio, cálido por el script.
+4. **Hero gallery de fotos reales del lugar, sin alts genéricos**: Imágenes del local real (interior, ambiente). Humaniza por la especificidad del espacio, no por plating perfecto flotante. Alts vacíos son un punto débil (mejorable), pero las fotos no se sienten generadas.
+5. **Menú como lista categórica en script + nombres de platos evocadores**: Categorías en cursiva script, platos con nombres propios (Cacio e Pepe Frittelle, etc.). Menos grid de product cards, más carta de restaurante. Invita a la experiencia sin precios visibles.
+6. **Copy biográfico y específico del chef/lugar**: Habla de la trayectoria de Missy, los libros, las abuelas italianas, wood-fired. Suena a persona real contando su historia, no a prompt de "warm hospitality and authentic flavors".
+
+Estos patrones priorizan tipografía con carácter emocional (script), restricción en botones, fotos del espacio real y copy biográfico para evitar la estética pulida y genérica de generación IA.
