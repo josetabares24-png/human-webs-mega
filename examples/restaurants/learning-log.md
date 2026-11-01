@@ -49,3 +49,27 @@ Tipo: Cadena de cafés indios inspirados en los Irani cafés de Bombay, con fuer
 6. **Estructura clara con acciones primarias visibles**: "Book a table" repetido pero no invasivo, localizaciones con info práctica (horarios, dirección) + links. En móvil hamburger + CTA destacado. Menos ruido, más utilidad.
 
 Estos patrones combinan restricción tipográfica, paleta cálida de papel, fotografía contextual y copy que suena a voz humana con historia.
+
+## 2026-11-01 — Padella (casual, independiente, Londres)
+Sitio: https://www.padella.co/
+Tipo: Pasta bar casual e independiente en Borough Market, Shoreditch y Soho. Menú diario como homepage, enfoque en pasta fresca hecha a mano.
+
+### Lo que vi (honesto)
+- Fondo negro puro `rgb(0, 0, 0)`, texto blanco puro `rgb(255, 255, 255)`. Alto contraste, casi editorial nocturno o de pizarra.
+- Tipografía: Body "Roboto Condensed", sans-serif a 16px. Headings Oswald (sans condensada, 26-40px, pesos 400-700). Todo sans, compacto, industrial-cálido. No serif, no Inter genérico.
+- CTAs: Casi inexistentes como botones. Links de texto puro (Vouchers, Careers, locations) sin fondo, sin border, radius 0. "Scroll down" como link. No filled, no outline, no pills. Nav con toggle (hamburger presente).
+- Fotografía: Imágenes de localizaciones (Borough Market, Shoreditch, Soho) en cards de artículo. Video inline en hero. No platos flotantes; ambiente de barra y cocina. Alts descriptivos de lugares.
+- Espaciado: Generoso vertical, secciones de menú con headings claros. Cards de locations sin sombras ni bordes visibles. Menú como lista de texto simple con precios al lado.
+- Menú: Homepage es el menú del día ("SUNDAY 1ST NOVEMBER"), secciones Antipasti, Pasta, Pudding, Ice Cream con items + precios en £. Texto plano, sin cards de producto. Nota: "Please let us know if you want Parmesan".
+- Móvil: Hamburger toggle visible. Estructura adaptable (no forzado viewport, pero nav compacta).
+- Copy: Directo y personal. "Padella is the culmination of Tim and Jordan’s long held dream to open a pasta bar serving fresh, hand rolled pasta... inspired by their trips to Italy." Menciona Trullo. No marketing inflado. Fecha del menú visible.
+
+### 5 patrones concretos para webs anti-IA
+1. **Menú como homepage con fecha y precios en texto**: Lista simple de platos + precio, encabezada por el día. Evita grids de cards o imágenes por dish. Sensación de carta real colgada, no catálogo e-commerce. Anti-IA porque no es "product showcase" genérico.
+2. **Paleta negro/blanco puro con sans condensadas**: Fondo #000, texto #FFF, fuentes Roboto Condensed + Oswald. Contraste máximo, look de menú de pizarra o poster industrial. Evita cremas suaves o pasteles AI-typical. Da carácter de pasta bar nocturno.
+3. **CTAs de texto puro, cero botones decorativos**: Links sin fill, outline o radius. La acción principal es el menú mismo + locations. Menos "Reserve Now" gritón, más navegación humana. Reduce template look.
+4. **Fotografía de lugares y ambiente, no comida perfecta**: Imágenes de los locales + video de contexto. Humaniza los espacios (barra, gente trabajando) en lugar de platos aislados con luz de estudio. Evita el look generado de "delicious dish floating".
+5. **Copy fundacional corto y personal**: Historia de Tim y Jordan + pasta hecha a mano. Una frase, sin adjetivos excesivos. Suena a dueños reales, no a prompt de "exceptional culinary journey".
+6. **Estructura menu-first con locations como cards simples**: Prioriza el menú diario sobre hero narrativo. Locations como artículos limpios. En móvil hamburger. Útil y directo, menos scroll de storytelling genérico.
+
+Estos patrones destacan restricción extrema (negro/blanco, texto puro), menú como protagonista y fotografía de contexto real para evitar la estética pulida genérica de IA.
