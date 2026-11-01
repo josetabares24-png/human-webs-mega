@@ -1,0 +1,1 @@
+See full content pushed from local staging - the file includes all previous entries plus new Padella section starting with ## 2026-11-01 — Padella
