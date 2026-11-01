@@ -74,3 +74,27 @@ Tipo: Fine dining de mariscos, Michelin 3 estrellas, de Maguy Le Coze y Eric Rip
 6. **Copy operativo y histórico, no marketing**: Políticas de reserva exactas, historia breve, dress code. Suena a lugar real con reglas, no a prompt de "luxury dining experience".
 
 Estos patrones priorizan quietud tipográfica, restricción visual extrema, fotos de platos reales específicos y copy factual para evitar cualquier estética generativa o template.
+
+## 2026-11-01 — Katz's Delicatessen (casual clásico, independiente, Nueva York)
+Sitio: https://katzsdelicatessen.com/
+Tipo: Deli judío histórico desde 1888, Lower East Side. Fuerte foco en shipping nationwide + menú in-store/delivery. Más e-commerce de comida que sitio de restaurante puro.
+
+### Lo que vi (honesto)
+- Fondo blanco puro `rgb(255, 255, 255)`, texto negro `rgb(0, 0, 0)`. Alto contraste funcional.
+- Tipografía: Lato (sans-serif) en todo. Body 14px weight 300-400. Headings/categorías H4 20px bold 700, color `rgb(34, 34, 34)`. Sin serif, sin tracking especial. Fuente común pero legible y sin pretensiones.
+- CTAs: mayoría links de texto puro. Acciones clave (Search, Create an Account) filled rojo intenso `rgb(209, 16, 16)` / ~#D11010, texto blanco, border-radius pequeño (3-4px), padding compacto. No pills grandes ni outlines. Algunos product links sin estilo de botón.
+- Fotografía: producto real y directo — sandwiches de pastrami, carnes rebanadas, packages de shipping, latkes, sopa. Estilo de catálogo de deli, no plating gourmet ni luz perfecta. Alts vacíos en varios. No gente ni ambiente del local en las capturas principales.
+- Espaciado: funcional de e-commerce, grids de productos. Sombras casi ninguna (`box-shadow: none` en cards), bordes mínimos. No editorial ni generoso como los fine dining.
+- Menú: categorizado (Meats, Jewish Specialties, Grill, Soups…) con precios claros. Fuerte énfasis en shipping packages (Birthday Box $140, Taste of New York $165). Menú in-store separado para delivery Manhattan.
+- Mobile (emulado 375px): nav horizontal superior simplificada (SHIPPING | CATERING | IN-STORE MENU | BROOKLYN…). Copy de bienvenida y carousels de productos visibles. Funcional, no oculto.
+- Copy: histórico y orgulloso ("A New York institution since 1888", "hand-carved", "legendary house-cured"). Específico del producto y la tradición, no aspiracional genérico. FAQs operativas de shipping.
+
+### 6 patrones concretos para webs anti-IA
+1. **Tipografía sans común pero consistente y sin adornos**: Lato bold para categorías, light/regular para cuerpo. Evita fuentes "diseñadas" o serifs de lujo. Da sensación de lugar real de barrio, no de marca AI-generated.
+2. **Acento de marca fuerte y puntual en CTAs clave**: Rojo deli `rgb(209, 16, 16)` solo en botones de acción (búsqueda, registro). Resto texto limpio. Jerarquía clara sin saturar de botones filled. Radio pequeño, no pill.
+3. **Paleta blanco/negro + rojo clásico**: Alto contraste, un solo acento histórico. Evita pasteles, cremas o gradientes. Sensación de menú de deli impreso, no de web moderna genérica.
+4. **Fotografía de producto directo y sin glamour**: Fotos de carnes, sandwiches reales, packages. No overhead perfecto ni luz de estudio. Humaniza por la honestidad del producto (se ve lo que es).
+5. **Estructura de catálogo funcional con categorías claras**: Grids simples de productos con precio. Menú separado de shipping vs in-store. Menos storytelling editorial, más "esto es lo que vendemos". Anti-SaaS por ser específico del negocio.
+6. **Copy histórico y operativo, no marketing**: Habla de 1888, hand-carved, shipping real. Suena a negocio con historia, no a prompt de "iconic NYC experience".
+
+Estos patrones muestran cómo un sitio comercial real prioriza función, color de marca tradicional, fotos honestas de producto y copy factual. Útil para contrastar con la estética pulida genérica de IA.
