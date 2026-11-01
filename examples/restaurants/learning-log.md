@@ -97,3 +97,27 @@ Tipo: Fine dining de los hermanos Roca (Joan, Josep, Jordi), Michelin, en Girona
 6. **Copy controlado y práctico en reservas**: Texto claro sobre límites (11 meses, tarjeta, tamaño de mesa) sin florituras. Combina con la cita filosófica. Menos marketing, más información útil y voz de autoridad real.
 
 Estos patrones enfatizan voz personal del fundador, estructura de directorio claro, restricción en botones y paleta limpia para crear una web que se siente institucional y humana, no generativa.
+
+## 2026-11-01 — The French Laundry (premium, independiente, Yountville / Napa)
+Sitio: https://thomaskeller.com/tfl/ (página del restaurante dentro del grupo Thomas Keller)
+Tipo: Fine dining de Thomas Keller, 3 Michelin stars, en edificio histórico de piedra (antigua lavandería francesa / saloon de 1900).
+
+### Lo que vi (honesto)
+- Fondo blanco puro `rgb(255, 255, 255)`, texto gris oscuro `rgb(51, 51, 51)`. Acento navy profundo `rgb(0, 47, 101)` en headings y links. Limpio, institucional, no cálido ni oscuro.
+- Tipografía: Headings en Filosofía (serif elegante, ~17.4px, peso 400, color navy). Body y nav en Ideal Sans SSm (sans, muy pequeña: body ~11.6px, párrafos ~10.15px, peso 300, line-height ~15px). Contraste alto pero tamaño de cuerpo notablemente reducido. Sensación de catálogo impreso fino, no de web moderna grande.
+- CTAs: Prácticamente todos texto puro / links. "Reservations", "Daily Menus" etc. en navy, sin background, border 0, radius 0 o 1px, padding 0. No filled, no outline, no pills visibles en la navegación principal. Reserva externa a Tock.
+- Fotografía: Exterior real del edificio de river rock y madera (estilo cottage histórico), una foto de chocolate tart con ice cream en la página de menús. Logos de Michelin, Relais etc. No platos flotantes hiper-perfectos ni stock genérico; contexto del lugar y un dish simple.
+- Espaciado y estructura: Nav compleja con dropdowns (about, menus & stories, wine & spirits, private dining). Poco ruido visual en contenido. Menú de daily menus es extremadamente mínimo: solo "Two tasting menus are offered daily: Chef's Tasting Menu / Tasting of Vegetables".
+- Menú: No carta pública detallada con precios ni descripciones largas. Enfoque en los dos menús degustación diarios. Reserva controlada vía Tock.
+- Móvil: No forzado viewport; la nav parece adaptable con botones de menú. Estructura de grupo (Thomas Keller Restaurant Group) con links a otros locales.
+- Copy: Narrativo histórico y factual. En la página Restaurant: "Chef Thomas Keller visited Yountville, California, in the early 1990s to find a space to fulfill a longtime culinary dream... As he walked into the restaurant’s quaint courtyard, he knew it was where he had been headed throughout his career." Describe el edificio (saloon 1900, French steam laundry, compra en 1994). Menciona Michelin 3 stars desde 2007, James Beard, Wine Spectator. Sin adjetivos de marketing inflados tipo "exceptional journey" o "unforgettable experience".
+
+### 6 patrones concretos para webs anti-IA
+1. **Tipografía dual con serif de carácter + sans micro**: Filosofía para headings navy + Ideal Sans light y muy pequeña para body. Da sensación de libro de cocina o catálogo de Relais & Châteaux, no de landing page genérica. El tamaño reducido del body fuerza una lectura más pausada e intencional.
+2. **CTAs de texto puro en navy, cero botones**: Links sin fill, outline ni radius significativo. El color navy profundo hace el trabajo de jerarquía. Menos "Reserve Now" de template, más navegación de directorio institucional.
+3. **Paleta blanco + gris oscuro + navy institucional**: #FFFFFF fondo, #333333 texto, #002F65 acentos. Sensación de marca seria y establecida (tipo grupo hotelero o Relais), no de crema cálida ni negro dramático. Evita la paleta "AI premium" suave.
+4. **Copy histórico del edificio y del descubrimiento, no promocional**: Narrativa concreta sobre cómo Keller encontró el cottage, el origen del nombre (French laundry), fechas y premios reales. Suena a archivo o biografía, no a prompt de "welcome to our iconic restaurant".
+5. **Menú ultra-mínimo: solo los dos tasting menus**: Sin grid de dishes, sin precios, sin descripciones largas. "Chef's Tasting Menu / Tasting of Vegetables". Anti-IA porque rechaza el product catalog y mantiene el misterio de la degustación diaria.
+6. **Fotografía del lugar real (edificio histórico) + un dish contextual**: Exterior del river rock cottage y una tart simple. Humaniza el espacio físico en lugar de aislar platos perfectos. Evita el look de generación IA de comida flotante con luz de estudio.
+
+Estos patrones combinan restricción tipográfica extrema, paleta institucional limpia, copy de archivo histórico y presentación de menú casi ausente para crear una web que se siente como el sitio de una institución culinaria establecida, no como un landing generado.
