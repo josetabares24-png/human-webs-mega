@@ -54,3 +54,55 @@ Tipo: Premium independiente / fine dining de alto perfil.
 6. **Aire y cero sombra**: Espaciado generoso, radios 0 en casi todo, sin cards ni shadows. La jerarquía la da el tamaño y el peso tipográfico, no el elevation.
 
 Notas honestas: El sitio usa Squarespace (URLs de CDN). El menú principal parece overlay. El botón naranja tiene radio suave (no 0 ni pill). En móvil el H1 se reduce significativamente. No hay carta completa HTML en la home; el foco es la reserva y la historia.
+
+## 2026-11-02 — Cutler (premium independent, Fitzroy Melbourne)
+
+Sitio: https://www.cutlerandco.com.au
+Tipo: Premium independiente / fine dining (Andrew McConnell, former metalworks factory).
+
+### Estructura y CTAs
+- Navegación superior horizontal: Reservations, Menu, Drinks, Private Dining, Gift Vouchers, Journal, Sundays at Cutler. Todo en uppercase con tracking amplio.
+- Lado izquierdo: MAKE A RESERVATION (texto), LOCATION (dirección completa), OPENING HOURS, CONTACT (teléfono + email).
+- Hero / bienvenida con texto descriptivo + grid de fotografías de interior y platos (no full-bleed hero obligatorio).
+- CTA de reserva enlaza a SevenRooms (externo). Hay varios “MAKE A RESERVATION” como texto puro.
+- Footer: Instagram, Careers, Privacy, Contact, Trader House, SUBSCRIBE FOR NEWS (outline).
+- Reconocimiento de tierras (Wurundjeri) al final.
+
+### Tipografía
+- Navegación y CTAs: “Persona, Archivo Narrow”, sans-serif, ~15px, peso 700, uppercase, letter-spacing ~3px (muy abierto).
+- Cuerpo y algunos contenedores: Caslon / garamond-premier-pro (serif) ~16px / 400.
+- Body base: sans-serif genérico 17px / 400, color rgb(34,34,34).
+- Contraste claro: UI sans bold uppercase con tracking vs serif más editorial para cuerpo.
+
+### Botones
+- Mayoría de CTAs son texto puro: sin fondo, sin borde, radio 0, uppercase, peso 700, tracking alto.
+- “SUBSCRIBE FOR NEWS”: outline, borde 2px solid rgb(34,34,34), padding ~21px 34px, radio 0, uppercase, peso 700, letter-spacing ~2.9px.
+- Skip to content: filled oscuro con borde.
+- Ningún pill, ningún filled de color saturado en home. Todo radio 0.
+
+### Colores
+- Fondo principal: blanco + secciones cream/beige muy suave rgb(247, 247, 237).
+- Texto: rgb(34, 34, 34) casi negro.
+- Casi monocromo. Sin acentos de color fuerte; la jerarquía es tipográfica y espacial.
+- Alto contraste, paleta muy contenida.
+
+### Espaciado, bordes, sombras, fotografía
+- Espaciado generoso, aire entre bloques.
+- Border-radius siempre 0. Sin box-shadow visibles.
+- Fotografía real de alta calidad: interiores del local (lámparas, mesas, brick), platos (steak, seafood, postres), ambiente. Grid de imágenes con “View fullsize”. No stock genérico ni ilustraciones.
+- Logo wordmark “CUTLER” serif/display.
+
+### Menú, móvil y copy
+- Menú y Drinks como secciones separadas (no carta completa HTML en home).
+- En desktop navegación visible; “Open Menu” presente (hamburger en móvil).
+- Copy concreto y local: historia de la fábrica metalworks, “refined, simple, hospitable dining”, horarios específicos, “Walk-in for a bite and drink in our bar, or make a reservation for the dining room.” Reconocimiento de Traditional Custodians. Sin frases vacías tipo “experience the magic of fine dining”.
+
+### Patrones concretos útiles para webs anti-IA
+1. **Navegación uppercase con tracking extremo y peso 700**: Persona/Archivo Narrow ~15px, letter-spacing ~3px. Sensación editorial/periodística, no “UI moderna redondeada”.
+2. **Serif editorial para cuerpo + sans bold uppercase para UI**: Caslon/Garamond Premier en texto + sans condensa/estrecha en nav. Mezcla controlada que evita el mono-fuente Inter/Helvetica de plantillas.
+3. **Outline generoso con radio 0 y padding grande**: Solo el subscribe es outline 2px, padding vertical ~21px. El resto es texto puro. Cero pills o filled de color.
+4. **Fondo cream suave + monocromo**: rgb(247,247,237) como acento de fondo en lugar de color saturado. La fotografía hace el trabajo visual.
+5. **Fotografía de local y plato real en grid sin hero forzado**: Imágenes de ambiente y comida específica (no abstractas), integradas en el flujo del texto. Humaniza más que cualquier stock.
+6. **Reserva externa (SevenRooms) como texto, no botón llamativo**: “MAKE A RESERVATION” es link de texto. No finge un sistema propio ni usa filled de acento.
+
+Notas honestas: Sitio Squarespace (CDN images.squarespace). CTAs de reserva son texto puro (algunos apuntan a # o a página interna que redirige a SevenRooms). Fondo cream muy sutil. Fotos de alta calidad de interiores y platos. No hay carta HTML completa en la home; el foco es la atmósfera, la historia y la reserva. En móvil aparece “Open Menu”.
