@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "status": "proposals_not_user_approved",
+  "bridges": [
+    {
+      "to": "turismo",
+      "need": "conversion",
+      "within": [
+        "getyourguide",
+        "guruwalk"
+      ],
+      "cross": [
+        {
+          "id": "housekeep",
+          "principle": "Exponer con claridad la acción y las condiciones antes de contactar o reservar.",
+          "avoid": "No copiar su flujo de contratación ni simular inventario."
+        }
+      ]
+    },
+    {
+      "to": "turismo",
+      "need": "navegacion",
+      "within": [
+        "visit-copenhagen",
+        "atlas-obscura"
+      ],
+      "cross": [
+        {
+          "id": "carbone-new-york",
+          "principle": "Explorar una navegación directa y una estructura HTML fácil de escanear.",
+          "avoid": "No importar carta, tipografía comercial ni atmósfera de restaurante."
+        }
+      ]
+    },
+    {
+      "to": "turismo",
+      "need": "relato",
+      "within": [
+        "the-pudding",
+        "atlas-obscura"
+      ],
+      "cross": [
+        {
+          "id": "the-modern-house",
+          "principle": "Explorar una narrativa editorial ligada a imágenes y lugares reales.",
+          "avoid": "No convertir la guía en un catálogo inmobiliario."
+        }
+      ]
+    },
+    {
+      "to": "restaurantes",
+      "need": "conversion",
+      "within": [
+        "carbone-new-york",
+        "bon-bouquet-cafe"
+      ],
+      "cross": [
+        {
+          "id": "fixando",
+          "principle": "Explorar claridad sobre el siguiente paso y respuestas a dudas antes de contactar.",
+          "avoid": "No convertir una reserva o carta en solicitud genérica de presupuesto."
+        }
+      ]
+    },
+    {
+      "to": "restaurantes",
+      "need": "relato",
+      "within": [
+        "bon-bouquet-cafe",
+        "carbone-new-york"
+      ],
+      "cross": [
+        {
+          "id": "transit",
+          "principle": "Estudiar un ritmo editorial de fotografía y texto para contar el origen real del local.",
+          "avoid": "No copiar la portada, la retícula ni textos de la revista."
+        }
+      ]
+    },
+    {
+      "to": "servicios",
+      "need": "confianza",
+      "within": [
+        "housekeep",
+        "plmj"
+      ],
+      "cross": [
+        {
+          "id": "the-hoxton",
+          "principle": "Tomar como hipótesis el valor de imágenes auténticas de personas y espacios.",
+          "avoid": "No usar imágenes de alojamiento ni inventar equipo/testimonios."
+        }
+      ]
+    },
+    {
+      "to": "servicios",
+      "need": "conversion",
+      "within": [
+        "fixando",
+        "zaask"
+      ],
+      "cross": [
+        {
+          "id": "getyourguide",
+          "principle": "Explorar información específica antes de la acción principal: alcance y condiciones.",
+          "avoid": "No introducir un motor de disponibilidad o checkout inexistente."
+        }
+      ]
+    },
+    {
+      "to": "servicios",
+      "need": "fotografia",
+      "within": [
+        "the-modern-house",
+        "havenly"
+      ],
+      "cross": [
+        {
+          "id": "bon-bouquet-cafe",
+          "principle": "Estudiar cómo una selección de imágenes auténticas da identidad a la página.",
+          "avoid": "No copiar máscaras festoneadas, paleta rosa/verde ni recursos de comida."
+        }
+      ]
+    }
+  ]
+}

@@ -34,6 +34,9 @@ Antes de codificar se redactan **3 direcciones sustancialmente diferentes**, no 
 
 No imponer las tres al usuario si pidió ejecución. El agente las compara internamente y elige con razones.
 
+### Control de patrones visuales repetidos
+Eliminar flechas decorativas de botones, enlaces y tarjetas por defecto; no compensarlo con iconos o sellos innecesarios. Usar componentes de texto con affordance claro. Ver [interacciones](TEXT-FIRST-INTERACTIONS.md). Si el sector necesita una idea ajena, consultar [puente entre bibliotecas](CROSS-SECTOR-IDEAS.md) solo para extraer un mecanismo transferible sin copiar la estructura.
+
 ## 5. Elección informada
 - Evaluar ajuste a marca, reconocimiento, legibilidad, claridad de acción, calidad del contenido y viabilidad en móvil. No confundir «distinto» con decorativo o complicado.
 - Comparar con **las últimas webs del usuario si están disponibles**: fondo dominante, hero, tipo, distribución, CTA y tratamiento de foto. Si repite una fórmula sin causa de marca, descartar.

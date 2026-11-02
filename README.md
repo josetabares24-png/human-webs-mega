@@ -13,10 +13,18 @@ Human Webs **no es un bot ni una aplicación para crear webs**. Es la memoria ve
 5. Antes de entregar, comprobar [errores conocidos](memory/ERRORS.md), [calidad](memory/QUALITY-GATES.md) y pruebas del proyecto.
 6. Documentar el aprendizaje con la [plantilla](memory/RECORD-TEMPLATE.md).
 
+## Autoevaluación del sistema
+El [autoprompt de madurez 67 a 90](memory/AUTOPROMPT-MADUREZ-90-100.md) convierte la investigación en un plan de validación con casos reales, capturas comparables, accesibilidad, SEO, desempeño y aprendizaje de regresiones. **67/100 es un juicio editorial fechado, no una nota automatizada.**
+
+## Cambios de criterio: CTAs sin flechas y cruces selectivos
+- [Interacciones de texto primero](memory/TEXT-FIRST-INTERACTIONS.md): las flechas ornamentales no se agregan a botones, cards o enlaces por costumbre. El [escáner local](tools/design-audit/README.md) detecta patrones sospechosos para revisión humana. Excepciones solo para controles direccionales reales, con evidencia.
+- [Puente entre bibliotecas sectoriales](memory/CROSS-SECTOR-IDEAS.md): referencias de otro sector pueden aportar **un principio concreto**, sin arrastrar su marca ni su plantilla. [Consulta local](tools/inspiration/README.md): `node tools/inspiration/bridge.mjs turismo conversion`.
+
 ## Bibliotecas organizadas por tipo de web
 
 - [Ver sectores](memory/SECTORS/README.md) y su [catálogo estructurado](memory/SECTORS/catalog.json).
 - [Restaurantes](memory/SECTORS/restaurantes/README.md): conserva las investigaciones de Bon Bouquet, Carbone y cinco estudios exploratorios, sin mover las fichas históricas ni sus capturas.
+- **[Comparativa de 20 guías y medios de ciudad del mundo](memory/SECTORS/turismo/REFERENCIAS-20-GUIAS-MUNDO-2026-10-31.md)**: enfoque específico para Estaba en Lisboa; investigación de contenido, navegación, SEO y monetización con límites de verificación. No reemplaza la inspección visual de las webs originales.
 - **[Turismo](memory/SECTORS/turismo/README.md): 12 estudios** entre [destinos](memory/SECTORS/turismo/destinos-guias/README.md), [actividades](memory/SECTORS/turismo/excursiones-actividades/README.md), [agencias](memory/SECTORS/turismo/agencias-circuitos/README.md) y [alojamientos](memory/SECTORS/turismo/alojamientos/README.md). Incluye [comparativa visual](memory/SECTORS/turismo/COMPARATIVA-VISUAL.md), [6 estudios transversales de arte editorial](memory/SECTORS/turismo/direccion-arte-editorial/README.md), [playbook](memory/SECTORS/turismo/PLAYBOOK.md) y [estándar](memory/SECTORS/turismo/ESTANDAR-DE-FICHAS.md). Investigación **no medida** y pendiente de aprobación.
 - [Servicios](memory/SECTORS/servicios/README.md): 10 estudios en [hogar](memory/SECTORS/servicios/hogar/README.md), [belleza](memory/SECTORS/servicios/belleza/README.md), [profesionales](memory/SECTORS/servicios/profesionales/README.md) e [inmobiliaria/interiores](memory/SECTORS/servicios/inmobiliaria-interiores/README.md), una [comparativa visual](memory/SECTORS/servicios/COMPARATIVA-VISUAL.md), [estándar](memory/SECTORS/servicios/ESTANDAR-DE-FICHAS.md) y un [playbook](memory/SECTORS/servicios/PLAYBOOK.md) para presupuestos, zonas, reservas y confianza.
 
@@ -27,6 +35,9 @@ Estas fichas de servicios **son referencias investigadas, no diseños aprobados*
 - [Repositorios de GitHub evaluados](memory/TOOLS-2027.md): Anthropic, Microsoft, Vercel, Playwright, axe-core, Lighthouse CI y alternativas sin instalar paquetes externos.
 - [Preflight de dirección artística](tools/design-preflight/README.md): verificador sin dependencias que marca propuestas que solo cambian color, falta de fuentes o baseline no documentado; **no puntúa ni verifica belleza**.
 - [Seis conceptos de Estaba en Lisboa rechazados](memory/CASES/ESTABA-LISBOA-SIX-BRANDED-MOCKUPS-REJECTED-2026-10-31.md): feedback negativo explícito, no repetir.
+
+## Evidencia visual real, no solo guías escritas
+- [Capturador y comparador antes/después](tools/visual-evidence/README.md): 8 capturas de Chromium con metadatos de carga, hash y reporte local de home/interior × móvil/escritorio. Requiere Playwright y acceso a las webs; el CI comprueba la herramienta usando datos sintéticos, **NO visita ni certifica las webs reales**.
 
 ## Biblioteca y conocimiento conservado
 

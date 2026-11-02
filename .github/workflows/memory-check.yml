@@ -13,6 +13,9 @@ on:
       - "tools/copy/**"
       - "tools/sectors/**"
       - "tools/design-preflight/**"
+      - "tools/inspiration/**"
+      - "tools/design-audit/**"
+      - "tools/visual-evidence/**"
       - "principles/human-copy.md"
       - ".github/copilot-instructions.md"
       - ".github/workflows/memory-check.yml"
@@ -28,6 +31,9 @@ on:
       - "archive/**"
       - "tools/memory/**"
       - "tools/design-preflight/**"
+      - "tools/inspiration/**"
+      - "tools/design-audit/**"
+      - "tools/visual-evidence/**"
       - "tools/sectors/**"
       - "tools/copy/**"
       - ".github/copilot-instructions.md"
@@ -44,6 +50,18 @@ jobs:
       - run: node tools/memory/check.mjs
       - run: node --check tools/design-library/query.mjs
       - run: node tools/design-library/query.mjs --check
+      - run: node --check tools/inspiration/editorial.mjs
+      - run: node tools/inspiration/editorial.mjs --check
+      - run: node --test tools/inspiration/editorial.test.mjs
+      - run: node --check tools/inspiration/bridge.mjs
+      - run: node tools/inspiration/bridge.mjs --check
+      - run: node --test tools/inspiration/bridge.test.mjs
+      - run: node --check tools/design-audit/arrows.mjs
+      - run: node --test tools/design-audit/arrows.test.mjs
+      - run: node --check tools/visual-evidence/report.mjs
+      - run: node --test tools/visual-evidence/report.test.mjs
+      - run: python -m py_compile tools/visual-evidence/capture.py
+      - run: python -m unittest discover -s tools/visual-evidence -p "test_*.py"
       - run: node --check tools/design-preflight/check.mjs
       - run: node --test tools/design-preflight/check.test.mjs
       - run: node tools/design-preflight/check.mjs tools/design-preflight/fixtures/good-new.json

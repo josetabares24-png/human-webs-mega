@@ -12,6 +12,9 @@
 
 No se han creado carpetas vacías para sectores aún no estudiados (p. ej., tiendas o medios no turísticos). Los **hoteles** se incluyen ahora en Turismo. Se abrirán otros sectores cuando existan estudios concretos. Se abrirán cuando existan ejemplos y necesidades verificadas.
 
+## Puente opcional entre sectores
+La referencia de otro sector se consulta **solo si resuelve un problema concreto**. No copiar estilos completos ni asumir preferencias aprobadas. Ver [guía de cruce](../CROSS-SECTOR-IDEAS.md) y `node tools/inspiration/bridge.mjs turismo conversion` (otras combinaciones en el README de la herramienta).
+
 ## Orden de lectura para cada web
 1. [Reglas generales](../INDEX.md), [errores](../ERRORS.md), [dirección artística](../ART-DIRECTION.md) y [voz](../VOICE-AND-COPY.md).
 2. **Solo la carpeta del sector relevante** y la subcategoría más cercana al servicio real.

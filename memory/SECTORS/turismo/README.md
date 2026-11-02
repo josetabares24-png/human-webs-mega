@@ -1,5 +1,8 @@
 # Turismo y viajes — memoria de Human Webs
 
+**Rediseños de Estaba en Lisboa: fallo de dirección artística y criterio de bloqueo:** [autoprompt antirregresión visual](AUTOPROMPT-LISBOA-ANTIREGRESION-VISUAL-2026-10-31.md). Tres láminas de recuperación rechazadas; no reproducir split hero, fondos beige de revista ni logo recreado. Comparar contra la primera referencia con intensidad turística y baseline real antes de renderizar HTML. La memoria documenta hipótesis, no una propuesta aprobada.
+
+
 **Estado:** 12 referencias de modelos de negocio estudiadas en 4 subcategorías y 6 referencias adicionales de arte editorial transversal. **Ninguna se ha aprobado estéticamente por el usuario**, ninguna se ha medido con CSS ni se han capturado versiones móviles actuales. Las imágenes históricas y documentación de agencias están identificadas como tales. Este directorio es **memoria**, no un constructor de webs ni un motor de reservas.
 
 ## Seleccionar solo la necesidad real
@@ -14,6 +17,14 @@
 **Nueva colección transversal:** **[6 referencias de dirección de arte editorial](direccion-arte-editorial/README.md)** — TRANSIT, Emergence, Kudanil, The Pudding, Tengile MalaMala y Nomad Magazine. Es investigación de composición, tipografía, fotografía e interacciones, **no una quinta clase de negocio**; ningún caso está aprobado por el usuario. [Comparativa de seis](direccion-arte-editorial/COMPARATIVA-VISUAL.md).
 
 **Estudios cruzados:** [comparativa de doce webs](COMPARATIVA-VISUAL.md) · [playbook de turismo](PLAYBOOK.md) · [estándar de investigación](ESTANDAR-DE-FICHAS.md).
+
+**Análisis detallado y hallazgos no obvios:** [revisión individual de 16 sitios, datos comprobados, hipótesis, riesgos y prioridades para Lisboa](ANALISIS-PROFUNDO-16-REFERENCIAS-Y-OPORTUNIDADES-2026-10-31.md). Este informe **no** equivale a capturas actuales ni a mediciones CSS; sí distingue qué oportunidades están ya cubiertas por Estaba en Lisboa.
+
+**Nueva ronda de 16 referentes:** [Trippin, ROADBOOK, Wildsam, Thisispaper y otras 12 webs](16-REFERENCIAS-ADICIONALES-EDITORIALES-2026-10-31.md). Incluye arquitectura de la guía de Lisboa de Trippin, sistema de diseño documentado de Thisispaper y caso técnico de Wildsam. Estas referencias son ideas por transferir, **no diseños aprobados ni capturas actuales verificadas**.
+
+**Estética y dirección artística para una guía:** [auditoría visual comparativa de 8 referentes](AUDITORIA-ESTETICA-CIUDADES-2026-10-31.md), basada en lectura de originales y capturas públicas (no test visual actual de CSS/móvil). Separar Monocle/Broadsheet/TRANSIT (diseño) de Romeing/Inside Kyoto (negocio y arquitectura). 
+
+**Estudio específico de medios y guías de ciudad:** [20 webs internacionales comparadas para Estaba en Lisboa](REFERENCIAS-20-GUIAS-MUNDO-2026-10-31.md). Es investigación textual de modelo editorial, navegación, SEO y monetización, **no capturas/CSS medidos ni diseños aprobados**; no confundir con las 12 fichas de modelos turísticos y las 6 de dirección de arte.
 
 ## Antes de diseñar: qué es el negocio
 - **Guía/medio turístico:** informa y puede enlazar a reservas externas con disclosure cuando sean afiliados; no necesariamente vende viajes directamente.
