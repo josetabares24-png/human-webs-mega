@@ -212,3 +212,55 @@ Tipo: Cadena fast-casual / salads & bowls (múltiples locations, foco en order o
 6. **Order como infraestructura principal**: Todo el flujo lleva a order.sweetgreen.com; no finge sistema propio en la home pero lo integra de forma clara.
 
 Notas honestas: Sitio custom (Contentful images.ctfassets). CTAs principales son pills perfectos lima. Fotos de producto excelentes con alts largos y específicos. Menú tiene ingredientes y alérgenos reales. Fondo cream consistente. En móvil el hamburger es claro. Foco total en order online y productos, no en experiencia de dining room.
+
+## 2026-11-02 — Dishoom (casual-premium independent group, London)
+
+Sitio: https://www.dishoom.com/
+Tipo: Grupo independiente de cafés indios inspirados en Bombay (múltiples locations en UK, foco en atmósfera y hospitalidad).
+
+### Estructura y CTAs
+- Banner de cookies con copy juguetón ("The best cookies are for dipping... House Chai").
+- Header con logo wordmark, Toggle Menu (hamburger), search, cart, y "Book a table" outline pill.
+- Hero / narrativa larga: cita editorial sobre Bombay + "FROM BOMBAY WITH LOVE".
+- Secciones: PERUSE MENUS, BOOK TABLES, EXPLORE GIFTS AND SUNDRIES; cafés por location (Battersea, Borough, etc.); recipes; awards.
+- Múltiples "Book a table" filled oscuros más abajo. Footer con Visit Us, Shop, Support, Follow.
+
+### Tipografía
+- Body y muchos textos: cheltenhamBT (serif), 16px / 400, color rgb(53,56,57). Editorial y clásica.
+- H1 / citas: misma serif, ~24px, peso 400, letter-spacing 2.4px, color claro sobre fondos oscuros.
+- UI / botones de acción: gill-sans-nova (sans), 13-15px, peso 600-700, uppercase en algunos, letter-spacing alto (~3.5px en Menus/Explore).
+- Contraste: serif editorial para narrativa vs sans condensa/tracking para CTAs y nav.
+
+### Botones
+- "Book a table" principal (header): outline, border 1px solid cream, border-radius 9999px (pill), padding pequeño 6px 10px, texto cream, peso 700.
+- "Book a table" secundarios: filled rgb(53,56,57) oscuro, texto cream, radio 0, border 2px solid mismo color, padding 10px 16px, peso 700.
+- Nav items (Menus, Explore): texto puro sans, uppercase, letter-spacing 3.5px, radio 4px, sin fondo.
+- Cookie buttons: outline o filled gris con radio 2px.
+- No filleds de color saturado; jerarquía por forma (pill outline vs radio 0 filled) y peso.
+
+### Colores
+- Fondo principal body: cream/beige rgb(240, 236, 224).
+- Texto: rgb(53, 56, 57) gris oscuro.
+- Acentos: cream rgb(255,253,249) sobre fondos oscuros, y el mismo gris oscuro para filleds.
+- Paleta contenida y cálida (cream + oscuro). Alto contraste sin saturados brillantes.
+
+### Espaciado, bordes, sombras, fotografía
+- Espaciado generoso, bloques narrativos.
+- Border-radius mixto: 0 en filleds, 9999px en pill de header, 4px en algunos nav, 2px en cookies. Sin box-shadow visibles.
+- Fotografía real de alta calidad (CDN Sanity + Next/image): platos (Bun Maska), interiores, atmósfera de Bombay, logos tipográficos. Integrada en narrativa, no stock genérico.
+- Wordmark y citas tipográficas como elementos visuales principales.
+
+### Menú, móvil y copy
+- Menús por tipo (breakfast, lunch, dinner, late tipples) y por café. Links a "View menus" y "Explore cafés".
+- Móvil: Toggle Menu claro (hamburger), CTAs se mantienen.
+- Copy narrativo y específico: "Each Dishoom is a love letter to Bombay – its food and its culture, its many varied people, its rich history and its endless eccentricities." Historia de B. Merwan 1914, recipes concretas. Sin "experience the flavors of India" vacío; anclado a Bombay real.
+
+### Patrones concretos útiles para webs anti-IA
+1. **Serif editorial dominante (cheltenhamBT) para body y citas + sans con tracking alto para UI**: Sensación de carta de amor / revista, no UI moderna geométrica. Evita Inter/Roboto.
+2. **Pill outline pequeño vs filled radio 0 oscuro**: El booking principal es pill outline cream; los secundarios son filled gris radio 0. Variedad de formas sin que todo sea redondeado.
+3. **Fondo cream cálido + paleta contenida**: rgb(240,236,224) dominante en lugar de blanco puro. Da calidez y personalidad sin saturados.
+4. **Copy narrativo largo y específico como hero**: Citas largas sobre Bombay y historia real (B. Merwan 1914) en lugar de headline corto + foto. Humaniza y diferencia.
+5. **Reserva integrada con múltiples instancias pero estilos distintos**: Book a table repetido pero con formas diferentes (pill vs filled). No finge sistema propio.
+6. **Fotografía de plato y atmósfera real integrada en narrativa**: Imágenes de Bun Maska y locales específicos, no lifestyle genérico. Menos polish AI.
+
+Notas honestas: Sitio custom Next.js + Sanity CMS (CDN sanity.io y _next/image). Cookie banner juguetón presente al cargar. Fondo cream consistente. Book a table header es pill outline; otros son filled radio 0. Serif en casi todo el cuerpo. Narrativa fuerte sobre Bombay. En viewport de escritorio el hamburger "Toggle Menu" sigue visible (diseño responsive). No hay carta completa HTML en home; el foco es la historia y la reserva por café.
