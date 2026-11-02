@@ -113,7 +113,7 @@ Sitio: https://www.maonoseattle.com
 Tipo: Casual independiente / fried chicken Hawaiian-inspired (Chef Mark Fuller, multiple locations in Seattle area including Benbow Room).
 
 ### Estructura y CTAs
-- Home con fondo amarillo brillante y banner repetitivo "CRISPY ✱ JUICY ✱ ALOHA" en mayúsculas.
+- Home con fondo amarillo brillante y banner repetitivo "CRISPY ∗ JUICY ∗ ALOHA" en mayúsculas.
 - Hero con H1 grande "HAWAIIAN STYLE FRIED CHICKEN" y CTA "ORDER ONLINE" filled naranja.
 - Secciones de ubicaciones (West Seattle, Woodinville, U Village, South Lake Union) con nombres concretos.
 - Navegación hamburger "Open Menu" con items uppercase bold (Menu, Locations, About, Contact, FAQ, Catering).
@@ -154,7 +154,61 @@ Tipo: Casual independiente / fried chicken Hawaiian-inspired (Chef Mark Fuller, 
 2. **Display ultra-bold estrecha uppercase + cuerpo redondeada**: obviously-narrow peso 800 para títulos vs Varela Round 400 para texto. Mezcla de personalidad tipográfica, no mono-fuente geométrica.
 3. **Filled de acento con radio pequeño solo para acción principal**: ORDER ONLINE naranja radio 6.4px; el resto texto puro. Jerarquía clara sin que todo sea botón.
 4. **Copy de producto hiper-específico + historia familiar real**: Descripciones de ingredientes concretos (Kewpie, takuan, King’s Hawaiian) y anécdota personal de la abuela. Humaniza más que cualquier "bold flavors".
-5. **Banner tipográfico repetitivo como elemento de marca**: "CRISPY ✱ JUICY ✱ ALOHA" en lugar de foto hero. Simple, memorable y anti-stock.
+5. **Banner tipográfico repetitivo como elemento de marca**: "CRISPY ∗ JUICY ∗ ALOHA" en lugar de foto hero. Simple, memorable y anti-stock.
 6. **Fotografía de comida y familia real sin polish excesivo**: Imágenes de platos específicos y "Grandma at the stove". Menos "lifestyle perfect" y más real.
 
 Notas honestas: Sitio Squarespace (CDN images.squarespace-cdn). Fondo amarillo muy saturado en body. Menú tiene fotos + texto descriptivo concreto. ORDER ONLINE es filled naranja con radio suave. Historia personal fuerte en About. Múltiples locations listadas claramente. No hay carta con precios en HTML visible en las páginas visitadas; el foco es ordenar online y la identidad.
+
+## 2026-11-02 — Sweetgreen (fast-casual chain, national US)
+
+Sitio: https://www.sweetgreen.com
+Tipo: Cadena fast-casual / salads & bowls (múltiples locations, foco en order online).
+
+### Estructura y CTAs
+- Hero con tipografía grande sobre foto de producto (wrap Caesar) + CTA principal "ORDER NOW" pill lima.
+- Navegación simple con "ORDER" visible; hamburger "Toggle main menu" en móvil.
+- Secciones de productos destacados (Kale Caesar, Guacamole Greens, Buffalo Chicken, Harvest Bowl…) con foto circular/cuadrada, descripción de ingredientes y link "Order now →".
+- CTAs secundarios: "LET US KNOW" (para nuevas locations), "LEARN MORE" (careers). Footer con About Us, Social, Support, Legal.
+- Menu page separada con H1 de misión.
+
+### Tipografía
+- Cuerpo y UI: "SweetSansText" (custom sans), 16px / 400, color oscuro rgb(14, 21, 14).
+- Display / hero text: "SweetSans" o similar, ~63px / 400, line-height ajustado.
+- Títulos de categorías / tabs: "Grenette" (serif), ~38px, peso 200 (muy ligero), capitalize, letter-spacing negativo ~-1.8px.
+- H2 de productos: SweetSansText ~22px / 400, uppercase, letter-spacing ~0.67px.
+- Contraste: sans custom limpia + serif ultra-light para categorías.
+
+### Botones
+- CTAs principales (ORDER NOW, LET US KNOW, LEARN MORE): filled pill completo (border-radius 1000px), fondo lima brillante rgb(230, 255, 85), texto verde oscuro rgb(0, 71, 60), uppercase, padding generoso ~15px 60px, peso 400.
+- "Order now →": texto puro, radio 0, sin fondo, color oscuro.
+- Skip to content: fondo cream con sombra suave y padding pequeño.
+- Tabs de categoría: texto serif ligero, radio 4px, sin filled.
+- No outlines clásicos; el acento es el pill lima saturado.
+
+### Colores
+- Fondo principal body: cream/off-white rgb(244, 243, 231).
+- Texto principal: verde-negro muy oscuro rgb(14, 21, 14) o rgb(0, 71, 60).
+- Acento fuerte: lima/amarillo-verde saturado rgb(230, 255, 85) exclusivo para pills de acción.
+- Alto contraste, paleta natural/saludable (cream + oscuro + lima). Sin grises fríos.
+
+### Espaciado, bordes, sombras, fotografía
+- Espaciado generoso, carousels de productos.
+- Border-radius 0 en la mayoría; pills perfectos solo en CTAs de acción; pequeño 4px en tabs.
+- Casi sin box-shadow (solo el skip link tiene una suave).
+- Fotografía real de producto de alta calidad con alts detallados (ej. "Three halves of a chicken Caesar-style wrap stacked vertically, held at the top by a hand with red nail polish, showing a filling of chopped chicken, romaine, dill, pickles…"). Imágenes de platos específicos, no stock genérico.
+- Hero tipográfico + foto de producto en lugar de lifestyle abstracto.
+
+### Menú, móvil y copy
+- Menú HTML con nombres de platos, ingredientes concretos, alérgenos ("Contains milk, eggs, fish, meat, wheat") y link directo a order.
+- Móvil: toggle menu presente; CTAs pill se mantienen prominentes.
+- Copy concreto y de marca: "The Caesar Got Dilly", "We source the best ingredients from farmers we know + prepare them fresh.", descripciones de ingredientes específicas (kale, romaine, parm crisps, lime cilantro jalapeño sauce). Sin "fresh and healthy" vacío; todo anclado a productos reales y misión de sourcing.
+
+### Patrones concretos útiles para webs anti-IA
+1. **Pill de acento saturado + texto puro para secundarios**: ORDER NOW es pill lima 1000px con padding generoso; "Order now →" es link de texto. Jerarquía clara sin que todo sea botón redondeado.
+2. **Custom sans + serif ultra-light para categorías**: SweetSansText 400 para cuerpo/UI vs Grenette peso 200 ~38px con tracking negativo. Personalidad tipográfica propia, no mono-Inter.
+3. **Fondo cream natural + lima funcional**: rgb(244,243,231) dominante y lima solo en acciones. Sensación de marca saludable real, no blanco digital genérico.
+4. **Fotografía de producto con alt hiper-detallado + ingredientes reales**: Imágenes específicas del wrap o bowl con descripción visual completa y lista de ingredientes + alérgenos. Humaniza más que stock "healthy salad".
+5. **Copy de producto concreto + misión de sourcing**: Nombres juguetones ("The Caesar Got Dilly") y H1 de menu "farmers we know". Evita adjetivos vacíos.
+6. **Order como infraestructura principal**: Todo el flujo lleva a order.sweetgreen.com; no finge sistema propio en la home pero lo integra de forma clara.
+
+Notas honestas: Sitio custom (Contentful images.ctfassets). CTAs principales son pills perfectos lima. Fotos de producto excelentes con alts largos y específicos. Menú tiene ingredientes y alérgenos reales. Fondo cream consistente. En móvil el hamburger es claro. Foco total en order online y productos, no en experiencia de dining room.
