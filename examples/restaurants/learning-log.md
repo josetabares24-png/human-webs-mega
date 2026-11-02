@@ -106,3 +106,55 @@ Tipo: Premium independiente / fine dining (Andrew McConnell, former metalworks f
 6. **Reserva externa (SevenRooms) como texto, no botón llamativo**: “MAKE A RESERVATION” es link de texto. No finge un sistema propio ni usa filled de acento.
 
 Notas honestas: Sitio Squarespace (CDN images.squarespace). CTAs de reserva son texto puro (algunos apuntan a # o a página interna que redirige a SevenRooms). Fondo cream muy sutil. Fotos de alta calidad de interiores y platos. No hay carta HTML completa en la home; el foco es la atmósfera, la historia y la reserva. En móvil aparece “Open Menu”.
+
+## 2026-11-02 — Ma‘ono Fried Chicken (casual independent, Seattle)
+
+Sitio: https://www.maonoseattle.com
+Tipo: Casual independiente / fried chicken Hawaiian-inspired (Chef Mark Fuller, multiple locations in Seattle area including Benbow Room).
+
+### Estructura y CTAs
+- Home con fondo amarillo brillante y banner repetitivo "CRISPY ✱ JUICY ✱ ALOHA" en mayúsculas.
+- Hero con H1 grande "HAWAIIAN STYLE FRIED CHICKEN" y CTA "ORDER ONLINE" filled naranja.
+- Secciones de ubicaciones (West Seattle, Woodinville, U Village, South Lake Union) con nombres concretos.
+- Navegación hamburger "Open Menu" con items uppercase bold (Menu, Locations, About, Contact, FAQ, Catering).
+- Footer con "FIND US" lista de locations y "NAVIGATE" (See The Menu, Contact, Events & Catering, Gift Cards).
+- "SKIP TO CONTENT" filled naranja.
+
+### Tipografía
+- Display / H1: "obviously-narrow" (o "obviously"), ~63px en home, peso 800, uppercase, color oscuro rgb(27,36,46).
+- Cuerpo / p: "Varela Round", ~25.6px / 400 en menú, line-height ~36px, mismo color oscuro.
+- Nav links: uppercase, peso 800, ~23.7px, sans.
+- Contraste fuerte: display ultra-bold estrecha vs cuerpo redondeada amigable.
+
+### Botones
+- "ORDER ONLINE" y "Catering": filled, fondo rgb(226, 75, 37) naranja/rojo, texto blanco, peso 700, uppercase, border-radius ~6.4px, padding generoso.
+- Nav y mayoría de links: texto puro, radio 0, sin fondo, uppercase peso 800.
+- Skip to content: filled naranja con radio 6.4px y padding ~16px 20px.
+- No pills perfectos ni outlines en home principal; radio pequeño solo en filleds de acción.
+
+### Colores
+- Fondo principal: amarillo/oro saturado rgb(254, 195, 59) en todo el body.
+- Texto: oscuro casi negro rgb(27, 36, 46).
+- Acento: naranja/rojo rgb(226, 75, 37) exclusivo para CTAs de ordenar/catering.
+- Alto contraste, paleta limitada y energética (amarillo + naranja + oscuro). Nada de grises o pasteles.
+
+### Espaciado, bordes, sombras, fotografía
+- Espaciado generoso, bloques claros.
+- Border-radius 0 en casi todo; ~6.4px solo en botones filled de acción. Sin box-shadow visibles.
+- Fotografía real de comida: sandwiches, drumsticks, fingers, sliders, abuela en la cocina, hermana comiendo picnic chicken. Con "View fullsize". No stock genérico; imágenes específicas del producto y familia.
+- Banner tipográfico repetitivo en lugar de hero fotográfico full-bleed.
+
+### Menú, móvil y copy
+- Menú con fotos + descripciones concretas: "Crispy fried chicken breast on a butter toasted King’s Hawaiian bun, with daikon pickles, Kewpie Mayo, iceberg lettuce." "Your first dipping sauce is free but you should probably get more."
+- Móvil: "Open Menu" claro, H1 grande se mantiene legible, CTAs filled visibles.
+- Copy personal y específico: "The Legend of Ma‘ono" cuenta la historia real de Kauai, abuelos, picnic chicken de la abuela, seasoning secret, "so ono", King’s Hawaiian bun, takuan. Sin "experience the aloha" vacío; todo concreto y familiar.
+
+### Patrones concretos útiles para webs anti-IA
+1. **Fondo de color saturado dominante + texto oscuro**: Amarillo rgb(254,195,59) en todo el body en lugar de blanco. Da personalidad inmediata y evita el blanco limpio de plantillas IA.
+2. **Display ultra-bold estrecha uppercase + cuerpo redondeada**: obviously-narrow peso 800 para títulos vs Varela Round 400 para texto. Mezcla de personalidad tipográfica, no mono-fuente geométrica.
+3. **Filled de acento con radio pequeño solo para acción principal**: ORDER ONLINE naranja radio 6.4px; el resto texto puro. Jerarquía clara sin que todo sea botón.
+4. **Copy de producto hiper-específico + historia familiar real**: Descripciones de ingredientes concretos (Kewpie, takuan, King’s Hawaiian) y anécdota personal de la abuela. Humaniza más que cualquier "bold flavors".
+5. **Banner tipográfico repetitivo como elemento de marca**: "CRISPY ✱ JUICY ✱ ALOHA" en lugar de foto hero. Simple, memorable y anti-stock.
+6. **Fotografía de comida y familia real sin polish excesivo**: Imágenes de platos específicos y "Grandma at the stove". Menos "lifestyle perfect" y más real.
+
+Notas honestas: Sitio Squarespace (CDN images.squarespace-cdn). Fondo amarillo muy saturado en body. Menú tiene fotos + texto descriptivo concreto. ORDER ONLINE es filled naranja con radio suave. Historia personal fuerte en About. Múltiples locations listadas claramente. No hay carta con precios en HTML visible en las páginas visitadas; el foco es ordenar online y la identidad.
