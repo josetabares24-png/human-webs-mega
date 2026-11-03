@@ -39,3 +39,14 @@ Cada propuesta debe funcionar como una identidad reconocible de estudio digital 
 **Confirmado:** separación de proyectos, prioridad visual, rechazo de propuestas pasadas, formato de imágenes independientes.
 **No confirmado:** paleta, estilo editorial/brutalista/minimalista, tipografía, fotografía personal, nombre comercial y selección de proyecto mostrado.
 **Rechazado:** mosaicos recortados presentados como imágenes generadas individualmente; marca Lisboa en el portafolio; clientes inventados.
+
+## Preferencia positiva confirmada: Eliot Besson (2026-11-03)
+**Fuente:** el usuario proporcionó explícitamente https://www.eliotbesson.com/ y confirmó: «esta sí es realmente lo que busco». Es una preferencia visual positiva de alto valor, a diferencia de la mera exploración de otras webs.
+
+**Referencia actual 2025–2026:** https://www.eliotbesson.com/ y https://www.eliotbesson.com/works. Aspectos comprobados en páginas originales: titular display condensado expresivo sobre fondo casi negro; muestra inmediata de múltiples proyectos con previsualizaciones en movimiento; índice de proyectos con previsualizaciones por interacción; distinción clara entre proyectos de diseño completo y de desarrollo; ficha individual detallada para cada trabajo; navegación compacta y contacto accesible. El pie de la web acredita las fuentes Arges, Aeonik y Geist Mono y tecnologías Figma, Webflow/GSAP/CSS, LottieLab y Spline; no copiar fuentes sin licencia ni asumir necesidad de Webflow para construir nuestra versión.
+
+**Qué NO imitar:** nombres/creaciones/logo/fotos/vídeos originales de Eliot, premios, clientes, cantidades de proyectos, copy ni composiciones idénticas. No decorar con escenas de oficina/laptops/follaje; esa estética fue rechazada como ajena a la referencia preferida. Se necesita identidad propia de José Tabares y muestras reales disponibles de trabajos, sin inventar proyectos.
+
+**Prioridad de diseño futura:** la portada debe ser un portafolio creativo interactivo que demuestre capacidad, no una landing SEO de agencia; tipo expresivo, secuencias de webs auténticas, índice de proyectos, hover/tap pensado para móvil, animaciones con sentido y rendimiento/legibilidad. Proponer una dirección propia claramente emparentada con la gramática visual y la experiencia de Eliot, sin reproducción literal.
+
+**Entrega correcta:** antes de entregar una imagen conceptual, revisar que se identifiquen el hero, una galería o índice de proyectos real y el diseño móvil; no mostrar únicamente un hero con texto y una fotografía bonita. El usuario todavía no ha aprobado una implementación concreta ni una paleta final.
