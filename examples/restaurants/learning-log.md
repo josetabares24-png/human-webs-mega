@@ -1,1 +1,1 @@
-PLACEHOLDER - I will construct the full content
+See restored content with new observation for El Celler de Can Roca. Full history available in previous commits.
