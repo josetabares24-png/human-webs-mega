@@ -96,4 +96,51 @@ Tipo: Independiente casual / pasta italiana (múltiples locations: Borough Marke
 
 Honesto: sitio muy limpio y funcional, casi austero. El menú carga rápido y es legible. Ideal referencia para casual menu-first que no parezca generado por plantilla AI.
 
+## 2026-11-03 — Carbone New York (premium independent / Major Food Group, NYC)
+
+Sitio: https://carbonenewyork.com/
+Tipo: Independiente premium / Italian-American glamorous (original location on Thompson Street, Major Food Group). Foco en historia, atmósfera y reservas vía Resy.
+
+### Estructura y CTAs
+- Hero con headings grandes uppercase ("CARBONE NYC", "NEW YORK CITY", "THE ORIGINAL") sobre fondos que alternan cream y secciones oscuras.
+- Nav superior: logo + "Open Main Menu" (móvil) / links a Locations, About, Menu, Hours & Info, News.
+- Secciones narrativas: THE ORIGINAL (descripción del local), CHEF MARIO CARBONE (biografía), THE MENU (tabs: Dinner, Lunch, Wine, Drinks, etc.), THE STORY (historia de Rocco → Carbone), THE DESIGN, NEWS, HOURS & INFORMATION.
+- CTAs principales: "RESERVE A TABLE" (outline button que linkea a Resy), "CONTACT CONCIERGE", "PRIVATE EVENTS". No hay botón filled dominante tipo "Order Now".
+
+### Tipografía
+- Headings (H1/H2): custom heading font (bold 700, uppercase), tamaños ~32-38px, color cream o dark navy según sección. Letter-spacing normal.
+- Cuerpo: Hoefler-like / sans (~15-18px regular), color dark navy rgb(10, 26, 41) sobre cream. Line-height generoso (~24px).
+- Alto contraste, estilo editorial con jerarquía fuerte por uppercase bold en secciones.
+
+### Botones
+- "RESERVE A TABLE": outline (bg cream rgb(255,249,240), color navy, border 1px solid navy, border-radius 2px, padding ~10px 16px, font ~20px weight 400). No filled, no pill grande, radio mínimo.
+- Otros links de nav son texto puro.
+- Estilo refinado, no "SaaS conversion" con sombras o pills saturados.
+
+### Colores
+- Fondo principal: cream / ivory rgb(255, 249, 240).
+- Texto y acentos: dark navy / near-black rgb(10, 26, 41).
+- Secciones alternan (algunas con texto cream sobre fondo oscuro).
+- Paleta restringida, cálida pero elegante (no gold cliché ni beige genérico).
+
+### Espaciado, bordes, sombras, fotografía
+- Espaciado generoso entre secciones narrativas. Bordes mínimos, sombras casi nulas.
+- Fotografía real y específica: dining room, Chef Mario Carbone, vintage tile floor, Carbone x Assouline book. Atmosférica y de espacio/chef, no solo food porn staged. ~22 imágenes en página.
+- Look de revista de lujo contemporánea con raíces mid-century.
+
+### Menú, móvil y copy
+- Menú on-page con tabs (Dinner, Lunch, Wine, Drinks, Dessert, Thanksgiving, Christmas). "Select a Menu".
+- Móvil: toggle "Open Main Menu", contenido scrolleable, headings se mantienen grandes.
+- Copy: narrativo, específico y factual. Menciona detalles reales (captains in Zac Posen tuxedos, artworks by Julian Schnabel, neon over original Rocco sign, Queens roots + CIA + year in Italy, "anything-can-happen" experience). Sin fluff genérico tipo "discover the magic of Italian cuisine".
+
+### Patrones concretos (4-6) para webs anti-IA
+1. **Fondo cream/ivory + dark navy + secciones con headings uppercase bold grandes**: Evita el white/black limpio o beige AI genérico. Da sensación de menú impreso o editorial de lujo.
+2. **Estructura narrativa por secciones nombradas (THE ORIGINAL, CHEF..., THE STORY, THE DESIGN)**: Cuenta historia real con detalles nombrados (diseñadores, artistas, restaurante anterior). AI suele inventar copy genérico o suavizar hechos.
+3. **CTA de reserva como outline button con radio 2px y borde fino**: No filled pill de alto contraste. Más discreto y premium; la historia y el espacio son el foco.
+4. **Fotografía de espacio, chef y detalles arquitectónicos (tile floor, banquettes) mezclada con texto**: No solo platos perfectos. Humaniza y muestra el lugar real.
+5. **Integración de Resy como link externo claro, sin forzar orden online**: Señala que es dining-room first, no QSR. AI a menudo asume checkout o menú HTML completo con fotos.
+6. **Paleta restringida cream + navy, cero sombras modernas pesadas**: Estilo clásico-contemporáneo, no el "clean with subtle drop shadows and rounded cards" que AI reproduce.
+
+Honesto: sitio elegante y cohesionado, con fuerte identidad. El cookie banner (Cookiebot) es intrusivo en la visita. Tipografía y fotos transmiten glamour mid-century sin caer en clichés. Buena referencia para premium narrative que prioriza atmósfera sobre conversión agresiva.
+
 (Anteriores: Eleven Madison Park, Cutler, Ma‘ono, Sweetgreen, Dishoom, El Celler de Can Roca — ver historial de commits.)
