@@ -1,1 +1,1 @@
-$(cat /tmp/learning-log-updated.md)
+PLACEHOLDER - I will construct the full content
