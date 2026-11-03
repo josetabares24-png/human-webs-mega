@@ -26,6 +26,9 @@
 | Código, despliegue, formularios | [TECHNICAL](TECHNICAL.md), [QUALITY-GATES](QUALITY-GATES.md) |
 | Corregir incidencia o actualizar memoria | [ERRORS](ERRORS.md), [RECORD-TEMPLATE](RECORD-TEMPLATE.md) |
 
+## Caso específico: portafolio personal
+- [**Portafolio personal internacional — reglas visuales y errores de generación**](CASES/PORTFOLIO-PERSONAL-VISUAL-2026-11-03.md): separar proyectos propios de identidad, priorizar estética y generar imágenes originales independientes cuando así se solicite.
+
 ## Usar desde otra IA / otro repositorio
 - [Prompt portátil y montaje de memoria](START-HERE.md). El acceso no se hereda automáticamente cuando se abre el repositorio de un cliente.
 
