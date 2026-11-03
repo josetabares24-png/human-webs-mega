@@ -29,6 +29,9 @@
 ## Caso específico: portafolio personal
 - [**Portafolio personal internacional — reglas visuales y errores de generación**](CASES/PORTFOLIO-PERSONAL-VISUAL-2026-11-03.md): separar proyectos propios de identidad, priorizar estética y generar imágenes originales independientes cuando así se solicite.
 
+## Portafolio personal de creación web
+- [Investigación focalizada de 10 portafolios y estudios reales](REFERENCES/PORTAFOLIO-WEB-INDEPENDIENTE-2026-11-03.md) — evidencias, límites y diez sistemas compositivos por explorar. No mezclar con turismo ni restaurantes.
+
 ## Usar desde otra IA / otro repositorio
 - [Prompt portátil y montaje de memoria](START-HERE.md). El acceso no se hereda automáticamente cuando se abre el repositorio de un cliente.
 
