@@ -192,4 +192,51 @@ Tipo: Grupo de restaurantes independientes premium-casual (David Chang, Asian-Am
 
 Honesto: sitio bien ejecutado, moderno y funcional. El popup/privacy puede interrumpir. Tipografía y botones pills son limpios pero no radicalmente anti-AI (muchos sites usan Graphik-like y pills). Destaca por la especificidad de eventos, menús reales y fotos de locales. Buena referencia para grupo multi-location que balancea reserva + orden online sin perder identidad.
 
+## 2026-11-03 — Canlis (premium independent, Seattle)
+
+Sitio: https://canlis.com/
+Tipo: Independiente premium / fine dining familiar (desde 1950, James Beard awards, ranked #2 Food & Wine 2025). Foco en invitación, espacio arquitectónico y reservas.
+
+### Estructura y CTAs
+- Banner superior discreto de evento (“MAD MANOR: Tickets on sale now! 🦇”).
+- Nav simple: RESERVE (texto uppercase), EXPLORE (disclosure), PRIVATE EVENTS, teléfono y dirección siempre visibles.
+- Contenido principal en secciones cortas: AN INVITATION (texto de hospitalidad), THE SPACE (historia del edificio y vistas), IN THE PRESS (ranking + links externos), luego chef, cocktails, etc.
+- CTA principal “RESERVE” / “Book a table” es link de texto en nav y al final; no hay botón filled dominante. Menú en página propia.
+
+### Tipografía
+- Cuerpo y headings principales: GTSectraBook (serif, weight 400), ~13px cuerpo / ~20px headings, color rgb(39, 35, 32). Misma familia para casi todo (también GTSectraDisplayLight e Italic).
+- Captions / labels (AN INVITATION, THE SPACE, IN THE PRESS): HelveticaNeue-Medium ~11.7px, uppercase, letter-spacing 0.65px, color gris más claro rgb(82, 82, 82).
+- Sensación editorial de libro o menú impreso, no UI grande y bold.
+
+### Botones
+- Prácticamente no hay botones filled u outline.
+- “RESERVE”: texto uppercase, HelveticaNeue-Medium, bg transparente, border 0, border-radius 5px (casi invisible), padding 0, sin sombra.
+- Estilo: links de texto puro, minimalistas.
+
+### Colores
+- Fondo: rgb(239, 240, 235) — off-white / gris-verde muy suave (no blanco puro ni cream típico).
+- Texto: marrón oscuro rgb(39, 35, 32).
+- Acentos mínimos (grises para captions). Fotos aportan el color y la vida.
+- Paleta muy restringida, cálida pero austera.
+
+### Espaciado, bordes, sombras, fotografía
+- Espaciado generoso entre secciones, look limpio.
+- Bordes y sombras prácticamente nulos.
+- Fotografía real y específica: server preparando Canlis Salad tableside, exterior nocturno con el cedro libanés, dining room con servers y guests, charred pork belly. Atmosférica y de servicio/espacio, no food porn staged genérico.
+
+### Menú, móvil y copy
+- Menú HTML de tasting experience (6 courses, eliges 3, resto a cargo de la casa). Nombres de platos en uppercase + descripción corta (SABLEFISH: matsutake, chili, dulse, and XO). Canlis Salad tableside como extra histórico.
+- Móvil: nav con disclosure EXPLORE, contenido scrolleable, CTAs de texto se mantienen.
+- Copy: personal, hospitalario y factual. “The opportunity to meet and serve you is one we don’t take lightly, not for the past 75 years at least.” Historia real del edificio y premios concretos. Sin fluff genérico.
+
+### Patrones concretos (4-6) para webs anti-IA
+1. **Misma serif (GTSectraBook) para cuerpo y headings a tamaños pequeños (13-20px) + captions uppercase sans pequeño**: Sensación de menú o libro de lujo real. Evita el contraste AI de serif grande bold + sans body o Inter/Roboto grande.
+2. **Fondo off-white gris-verde suave rgb(239,240,235) + texto marrón oscuro**: No white puro, no beige cream cliché, no dark mode. Más humano y menos “plantilla limpia”.
+3. **CTAs de reserva como texto uppercase puro sin fondo ni borde visible**: RESERVE es simplemente un link. Menos “convert now”, más invitación discreta.
+4. **Secciones cortas con labels uppercase (AN INVITATION / THE SPACE / IN THE PRESS) + narrativa específica**: Cuenta hechos reales (Roland Terry 1950, James Beard Design Icon, ranking #2) en vez de copy marketing genérico.
+5. **Fotografía de servicio y espacio (tableside salad, dining room con gente, exterior con árbol) mezclada con texto**: Muestra cómo se vive el lugar, no solo platos perfectos.
+6. **Menú tasting con elección parcial + extra histórico (Canlis Salad tableside)**: Más auténtico y menos “lista de platos con descripciones floridas” que AI suele generar.
+
+Honesto: sitio muy elegante, austero y coherente. Tipografía pequeña y el mismo serif para todo puede sentirse “de print” (difícil en móvil si no se escala bien). Transmite hospitalidad familiar y seriedad sin forzar conversión. Excelente referencia para premium que prioriza invitación y espacio sobre food porn o CTAs agresivos. No cae en el cliché AI de serif-gold + shadows sutiles + hero con stock.
+
 (Anteriores: Eleven Madison Park, Cutler, Ma‘ono, Sweetgreen, Dishoom, El Celler de Can Roca — ver historial de commits.)
