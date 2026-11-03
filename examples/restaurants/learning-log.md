@@ -143,4 +143,53 @@ Tipo: Independiente premium / Italian-American glamorous (original location on T
 
 Honesto: sitio elegante y cohesionado, con fuerte identidad. El cookie banner (Cookiebot) es intrusivo en la visita. Tipografía y fotos transmiten glamour mid-century sin caer en clichés. Buena referencia para premium narrative que prioriza atmósfera sobre conversión agresiva.
 
+## 2026-11-03 — Momofuku (grupo independiente / multi-location, NYC origin)
+
+Sitio: https://www.momofuku.com/ (home) y https://www.momofuku.com/restaurants/noodle-bar-east-village
+Tipo: Grupo de restaurantes independientes premium-casual (David Chang, Asian-American innovador). Multi-location (NY, LA, LV), foco en reservas, menús on-page y merch/shop.
+
+### Estructura y CTAs
+- Home: banner promo superior (ej. "Super Peach x Bar Etoile (Nov 3): Book Now"), nav con logo + Make a Reservation / Order Online / Shop (pills), luego carouseles de eventos/promos por ciudad (LA, LV, NY) con "Reserve Now".
+- Sección "Our Restaurants" con cards de locations (nombre, dirección, Make a Reservation / Explore More).
+- Páginas de restaurante individual: H1 grande, "Make a Reservation" prominente, Opening Times detallados, Find Us + Google Maps, Order Online (DoorDash/Catering), View Menu, About, Large Formats, FAQs.
+- CTAs: pills filled dark para Reservation/Order, outline cream para otros. Múltiples puntos de entrada a reserva (OpenTable externo).
+
+### Tipografía
+- Fuente principal: Graphik (sans-serif moderna, system-ui fallback), weights 400-600.
+- H1 en página restaurante: Graphik 32px weight 600, color cream rgb(250,247,238).
+- H3 de locations: Graphik 16px weight 400, cream sobre fondos oscuros o cards.
+- Cuerpo: Graphik ~14-16px regular, negro o cream según sección. Alto contraste, limpio, contemporáneo sin serif.
+
+### Botones
+- Estilo pill (border-radius 50px), padding 8px o 8px 32px.
+- Filled: bg rgb(35,35,35) dark, color cream, font Graphik 14-16px weight 400.
+- Outline/light: bg cream, color dark, mismo radio 50px.
+- Nav y algunos links son texto puro. Contraste alto, no sombras pesadas.
+
+### Colores
+- Fondo principal: cream / off-white rgb(250, 247, 238).
+- Texto/acentos dark: rgb(35, 35, 35).
+- Otros: light peach/cream variants, dark overlays en heroes/cards.
+- Paleta cálida neutra, restrained, con fotos aportando color vibrante de comida.
+
+### Espaciado, bordes, sombras, fotografía
+- Espaciado limpio, cards y secciones con padding generoso. Bordes mínimos, radios altos solo en botones (pills).
+- Fotografía real y específica: platos (fried chicken, kimbap, pasta truffle, bowls), interiores de locales (Noodle Bar Uptown wood + leather, East Village evening), chefs. No stock genérico; alta calidad editorial de comida y espacio.
+- Look moderno, apetecible, group-brand consistente.
+
+### Menú, móvil y copy
+- Menús on-page con secciones (Starters, Kimbap, Ramen, Mains, Large Format, etc.) y precios. Tabs o listas. Cambian y se promocionan (ej. Kimbap new, Fried Chicken Mondays).
+- Móvil: toggle "Open mobile menu", contenido scrolleable, CTAs pills se mantienen.
+- Copy: directo y específico. Historia real (fundado 2004 Noodle Bar East Village, David Chang), detalles de platos (spicy cucumbers, kimchi...), eventos nombrados, FAQs prácticas (reservas 30 días, dietary, private events email). Sin fluff excesivo tipo "elevate your dining experience".
+
+### Patrones concretos (4-6) para webs anti-IA
+1. **Sans moderna Graphik + cream bg + dark text, H1 32px medium weight**: Evita el serif-gold AI cliché o el Inter/Roboto genérico. Sensación contemporánea de grupo real, no plantilla.
+2. **Botones pill (radius 50px) filled dark cream-text y outline cream**: Alto contraste, acción clara sin ser el "rounded 8px filled primary" típico de AI SaaS. Múltiples CTAs de reserva/orden sin dominar.
+3. **Carouseles de promos/eventos reales por location + cards de restaurantes con dirección exacta**: Prioriza lo actual y físico (Super Peach x Bar Etoile Nov 3, F1 Las Vegas). AI suele hacer heroes estáticos genéricos.
+4. **Fotografía mixta real de platos + interiores + proceso, no solo food porn perfecto**: Muestra el lugar (wood booths, evening street view) y la comida específica. Humaniza el grupo.
+5. **Menú HTML con precios + large formats + FAQs prácticas**: Detalles nombrados (bo ssäm, fried chicken meal $225, dietary case-by-case). Más útil y menos florido que copy AI inventado.
+6. **Paleta cream + charcoal restrained con fotos de alta calidad**: Cálida pero no beige genérico. Consistente across multi-location, señal de marca real vs. AI one-off.
+
+Honesto: sitio bien ejecutado, moderno y funcional. El popup/privacy puede interrumpir. Tipografía y botones pills son limpios pero no radicalmente anti-AI (muchos sites usan Graphik-like y pills). Destaca por la especificidad de eventos, menús reales y fotos de locales. Buena referencia para grupo multi-location que balancea reserva + orden online sin perder identidad.
+
 (Anteriores: Eleven Madison Park, Cutler, Ma‘ono, Sweetgreen, Dishoom, El Celler de Can Roca — ver historial de commits.)
