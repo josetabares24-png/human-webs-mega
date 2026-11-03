@@ -31,6 +31,7 @@
 
 ## Portafolio personal de creación web
 - [Investigación focalizada de 10 portafolios y estudios reales](REFERENCES/PORTAFOLIO-WEB-INDEPENDIENTE-2026-11-03.md) — evidencias, límites y diez sistemas compositivos por explorar. No mezclar con turismo ni restaurantes.
+- [Auditoría de Portfolio V5 y dirección de evolución inspirada en Eliot Besson](CASES/PORTFOLIO-V5-PLAN-DE-MEJORA-ELIOT-2026-11-03.md) — cambios priorizados, control de fuentes/medios, motion y autoprompt para Codex. **Solo propuesta, no implementación**.
 
 ## Usar desde otra IA / otro repositorio
 - [Prompt portátil y montaje de memoria](START-HERE.md). El acceso no se hereda automáticamente cuando se abre el repositorio de un cliente.
