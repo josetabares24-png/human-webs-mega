@@ -85,3 +85,31 @@ Estos patrones (serif cuerpo + text-link CTAs + blanco limpio + fotos de lugar) 
 6. **Estructura por secciones temáticas** (House / Kitchen / Bar / Events) con títulos serif grandes, priorizando atmósfera y comunidad antes que solo menú o reserva.
 
 Estos patrones (serif display + filled material + crema cálida + fotos de jardín real) funcionan bien para restaurantes independientes casuales o de barrio que quieren sentir lugar y hospitalidad humana, alejándose del look generativo estándar.
+
+---
+
+## elevenmadisonpark.com (Eleven Madison Park, Nueva York) — premium independiente
+
+**Fecha de observación:** 2026-11-04  
+**URL:** https://www.elevenmadisonpark.com/  
+**Tipo:** Premium independiente (fine dining de Chef Daniel Humm, tres estrellas Michelin históricas, en edificio Art Deco frente a Madison Square Park).
+
+### Lo que vi (honesto)
+
+- **Estructura y CTAs:** Homepage bastante minimalista y visual: logo wordmark, fotografía de granja, platos, equipo y cocina. Navegación colapsada en menú hamburger (“Open Menu”). CTA principal visible “Book on Resy” (filled). Otros enlaces de texto: Reservations, About Us, Team, Magic Farms, Events, Stories, Gift Cards. Hay un anuncio/popup sobre The Studio at Clemente Bar (omakase). Footer con dirección, teléfono, newsletter. No es un hero full-bleed con overlay de texto grande; más bien una secuencia de imágenes documentales con texto mínimo.
+- **Tipografía:** Cuerpo y párrafos en **EB Garamond, serif** a ~19px / 400, line-height ~30px, color negro. Títulos (H1 “Welcome to Eleven Madison Park”) en **nobel, sans** light (300) a ~36px. Navegación y algunos labels en nobel light ~17px. “Book on Resy” en nobel bold. Inter Tight aparece en elementos de accesibilidad/skip. Contraste serif cuerpo clásico + sans ligera para display.
+- **Botones:** El CTA de reserva “Book on Resy” es **filled** con fondo coral/rojo `rgb(252, 72, 55)`, texto blanco, border-radius ~6px, padding horizontal, nobel 700. El resto (Reservations, etc.) son **enlaces de texto** sin fondo ni borde. Hay un botón azul oscuro `rgb(21, 50, 92)` en algunos elementos de skip o nav. No pills altos ni outlines gruesos. Estilo contenido y funcional.
+- **Colores:** Fondo blanco puro. Texto negro. Acentos: azul oscuro `rgb(21, 50, 92)` y coral `rgb(252, 72, 55)` solo en CTAs de acción. Overlay oscuro en alguna foto. Paleta neutra; el color vivo viene de las fotografías (verduras, platos, granja).
+- **Espaciado, bordes, sombras, fotografía:** Sin box-shadows visibles en cards o bloques (radius 0 o bajo). Bordes mínimos. Fotografía real y específica: Magic Farms (beets, lechugas, túneles), Chef Humm con el farmer Maciek, equipo de comedor antes del servicio, platos nombrados (Tardivo salad, Scallop with kohlrabi, Tonburi), cócteles. Imágenes documentan el proceso y el lugar, no stock genérico. Aire limpio, ritmo de revista de cocina.
+- **Menú, móvil y copy:** No hay menú online (explican que es hiperestacional y “we are unable to share our food menus online”). Reservas vía Resy. Copy concreto y factual: edificio Art Deco en East 24th y Madison, partnership con Magic Farms desde 2021, opciones plant-based, horarios precisos, tasting menu vs bar. Stories con actualizaciones reales (truffle dinner, algae oil, farm visit). En móvil el menú se colapsa correctamente. Tono preciso y de hospitalidad, sin superlativos vacíos.
+
+### Patrones concretos útiles para webs anti-IA
+
+1. **Serif clásico (EB Garamond) en el cuerpo** a ~19px con line-height generoso, combinado con sans light (nobel) solo en títulos y nav. Lectura de libro de cocina o carta, no de landing SaaS.
+2. **Un solo botón filled de acento funcional** (coral, radio bajo ~6px) para la acción principal (reserva), y el resto como text-links. Evita la proliferación de pills y botones de UI kit.
+3. **Fotografía documental específica** de granja, chef con productor, equipo en preparación y platos con nombre y contexto. Las imágenes cuentan el origen y el proceso, no decoran.
+4. **Copy que admite limitaciones reales** (“unable to share our food menus online” por ser hiperestacional) y ancla a hechos (Magic Farms 2021, edificio Art Deco, horarios exactos). Rompe el tono eterno y optimizado.
+5. **Estructura visual prioritaria con texto mínimo** en home, dejando que las fotos y los Stories hagan el trabajo narrativo. Menos bloques de marketing, más documentación.
+6. **Paleta casi blanca + negro**, con acentos de color solo en los CTAs de conversión. Las fotos aportan la atmósfera y el color real.
+
+Estos patrones (serif cuerpo + un filled funcional + fotos de proceso/origen + copy factual con limitaciones) funcionan especialmente bien para restaurantes premium que quieren transmitir rigor, estacionalidad y hospitalidad real en lugar de un look generativo pulido y genérico.
