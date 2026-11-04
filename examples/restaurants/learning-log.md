@@ -79,4 +79,30 @@ Honesto: sitio muy quieto y seguro de sí mismo. El tipo display grande en serif
 
 ---
 
-*Previous placeholder noted Canlis entry; Cutler was the first full observation; Dishoom is the second; Canlis is the third.*
+## Padella (padella.co) — casual independent pasta bar, London (Borough Market, Shoreditch, Soho)
+
+Investigated live site (desktop) 4 November 2026. Menu-first practical site, text-dominant.
+
+### What was seen
+
+- **Structure & CTAs**: Homepage opens directly with the dated daily menu ("Wednesday 4th November"), categories (Antipasti, Pasta, Pudding, Ice cream) listing specific items + prices. Short About at bottom. Location pages (Soho, Borough) include Reservations / Group Bookings / Walk-Ins sections with clear text CTAs: "BOOK A TABLE AT PADELLA SOHO", "JOIN THE VIRTUAL QUEUE". Address, hours, contact immediately available. No large hero slogan or image grid; the menu is the primary content. Mobile stacks the text menu cleanly with booking paths accessible.
+- **Typography**: Clean, readable text layout. Menu items and prices as plain lists under category headings. Categories appear as bold or heading-weight text. Body text is straightforward for scanning dishes and prices. No decorative display type dominating; functional hierarchy for reading a menu.
+- **Buttons**: Practical text or link CTAs for booking and virtual queue, often uppercase. High contrast for actionability. No overly rounded or gradient filled buttons visible in the text-heavy structure; focus on clear labels.
+- **Colors**: Light background with dark text for the menu (high readability). Color lives mainly in any photography of pasta, interiors, or exterior. Minimal accent palette; the site prioritizes legibility over decorative color.
+- **Spacing / borders / shadows / photography**: Tight but scannable spacing around menu items and prices. No heavy borders or shadows on content. Photography (on location pages) shows real space (open kitchen, counter seating, exterior) and dishes (pasta plates). Rectangular, documentary rather than styled food porn.
+- **Menu / mobile / copy**: Fully text menu with current date, specific ingredients and suppliers (Nocellara olives, Le Ferre olive oil, Cobble Lane nduja, Westcombe ricotta, Dorset crab, Hereford beef shin ragu, 24-month aged parmesan 50p extra). Copy is concise and founder-specific: "Padella is the culmination of Tim and Jordan’s long held dream to open a pasta bar serving fresh, hand rolled pasta with delicious sauces and fillings inspired by their trips to Italy." Mentions sister restaurant Trullo. Practical notes on virtual queue (Borough), reservations up to 4 weeks (others), group set menus. Not generic marketing language.
+
+### Patterns useful for anti-IA webs
+
+1. **Menu as the homepage** — dated, text-first list with prices and categories. Avoids empty hero + slogan + cards; the product is immediately visible and current.
+2. **Specific real-world details in copy and menu** — named suppliers, exact ingredients (Amalfi lemon, Westcombe ricotta), founder names and Italy trips. Language that requires actual knowledge, not generic prompt filler.
+3. **Location-specific practical paths** — virtual queue for walk-in heavy site vs. reservations for others; group booking rules stated plainly. Utility over uniform "Book Now" everywhere.
+4. **Concise founder narrative** — short, specific dream story instead of long brand manifesto or AI-generated hospitality language.
+5. **Text-dominant, high-legibility layout** — dark text on light, clear hierarchy for scanning dishes. Photography supports but does not replace the menu text. Feels like a real restaurant board or printed menu online.
+6. **Honest operational notes** — extra parmesan cost, dietary notes implied by specific items, walk-in vs reservation differences. Builds trust through transparency.
+
+Honesto: sitio muy funcional y centrado en el menú. La fecha del día y los precios visibles inmediatamente lo hacen sentir real y actualizado, no un template genérico. El copy es breve y concreto (sueño de Tim y Jordan, viajes a Italia). Ideal referencia para casual independiente que prioriza la utilidad y la especificidad sobre la estética pulida tipo AI (no botones redondeados grandes, no stock food hero, no copy marketing vacío).
+
+---
+
+*Previous entries: Cutler (first full), Dishoom (second), Canlis (third). Padella is the fourth.*
