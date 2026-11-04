@@ -27,4 +27,30 @@ Feels pre-AI editorial (print menu + magazine layout) rather than generated temp
 
 ---
 
-*Previous placeholder noted Canlis entry; this is the first full observation in the log.*
+## Dishoom (dishoom.com) — casual multi-location independent group, London + UK cities (Bombay-inspired Indian)
+
+Investigated live site (desktop and mobile viewport) 4 November 2026. Custom (Next.js + Sanity), warm editorial with strong narrative voice.
+
+### What was seen
+
+- **Structure & CTAs**: Home opens with literary quote + "LISTEN IN" / "ALL WELCOME" / "FROM BOMBAY WITH LOVE". Story sections with captioned photos ("ABOVE: The legendary B. Merwan…"). Clear blocks: MENUS, RESERVATIONS (Book a table), STORE, EXPLORE CAFÉS. Locations page lists each café with address, hours, phone, View + Book. Mobile: hamburger + prominent "Book" button always visible. No single giant hero slogan; narrative + practical paths.
+- **Typography**: Body and most text: Cheltenham BT (serif), 16px, weight 400, line-height 24px, color rgb(53,56,57). Headings same family, ~21px. Some labels uppercase with tracking. Strong literary/serif feel throughout.
+- **Buttons**: Filled dark (rgb(53,56,57)) with cream text (rgb(255,253,249)), border-radius 0px (sharp), padding ~10px 16px, weight 700, ~13px. Mobile "Book" is pill-shaped (radius 9999px) with light border. Other CTAs often text-like or filled with no radius. Contrast high.
+- **Colors**: Warm cream/beige background rgb(240,236,224) / #F0ECE0. Near-black text. No bright accents or gradients; color comes from photography (food, interiors, historical references). Cream + dark is the palette.
+- **Spacing / borders / shadows / photography**: Generous vertical padding (e.g. 80px 20px on sections). No box-shadows. Photos rectangular, border-radius 0, no drop shadows — editorial, real locations and dishes with captions. Feels like a magazine or illustrated book about Bombay cafés.
+- **Menu / mobile / copy**: Menus described narratively ("Bombay breakfast, lunch, afternoon chai, dinner and late tipples"). Copy is highly specific and literary: love letter to Bombay, Irani cafés, historical details (B. Merwan 1914, Geddes, prohibition/Permit Room), place names, chef stories. Not generic marketing. Mobile keeps Book accessible and stacks content cleanly. "All Welcome" repeated as ethos.
+
+### Patterns useful for anti-IA webs
+
+1. **Warm cream canvas + consistent serif (Cheltenham)** — literary, book-like typography on beige instead of white + geometric sans. Feels human and place-bound, not SaaS template.
+2. **Sharp-corner filled buttons (radius 0) + occasional pill** — dark fill on cream, high contrast, no rounded "friendly" AI default. Quiet confidence.
+3. **Captioned photography as storytelling** — "ABOVE: [specific real thing]" labels turn images into narrative evidence rather than generic food porn or stock.
+4. **Narrative density + practical CTAs** — long specific Bombay history/ethos copy coexists with clear Menu / Book / Locations paths. Avoids both empty hero slogans and pure utility.
+5. **Location-as-story** — each café has a founding myth tied to Bombay history; list shows real hours/address/phone immediately. Multi-location without looking like a chain portal.
+6. **Literary voice and specific references** — "From Bombay with Love", Irani cafés, Vada Pau, Permit Room — language that could not be generated from a generic prompt without deep knowledge.
+
+Honesto: sitio con voz fuerte y coherente. El fondo crema + serif lo hace sentir impreso y humano. La fotografía es documental (cafés reales, platos, historia) no glamourizada. Ideal referencia para casual-premium multi-location que no caiga en el cliché AI de rounded buttons + white space + stock food.
+
+---
+
+*Previous placeholder noted Canlis entry; Cutler was the first full observation; Dishoom is the second.*
