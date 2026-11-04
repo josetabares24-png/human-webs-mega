@@ -53,4 +53,30 @@ Honesto: sitio con voz fuerte y coherente. El fondo crema + serif lo hace sentir
 
 ---
 
-*Previous placeholder noted Canlis entry; Cutler was the first full observation; Dishoom is the second.*
+## Canlis (canlis.com) — premium independent, family-owned fine dining, Seattle (since 1950)
+
+Investigated live site (desktop and mobile viewport) 4 November 2026. Custom site, quiet editorial with large display type.
+
+### What was seen
+
+- **Structure & CTAs**: Home is narrative sections: invitation text, space history (Roland Terry 1950, views of Lake Union/Cascades), press mentions (#2 Restaurant in America), chef notes. Primary CTA "RESERVE" in nav (uppercase text) and large "Book a table" / "Make a reservation" further down. Address, phone, Instagram in footer/areas. No giant hero slogan; story of hospitality and the building leads. Mobile stacks the same content; RESERVE remains prominent in header. Menu is text with course choices.
+- **Typography**: Body: GTSectraBook (serif-like), ~13px, weight 400, color rgb(39,35,32). Large headings and display: GTSectraDisplayLight / LightItalic (serif), up to 112px on menu page or ~52px for "Book a table". Nav labels like RESERVE: HelveticaNeue-Medium, ~12px, uppercase, no fill. Strong use of display serif for emphasis, body for reading. Not geometric sans everywhere.
+- **Buttons**: Almost none filled. RESERVE is transparent, no border or minimal, uppercase text. Large CTAs are pure typography (italic display serif). Border-radius 0 or small (5px on one). High contrast via type weight and size rather than fill.
+- **Colors**: Cream/beige background rgb(239, 240, 235). Dark brownish text rgb(39, 35, 32). No bright accents, gradients, or secondary colors. Palette is essentially warm off-white + ink. Color comes from photography of the room, food, exterior at night.
+- **Spacing / borders / shadows / photography**: Generous but not empty. Photos rectangular, border-radius 0, no box-shadow on images. Real documentary shots: tableside Canlis Salad preparation, exterior with Lebanese Cedar, dining room with servers, plated dishes. Minimal decoration; some subtle shadows elsewhere but not on photos. Feels architectural and atmospheric.
+- **Menu / mobile / copy**: Menu is descriptive courses (Sablefish with matsutake, etc.), text-first. Copy is specific and human: "The opportunity to meet and serve you is one we don’t take lightly, not for the past 75 years at least." Family ownership since 1950, building designers named, service ethos, dietary notes with honesty about alliums. Not generic luxury marketing. Mobile keeps reserve and contact accessible.
+
+### Patterns useful for anti-IA webs
+
+1. **Cream canvas + display serif (GTSectra)** — large italic/light serif for CTAs and headings on warm beige, body serif. Avoids the white + Inter/Sans AI default; feels printed and intentional.
+2. **Typography as primary CTA** — uppercase small nav text + oversized display type for "Book a table". No filled rounded buttons. Confidence through scale and typeface choice.
+3. **Documentary photography of real service and space** — tableside preparation, night exterior, dining room with people. Rectangular, unshadowed, specific alts. Atmosphere from actual place, not stock food close-ups.
+4. **Quiet information architecture** — hospitality narrative first, then practical reserve/address/phone. No card grids or icon features. Menu text-based with choices.
+5. **Specific historical and operational voice** — 75 years, named architects, "our favorite thing is taking care of others", honest dietary policy. Language tied to the real institution.
+6. **Minimal palette, color from photos** — cream + dark brown text. Photography of the iconic building and service carries the luxury feel without decorative UI elements.
+
+Honesto: sitio muy quieto y seguro de sí mismo. El tipo display grande en serif sobre crema lo hace sentir como un libro o invitación impresa más que una web template. La fotografía es del lugar real y del servicio (ensalada tableside), no glamour de platos aislados. Ideal referencia para fine dining premium que no caiga en el cliché AI de botones redondeados filled + white space excesivo + fotos stock.
+
+---
+
+*Previous placeholder noted Canlis entry; Cutler was the first full observation; Dishoom is the second; Canlis is the third.*
