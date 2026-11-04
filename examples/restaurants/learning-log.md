@@ -57,3 +57,31 @@ Estos patrones se pueden reutilizar en sitios independientes o premium que quier
 6. **Copy anclado a hechos locales y temporales** (año de apertura 2009, antigua metal works factory, horarios exactos, “neighbourhood and city”). Rompe el tono abstracto y eterno típico de generación automática.
 
 Estos patrones (serif cuerpo + text-link CTAs + blanco limpio + fotos de lugar) funcionan especialmente bien para restaurantes premium o independientes que quieren sentir manufactura humana y editorial en lugar de “landing generada”.
+
+---
+
+## mazeltov.hu (Mazel Tov, Budapest) — independiente casual-premium
+
+**Fecha de observación:** 2026-11-04  
+**URL:** https://mazeltov.hu/en/  
+**Tipo:** Independiente casual-premium (New Jewish Kitchen / Mediterranean en jardín urbano del barrio judío de Pest, abierto desde 2014).
+
+### Lo que vi (honesto)
+
+- **Estructura y CTAs:** Hero con foto del jardín/interior (luces, plantas, gente) y texto superpuesto. Secciones claras: House, Kitchen, Bar, Events, Book, Contact. CTAs principales “RESERVE A TABLE” (filled) repetidos, y “MENU”, “DRINKS”, etc. como botones ligeros. Navegación simple. Copy centrado en el jardín urbano, la comunidad y la cocina.
+- **Tipografía:** Títulos grandes en **Old Standard TT, serif** a 42px / 400 (H1 “Budapest's iconic city garden”, “House”, “Kitchen”…). Subtítulos H3 también en la misma serif a 24px. Cuerpo en **Oswald, sans-serif** light (300) a 18–20px, line-height generoso. Contraste serif display clásico + sans condensada ligera. Texto sobre hero en blanco.
+- **Botones:** “RESERVE A TABLE” es **filled** con fondo dorado/oliva `rgb(199, 185, 97)`, border-radius 4px (ligeramente redondeado, no pill), padding 12px 24px, texto uppercase con letter-spacing. “MENU” similar pero fondo blanco semi-transparente. No outline puro ni text-link; estilo de botón contenido y material.
+- **Colores:** Fondo principal crema cálido `rgb(251, 247, 237)`. Acento dorado/oliva `rgb(199, 185, 97)` en títulos y botones. Algunos títulos en azul suave `rgb(107, 125, 181)`. Texto negro o blanco según fondo. Paleta cálida y apagada, inspirada en el jardín y la luz.
+- **Espaciado, bordes, sombras, fotografía:** Fotografía real de alta resolución del jardín cubierto (luces de cuerda, plantas, mesas, gente real comiendo), interiores y detalles. Sin sombras pesadas visibles en cards. Bordes mínimos. Aire generoso. Las fotos documentan el lugar específico (Akácfa Street, Jewish Quarter).
+- **Menú, móvil y copy:** Menú accesible vía CTA. Copy concreto y local: “Since 2014”, “old Pest Jewish Quarter”, “A garden area bathed in light during the day”, platos específicos (shakshuka, falafel, hummus), eventos reales (“BBQ Thursdays - every week!”, Guest Chef). Tono de comunidad y oasis urbano, no marketing genérico. En móvil el tipo se adapta manteniendo la serif display.
+
+### Patrones concretos útiles para webs anti-IA
+
+1. **Serif clásico (Old Standard TT) en títulos grandes** a 42px / 400, combinado con sans light (Oswald 300) en cuerpo. Da carácter editorial de carta o revista de barrio, no de template SaaS.
+2. **Botones filled con color acento apagado** (dorado/oliva) y radio bajo (4px), no pills ultra-redondeados ni outline genérico. Se sienten de material (papel, metal, jardín) en lugar de UI kit.
+3. **Paleta crema cálida + acento dorado-oliva**, con fotos reales del lugar aportando el color vivo. Evita negro puro/blanco puro o acentos saturados de marca digital.
+4. **Fotografía de lugar específico y vivo** (jardín con luces y plantas, gente real, no stock de plato aislado). Las imágenes anclan el sitio a un espacio concreto.
+5. **Copy anclado a hechos y lugar** (“Since 2014”, Jewish Quarter, platos concretos, eventos semanales). Rompe el tono abstracto y eterno de generación automática.
+6. **Estructura por secciones temáticas** (House / Kitchen / Bar / Events) con títulos serif grandes, priorizando atmósfera y comunidad antes que solo menú o reserva.
+
+Estos patrones (serif display + filled material + crema cálida + fotos de jardín real) funcionan bien para restaurantes independientes casuales o de barrio que quieren sentir lugar y hospitalidad humana, alejándose del look generativo estándar.
