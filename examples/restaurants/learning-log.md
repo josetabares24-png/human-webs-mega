@@ -113,3 +113,31 @@ Estos patrones (serif display + filled material + crema cálida + fotos de jard�
 6. **Paleta casi blanca + negro**, con acentos de color solo en los CTAs de conversión. Las fotos aportan la atmósfera y el color real.
 
 Estos patrones (serif cuerpo + un filled funcional + fotos de proceso/origen + copy factual con limitaciones) funcionan especialmente bien para restaurantes premium que quieren transmitir rigor, estacionalidad y hospitalidad real en lugar de un look generativo pulido y genérico.
+
+---
+
+## federalistpig.com (Federalist Pig, Washington DC) — independiente casual BBQ
+
+**Fecha de observación:** 2026-11-04  
+**URL:** https://www.federalistpig.com/  
+**Tipo:** Independiente casual (craft American barbecue en Adams Morgan, Washington DC; pitmaster Rob Sonderman, Michelin Bib Gourmand, parte del grupo Catalogue).
+
+### Lo que vi (honesto)
+
+- **Estructura y CTAs:** Homepage con fondo amarillo dorado constante y carousel de slides promocionales (Event Catering, The Fed Dip, Fedsgiving, Join the Club, Happy Hour, Lunch Combos). Navegación simple: Fedsgiving, Menus, Rewards, Catering, Location, Order Online. CTAs principales “ORDER NOW”, “VIEW MENU”, “LEARN MORE”, “EXPLORE EVENT CATERING” como botones o enlaces sobre las slides. No hay hero full-bleed con foto estática; es un carrusel de promos con texto y llamadas a la acción. Sitio en BentoBox.
+- **Tipografía:** Cuerpo en **Maxx Medium** (sans custom) a 16px / 300, line-height 24px. Títulos y H2 de secciones en **Fed Pig Sans** a 32px / 400. En el menú, cabeceras de categorías (“BARBEQUE”, “PLATTERS AND COMBOS”) en **Fed Pig Smoke Outline** a 24px. Navegación y CTAs en Fed Pig Sans uppercase con letter-spacing. Contraste de fuentes custom de marca, no Google Fonts genéricas.
+- **Botones:** “Order Online” y CTAs similares son **outline** con borde 2px sólido negro, fondo transparente, border-radius 0, padding ~6px 13px, texto uppercase, letter-spacing 1px, Fed Pig Sans ~13px. Estilo cuadrado, negro sobre amarillo o blanco sobre fondos oscuros de slide. No pills ni filled de acento brillante.
+- **Colores:** Fondo principal y constante `rgb(255, 215, 0)` (amarillo dorado / gold). Texto negro `rgb(0, 0, 0)` o blanco según slide. Overlays oscuros semitransparentes en algunas áreas. Paleta muy limitada y de marca: amarillo + negro + blanco. El color vive en el fondo, no solo en acentos.
+- **Espaciado, bordes, sombras, fotografía:** Carousel de imágenes de producto y promos (sandwiches, catering, etc.). Bordes rectos (radius 0). Sin sombras pesadas visibles. Aire moderado. Fotografía de comida real del menú (platos, dips, combos) más que de interiores genéricos. El amarillo de fondo da una energía de shack/BBQ informal.
+- **Menú, móvil y copy:** Menú en página propia con categorías outline y descripciones concretas (brisket chopped or sliced, pork rib tips, jalapeño cheese sausage, etc.). Enlace a Toast para ordenar. Copy divertido y específico: “1.8 million years ago, humans first began cooking meat with fire…”, “faux que” vegetarian offerings, Fedsgiving Feast con fechas exactas (order by Nov 20 for Nov 24/25), Happy Hour con precios ($3 drafts, $15 pitchers), “Que for the people”. Tono de BBQ shack con personalidad, no marketing corporativo genérico. En móvil la nav colapsa y el carrusel se mantiene.
+
+### Patrones concretos útiles para webs anti-IA
+
+1. **Fuentes custom de marca** (Fed Pig Sans, Maxx Medium, Fed Pig Smoke Outline) en lugar de Inter, Roboto o system-sans. Dan identidad propia de local de BBQ, no de template.
+2. **Fondo amarillo dorado constante** `rgb(255, 215, 0)` en toda la web. Rompe el blanco/crema/negro neutro típico y ancla el sitio a una energía visual concreta y memorable.
+3. **CTAs outline negros cuadrados** (radio 0, borde 2px, uppercase + tracking) en lugar de pills filled. Se sienten de señalética o menú impreso, no de UI kit digital.
+4. **Copy con personalidad y hechos concretos** (fechas de Fedsgiving, precios de happy hour, “1.8 million years ago…”, “faux que”). Evita el tono eterno y optimizado; suena a gente real que fuma carne.
+5. **Carrusel de promos específicas** (The Fed Dip, Lunch Combos, Event Catering) en lugar de un solo hero genérico de “plato bonito”. Las imágenes y textos rotan con ofertas reales.
+6. **Cabeceras de menú en fuente outline** (Smoke Outline). Detalle tipográfico deliberado que diferencia categorías y evita el look de lista plana generada.
+
+Estos patrones (amarillo de marca + fuentes custom + outline negros + copy con fecha y precio real) funcionan especialmente bien para restaurantes casuales independientes o de barrio que quieren sentir shack, personalidad y hospitalidad directa en lugar de un look generativo pulido y neutro.
