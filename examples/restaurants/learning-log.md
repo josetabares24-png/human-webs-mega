@@ -58,4 +58,30 @@ Honesto: sitio deliberadamente anticuado y seguro. El texto diminuto y las fuent
 
 ---
 
-*Previous entries: Cutler, Dishoom, Canlis, Padella, St. JOHN, Eleven Madison Park, Noma. The French Laundry is the eighth.*
+## Atelier Crenn (ateliercrenn.com) — premium independent, three-Michelin-star poetic fine dining, San Francisco (Dominique Crenn)
+
+Investigated live site (desktop + mobile viewport) 5 November 2026. BentoBox platform. Dark slate, moody editorial. Currently featuring an ASKA collaboration banner.
+
+### What was seen
+
+- **Structure & CTAs**: Dark homepage with hero image carousel (6 slides). Top nav text-only (Information with sub-menu: Our Menu, FAQ, Continuum Series, Dietary Restrictions, Private Dining & Events, Crenn Collection, Gift Cards, Careers; Reservations). Prominent banner for ASKA collaboration (“Join us November 17 for an exclusive collaboration. RESERVE YOUR TABLE”). Primary reservation link goes to OpenTable. Footer has social, Bar Crenn, Bleu Belle Farm, email signup. No giant empty hero slogan; content is chef bio + gallery. Mobile uses toggle navigation.
+- **Typography**: Headings: Julius Sans One (display geometric sans), 36–54px, weight 700, light gray rgb(190,197,200). Body and most UI: Halant (serif), ~18px weight 400, same light gray. Nav uppercase. Literary/poetic feel from the serif body against the display headings.
+- **Buttons**: Mostly plain text links (Reservations, nav) with border-radius 0, no fill, no shadow. One filled “Reserve Your Table” button: bg rgb(110,117,120), white text, border-radius 4px, padding 6px 16px, Julius Sans One ~14.4px weight 700, uppercase. Social icons are circular. Very little button chrome.
+- **Colors**: Dark slate background rgb(74,83,87). Text light gray/off-white. Mid-gray accents rgb(110,117,120) on buttons and icons. No warm cream, no bright brand colors, no gradients. Color lives in the photography.
+- **Spacing / borders / shadows / photography**: Clean spacing. Images rectangular, border-radius 0, no box-shadow. Gallery of restaurant/food/atmosphere shots. Feels dark, moody, editorial rather than bright lifestyle.
+- **Menu / mobile / copy**: Menu page (our-menu) has no itemized list or prices — instead a long narrative: “Dining at Atelier Crenn is a singular experience of creativity, discovery, and connection… Born and raised in France, Crenn spent many summers in Brittany… After more than thirty years in California… Bleu Belle Farm in Sonoma… farmers, fishermen, ranchers…” Specific, poetic, place- and memory-bound. Mobile has toggle nav; design is dark and readable but desktop-oriented. AudioEye accessibility overlay present.
+
+### Patterns useful for anti-IA webs
+
+1. **Dark slate canvas + mixed display sans (Julius Sans One) + literary serif body (Halant)** — moody, almost nocturnal editorial feel instead of white + Inter or cream + soft rounded type.
+2. **Mostly text links + one modest filled button (radius 4px, mid-gray)** — restraint over big rounded filled CTAs. Confidence in the name and the OpenTable link.
+3. **Poetic, highly specific chef narrative as menu and homepage content** — Brittany summers, 30+ years in California, Bleu Belle Farm, named collaborators, memory/place language. Not generic “culinary journey” copy; requires real biography.
+4. **Rectangular unshadowed gallery photography on dark ground** — atmosphere from the real room and plates, not floating stock food on white.
+5. **Minimal mid-gray accents only** — dark bg + light text + one gray button. Luxury from type contrast and restraint, not color pops or shadows.
+6. **Honest institutional/poetic voice** — exact Michelin milestones, personal geography, farm name, no filler hospitality language.
+
+Honesto: sitio oscuro, quieto y muy seguro de su voz poética. El combo Julius Sans One + Halant sobre slate lo aleja completamente de los templates AI claros con botones pill grandes. La copy del menú es biografía concreta, no marketing genérico. Buena referencia para premium independiente que quiera sentirse editorial y personal en lugar de “generado en 2024”.
+
+---
+
+*Previous entries: Cutler, Dishoom, Canlis, Padella, St. JOHN, Eleven Madison Park, Noma, The French Laundry. Atelier Crenn is the ninth.*
