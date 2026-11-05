@@ -110,4 +110,30 @@ Honesto: sitio casi arcaico y deliberadamente anti-visual. El monospace Prestige
 
 ---
 
-*Previous entries: Cutler, Dishoom, Canlis, Padella, St. JOHN, Eleven Madison Park, Noma, The French Laundry, Atelier Crenn. Septime is the tenth.*
+## Asador Etxebarri (asadoretxebarri.com) — premium independent, wood-fire grill / asador, Axpe Bizkaia (Bittor Arginzoniz) — World's 50 Best #1 2026
+
+Investigated live site (desktop + mobile viewport) 5 November 2026. Webflow. Extremely operational, quiet, almost no marketing. Warm cream canvas, thin display type, sharp black buttons. Homepage is pure booking mechanics and rules. No food photography, no chef story, no “experience” language.
+
+### What was seen
+
+- **Structure & CTAs**: Top nav text links (Reservations, Where to find us, Contact) + language switcher (Español / Euskera / English). Homepage opens with “How it works” (small) then large thin heading “Booking requests”. Content is sequential operational blocks: progressive calendar opening, request process, volume disclaimer, then icon+text cards for Price 300€ (tax incl., drinks extra, full prepayment), Meat and fish (no veg/vegan, tasting or à la carte full table), Guests (min 2 max 6, children from 12, no pets except guide dogs), Lunch service (12:30/13:00 only, closed Mon/Tue, closed 24 Dec–10 Jan and all August). Primary CTA “Submit Booking Request” (filled black). Then location with map image, FAQs accordion, contact form. Footer copyright 2021 + legal. Mobile (375px) keeps same structure, h1 scales to ~50px, CTAs remain.
+- **Typography**: Body and most UI: Untitled Sans, 14–17px weight 400, color dark gray or muted. Small section labels (How it works, Where to find us): Untitled Sans 15px, color taupe/beige rgb(183,162,144). Large display headings (“Booking requests”, “Location”): Canela (display), 67px desktop / 50px mobile, weight 100 (extremely thin), color near-black rgb(21,21,19). Nav ~16–17px. High contrast but restrained; thin display creates elegance without weight.
+- **Buttons**: Mostly plain text links (radius 0, no fill, no shadow). Main CTA “Submit Booking Request”: filled bg rgb(21,21,19), white text, border-radius 0, padding 8px 48px, border 1px solid same color, font 15px weight 400, no shadow. Sharp rectangular. Secondary text links. High contrast, zero pill or outline styles.
+- **Colors**: Warm cream/off-white background rgb(250,248,243). Near-black text rgb(21,21,19). Taupe accent rgb(183,162,144) for small labels. White on black for the filled button. No bright colors, no gradients. Extremely quiet palette; color almost only from the map and simple line icons.
+- **Spacing / borders / shadows / photography**: Clean operational spacing. Icons are simple line drawings (meat, people, clock). Map image is rectangular, radius 0, no shadow. Almost zero photography: logo, icons, one map. No food, no interior, no people, no fire/grill shots on the homepage. Borders and shadows absent. Atmosphere comes from the rules and the place name, not images.
+- **Menu / mobile / copy**: No menu page or dishes listed (request-only, tasting or full-table à la carte). Copy is purely factual and restrictive: exact price 300€, “We do not have vegetarian and/or vegan menu”, min/max guests, lunch only, specific closed periods, request process (confirmation within 7 days or waitlist, prepayment, cancel ≥5 days or no refund, no-show no refund). Language is direct, Spanish/English operational, zero hospitality fluff. Mobile stacks cleanly and remains readable.
+
+### Patterns useful for anti-IA webs
+
+1. **Warm cream canvas + extremely thin display type (Canela weight 100 at 67px) + Untitled Sans body** — quiet elegance from thin letterforms on beige instead of bold geometric sans or rounded soft type. Anti-AI default of heavy weights and Inter.
+2. **Sharp rectangular black filled button (radius 0, generous horizontal padding) + mostly text links** — no pills, no shadows, no outlines. Confidence through restraint and the operational CTA.
+3. **Pure operational density as homepage content** — exact price, dietary restrictions, guest limits, service hours, closed dates, request/prepayment/cancellation rules. Requires real policy knowledge; not generatable as generic “book your table” marketing.
+4. **Almost zero photography + simple line icons + map** — no food porn, no lifestyle shots. Atmosphere and desire come from the reputation and the specific rules, not images.
+5. **Taupe accent only on small labels + cream/black core** — minimal palette. Luxury signal from type thinness, restraint, and specificity rather than color or decoration.
+6. **Honest, restrictive, place-bound voice** — “We do not have vegetarian…”, exact closed periods, 7-day response window, prepayment, 5-day cancel rule. Transparency about limitations and process instead of aspirational copy.
+
+Honesto: sitio deliberadamente quieto y operativo. El tipo Canela ultra-fino (weight 100) sobre crema rgb(250,248,243) lo hace sentir como un documento institucional o un formulario de reserva más que una web de restaurante. Casi no hay fotos (logo, iconos, mapa). El contenido es puro reglamento: 300€, sin vegano, máximo 6, solo comida, cerrado agosto, prepayment, etc. Excelente referencia anti-IA para premium que quiere parecer seguro de su posición (#1 World's 50 Best) y no necesita venderse con fotos de platos ni copy de “experiencia única a la brasa”.
+
+---
+
+*Previous entries: Cutler, Dishoom, Canlis, Padella, St. JOHN, Eleven Madison Park, Noma, The French Laundry, Atelier Crenn, Septime. Asador Etxebarri is the eleventh.*
