@@ -105,4 +105,30 @@ Honesto: sitio muy funcional y centrado en el menú. La fecha del día y los pre
 
 ---
 
-*Previous entries: Cutler (first full), Dishoom (second), Canlis (third). Padella is the fourth.*
+## St. JOHN (stjohnrestaurant.com) — independent nose-to-tail British group, London (Smithfield, Bread & Wine, Marylebone, Neal’s Yard) + bakery & wines
+
+Investigated live site (desktop, content-focused) 5 November 2026. Quiet, text-dominant narrative site. Minimal visual chrome; the writing carries the weight.
+
+### What was seen
+
+- **Structure & CTAs**: Home is short, direct paragraphs: “St. JOHN began quietly, cooking what we enjoyed for those who enjoyed what we do.” Sections for Restaurants, Bakeries, About, Wines, Shop. Each ends with plain “Learn More” text links. No giant hero image or slogan. Locations listed with addresses. Reservations via phone/email on contact page; no flashy booking widget dominant. Mobile would stack the text cleanly.
+- **Typography**: Text-heavy, readable. Headings like # Restaurants or #### Smithfield. Body is plain, narrative. No heavy display type or condensed tracking visible in content extraction; hierarchy comes from heading levels and spacing. Feels like a well-set document or book page.
+- **Buttons**: Almost none. CTAs are plain text links (“Learn More”). No filled rounded buttons, no gradients. Action is in the copy and the specific contact details.
+- **Colors**: Light/white background implied by clean text extraction. Dark text. No accent colors or decorative palette described; atmosphere comes from the words and any photography of the white-walled rooms, smokehouse building, or dishes.
+- **Spacing / borders / shadows / photography**: Generous paragraph spacing. No card grids, borders, or shadows mentioned. Photography is documentary of the real places (white interiors, bakery counters, bone marrow) rather than styled product shots. Site prioritizes words over imagery density.
+- **Menu / mobile / copy**: Menus are daily, written twice a day, not published as static lists (explicit: “In the kitchen, as ever, the menu is written twice a day, every day.”). Copy is highly specific and anti-generic: founded 1994 in derelict Georgian smokehouse by Smithfield Market, nose-to-tail, Fergus Henderson and Trevor Gulliver, no grand plan, Michelin star kept quietly since 2009, specific locations with stories, bone marrow and parsley salad origin, bread baked daily, wines from small French growers. Language is dry, precise, slightly literary without ornament.
+
+### Patterns useful for anti-IA webs
+
+1. **Text as the primary interface** — short, specific narrative paragraphs instead of hero + cards + icons. The site reads like an honest introduction rather than a marketing template.
+2. **Plain text links over designed buttons** — “Learn More” and contact details do the work. Avoids the filled/rounded/shadow CTA default of AI generators.
+3. **Daily operational honesty in copy** — “menu is written twice a day, every day” and location-specific rhythms. Transparency that AI marketing copy rarely invents accurately.
+4. **Historical and place-bound specificity** — exact origin (smokehouse, 1994, squatters graffiti, named founders, Smithfield Market), no “culinary journey” filler. Requires real knowledge to write.
+5. **Multi-location without chain portal look** — each site has a short founding note and address; group identity is the ethos (nose-to-tail, quiet cooking) not uniform branding modules.
+6. **Minimal chrome, color from content** — white/light canvas, dark text, documentary photos of the actual white rooms and food. Feels pre-template, like a restaurant that trusts its reputation more than its UI.
+
+Honesto: sitio deliberadamente discreto. Casi no hay diseño decorativo; la voz seca y concreta (no hay plan, menú escrito dos veces al día, smokehouse, Fergus y Trevor) hace todo el trabajo. Ideal referencia para independiente con historia real que no necesita el cliché AI de botones grandes, fotos stock de platos y copy de “bienvenidos a nuestra experiencia gastronómica”.
+
+---
+
+*Previous entries: Cutler (first full), Dishoom (second), Canlis (third), Padella (fourth). St. JOHN is the fifth.*
