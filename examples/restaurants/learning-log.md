@@ -131,4 +131,30 @@ Honesto: sitio deliberadamente discreto. Casi no hay diseño decorativo; la voz 
 
 ---
 
-*Previous entries: Cutler (first full), Dishoom (second), Canlis (third), Padella (fourth). St. JOHN is the fifth.*
+## Eleven Madison Park (elevenmadisonpark.com) — premium independent fine dining, New York City (Chef Daniel Humm)
+
+Investigated live site (desktop and mobile viewport) November 2026. Squarespace.
+
+### What was seen
+
+- **Structure & CTAs**: Homepage opens with a popup/announcement for “The Studio at Clemente Bar” (omakase counter). About page leads with narrative (“Welcome to Eleven Madison Park”), location over Madison Square Park, Magic Farms partnership, tasting-menu details, hours, then “Book on Resy”. Nav is text links (Reservations, About, Events, Stories, Shop). No giant empty hero slogan. Mobile: hamburger, content stacks, Book remains visible. Explicit note: menus not published online because hyper-seasonal.
+- **Typography**: Headings: Nobel (light, weight 300), ~36px. Body: EB Garamond (serif), ~19px, weight 400, black. Nav: Nobel light ~17px. Strong serif body + light display sans distinction. Not geometric sans everywhere.
+- **Buttons**: Primary “Book on Resy” is filled coral/red-orange (rgb(252, 72, 55)), white text, Nobel bold ~18px, border-radius ~6px, modest padding, no heavy shadow. Other actions are text links (“View Cocktail List”, “View Wine List”). High contrast on the accent.
+- **Colors**: White background, black text. Single strong accent: the coral red button. No gradients. Color otherwise comes from photography (dining room, farms, dishes, wine pours).
+- **Spacing / borders / shadows / photography**: Clean whitespace. Photos rectangular (border-radius 0, no box-shadow). Documentary: Magic Farms produce and visits, dining room with Chef Humm, guests at table, plated elements, exteriors. Feels atmospheric and place-specific rather than pure food-porn hero.
+- **Menu / mobile / copy**: No static menu (honest seasonal reason). Copy is specific and institutional: Art Deco building, Magic Farms exclusive produce, plant-based option + choice courses, tasting vs bar menu, walk-ins at bar, Resy policy (first of month for next month), cancellation note. Language is precise, not generic “culinary journey”. Mobile keeps practical info and Book accessible.
+
+### Patterns useful for anti-IA webs
+
+1. **Light display sans (Nobel) + classic serif body (EB Garamond)** — quiet elegant hierarchy. Avoids the uniform Inter/geometric sans + rounded-everything AI default; feels printed and intentional.
+2. **Single coral filled button with modest radius** — one clear accent color for the primary action (Book on Resy), sharp enough contrast, not the soft rounded purple/blue gradient buttons common in generators.
+3. **Honest operational transparency in copy** — “unable to share our food menus online” because hyper-seasonal, exact reservation window, plant-based + choice details, Magic Farms named. Specificity that requires real knowledge.
+4. **Photography of place, farm, and service over isolated plates** — rectangular unshadowed images of the actual dining room, chef with guests, farms, wine. Atmosphere from the real institution.
+5. **Narrative + practical density without card chrome** — story of location and farm leads, then hours, links, and one button. No icon grids or feature cards.
+6. **Minimal palette, color from photos + one accent** — white canvas, black text, single coral CTA. Luxury signal comes from type, photography, and restraint rather than decorative UI.
+
+Honesto: sitio quieto y seguro de su reputación. El tipo (Nobel light + Garamond) y la fotografía documental del lugar y de Magic Farms lo hacen sentir institucional y humano. El botón coral es el único acento fuerte; el resto es texto y fotos reales. Ideal referencia para fine dining premium que no caiga en el cliché AI de botones redondeados grandes, white space vacío y copy genérico de “experiencia única”.
+
+---
+
+*Previous entries: Cutler (first full), Dishoom (second), Canlis (third), Padella (fourth), St. JOHN (fifth). Eleven Madison Park is the sixth.*
