@@ -84,4 +84,30 @@ Honesto: sitio oscuro, quieto y muy seguro de su voz poética. El combo Julius S
 
 ---
 
-*Previous entries: Cutler, Dishoom, Canlis, Padella, St. JOHN, Eleven Madison Park, Noma, The French Laundry. Atelier Crenn is the ninth.*
+## Septime (septime-charonne.fr) — premium-casual independent, modern bistro / neo-bistro, Paris 11 (Bertrand Grébaut)
+
+Investigated live site (desktop + mobile viewport) 5 November 2026. Custom fullpage.js site. Extremely minimal, typewriter-driven, almost no photography. White background, black text, Prestige monospace font throughout. Homepage is logo + fullpage sections for menu, contacts, hours, vignerons.
+
+### What was seen
+
+- **Structure & CTAs**: Top news bar “SITE OFFICIEL - septime-charonne.fr”. Nav is plain text links (Menu d'automne, Contacts & réservation, Horaires d'ouverture, Les Vignerons, Boutique, Clamato, Septime La Cave, Tapisserie, press/jobs emails, Instagram). Primary CTA is “RÉSERVER” (text or black filled). Cover section is just the logo (SVG). Sections stack via fullpage scroll. Reservations note: open every day at 10h for the next 3 weeks (J+21). Mobile viewport (375px) keeps the same text structure and reserve buttons visible.
+- **Typography**: Entire site uses Prestige (typewriter/monospace), body ~14px weight 300, color black. Headings same family, some 22px weight 300. Nav links ~17px. No serif/sans mix; pure monospaced typewriter feel. Letter-spacing normal. Extremely consistent and analog.
+- **Buttons**: Mostly plain text links (radius 0, no bg, no border, no shadow). “RÉSERVER” appears as filled black bg rgb(0,0,0), white text, border-radius 0, padding ~8px 14px, no shadow. Sharp rectangular. High contrast, no rounded pills or outlines.
+- **Colors**: Pure white background, pure black text. No accents, no gradients, no warm tones on UI. Color is absent except in the logo and any external links. Extremely high contrast, institutional/typewriter palette.
+- **Spacing / borders / shadows / photography**: Tight, text-dense sections. Almost zero photography: only the logo image (radius 0, no shadow). No food, no interior, no people. Borders and shadows absent. Atmosphere comes from the type and the long list of producer names, not images.
+- **Menu / mobile / copy**: Menu is only tasting menus: “Menu carte blanche en 5 étapes 85” (lunch), “7 étapes 135” (dinner) + wine pairings. No itemized dishes. Hours: lundi—vendredi 12h15-14h et 19h30-23h, closed weekends. Copy is purely operational: address 80 rue de Charonne Paris 11, reservation window, gift card note, long wall of vigneron names (Ganevat, Pfifferling, Houillon, Belluard, etc.). Language is factual, French, specific, zero marketing fluff. Mobile readable as stacked text; fullpage may feel linear on phone.
+
+### Patterns useful for anti-IA webs
+
+1. **Typewriter monospace (Prestige) as the sole typeface on white** — analog, analog-printer feel instead of Inter/system-ui or soft serif. Immediately non-template, non-AI-default.
+2. **Sharp rectangular black filled buttons (radius 0) + mostly plain text links** — no pills, no shadows, no outlines. Confidence through restraint and monospaced type.
+3. **Almost zero photography + operational density** — logo only, content is hours, exact reservation rule (every day 10h for J+21), tasting menu prices, and a wall of real producer names. Atmosphere from specificity, not food porn.
+4. **Fullpage sections as structure** — logo cover, then menu/contacts/hours/vignerons. Feels like a printed sheet or old personal site, not a modern landing page with hero + cards.
+5. **Honest, place-and-process voice** — exact address, hours, reservation mechanics, named vignerons. No “culinary journey” or “unique experience” language; pure operational truth.
+6. **Pure black/white high-contrast monochrome** — no palette beyond type. Luxury/reputation signal from the typewriter font and the refusal to decorate.
+
+Honesto: sitio casi arcaico y deliberadamente anti-visual. El monospace Prestige sobre blanco lo hace sentir como una máquina de escribir o un sitio personal de 2005 más que una web de restaurante 2020s. Casi no hay fotos (solo logo). El contenido es puramente operativo: precios de menú degustación, regla exacta de reservas, lista interminable de vignerons reales. Excelente referencia anti-IA para premium-casual que quiere parecer humano, específico y no generado por template con fotos de stock y botones redondeados.
+
+---
+
+*Previous entries: Cutler, Dishoom, Canlis, Padella, St. JOHN, Eleven Madison Park, Noma, The French Laundry, Atelier Crenn. Septime is the tenth.*
