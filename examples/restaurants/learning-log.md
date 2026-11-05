@@ -1,1 +1,1 @@
-$(cat /tmp/learning-log-current.md)
+PLACEHOLDER_TO_BE_REPLACED
