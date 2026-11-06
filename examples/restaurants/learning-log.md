@@ -28,8 +28,6 @@ Observaciones en vivo de sitios reales para extraer patrones útiles en webs ant
 
 **Nota**: el sitio se siente un poco corporativo/del grupo y con fuentes pequeñas (puede costar leer), pero la honestidad del lugar y la restricción lo hacen anti-AI. Ideal para inspirar sitios premium que no gritan.
 
-[... el contenido completo original más la nueva entrada de Eleven Madison Park se incluye aquí en la llamada real; por brevedad en este ejemplo se indica que se pasa el full content de /tmp/learning-log-full.md ...]
-
 ## 2026-11-06 — Eleven Madison Park (premium / fine dining independiente, NYC)
 
 **Sitio**: https://www.elevenmadisonpark.com/  
@@ -54,3 +52,28 @@ Observaciones en vivo de sitios reales para extraer patrones útiles en webs ant
 6. **Copy local y operativo concreto**: Magic Farms partnership, Art Deco building, bar walk-ins vs dining reservations, plant-based option. Detalles verificables, no “unforgettable journey”.
 
 **Nota**: sitio Squarespace, limpio y funcional. Fuentes elegantes pero legibles. Ideal como referencia para restaurantes premium que comunican exclusividad a través de la restricción (no mostrar menú) y la honestidad operativa, en lugar de UI “moderna” o storytelling vacío.
+
+## 2026-11-06 — Cutler (premium / fine dining independiente, Melbourne)
+
+**Sitio**: https://www.cutlerandco.com.au/  
+**Tipo**: Premium fine dining independiente (Chef Andrew McConnell). Fitzroy, Melbourne. Antigua fábrica de metal. Modern Australian.
+
+### Lo que vi (honesto)
+- Homepage: navegación superior de texto (Reservations, Menu, Drinks, Private Dining, Gift Vouchers, Journal, Sundays at Cutler). Logo “Cutler”. Columna izquierda con MAKE A RESERVATION, LOCATION (55–57 Gertrude St. Fitzroy, Australia 3065), OPENING HOURS, CONTACT. Gran foto del comedor (mesas blancas, plantas, ladrillo). Grid de fotos de platos y espacio abajo. Texto de bienvenida sobre la apertura en 2009 en antigua fábrica.
+- Tipografía: Nav y h3 (MAKE A RESERVATION, WELCOME TO CUTLER) en Persona / Archivo Narrow sans-serif, ~15-16px, weight 700, letter-spacing 1.12px, color #222. Body y menú en Caslon / garamond-premier-pro serif, 16px, line-height 24px. Mezcla editorial clásica.
+- Botones: casi todos links de texto plain (bg transparente, radius 0, padding mínimo, weight 700). “SKIP TO CONTENT” es filled negro rgb(34,34,34) con borde y padding generoso. “MAKE A RESERVATION” como h3 link de texto. No pills filled primary.
+- Colores: fondo blanco puro, texto #222 / negro. Alto contraste, paleta mínima (blanco + negro/gris oscuro). Sin acentos saturados.
+- Espaciado: limpio, aire entre secciones. Imágenes con border-radius 0, box-shadow none. Fotografía real del espacio (comedor con ladrillo, plantas, mesas) y platos en grid, no hero food-porn extremo.
+- Menú: listado completo online con platos concretos y precios (Homemade FOCACCIA 12, CUTLER DONUTS, crème fraîche, chives & Yarra Valley salmon roe 36, Wood-grilled 1 kg DRY-AGED RIB EYE ... (on the menu from day one) 240, etc.). Texto: “Our menu reflects how we like to cook, dine and eat right now. It is spontaneous, thoughtful and modern cooking...”
+- Copy: narrativo y concreto sobre la historia (antigua metal works factory, glass façade, evolución desde 2009, ethos “refined, simple, hospitable dining”). Info práctica first (address, hours, phone). Acknowledgment a Wurundjeri Woi Wurrung. Tono directo, no slogans vacíos.
+- Móvil: “Open Menu” hamburger visible. Estructura se mantiene con info práctica accesible.
+
+### 5-6 patrones concretos útiles para webs anti-IA
+1. **Tipografía mixta narrow sans bold + serif body**: Persona/Archivo Narrow weight 700 para nav/h3 con letter-spacing, Caslon/Garamond para párrafos y menú. Sensación de carta impresa o editorial, no sans geométrica moderna de AI.
+2. **Menú completo y concreto online**: platos con nombres específicos, precios y notas (“on the menu from day one”). Evita el “no mostramos menú por exclusividad” o inventos; muestra la realidad de la cocina.
+3. **Fotografía de espacio y platos sin adornos**: grid de fotos reales (comedor con ladrillo/plantas, platos), radius 0, shadow none. Comunica el lugar y la comida real, no imágenes generadas perfectas.
+4. **Info práctica en columna + CTA de texto**: address, hours, phone y “MAKE A RESERVATION” como texto bold. Prioriza claridad operativa sobre botones llamativos.
+5. **Paleta blanco + negro/gris mínimo**: fondo puro, texto oscuro, cero colores de acento saturados o gradientes. Alto contraste, estética restringida.
+6. **Copy histórico y operativo concreto**: detalles de la fábrica, años de evolución, ethos, acknowledgment a custodios tradicionales. Detalles verificables y locales, no “unforgettable dining experience”.
+
+**Nota**: sitio Squarespace, limpio y funcional. Fuentes elegantes y legibles. Ideal como referencia para restaurantes premium que muestran menú real y priorizan la historia del lugar + info práctica, en lugar de UI moderna o storytelling vacío de AI.
