@@ -54,3 +54,29 @@ Observaciones en vivo de sitios reales para extraer patrones útiles en webs ant
 6. **Fotografía con captions de lugar y proceso + banner de cookies ingenioso**: imágenes reales de Bombay y platos, etiquetadas “ABOVE:”. El cookie consent es copy de marca (chai y biscuits), no el genérico “We value your privacy”.
 
 **Nota**: el sitio es de un grupo con varias sedes y tiene ecommerce (store, meal kits), así que no es ultra-minimal. Aun así, la voz, la tipografía serif y el fondo crema lo hacen claramente humano y anti-AI. Buen modelo para restaurantes casuales con personalidad fuerte.
+
+## 2026-11-06 — Cutler (premium / fine dining independiente, Melbourne)
+
+**Sitio**: https://www.cutlerandco.com.au/  
+**Tipo**: Premium fine dining independiente (Andrew McConnell / Trader House). Fitzroy, Melbourne. Antigua fábrica metalúrgica. Recientemente simplificó de degustación a à la carte más casual.
+
+### Lo que vi (honesto)
+- Homepage: sidebar izquierda con info práctica (Make a Reservation, Location 55–57 Gertrude St., Opening Hours, Contact) en labels uppercase, luego gran foto del comedor (mesas blancas, plantas grandes fiddle-leaf, ladrillo visto, luz natural). Abajo grid de fotos de platos y espacio. Texto de bienvenida narrativo.
+- Navegación superior: links de texto uppercase (Reservations, Menu, Drinks, Private Dining, Gift Vouchers, Journal, Sundays at Cutler). Sin botones filled. Logo “CUTLER” serif grande.
+- Tipografía mixta: Persona / Archivo Narrow (sans narrow, weight 700, ~15-16px, letter-spacing ~1.1px) para nav, h3 labels y secciones. Caslon / garamond-premier-pro (serif, 16px weight 400) para body y ítems de menú. Muy legible, editorial clásico.
+- Botones: casi inexistentes. Todo son links de texto. “SKIP TO CONTENT” es el único con fondo oscuro y padding generoso, pero es accesibilidad. CTAs principales son texto plano.
+- Colores: fondo blanco puro rgb(255,255,255), texto #222 / rgb(34,34,34). Alto contraste, cero saturación extra. Sin acentos de color fuerte.
+- Espaciado: generoso en vertical, secciones con aire. Imágenes con border-radius 0, box-shadow none. Fotografía real del espacio (comedor, plantas, brick) y platos servidos (no food-porn ultra-procesado).
+- Menú (/menu): HTML puro, secciones h2 uppercase (APPETISERS, SEASONAL SEAFOOD, ENTRÉES), platos en serif con precios al lado (Homemade FOCACCIA 12, CUTLER DONUTS… 36). Intro: “Our menu reflects how we like to cook, dine and eat right now. It is spontaneous, thoughtful and modern cooking…”
+- Copy: concreto y local. “Andrew McConnell opened Cutler & Co. in 2009 in a former metal works factory in Fitzroy, Melbourne’s first suburb. Behind a glass façade that has reflected the changes around it for over sixteen years… Our ethos – refined, simple, hospitable dining”. Menciona walk-in en bar vs reserva en dining room.
+- Móvil: hamburger “Open Menu”, estructura se mantiene, info práctica accesible. Viewport 375 ok.
+
+### 5-6 patrones concretos útiles para webs anti-IA
+1. **Info práctica en sidebar / primera pantalla**: location, hours y contact visibles sin scroll, junto a foto del lugar real. El CTA “Make a reservation” es texto, no botón.
+2. **Tipografía mixta serif cuerpo + sans narrow bold labels**: Caslon/Garamond para texto corrido y platos, Persona/Archivo Narrow uppercase bold para secciones y nav. Sensación de carta impresa o editorial, no de UI genérica.
+3. **Fotografía del espacio real y platos servidos, sin sombras ni radius**: grid de fotos del comedor (plantas, brick, mesas) y platos reales. Cero box-shadow, border-radius 0. Se siente fotografía de restaurante, no stock AI.
+4. **Menú HTML con precios visibles y nombres concretos**: no PDF. Platos como “Wood-grilled CORNER INLET CALAMARI, green harissa & fennel 38”. Intro honesta sobre cómo cocinan ahora.
+5. **Restricción total de botones filled y adornos**: nav y CTAs son links de texto plain. Blanco + negro, sin gradientes, sin pills, sin sombras. La restricción visual comunica premium y humano.
+6. **Copy local y evolutivo**: historia del edificio fábrica, ethos “refined, simple, hospitable”, y nota de que puedes walk-in al bar. Nada de slogans vacíos.
+
+**Nota**: el sitio es Squarespace, limpio y funcional. Fuentes un poco pequeñas en desktop pero legibles. Ideal como referencia para restaurantes premium que priorizan el lugar y la carta real sobre la “experiencia inmersiva” AI.
