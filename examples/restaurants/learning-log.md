@@ -103,3 +103,39 @@ Observaciones de sitios reales de restaurantes para extraer patrones útiles en 
 ---
 
 *Observado con navegador real el 6 de noviembre de 2026.*
+
+## 2026-11-06 — Dishoom (dishoom.com)
+
+**Tipo:** Casual-premium independiente (marca multi-café, Londres y UK). Bombay comfort food inspirado en los Irani cafés históricos.
+
+### Lo que vi (honesto)
+
+- **Hero / estructura:** Fondo crema cálido rgb(240, 236, 224). Copy poético inmediato: “Each Dishoom is a love letter to Bombay – its food and its culture, its many varied people, its rich history and its endless eccentricities.” Referencias concretas a lugares reales de Bombay (B. Merwan en Grant Road, 1914). Nav con Toggle Menu, Book, LISTEN IN. Secciones narrativas largas en vez de hero de plato gigante con CTA gritón.
+- **Tipografía:** 
+  - Principal: Cheltenham BT (serif) para cuerpo ~16px, color rgb(53, 56, 57), y muchos headings (18-21px).
+  - Sans: Gill Sans Nova para algunos CTAs y labels (14px bold, letter-spacing ~2.1px, uppercase-ish).
+  - Mezcla deliberada: serif narrativo dominante + sans con tracking fuerte para UI.
+- **Colores:** Crema rgb(240, 236, 224) como fondo principal. Texto oscuro rgb(53, 56, 57). Texto claro rgb(255, 253, 249) sobre secciones más oscuras o fotos. Sin neon, sin gradientes fuertes. Paleta papel/cálida contenida.
+- **Botones / CTAs:** 
+  - “Book a table”: a veces pill (border-radius 9999px), outline o texto, color claro, Gill Sans ~13px bold.
+  - “View menus” / “Book a table”: outline 2px solid, bg crema, color oscuro, radius 0px, Gill Sans ~15px bold.
+  - Muchos links de texto puro. No filled agresivos ni botones SaaS genéricos.
+- **Espaciado, bordes, sombras:** Aire generoso. Bordes finos (1-2px) en algunos botones. Casi cero box-shadow observadas. Fotografía con captions “ABOVE:” de lugares reales de Bombay y platos.
+- **Menú:** No lista con precios en homepage. Páginas narrativas “FOOD AND DRINK” con descripciones humanas y sensoriales (“pillowy Makhmali Paneer”, “House Black Daal”, “Bacon Naan Roll”, “velvety Akuri”). Menús por momento del día (breakfast, lunch, afternoon chai, dinner, late tipples).
+- **Copy:** Extremadamente específico y literario. Historia de los Irani cafés, Bombay 1914, “from Bombay with love”, nombres de platos con personalidad, “Chef-wallas”, compromiso “Meal for a Meal”. Tono cálido, invitador, con anclajes históricos concretos. No marketing genérico.
+- **Móvil:** Hamburger presente (“Toggle Menu”). CTAs principales (Book, View Menus) siguen accesibles. Diseño responsive que prioriza la narrativa.
+
+### Patrones concretos útiles para webs anti-IA
+
+1. **Fondo crema papel + serif narrativo dominante.** rgb(240, 236, 224) + Cheltenham BT. Se siente impreso y humano, no blanco digital puro + sans uniforme.
+2. **Mezcla tipográfica: serif para historia/cuerpo, sans con tracking fuerte para CTAs.** Gill Sans Nova uppercase con ~2.1px letter-spacing. Jerarquía por familia y tracking, no solo por tamaño o color.
+3. **Botones outline o text-only, radius variable (pill o 0px), nunca filled genérico.** “Book a table” como link estilizado. Evita el look de botón SaaS azul redondeado.
+4. **Copy literario con anclajes históricos y materiales concretos.** “B. Merwan on Grant Road dating from 1914”, “love letter to Bombay”, adjetivos sensoriales en platos. Historia específica > slogans.
+5. **Fotografía con captions “ABOVE:” y referencias a lugares reales.** Contexto de Bombay, ambiente y proceso, no solo platos aislados de estudio. Añade textura narrativa.
+6. **Estructura de “love letter” / secciones largas en vez de hero CTA-gritando.** El sitio invita a leer antes de reservar. Ideal para marcas con personalidad fuerte y historia.
+
+**Notas:** Sitio custom (aparenta Next.js/Sanity). Muy narrativo y cálido. Excelente referencia para casual-premium anti-IA: tipografía con carácter, paleta restringida, copy con voz propia, cero efectos de superficie innecesarios. Se siente escrito por alguien que conoce Bombay y los cafés Irani, no generado.
+
+---
+
+*Observado con navegador real el 6 de noviembre de 2026.*
