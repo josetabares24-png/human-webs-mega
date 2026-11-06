@@ -69,3 +69,37 @@ Observaciones de sitios reales de restaurantes para extraer patrones útiles en 
 ---
 
 *Observado con navegador real el 6 de noviembre de 2026.*
+
+## 2026-11-06 — Carbone New York (carbonenewyork.com)
+
+**Tipo:** Premium independiente (original en Greenwich Village, NYC, desde 2013; ahora con varias locations). Italian-American glamorous, homenaje a los red-sauce joints de mid-century.
+
+### Lo que vi (honesto)
+
+- **Hero / estructura:** Header oscuro navy rgb(10, 26, 41) con logo y nav. Fondo general crema cálido rgb(255, 249, 240). Título grande "CARBONE NYC" / "THE ORIGINAL" en uppercase. Secciones claras: chef, menú (tabs), story, design, news. CTA "RESERVE A TABLE" prominente.
+- **Tipografía:** 
+  - Headings: fuente custom (__headingFont, bold 700, uppercase, 32-38px).
+  - Cuerpo / nav: Hoefler (serif, ~16-18px, peso 400).
+  - Algunos p en sans-serif 15px con letter-spacing 0.5px.
+  - Contraste fuerte: display bold uppercase sobre dark o crema, cuerpo serif legible.
+- **Colores:** Navy profundo rgb(10, 26, 41) para header y texto. Crema rgb(255, 249, 240) para fondo y botones. Sin acentos neón o gradientes. Paleta contenida, casi editorial/vintage.
+- **Botones / CTAs:** Outline sutil: bg crema, border 1px navy, border-radius 2px (casi rectangular), padding 10px 16px, font 20px. No pill, no sombra. Links de texto. CTAs: RESERVE A TABLE, SUBSCRIBE, ORDER NOW (para merch?).
+- **Espaciado, bordes, sombras:** Aire generoso. Cero box-shadow en elementos principales (solo en cookie dialog). Bordes mínimos. Fotografía de dining room y ambiente real.
+- **Menú:** Tabs interactivos (Dinner, Lunch, Wine, etc.). No lista estática completa en first view; se siente como selección de experiencia.
+- **Copy:** Muy específico y narrativo. Historia de 2013, Rocco sign, neon, captains en tuxedos de Zac Posen, Julian Schnabel artworks, Mario Carbone de Queens, CIA, año en Italia, "anything-can-happen". Tono glamorous pero concreto, no genérico.
+- **Móvil:** Responsive; hamburger menu presente. Tipografía y estructura se adaptan. Observado principalmente desktop.
+
+### Patrones concretos útiles para webs anti-IA
+
+1. **Header dark navy + body cream cálido.** Contraste de superficie (oscuro arriba, papel abajo) sin ser full dark mode. Se siente institucional y táctil.
+2. **Headings bold uppercase custom + cuerpo serif Hoefler.** Jerarquía clara por peso y transformación, no por color. Evita sans genérico uniforme.
+3. **Botón outline casi rectangular (radius 2px), no pill ni filled.** Border fino navy sobre crema. Se siente impreso o clásico, no digital SaaS.
+4. **Copy narrativo con nombres propios, años y detalles materiales.** "Zac Posen tuxedos", "Julian Schnabel", "neon over the original Rocco sign", "anything-can-happen". Historia viva > slogans.
+5. **Fotografía de ambiente y dining room, no solo platos aislados.** Comunica el show y el lugar, no solo la comida.
+6. **Ausencia de sombras y cards.** El contenido fluye con aire; no hay elevación artificial. Ideal anti-template.
+
+**Notas:** Sitio con fuerte identidad de marca (Major Food Group). Glamorous pero con raíces concretas. Buena referencia para premium con personalidad y narrativa, no minimalismo frío.
+
+---
+
+*Observado con navegador real el 6 de noviembre de 2026.*
