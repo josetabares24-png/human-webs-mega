@@ -80,3 +80,28 @@ Observaciones en vivo de sitios reales para extraer patrones útiles en webs ant
 6. **Copy local y evolutivo**: historia del edificio fábrica, ethos “refined, simple, hospitable”, y nota de que puedes walk-in al bar. Nada de slogans vacíos.
 
 **Nota**: el sitio es Squarespace, limpio y funcional. Fuentes un poco pequeñas en desktop pero legibles. Ideal como referencia para restaurantes premium que priorizan el lugar y la carta real sobre la “experiencia inmersiva” AI.
+
+## 2026-11-06 — Franklin Barbecue (casual independiente legendario, Austin)
+
+**Sitio**: https://franklinbbq.com/  
+**Tipo**: Casual independiente (BBQ legendario). Una sede principal en East Austin + event space. Famoso por la fila y el brisket. Aaron & Stacy Franklin.
+
+### Lo que vi (honesto)
+- Homepage: hero con cita grande en naranja “SERVING THE BEST BARBECUE IN THE KNOWN UNIVERSE.” (Texas Monthly) sobre fondo oscuro/negro, luego texto sobre ingredientes premium (USDA Prime brisket, Duroc pigs, turkeys). Info de location (900 E 11th Street), hours (Tue-Sun 11AM-Sold Out, ~2-3pm, closed Mon), “Bring a chair!”. Nav superior simple con links de texto (About, Menu, Private Events, Sauces & Rubs, Ship, Visit Us). Botón “Order in Advance” visible. Cookie banner estándar.
+- Tipografía: “cheap-pine-sans” (display sans casual/western vibe) para h1 (~45px, weight 400, color naranja rgb(230,116,55)) y nav (~22px). Body Georgia serif (~22px, weight 400). Mezcla display + serif clásica. En secciones oscuras texto blanco.
+- Botones/CTAs: mayormente links de texto plain (radius 0, no fill). “Skip to Content” es filled naranja con radius 20px y padding generoso (accesibilidad). “Order in Advance” y “More info” como links. No pills filled primary dominantes.
+- Colores: fondo crema cálido rgb(239, 238, 222), texto oscuro rgb(78,75,78). Acento naranja fuerte rgb(230,116,55) para títulos/quote. Secciones negras y naranjas. Alto contraste, paleta cálida limitada (crema + naranja + negro).
+- Espaciado: generoso, aire entre secciones. Imágenes (bandejas de BBQ reales: brisket, ribs, sausage, sides en tray azul) con border-radius 0, box-shadow none. Fotografía de comida servida real, no ultra-styled food porn.
+- Menú (/menu): HTML puro, secciones (BBQ By the Pound, Sandwiches, Sides, Pies, Drinks). Precios claros ($42/lb Brisket, $21 Brisket Sandwich, sides $5 single, etc.). Notas concretas: “Whole brisket Available hot or chilled. Approximate weight 5 lbs.” “Beef Rib Available Friday, Saturday, & Sunday”. Horario y preorder mencionado.
+- Copy: origen personal y concreto. “Aaron’s interest in barbecue started with the backyard cookouts... opened up a small barbecue trailer on the side of an Austin, Texas interstate in 2009.” Premios reales (James Beard, etc.). Tono directo, Texano, sin marketing fluff. “Bring a chair! (or borrow one of our loaners.) Friendly dogs are allowed on the patio.”
+- Móvil: hamburger “Open Menu”, estructura se mantiene, CTAs y horas accesibles. Responsive estándar Squarespace.
+
+### 5-6 patrones concretos útiles para webs anti-IA
+1. **Paleta cálida limitada + acento naranja**: crema rgb(239,238,222) + naranja rgb(230,116,55) + negro. Sensación de cartón de BBQ, papel kraft o menú de roadside, no blanco SaaS ni gradientes neon.
+2. **Tipografía display casual + Georgia body**: cheap-pine-sans para quote/títulos grandes (personalidad Texana/western), Georgia serif para cuerpo. Evita Inter/system-ui genérico. Se siente carta impresa o flyer de local.
+3. **Fotografía de bandeja real servida, sin adornos**: close-ups de trays con brisket, ribs, bread, slaw, potato salad en mesa de madera. Radius 0, shadow none. Comunica abundancia y autenticidad sin AI perfect plates.
+4. **Menú HTML con precios por libra y notas operativas**: $42/lb, “Available Friday-Sunday”, “hot or chilled”, “approx 5 lbs”. Precios y limitaciones reales visibles. Contrasta con menús AI inventados o PDFs estáticos.
+5. **Copy de origen trailer + instrucciones prácticas honestas**: historia del trailer en la interstate 2009, “Bring a chair!”, horas hasta sold out, dogs ok. Tono directo y local, no “best BBQ experience ever”.
+6. **CTAs de texto + info práctica first**: location, hours y “Order in Advance” como links plain. Quote grande hace el emotional hook. Restricción de botones filled grandes.
+
+**Nota**: sitio Squarespace, funcional y con algo de ecommerce (sauces, shipping). No ultra-minimal como French Laundry, pero la paleta cálida, tipografía con carácter, fotos de trays reales y copy de la fila/trailer lo hacen claramente humano y anti-AI. Buen modelo para restaurantes casuales legendarios con personalidad fuerte y operativa clara.
