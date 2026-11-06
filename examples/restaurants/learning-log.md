@@ -130,3 +130,30 @@ Observaciones en vivo de sitios reales para extraer patrones útiles en webs ant
 6. **Restricción visual y enfoque shipping**: poco adorno, imágenes de producto real, CTAs directos a ordenar. El sitio existe para que pidas el pastrami a casa, no para impresionar con UI.
 
 **Nota**: sitio Magento/ecommerce heavy, orientado a shipping y catering más que a reservas de mesa. No es minimal editorial como Cutler o French Laundry, pero la paleta rojo-blanco, precios visibles, copy de 1888 y enfoque en el producto real (hand-carved pastrami) lo hacen claramente humano y anti-AI. Buen modelo para restaurantes casuales legendarios con negocio de takeout/shipping fuerte.
+
+## 2026-11-06 — Tartine Bakery (casual-premium craft bakery, San Francisco origin)
+
+**Sitio**: https://tartinebakery.com/  
+**Tipo**: Bakery / café craft independiente (grupo con sedes en Bay Area, LA y Korea). Origen SF 2002. Famoso por el pan country y morning buns. Chad Robertson & Elisabeth Pruiett.
+
+### Lo que vi (honesto)
+- Homepage: mensaje simple “a thoughtful expression of modern craft through good food and warm experiences.” + listado de locations por ciudad (Bay Area 4, LA 7, Korea 8). CTAs outline o texto: “JOIN TARTINE”, “ORDER NATIONWIDE”, “BUY A GIFT CARD”. Banner de pre-order holiday.
+- Páginas de sede (ej. The Bakery, 600 Guerrero St): info práctica first — dirección, teléfono (415) 487-2600, “OPEN DAILY: 7:30am – 6pm”, ORDER ONLINE, email. Luego “ABOUT THE BAKERY”: “Tradition. Made Modern. Since 2002. Each morning we open our doors to our neighbors with the fresh scent of croissants and newly baked morning buns.”
+- Tipografía: PitchSans custom en casi todo. Body ~16px weight 400, h1 ~34px weight 500, h2 24px weight 600 con letter-spacing ~1.12px. Consistente, sans con carácter (no Inter ni system-ui).
+- Botones: mayormente outline / transparent. Ej: “JOIN TARTINE” y “ORDER NATIONWIDE” con padding 16px 40px, border 1px solid, radius ~1px, weight 600, bg transparente. No filled primary dominante.
+- Colores: fondo blanco puro, texto negro / rgb(0,0,0) o rgb(35,31,32). Paleta mínima, alto contraste, sin acentos saturados.
+- Espaciado: line-height 24px, generoso. Imágenes con border-radius 0, box-shadow none.
+- Fotografía: proceso real (baguettes saliendo del horno, baker icing cake, filling tart shells), platos servidos (ham and cheese). No food-porn ultra-procesado.
+- Menú: PDF sample (“All attached PDF menus are sample menus. Visit our online ordering pages for daily offerings.”). Horarios claros por día.
+- Copy: origen muy concreto. About: “In 2002, Elisabeth Pruiett and Chad Robertson came into San Francisco for dinner from their home and small bakery in Point Reyes. On the corner of 18th and Guerrero they spotted a baker sitting outside. He was ready to retire, but didn’t want the neighborhood to lose a corner bakery. It felt like fate.” Tono de craft y vecindario, no slogans.
+- Móvil: estructura se mantiene, info práctica accesible (no simulé viewport exacto, pero layout limpio).
+
+### 5-6 patrones concretos útiles para webs anti-IA
+1. **Tipografía custom consistente (PitchSans)**: misma familia para body y headings, con pesos y tracking variados. Da personalidad de marca craft sin caer en Inter genérico o serif forzado.
+2. **Fotografía de proceso y oficio**: baguettes del horno, icing de tartas, manos trabajando. Comunica autenticidad y skill real mejor que platos perfectos generados.
+3. **Historia de origen específica y humana**: nombres (Elisabeth, Chad), año 2002, Point Reyes, esquina de 18th y Guerrero, el panadero que se jubilaba. Detalles verificables, no “our passion for quality”.
+4. **Info operativa prominente en sedes**: dirección, teléfono, horario exacto, nota de que los PDF son sample y el menú diario está en order online. Prioriza lo útil sobre el storytelling puro.
+5. **Botones outline sutiles con padding generoso**: border 1px, radius casi 0, padding 16px 40px. No pills filled ni CTAs gigantes. Se sienten invitaciones, no presión de conversión.
+6. **Paleta blanco + negro extrema + restricción**: cero sombras, cero radius en imágenes, poco ruido. La restricción visual deja que el craft y el copy hagan el trabajo.
+
+**Nota**: el sitio tiene shipping nationwide y gift cards, y menús en PDF (común en bakeries). No es ultra-editorial como algunos fine dining, pero la voz de craft, la tipografía propia, las fotos de proceso y la historia de la esquina de Guerrero lo hacen claramente humano y anti-AI. Excelente modelo para bakeries o restaurantes casuales con oficio fuerte.
