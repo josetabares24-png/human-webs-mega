@@ -183,3 +183,29 @@ Observaciones en vivo de sitios reales para extraer patrones útiles en webs ant
 
 **Nota**: el sitio se siente premium clásico y familiar, con fuentes elegantes y restricción visual fuerte. No ultra-minimal como French Laundry (tiene más fotos y secciones), pero la paleta crema, tipografía serif propia, fotos de proceso y copy de 1950 lo hacen claramente humano y anti-AI. Ideal para inspirar sitios de restaurantes premium independientes con historia.
 
+
+## 2026-11-06 — Padella (casual pasta independiente, Londres)
+
+**Sitio**: https://www.padella.co/  
+**Tipo**: Casual independiente (pasta fresca). Tres ubicaciones: Borough Market, Shoreditch, Soho. Famoso por colas y pasta hecha a mano. Hermano de Trullo.
+
+### Lo que vi (honesto)
+- Homepage: fondo negro puro, video timelapse en hero (cocina/pasta), luego “Scroll down”. Secciones de ubicaciones con fotos reales de los locales (Borough, Shoreditch, Soho). Menú diario completo visible en la misma página con fecha “FRIDAY 6TH NOVEMBER”, secciones ANTIPASTI / PASTA / PUDDING / ICE CREAM / APERITIVI, precios claros (£4 olives, £9.5 tagliarini chilli, £13.5 pici cacio e pepe, etc.). Nav superior simple: Vouchers, Careers + hamburger en móvil. Links a Trullo.
+- Tipografía: Oswald (condensed sans, weight 400-500) para nav, headings (~18-24px) y secciones. Body Roboto Condensed 16px. Todo sans condensada, limpia, un poco industrial/italiana casual. Blanco sobre negro.
+- Botones: casi inexistentes. Todo son links de texto plain (radius 0, bg transparent, padding mínimo). Hamburger “Toggle navigation”. No filled CTAs grandes ni pills. “Scroll down” es link simple.
+- Colores: fondo negro rgb(0,0,0), texto blanco rgb(255,255,255). Alto contraste extremo, paleta monocromática. Sin acentos de color. Fotos de locales aportan el color.
+- Espaciado: funcional, menú en columnas o bloques densos pero legibles. Imágenes de locales con border-radius 0, box-shadow none. Fotografía real de los restaurantes (interiores, fachadas), no food-porn close-up de platos en hero.
+- Menú: HTML vivo en homepage, con fecha del día, nombres concretos de platos y precios. No PDF. Incluye bebidas. Cambia según el día.
+- Copy: mínimo y operativo. Título “Italian Restaurant in Shoreditch, Borough Market & Soho”. Nombres de platos específicos (Nocellara olives, Le Ferre olive oil, Cobble Lane nduja, Westcombe ricotta). Emails de contacto por sede. Tono directo, sin storytelling largo ni slogans.
+- Móvil (viewport 375): hamburger “Toggle navigation”, menú completo sigue visible y legible justo después de las ubicaciones. Estructura se mantiene bien.
+
+### 5-6 patrones concretos útiles para webs anti-IA
+1. **Menú diario completo en homepage con fecha y precios**: “FRIDAY 6TH NOVEMBER” + ANTIPASTI/PASTA listados con £. El sitio es la carta viva. Evita el PDF o menú AI genérico inventado.
+2. **Paleta negro puro + blanco**: fondo rgb(0,0,0), texto blanco. Sensación de menú de pizarra o local nocturno de pasta, no blanco SaaS ni crema premium. Alto contraste funcional.
+3. **Tipografía condensed sans (Oswald + Roboto Condensed)**: headings y body en familias condensadas. Se siente carta de pasta bar o menú italiano casual impreso, no Inter geométrico o serif editorial forzado.
+4. **Fotografía de los locales reales, no de platos**: fotos de Borough Market, Shoreditch, Soho. Comunica las sedes y la cola/ambiente sin food porn perfecto. Radius 0, shadow none.
+5. **Restricción total de CTAs filled y copy mínimo**: nav texto plain, no botones “Book now” gigantes. El menú y las fotos de ubicación hacen el trabajo. Tono operativo y concreto (nombres de productores reales).
+6. **Video timelapse sutil + scroll down**: el hero es movimiento de cocina real, no stock estático. Invita a bajar al menú sin forzar.
+
+**Nota**: sitio WordPress custom, muy funcional y orientado a la carta. No es editorial ni premium minimal; es más “el menú es el sitio”. La paleta negro, tipografía condensed, menú HTML diario con precios y fotos de locales lo hacen claramente humano y anti-AI. Ideal para restaurantes casuales de pasta o similares donde la gente quiere ver qué hay hoy y dónde.
+
