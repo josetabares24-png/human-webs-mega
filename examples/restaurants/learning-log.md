@@ -169,3 +169,36 @@ Observaciones de sitios reales de restaurantes para extraer patrones útiles en 
 ---
 
 *Observado con navegador real el 6 de noviembre de 2026.*
+
+## 2026-11-06 — Sweetgreen (sweetgreen.com)
+
+**Tipo:** Cadena casual-premium (fast-casual saludable, multi-location US, fundada 2007 en Washington DC por tres estudiantes). Enfoque en bowls, salads y real food.
+
+### Lo que vi (honesto)
+
+- **Hero / estructura:** Fondo crema papel #f4f3e7 (no blanco puro). Hero fotográfico de wrap sobre cutting board con display grande "Wraps" a ~80px. Nav superior con links uppercase. Secciones: workplace (catering/outpost), kitchen (TikTok tutorial), food cards grid, day-part tabs (Salads / Warm Bowls / Sides). CTAs claros de Order.
+- **Tipografía:** 
+  - Principal: SweetSans / SweetSansText (sans custom, peso 400 dominante, de 12px footer a 80px hero).
+  - Excepción editorial: Grenette (serif italic, weight 200, ~48px, tracking -2.25px) solo en un CTA in-photo.
+  - Nav, tabs, food titles: 16px uppercase con tracking ~0.72-0.8px. Casi todo weight 400; no bold display genérico.
+- **Colores:** Canvas crema #f4f3e7. Ink near-black #0e150e. Primary forest green #00473c solo para filled CTA. Chartreuse eléctrico #e6ff55 exclusivamente en el label del botón Order (nunca en otro lugar). Footer oxblood #a72700. Sage/paper tints para bandas. Paleta restringida, papel + vegetal.
+- **Botones / CTAs:** Primary: filled pill (radius 1000px / full), forest #00473c con texto chartreuse #e6ff55, padding asimétrico ~7px 16px 5px, height ~30px, SweetSans 16px weight 400. Secondary/outline más sutil. CTAs: Order, Follow along, etc. Disciplina de dos tokens: el acento brillante solo dentro del botón principal.
+- **Espaciado, bordes, sombras:** Aire generoso, ritmo 8/24px. Food cards radius 20px. Inputs 10px. Cero sombras en el sistema (cards flotan por clipping y contraste tonal). Bordes hairline mínimos. Fotografía de food real y proceso (kitchen, wraps).
+- **Menú:** Signature items + Create Your Own. Descripciones sensoriales y concretas ("pillowy", "maple glazed", "Molly’s Pickle Caesar", "antibiotic-free"). Tabs por categoría. Precios y macros en order flow. No catálogo abrumador en homepage.
+- **Copy:** Directo y anclado: "Building healthier communities by connecting people to real food". Historia 2007, tres college students, "reimagine fast food". Valores claros (scratch, farmers we know). Tono optimista pero factual, no hype genérico.
+- **Móvil:** Responsive; nav y CTAs principales se mantienen. Diseño prioriza cards y fotografía. Observado principalmente via extracción de sistema de diseño del sitio live.
+
+### Patrones concretos útiles para webs anti-IA
+
+1. **Canvas crema papel (#f4f3e7) en vez de blanco puro.** Todo el sitio se siente menú impreso o café, no digital default. Evita el look "template blanco".
+2. **Dos-token CTA: forest fill + chartreuse label, y el chartreuse solo ahí.** Disciplina extrema de acento. El brillo eléctrico no se diluye; solo existe para que toques el botón.
+3. **Sans custom weight 400 dominante + un serif italic whisper una sola vez.** SweetSans casi todo; Grenette italic 200 solo en un momento editorial. Jerarquía por tamaño y tracking, no por peso bold genérico.
+4. **Pills full-radius (1000px) + cards 20px, cero sombras.** Forma generosa táctil en botones, radio medio en cards. Elevación por color y recorte, no box-shadow. Anti-template polished.
+5. **Copy con año, fundadores implícitos y ethos concreto.** "2007", "three college students", "cook from scratch", "farmers we know and trust". Historia específica + misión clara > slogans vacíos.
+6. **Fotografía de food y kitchen real + estructura de menu board.** Hero de wrap en tabla, tutorial de cocina, cards de platos. Se siente lugar de preparación, no solo producto de estudio.
+
+**Notas:** Sitio de cadena moderna con sistema de diseño muy disciplinado (custom type, paleta restringida, cero sombras). El navegador tuvo timeouts; análisis basado en extracción detallada del sitio live (design tokens de shadcn.io/design/sweetgreen actualizado 2026) + contenido de páginas. Excelente referencia para fast-casual anti-IA: se siente papel y comida real, no UI genérica con botones azules.
+
+---
+
+*Observado el 6 de noviembre de 2026 (extracción de sistema + contenido; navegador con timeouts).*
