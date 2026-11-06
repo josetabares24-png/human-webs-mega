@@ -105,3 +105,28 @@ Observaciones en vivo de sitios reales para extraer patrones útiles en webs ant
 6. **CTAs de texto + info práctica first**: location, hours y “Order in Advance” como links plain. Quote grande hace el emotional hook. Restricción de botones filled grandes.
 
 **Nota**: sitio Squarespace, funcional y con algo de ecommerce (sauces, shipping). No ultra-minimal como French Laundry, pero la paleta cálida, tipografía con carácter, fotos de trays reales y copy de la fila/trailer lo hacen claramente humano y anti-AI. Buen modelo para restaurantes casuales legendarios con personalidad fuerte y operativa clara.
+
+## 2026-11-06 — Katz's Delicatessen (casual independiente legendario, NYC)
+
+**Sitio**: https://katzsdelicatessen.com/  
+**Tipo**: Casual independiente (deli legendario). Sede principal en Lower East Side (205 East Houston Street) + shipping nationwide y catering. Desde 1888. Famoso por el pastrami hand-carved y la fila.
+
+### Lo que vi (honesto)
+- Homepage centrada en ecommerce y shipping: grid de productos con precios visibles (KATZ'S BIRTHDAY BOX $140, TASTE OF NEW YORK $165, PASTRAMI SANDWICH $28.95, LATKES $16.95, DINNER FOR 2 $80, catering starting at $260). Texto introductorio: “A New York institution since 1888. For generations, Katz's Deli has been serving legendary house-cured, hand-carved pastrami & corned beef… Katz's also ships nationwide…”. Nav superior uppercase (SHIP NATIONWIDE, MENU & LOCAL DELIVERY, CATERING, BROOKLYN, MORE). Botones “ORDER NOW” y “NATIONWIDE SHIPPING”.
+- Tipografía: Lato sans-serif dominante (body ~14px, line-height 24.5px). Open Sans en algunos elementos. Funcional, limpia, sin serif ni display extravagante. Títulos de producto en mayúsculas.
+- Botones: mezcla práctica. Search filled rojo rgb(209, 16, 16) con radius 0/4px. Sign In outline gris. CTAs de producto como links o botones simples. No pills exagerados ni primary dominantes en hero.
+- Colores: fondo blanco puro rgb(255,255,255), texto negro. Acento rojo intenso rgb(209,16,16) para search, subscribe y elementos de acción. Alto contraste, paleta limitada clásica de deli (blanco + rojo).
+- Espaciado: funcional, grid de productos con aire suficiente. Imágenes de productos/sandwiches y logo (Katz's classic), border-radius bajo o 0, sin sombras fuertes visibles. Fotografía de comida real servida y cajas de shipping, no food porn ultra-procesado.
+- Menú / productos: precios claros y nombres concretos. Secciones POPULAR, NEW, BEST SELLING, SERVES 10+. Notas de shipping y local delivery. No pude acceder a un menú HTML completo (redirect o error en /menu), pero los productos en home actúan como carta operativa.
+- Copy: institucional y directo. “A New York institution since 1888”, “legendary house-cured, hand-carved pastrami”, location exacta, teléfono 1-800-4HOTDOG. Tono de institución NYC, no marketing fluff. Footer con “Maintained by Autumn Lane Web Studios Inc.”
+- Móvil: estructura se mantiene (nav probablemente colapsa), productos y precios legibles. No simulé viewport exacto, pero el layout Magento-style es responsive estándar.
+
+### 5-6 patrones concretos útiles para webs anti-IA
+1. **Foco ecommerce práctico con precios reales en primera pantalla**: grid de cajas y sándwiches con $140, $28.95, etc. El sitio vende el producto tangible (shipping de pastrami) antes que la “experiencia”. Evita el hero abstracto AI.
+2. **Paleta clásica blanco + rojo intenso**: rgb(255,255,255) + rgb(209,16,16). Sensación de deli, papel de carnicería o menú de esquina, no blanco SaaS ni gradientes. Acento único y funcional.
+3. **Tipografía sans funcional (Lato) sin pretensiones**: body 14px legible, uppercase en nav y productos. No Inter genérico ni serif editorial forzado. Se siente sitio de negocio real que prioriza claridad.
+4. **Copy institucional concreto y operativo**: “Since 1888”, “house-cured, hand-carved”, location Houston & Ludlow, 1-800-4HOTDOG. Datos verificables y tono de institución, no slogans vacíos.
+5. **Productos como menú vivo con categorías reales**: POPULAR / NEW / BEST SELLING / SERVES 10+, precios y nombres exactos. Contrasta con menús AI inventados o PDFs estáticos.
+6. **Restricción visual y enfoque shipping**: poco adorno, imágenes de producto real, CTAs directos a ordenar. El sitio existe para que pidas el pastrami a casa, no para impresionar con UI.
+
+**Nota**: sitio Magento/ecommerce heavy, orientado a shipping y catering más que a reservas de mesa. No es minimal editorial como Cutler o French Laundry, pero la paleta rojo-blanco, precios visibles, copy de 1888 y enfoque en el producto real (hand-carved pastrami) lo hacen claramente humano y anti-AI. Buen modelo para restaurantes casuales legendarios con negocio de takeout/shipping fuerte.
