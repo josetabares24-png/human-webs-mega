@@ -139,3 +139,33 @@ Observaciones de sitios reales de restaurantes para extraer patrones útiles en 
 ---
 
 *Observado con navegador real el 6 de noviembre de 2026.*
+
+## 2026-11-06 — Momofuku (momofuku.com)
+
+**Tipo:** Casual-premium grupo de restaurantes independiente (multi-location US, fundado por David Chang en 2004 con Noodle Bar en NYC). Asian-American innovador.
+
+### Lo que vi (honesto)
+
+- **Hero / estructura:** Banner promo en crema/amarillo suave rgb(253, 240, 210). Nav con CTAs claros: Make a Reservation, Order Online, Shop. Lista de restaurants con direcciones reales. Fondo principal crema rgb(250, 247, 238). Menú lateral dark rgb(35, 35, 35).
+- **Tipografía:** Graphik (sans-serif) dominante para headings (16-32px, weight 400-600), body y UI. Algunas direcciones en Andale Mono (monospace pequeño 12px). Letter-spacing negativo en títulos (-0.32px). Consistente, moderna pero no genérica Inter.
+- **Colores:** Crema cálido rgb(250, 247, 238) como base. Charcoal rgb(35, 35, 35) para texto y filled buttons. Texto claro rgb(250, 247, 238) sobre dark. Acento suave en banner. Paleta contenida, táctil.
+- **Botones / CTAs:** Filled pill (border-radius 50px) charcoal con texto crema, o outline/crema sobre dark. Padding 8px 16-32px. Font Graphik 14-16px. CTAs: Make a Reservation, Order Online, Reserve Now, Shop, Explore More. Claros y repetidos.
+- **Espaciado, bordes, sombras:** Aire razonable. Bordes 1px en botones. Radius generoso en pills. No muchas sombras visibles (enfoque en color y tipografía). Fotografía no dominante en homepage (más textual/listada de locations).
+- **Menú:** No menú de platos en homepage; se va a locations específicas. Historia en /pages/about.
+- **Copy:** Específico: "Momofuku means lucky peach". Fundado por Chef David Chang en 2004, Noodle Bar NYC. "the most important restaurant in America" from Bon Appétit. Nombres: David Chang, Marguerite Zabar Mariscal (CEO, historia de intern a CEO). Tono directo, factual con anclajes.
+- **Móvil:** Hamburger / mobile menu presente. CTAs principales accesibles. Responsive.
+
+### Patrones concretos útiles para webs anti-IA
+
+1. **Sans moderna consistente (Graphik) + mono para datos secundarios.** Graphik para todo el UI, Andale Mono pequeño para direcciones. Jerarquía por tamaño y peso, no por mezclar muchas familias.
+2. **Botones pill filled de alto contraste charcoal + crema.** Radius 50px, no 8px default. Contraste fuerte, forma redondeada generosa que se siente táctil.
+3. **Fondo crema cálido rgb(250, 247, 238) + charcoal rgb(35, 35, 35).** Se siente papel o cocina, no blanco puro digital ni dark mode total.
+4. **Copy factual con año fundacional, fundador nombrado y citas externas.** "2004", "David Chang", "most important restaurant in America". Historia concreta > slogans vagos.
+5. **CTAs múltiples pero consistentes (Reserve, Order, Shop, Explore).** Repetidos en locations. Prioriza acción sin gritar.
+6. **Estructura de grupo: lista de locations con direcciones reales + story separada.** No hero de plato; prioriza dónde y quién. Ideal para multi-location con personalidad.
+
+**Notas:** Sitio custom moderno. Graphik le da carácter sin ser display extravagante. Buena referencia para grupos de restaurantes anti-IA: paleta restringida, tipografía limpia con personalidad, copy anclado en hechos.
+
+---
+
+*Observado con navegador real el 6 de noviembre de 2026.*
