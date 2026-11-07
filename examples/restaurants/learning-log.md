@@ -1,5 +1,30 @@
 # Restaurant Learning Log
 
+## 2026-11-07 — Ma‘ono Fried Chicken (maonoseattle.com) — Casual / Independent multi-location (Seattle, Hawaiian-inspired fried chicken)
+
+**Tipo:** Restaurante casual independiente (Chef Mark Fuller), Hawaiian-style picnic chicken / fried chicken. Múltiples locations en Seattle area (West Seattle / Benbow Room, Woodinville, U Village / Rachel’s Ginger Beer, South Lake Union). Squarespace. Enfoque en order online, catering, gift cards.
+
+### Lo que vi (honesto)
+- Homepage con fondo amarillo brillante, logo, nav (Menu, Locations, About, Contact, FAQ), CTA “ORDER ONLINE” y “Catering”. Hero “HAWAIIAN STYLE FRIED CHICKEN”. Locations listadas con personalidad (Benbow Room, Rachel’s Ginger Beer). Marquee repetitivo “CRISPY ❉ JUICY ❉ ALOHA”. Skip to content presente.
+- Tipografía: headings masivos en **obviously-narrow** (sans narrow ultra-bold 800, uppercase, 28-63px). Cuerpo y prosa en **Varela Round** (sans redondeada, 16-25px, peso 400, line-height generoso ~35px). Nav en obviously-narrow bold. Contraste fuerte entre display bold y body amigable.
+- Botones/CTAs: “ORDER ONLINE” y “Catering” filled naranja (rgb(226, 75, 37)), texto blanco, border-radius ~6px, padding generoso (~16px), sin sombras. Nav links texto puro (transparent, no border, radius 0). Hamburger “Open Menu”.
+- Colores: fondo amarillo vibrante rgb(254, 195, 59) en todo el sitio. Texto principal rgb(27, 36, 46) navy oscuro. Acento naranja para CTAs. Contraste alto, paleta energética y específica (no blanco/negro/cream genérico). Sin gradients.
+- Espaciado generoso, fotos de locations y comida (View fullsize), logo. Bordes y sombras prácticamente nulos. Fotografía real de sitios y platos descriptivos, no stock perfecto.
+- Menú: páginas con platos nombrados + descripciones con personalidad (“This is the original hero sandwich…”, “These Lil’ Chickie Sliders are adorable!”, “Your first dipping sauce is free but you should probably get more.”). Fotos por item principal. No lista densa de precios pública; foco en order online. Copy: “Hawaiian Style Picnic Chicken”, “The Legend of Ma‘ono”.
+- About: definición fonética “ma‘ono muh-OH-noh”, historia personal concreta (Chef Mark Fuller, veranos en Kauai con abuelos, picnic chicken de la abuela en Koke‘e, path from high school to kitchens, “so ono”). Fotos de grandma y sister. Móvil: hamburger claro, info práctica (locations, hours, order) accesible.
+
+### 5-6 patrones concretos útiles para webs anti-IA
+1. **Fondo amarillo vibrante total + navy**: rgb(254,195,59) everywhere con texto oscuro. Se siente de food truck o brand de picnic energetic, no del blanco limpio o cream editorial de templates AI.
+2. **Display ultra-bold narrow sans (obviously-narrow 800 uppercase enorme) vs Varela Round body**: headings gritones y compactos, prosa redondeada y legible. Contraste tipográfico fuerte y específico, no Inter genérico.
+3. **CTAs filled naranja con radius sutil + nav texto**: ORDER ONLINE destaca por color, pero sin sombras ni pills exagerados. Funcional y branded.
+4. **Copy de leyenda personal y específico**: historia de Mark Fuller, Kauai, grandma’s picnic chicken, phonetic name, “so ono”, platos con voice (“adorable!”, sauce free advice). Suena a chef con historia familiar real, no a prompt “Hawaiian fried chicken restaurant”.
+5. **Menú narrativo con fotos y personalidad, no price dump**: descripciones con humor y detalles (King’s Hawaiian bun, daikon, Kewpie), fotos, push a order online. Más humano que cards genéricas.
+6. **Motivo de marca repetido + utilidad por location**: marquee “CRISPY ❉ JUICY ❉ ALOHA”, páginas de location con hours exactos, emails separados (orders@ vs info@), “Dine In or Take Out”. Práctico pero con voz consistente.
+
+Estos detalles (amarillo bold, tipografía display extreme + round body, leyenda familiar concreta, menú con voice, naranja para action) rompen el look pulido, neutro y sin personalidad de sitios de restaurante generados por IA.
+
+---
+
 ## 2026-11-07 — St. JOHN (stjohnrestaurant.com) — Premium-casual / Independent (London, nose-to-tail British)
 
 **Tipo:** Restaurante independiente icónico (Fergus Henderson + Trevor Gulliver, 1994, Smithfield). Nose-to-tail eating. Múltiples sites (Smithfield, Bread and Wine, Marylebone, Neal’s Yard Wine Bar) + bakery y wines. WordPress custom (theme adigiverse). Menús diarios en texto.
