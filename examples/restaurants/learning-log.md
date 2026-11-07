@@ -152,3 +152,54 @@ Estos patrones priorizan funcionalidad directa del menú, restricción cromátic
 6. **Copy factual con nombres propios y detalles de lugar** — Daniel Humm, Magic Farms, Art Deco, horas exactas. Nada de "experiencia culinaria única" o lenguaje inflado.
 
 Estos patrones refuerzan restricción tipográfica, honestidad operativa y especificidad de imagen/copy frente a la pulidez genérica de generadores de IA.
+
+## Cutler (Fitzroy, Melbourne) - Premium independiente, modern Australian
+**URL:** https://www.cutlerandco.com.au/
+**Tipo:** Premium independiente / fine-to-casual dining (Chef Andrew McConnell, Trader House)
+**Fecha de observación:** 2026-11-07
+
+### Estructura y CTAs
+- Homepage: hamburger "Open Menu", logo, sidebar izquierda con "MAKE A RESERVATION", LOCATION (dirección exacta), OPENING HOURS, CONTACT (teléfono y email).
+- Hero / bienvenida: texto narrativo sobre la apertura en 2009 en antigua fábrica metalúrgica en Fitzroy. Fotos de interiores y platos a continuación (grid de imágenes con "View fullsize").
+- Nav (al abrir menú): RESERVATIONS, MENU, DRINKS, PRIVATE DINING, GIFT VOUCHERS, JOURNAL, SUNDAYS AT CUTLER.
+- CTA principal: "MAKE A RESERVATION" como link de texto repetido. Footer con Instagram, Careers, Privacy, Contact, Trader House, y reconocimiento a Traditional Custodians (Wurundjeri Woi Wurrung).
+- Foco operativo: info práctica (horas, dirección, reserva) + narrativa corta + fotos reales. Sin clutter de marketing.
+
+### Tipografía
+- Headings / labels (MAKE A RESERVATION, LOCATION, secciones menú): "Persona, \"Archivo Narrow\", sans-serif", ~16px, peso 700, color rgb(34, 34, 34). Condensed-ish, bold pero no display gigante.
+- Body / menú: "Caslon, garamond-premier-pro, serif", ~16px, peso 400, line-height 24px. Serif clásico para descripciones y menú.
+- Nav links: misma sans Persona/Archivo Narrow, ~15px, peso 700, uppercase.
+- Contraste: sans bold/condensed para UI y labels, serif para contenido narrativo y platos. Se siente editorial pero funcional.
+
+### Botones
+- Todos los CTAs son links de texto: background transparent (rgba(0,0,0,0)), color rgb(34,34,34), border none, border-radius 0, box-shadow none.
+- "MAKE A RESERVATION", "Open Menu", items de nav: texto plano uppercase o capitalizado, peso 700 en sans.
+- Sin filled, sin outline, sin radios redondeados, sin sombras. Estilo link editorial.
+
+### Colores
+- Fondo: rgb(255, 255, 255) — blanco puro.
+- Texto: rgb(34, 34, 34) — casi negro, ligeramente suave.
+- Paleta restringida. Fotos de interiores (mármol verde, ladrillo, cuero) y platos aportan el color y textura.
+- Alto contraste, limpio. Sin acentos digitales brillantes.
+
+### Espaciado, bordes, sombras, fotografía
+- Espaciado generoso en homepage: texto de bienvenida, luego grid de fotos. Menú en lista vertical clara con precios.
+- Sin box-shadow, sin bordes en elementos UI, sin cards.
+- Fotografía: reales del espacio (interiores con mármol verde, ladrillo blanco, booths de cuero) y platos. Alts/nombres de archivo específicos (Cutler_hdavison..., BRAT_CUTLER...). No stock genérico; contexto del local industrial reconvertido.
+- Imágenes grandes, editoriales, con opción "View fullsize".
+
+### Menú, móvil y copy
+- Menú: texto completo a la carta con precios (ej. "Homemade FOCACCIA 12", "CUTLER DONUTS, crème fraîche, chives & Yarra Valley salmon roe 36", "Wood-grilled 1 kg DRY-AGED RIB EYE ... 240"). Secciones: APPETISERS, SEASONAL SEAFOOD, ENTRÉES, CUTLER CLASSICS, MAIN COURSES, ACCOMPANIMENTS, DESSERT, CHEESE.
+- Nota de estacionalidad y compromiso con produce australiano / small-scale farmers. Menciona "Prime CHEESEBURGER 38" (shift a formato más flexible).
+- Copy: específico y evolutivo. "Andrew McConnell opened Cutler & Co. in 2009 in a former metal works factory in Fitzroy, Melbourne’s first suburb." Ethos: "refined, simple, hospitable dining". Reconocimiento a Traditional Custodians. Sin hipérbole.
+- Móvil: hamburger "Open Menu" presente. Estructura se adapta; info práctica y reserva prioritarias.
+
+### Patrones concretos útiles para webs anti-IA (5)
+1. **Sans condensed/bold (Archivo Narrow / Persona peso 700) para labels y nav + serif (Caslon/Garamond) para body y menú** — Contraste utilitario-editorial. Evita display ultra-bold o sans modernos uniformes de IA.
+2. **Links de texto puro peso 700, radius 0, sin sombras ni filled** — Continuación del patrón de Canlis/Padella/EMP pero con más peso en la sans. Se siente de menú impreso o carta de restaurante, no de template SaaS.
+3. **Menú a la carta completo en texto con precios y notas de produce/estacionalidad** — Lista operativa real (focaccia 12, rib eye 240, burger 38). La especificidad de platos y orígenes reduce el genérico de "experiencia culinaria".
+4. **Fotografía de interiores arquitectónicos y platos con contexto local** — Mármol, ladrillo de fábrica, booths. No food porn aislado perfecto; el espacio industrial reconvertido es protagonista.
+5. **Copy con historia concreta + reconocimiento de lugar/Traditional Custodians** — Año 2009, fábrica metalúrgica, Fitzroy, Wurundjeri. Detalles humanos y territoriales específicos cortan el tono de IA genérico.
+6. **Info práctica prioritaria (horas, dirección, contacto) junto a narrativa corta** — No hero marketing; la utilidad operativa + una historia de evolución del local.
+
+Estos patrones priorizan funcionalidad de menú real, tipografía mixta editorial-utilitaria y especificidad de lugar/historia sobre la pulidez digital perfecta.
