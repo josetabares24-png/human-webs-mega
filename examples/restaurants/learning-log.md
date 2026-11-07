@@ -100,3 +100,55 @@ Estos patrones priorizan restricción, materialidad y especificidad sobre la pul
 6. **Copy personal corto con nombres propios** — Nombrar a Tim y Jordan y sus viajes a Italia. La anécdota concreta humana corta el copy genérico de "experiencia única".
 
 Estos patrones priorizan funcionalidad directa del menú, restricción cromática extrema y especificidad operativa sobre la pulidez visual perfecta.
+
+## Eleven Madison Park (Nueva York) - Premium fine dining, 3 Michelin
+**URL:** https://www.elevenmadisonpark.com/
+**Tipo:** Premium independiente / fine dining (Chef Daniel Humm)
+**Fecha de observación:** 2026-11-07
+
+### Estructura y CTAs
+- Homepage muy minimalista: imagen de logo/edificio, botón "Open Menu" (hamburger), promo breve para "The Studio at Clemente Bar" con texto y "Reserve", y "Book on Resy".
+- Nav no visible en desktop; se abre con "Open Menu". Links a Reservations, About, Events, Stories, Shop, etc.
+- Dirección, teléfono y links de footer (Wine List, FAQs, Gift Cards, Clemente Bar, Press, Careers, Contact) presentes.
+- Foco en reserva y narrativa corta; no hay grid de platos o secciones densas.
+- CTAs principales son links de texto o "Book on Resy".
+
+### Tipografía
+- Títulos (h1 en About): "nobel" (sans/display light), ~36px, peso 300, color negro. Ligero, no bold.
+- Cuerpo (párrafos): "EB Garamond" (serif), ~19px, peso 400, line-height ~1.6, color negro.
+- Nav/links: uppercase, peso 300, ~17px, sin tracking extremo.
+- Contraste claro: sans light para headings, serif clásico para body. Se siente editorial/libro, no digital moderno.
+
+### Botones
+- La mayoría son links de texto transparentes: bg rgba(0,0,0,0), color negro, border-radius 0, box-shadow none, padding mínimo, uppercase, peso 300.
+- Un elemento "Skip to Content" tiene bg navy rgb(21,50,92) y texto blanco, pero es accesibilidad, no CTA principal.
+- Estilo: filled casi ausente. Text-link o texto plano. Sin outline, sin sombras, sin radios redondeados grandes.
+- "Book on Resy" y "Reserve" siguen el patrón de texto.
+
+### Colores
+- Fondo principal: rgb(255,255,255) — blanco puro.
+- Texto: rgb(0,0,0) — negro puro.
+- Acento ocasional: navy oscuro rgb(21,50,92) solo en elementos de accesibilidad.
+- Paleta extremadamente restringida. Las fotos aportan todo el color y vida (platos, granja, interiores).
+- Alto contraste, limpio, casi monocromático.
+
+### Espaciado, bordes, sombras, fotografía
+- Espaciado amplio, páginas limpias sin clutter. Párrafos con aire.
+- Sin box-shadow visibles, sin bordes en UI principal, sin cards.
+- Fotografía: real y específica. Alts como "Scallop Marinated with Kohlrabi and Hazelnut", "Inside one of the tunnels at Magic Farms", "The dining room team meeting before opening for service", "White wine being poured", "Lettuces growing at Magic Farms". No stock genérico; contexto de granja, proceso y platos concretos.
+- Imágenes grandes, editoriales.
+
+### Menú, móvil y copy
+- Menú: no se comparte online. "Due to the hyper-seasonal nature of our menu, all courses are subject to change. As such, we are unable to share our food menus online." Honesto y específico.
+- Copy: factual y concreto. Nombra a Chef Daniel Humm, Magic Farms, Art Deco building, Madison Square Park, tasting menus con opción plant-based, horas exactas. Sin hipérbole de marketing.
+- Móvil: hamburger "Open Menu" presente. Estructura se adapta; el CTA de reserva permanece.
+
+### Patrones concretos útiles para webs anti-IA (6)
+1. **Serif body (EB Garamond ~19px) + sans light weight 300 para headings** — Contraste editorial de libro. Evita sans modernos bold o display exagerados típicos de IA/templates.
+2. **Links de texto puro uppercase peso 300, sin botones filled** — Continuación del patrón de Canlis/Padella. Se siente institucional/editorial, no comercial SaaS.
+3. **Blanco puro + negro puro con fotos que cargan el color** — Restricción extrema de paleta. Las imágenes reales hacen el trabajo visual; no necesita acentos digitales.
+4. **Fotografía con captions/alts hiper-específicos de plato/granja/proceso** — "Scallop Marinated with Kohlrabi and Hazelnut" o túneles de Magic Farms. La especificidad concreta reduce el genérico de IA.
+5. **Ausencia deliberada de menú online + nota de estacionalidad** — Honestidad operativa. En vez de forzar un menú estático o fotos de platos, se prioriza la reserva y la narrativa de la granja.
+6. **Copy factual con nombres propios y detalles de lugar** — Daniel Humm, Magic Farms, Art Deco, horas exactas. Nada de "experiencia culinaria única" o lenguaje inflado.
+
+Estos patrones refuerzan restricción tipográfica, honestidad operativa y especificidad de imagen/copy frente a la pulidez genérica de generadores de IA.
