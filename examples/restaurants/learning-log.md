@@ -74,3 +74,28 @@
 5. **Microcopy on-brand en todo (incluso cookies):** Banner de cookies habla de “dipping into House Chai” y “Regrettably, our digital cookies are less tasty”. Detalle humano que rompe la impersonalidad de banners genéricos.
 
 **Notas honestas:** Sitio custom (Next.js + Sanity). Muy bien ejecutado, con personalidad fuerte. En móvil el toggle menu funciona. Hay bastante scroll y storytelling antes de lo práctico, pero las reservas y menús son fáciles de encontrar. Ideal para anti-IA por el tono literario y la paleta cálida no-template. No es minimalista extremo como los anteriores, pero sigue siendo humano y específico.
+
+## 2026-11-07 — Eleven Madison Park, New York
+
+**URL:** https://www.elevenmadisonpark.com/  
+**Type:** Independent / ultra-premium fine-dining (3 Michelin, tasting menu focus)
+
+### What I saw (specific)
+
+- **Structure & CTAs:** Homepage loads with announcement dialog for “The Studio at Clemente Bar” (omakase counter). Nav is text with folders: RESERVATIONS, ABOUT (Us/Team/Magic Farms), EVENTS, STORIES, SHOP (Gift Cards/Home). Footer has address, phone, Instagram, newsletter. Prominent “Book on Resy” link. About page has welcome text + hours + links to cocktail/wine lists. Mobile: “Open Menu” hamburger. No sticky bar.
+- **Typography:** Body and paragraphs use “EB Garamond” (serif), ~18.9px, weight 400, line-height ~30px, black. Nav and many links use “nobel” (sans) ~17px, weight 300 (light). Occasional “Inter Tight”. Popup heading uses Helvetica Neue bold. Classic editorial serif for reading, light sans for navigation.
+- **Buttons:** Majority are plain text links (transparent bg, border-radius 0, minimal padding). One clear primary: “Book on Resy” is filled rgb(252, 72, 55) (burnt orange-red), white text, border-radius 6.4px, nobel bold ~18px, horizontal padding. Skip-to-content is solid dark blue. No giant rounded primaries elsewhere.
+- **Colors:** Pure white background, black text. Accent is the orange-red CTA. Dark blue rgb(21, 50, 92) appears on skip link. High contrast, restrained palette with one deliberate warm accent.
+- **Espaciado, bordes, sombras, fotografía:** Ample whitespace, line-height generous, almost no box-shadows or heavy borders. Photography is real and contextual: chef in kitchen, restaurant entrance (Art Deco), specific dishes (e.g. Romanesco with masa). Not a grid of perfectly styled plates; more documentary.
+- **Menú:** Explicitly not published online: “Due to the hyper-seasonal nature of our menu, all courses are subject to change. As such, we are unable to share our food menus online.” Hours listed plainly. Links to View Cocktail List / View Wine List. Tasting menu prices mentioned on FAQ ($385 full, $255 bar).
+- **Copy:** Concrete and practical. Names Magic Farms (Upstate NY partner), Art Deco building, Madison Square Park, East 24th & Madison, plant-based history and choice option, Resy system, exact hours by day. No generic “world-class experience” fluff; states limitations openly.
+
+### 5 patrones concretos útiles para webs anti-IA
+
+1. **Serif de lectura (EB Garamond) + sans light para nav:** Cuerpo en Garamond ~19px con buen interlineado; navegación en Nobel 300. Se siente editorial e impreso, no template geométrico uniforme.
+2. **CTA principal filled con acento inesperado y radio pequeño:** “Book on Resy” naranja quemado, radius ~6px, no pill enorme ni primary azul estándar. Funcional y visible sin gritar “template”.
+3. **Rechazo explícito a publicar el menú + info práctica prioritaria:** Texto claro de por qué no hay carta online (hiper-estacional) + horas, dirección y teléfono en About/footer. Honestidad que rompe la expectativa de “todo visible y perfecto”.
+4. **Fotografía documental del espacio e ingredientes:** Fotos reales de cocina, entrada y platos específicos, no studio food porn. Acompaña el copy concreto del edificio y la granja.
+5. **Paleta mínima con un solo acento cálido:** Blanco/negro + naranja puntual. Contrasta con paletas saturadas o gradients de sitios generados. El acento se reserva para la acción real (reservar).
+
+**Notas honestas:** Sitio Squarespace, limpio y funcional. El popup de anuncio es un poco intrusivo al cargar, pero se cierra fácil. En móvil el menú hamburguesa funciona. No es visualmente “wow” ni ultra-minimalista extremo; prioriza utilidad y especificidad. Buena referencia de premium real que no cae en el look AI de hero gigante + cards de platos.
