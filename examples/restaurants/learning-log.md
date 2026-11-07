@@ -1,5 +1,29 @@
 # Restaurant Learning Log
 
+## 2026-11-07 — Dishoom (dishoom.com) — Premium casual / Independent chain-like (London & UK, Bombay-inspired Indian)
+
+**Tipo:** Cafés Indian premium-casual independientes (inspirados en los Irani cafés de Bombay). Múltiples localizaciones en UK (Shoreditch, Covent Garden, etc. + Permit Rooms). Fundada ~2010 por Shamil y Kavi Thakrar. Sitio custom (Next.js-ish + Sanity). Enfoque narrativo fuerte con founding myths por local.
+
+### Lo que vi (honesto)
+- Homepage con quote destacada: “By the end, we hope you will feel as if you’ve been to Bombay with us, and seen what we see, and tasted what we taste.” Secciones “FROM BOMBAY WITH LOVE”, love letter a Bombay, referencias históricas específicas (B. Merwan en Grant Road 1914). Descripciones de comida concretas (masala chai con buttered buns, street-side Vada Pau, Bhel, potted Biryani, Akuri, House Black Daal, Chicken Ruby). Journal con “founding myths” únicos por café. Locations con personalidad distinta. CTAs: “Book a table”, “View menus”, gift vouchers, “All Welcome”. Cookie banner con humor real: “The best cookies are for dipping… Preferably into a warming cup of our House Chai.”
+- Tipografía: cuerpo, prosa y la mayoría de headings en **cheltenhamBT** (serif clásico, 16-21px, peso 400/700, letter-spacing sutil ~0.36-0.42px). Labels, nav pequeña y algunos CTAs en **gill-sans-nova** (sans, uppercase, bold 700, letter-spacing ~2.1px, ~12-15px). Mix dominante serif con sans tracked para etiquetas.
+- Botones/CTAs: mayormente texto o outline. “Buy a gift voucher” / “View menus” con fondo cream matching, border 2px solid rgba(53,56,57,0.6), radius 0px, padding ~10px 16px, gill-sans bold. “Book a table” aparece filled dark (rgb(53,56,57) con texto cream) o con radius pill (9999px) en alguna instancia, o transparent. Nav es texto puro. Sin fills coloridos gritones ni sombras pesadas.
+- Colores: fondo principal rgb(240, 236, 224) — cream/beige cálido (papel o café antiguo). Texto rgb(53, 56, 57) charcoal oscuro. Algunos overlays con texto cream/blanco. Contraste alto pero cálido. Sin gradients, neones ni pasteles AI.
+- Espaciado generoso, fotos grandes con captions tipo “ABOVE: The legendary B. Merwan…” o “ABOVE: Succulent grills, perky salads…”. Bordes y sombras casi nulos. Fotografía real y contextual (comida, chai, interiores, referencias históricas), no stock genérico perfecto.
+- Menú: más narrativo que lista densa pública (páginas de food & drink con platos nombrados y contexto). Notas dietéticas reales (halal, vegan). Copy: storytelling pesado, myths por local, “All Welcome”, referencias a chefs (Arun), donaciones de comidas, historia Irani. Móvil: hamburger “Toggle Menu” claro, links prácticos accesibles.
+
+### 5-6 patrones concretos útiles para webs anti-IA
+1. **Fondo cream cálido + serif dominante (Cheltenham)**: rgb(240,236,224) con cheltenhamBT. Se siente de libro o Irani café antiguo, no del blanco limpio + Inter de templates AI.
+2. **Mix serif body/prosa + gill-sans uppercase con tracking fuerte**: prosa en serif clásico, etiquetas/nav en sans tracked uppercase. Editorial y humano, no genérico.
+3. **Botones outline o filled discretos con radius 0 (o sutil) y border fino**: tipográficos, matching palette, sin pills neón ni fills de alto contraste gritón.
+4. **Copy narrativo específico y mitológico**: founding myths únicos por local, referencias históricas reales (cafés Irani de Bombay, calles, platos de calle), nombres de chefs y platos concretos. Suena a marca con historia propia, no a prompt “luxury Indian restaurant”.
+5. **Fotografía con captions “ABOVE:” descriptivas y contextuales**: fotos reales de comida/proceso/historia con texto que las ancla. Evita grids de stock perfectos.
+6. **Utilidad envuelta en historia + humor operativo**: Book a table y locations después de la poesía, “All Welcome”, cookie banner divertido que menciona el chai real. Práctico pero con voz humana.
+
+Estos detalles (cream + serif clásico, myths por local, captions contextuales, restraint en botones, voz narrativa específica) rompen el look pulido, genérico y sin historia de sitios de restaurante generados por IA.
+
+---
+
 ## 2026-11-07 — Padella (padella.co) — Casual / Independent (London, pasta bar)
 
 **Tipo:** Pasta bar casual independiente (fundada por Tim y Jordan, 2016 en Borough Market). 3 localizaciones (Borough Market, Shoreditch, Soho). WordPress custom. No acepta reservas en el original; virtual queue.
