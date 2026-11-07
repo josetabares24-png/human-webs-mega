@@ -203,3 +203,53 @@ Estos patrones refuerzan restricción tipográfica, honestidad operativa y espec
 6. **Info práctica prioritaria (horas, dirección, contacto) junto a narrativa corta** — No hero marketing; la utilidad operativa + una historia de evolución del local.
 
 Estos patrones priorizan funcionalidad de menú real, tipografía mixta editorial-utilitaria y especificidad de lugar/historia sobre la pulidez digital perfecta.
+
+## Alinea (Chicago) - Premium independiente, modernist / molecular
+**URL:** https://www.alinearestaurant.com/
+**Tipo:** Premium independiente / fine dining modernist (Chef Grant Achatz)
+**Fecha de observación:** 2026-11-07
+
+### Estructura y CTAs
+- Homepage: hamburger "Open Menu", logo "Alinea", secciones con mailing list, "Alinea Dining Room", descripción de las tres experiencias (Kitchen Table, The Gallery, The Salon), y "GALLERY >".
+- Nav (al abrir): Gallery, Private Events, The Alinea Group, Careers, Gift Cards, FAQ, BOOK A TABLE.
+- CTA principal: "BOOK A TABLE" como botón filled en gris apagado. También mailing list con "Subscribe".
+- Footer con dirección exacta (1723 N Halsted St, Chicago), emails (hospitality@, press@), careers.
+- Foco en las experiencias distintas y reserva; no hay menú de platos ni grid denso de comida. Página limpia con poco clutter.
+
+### Tipografía
+- Títulos (h1/h2/h3): "Cormorant Garamond" (serif), h1 ~44.8px peso 500, h2 ~33px peso 500, h3 ~27.5px peso 500. Elegante, no ultra-bold.
+- Body / párrafos: "adobe-garamond-pro" (serif), ~17.9px, peso 300, line-height ~32px. Clásico y legible.
+- Nav/links y algunos botones: adobe-garamond-pro, pesos 300-500, no uppercase extremo en todo.
+- Contraste serif en todo: display serif para headings, serif clásico para body. Se siente de libro o menú impreso de alta gama, no digital moderno.
+
+### Botones
+- CTA principal "BOOK A TABLE": filled, background rgb(168, 166, 161) (gris beige apagado), texto blanco, border-radius 0, box-shadow none, padding generoso (~17px 29px), font adobe-garamond-pro peso 500.
+- Otros: links de texto transparentes (bg rgba(0,0,0,0)), radius 0, sin sombra. "Open Menu" y nav items como texto plano.
+- "Subscribe" similar al filled gris o inverso (blanco sobre gris). Estilo: filled sutil en tono neutro, sin radios redondeados, sin sombras, sin colores brillantes.
+
+### Colores
+- Fondo principal: rgb(255, 255, 255) — blanco puro.
+- Texto: rgb(0, 0, 0) — negro puro en body; algunos headings blancos sobre áreas oscuras/fotos.
+- Acento: rgb(168, 166, 161) — gris beige/taupe apagado para botones filled. Sin rojo, azul o dorado digital.
+- Paleta muy restringida. Fotos de platos artísticos y espacios aportan color y drama (rojos, texturas).
+- Alto contraste limpio.
+
+### Espaciado, bordes, sombras, fotografía
+- Espaciado amplio, secciones con aire. No cards densas ni grids perfectos.
+- Sin box-shadow, bordes mínimos o none, radius 0 en UI.
+- Fotografía: reales y específicas de Alinea (alts/nombres como 20160518_gilsonAlinea_0011.jpg, platos con composiciones artísticas, interiores). No stock genérico; contexto de la experiencia modernist. Imágenes grandes, editoriales.
+
+### Menú, móvil y copy
+- Menú: no se lista online de forma estática. Se enfoca en las tres experiencias (Kitchen Table, Gallery, Salon) con descripciones. FAQ detalla reservas, dietary, wine pairings (precios como Standard $195, Reserve $285, Alinea $475), service charge 20%, dress code, etc. Honesto y operativo.
+- Copy: específico y factual. Nombra a chef Grant Achatz, Lincoln Park, las tres experiencias, awards (Michelin, James Beard), mailing list para ticket releases. Sin hipérbole vacía; habla de "innovative approach to modernist cuisine" pero anclado en hechos y nombres.
+- Móvil: hamburger "Open Menu" presente. Estructura se adapta; CTAs de reserva y mailing prioritarios. Tipografía serif se mantiene legible.
+
+### Patrones concretos útiles para webs anti-IA (6)
+1. **Serif clásico dual (Cormorant Garamond headings peso 500 + Adobe Garamond Pro body peso 300)** — Todo serif, elegante y editorial. Evita sans modernos o display bold típicos de IA/templates. Se siente de menú impreso de lujo.
+2. **Botón filled en gris beige apagado (rgb(168,166,161)), radius 0, sin sombra** — CTA visible pero sutil y material, no el azul/rojo brillante redondeado de SaaS. Contraste alto pero tono neutro.
+3. **Enfoque en experiencias nombradas (Kitchen Table, Gallery, Salon) en vez de menú de platos** — Especificidad de formato de dining. Reduce el genérico de "tasting menu"; prioriza la reserva y la narrativa de las opciones.
+4. **Fotografía artística real de platos/espacios con nombres de archivo/alts específicos** — Composiciones modernist reales, no stock perfecto. El contexto de Alinea (y no food porn genérico) corta el tono de IA.
+5. **Copy factual con nombres propios, awards y detalles operativos (FAQ de reservas, pairings, service charge)** — Grant Achatz, fechas de ticket release, precios concretos. Honestidad y especificidad sobre marketing inflado.
+6. **Ausencia de sombras, radios y clutter + blanco puro con acento taupe** — Restricción visual extrema. La tipografía serif y las fotos hacen el trabajo; menos "diseño digital perfecto".
+
+Estos patrones priorizan elegancia tipográfica clásica, sutilidad de CTA material y especificidad de experiencias/operación sobre la pulidez genérica y colorida de generadores de IA.
