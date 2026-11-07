@@ -99,3 +99,28 @@
 5. **Paleta mínima con un solo acento cálido:** Blanco/negro + naranja puntual. Contrasta con paletas saturadas o gradients de sitios generados. El acento se reserva para la acción real (reservar).
 
 **Notas honestas:** Sitio Squarespace, limpio y funcional. El popup de anuncio es un poco intrusivo al cargar, pero se cierra fácil. En móvil el menú hamburguesa funciona. No es visualmente “wow” ni ultra-minimalista extremo; prioriza utilidad y especificidad. Buena referencia de premium real que no cae en el look AI de hero gigante + cards de platos.
+
+## 2026-11-07 — Katz's Delicatessen, Lower East Side, New York
+
+**URL:** https://katzsdelicatessen.com/  
+**Type:** Independent / iconic casual deli (family-run since 1888, Jewish-style, single location with shipping/catering)
+
+### What I saw (specific)
+
+- **Structure & CTAs:** Homepage is e-commerce first: shipping packages, in-store menu highlights, catering options as product grids with prices. Top nav dark bar: SHIP NATIONWIDE, MENU & LOCAL DELIVERY, CATERING, BROOKLYN, MORE. Address in hero-ish area: “205 East Houston Street (corner of Ludlow St) New York City, 10002”. No reservation CTA (walk-in deli). Cart, search, login. Mobile-friendly product carousels. Practical shipping and delivery paths dominant.
+- **Typography:** Body and most headings use Lato (sans-serif), 14px body, weight 400, black. Section headings (h4) 20px bold. Large hero-style text (h3) 42px bold white on dark. Menu page falls back to Arial/Helvetica. Clean, utilitarian sans throughout — no serif.
+- **Buttons:** Add-to-cart and primary actions are filled bright red rgb(211, 8, 0) or rgb(209, 16, 16), white text, small padding (7px 15px), border-radius 0, Open Sans or Lato. Search button red. Some outline/gray for secondary (Sign In). Nav links white on dark gray rgb(51,51,51). Minimal rounding.
+- **Colors:** Pure white background, black text. Strong red accents for CTAs and branding. Dark gray navigation. High contrast. Classic deli red-black-white, not soft or muted.
+- **Espaciado, bordes, sombras, fotografía:** Product grids with images of sandwiches, packages, meats. Photography is straightforward product shots and some lifestyle (pastrami piles, store). No heavy shadows or ornate borders. Functional spacing for catalog. Address and practical info visible.
+- **Menú:** In-store menu as categorized product-like listings with short descriptive copy and prices next to items (e.g. “Katz's Pastrami – Smoked to juicy perfection and hand carved to your specifications. Ask for mayo at your own peril. $30.95”). Swipeable categories. Separate shipping catalog. Descriptions are specific and slightly wry, not generic.
+- **Copy:** History page is concrete and chronological: Iceland Brothers 1888, Willy Katz 1903, move during subway construction, “Send a Salami to Your Boy in the Army” WWII slogan, Lower East Side immigrant community, Yiddish theater. Avoids fluff; names people, years, streets, traditions. Homepage prioritizes shipping and products over story.
+
+### 5 patrones concretos útiles para webs anti-IA
+
+1. **Utilidad e-commerce primero + dirección concreta en viewport:** Sitio prioriza enviar comida y pedir delivery sobre storytelling. Dirección exacta (Houston + Ludlow) visible sin buscar. Funcional para un deli real que vive de pedidos y turismo, no de “experiencia premium”.
+2. **Sans utilitario (Lato) + acento rojo deli clásico:** Lato/Arial en todo, botones filled red rectangulares sin radio grande. Se siente catálogo de deli tradicional o tienda online antigua, no template moderno geométrico ni pastel.
+3. **Descripciones de plato cortas, específicas y con personalidad:** “Ask for mayo at your own peril”, “secret dry-cure… full month”, “pace yourself”. No “delicioso sándwich artesanal de pastrami ahumado”. El tono es deli New York, no marketing genérico.
+4. **Historia factual y cronológica sin épica:** Nombra hermanos Iceland, años exactos, construcción del subway, slogan de la WWII, comunidad de inmigrantes. Se siente archivo familiar, no “nuestra pasión por la comida desde hace generaciones”.
+5. **Fotografía de producto directa + grids simples:** Fotos de sándwiches reales, paquetes y carnes, no platos perfectamente iluminados en studio. Layout de catálogo con precios visibles. Contrasta con food-porn grids de sitios AI.
+
+**Notas honestas:** Sitio Magento-style (o similar e-commerce), funcional y un poco anticuado en diseño (carousels, product grids). No es bonito en el sentido editorial de los anteriores; es utilitario y on-brand para un deli icónico de 1888. En móvil los swipes de menú y productos funcionan. Ideal como contraste: anti-IA no siempre es serif minimalista; a veces es el catálogo rojo-negro de un negocio real que vende lo que es.
