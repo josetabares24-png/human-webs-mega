@@ -49,3 +49,28 @@
 5. **Fotografía mínima y de lugar:** Prioriza texto del menú sobre grids de food photography.
 
 **Notas honestas:** Sitio WordPress simple. Menú actualizado con fecha. En móvil legible. Práctico y on-brand para pasta bar casual. Ideal anti-IA por priorizar utilidad (qué hay hoy y cuánto cuesta) sobre estética de template.
+
+## 2026-11-07 — Katz's Delicatessen, New York City
+
+**URL:** https://katzsdelicatessen.com/  
+**Type:** Independent / historic NYC deli (since 1888, shipping + local, e-commerce heavy)
+
+### What I saw (specific)
+
+- **Structure & CTAs:** Homepage is product-focused shop: categories (SEASONAL & GIFTS, PACKAGES, MEATS, etc.), popular items with prices, “ORDER NOW”, “SHIP NATIONWIDE”, “MENU & LOCAL DELIVERY”, “CATERING”. Top nav dark gray filled buttons for main sections. Login/Register, cart. Footer with address (205 East Houston Street), phone 1-800-4HOTDOG. No giant hero image; text intro “A New York institution since 1888”. Mobile has hamburger menu.
+- **Typography:** Body Lato, sans-serif, 14px, weight 300, black on white. Headings also Lato, bold 700. Menu page switches to Arial, 14px weight 300, dark brownish text rgb(31,26,23) on cream bg. Utilitarian, readable, not trendy geometric.
+- **Buttons:** Nav items like “SHIP NATIONWIDE” are filled dark gray rgb(51,51,51), white text, radius 0, padding ~5px 16px, weight 700. Many links transparent. No highly rounded colorful primaries. Product cards are clickable with prices.
+- **Colors:** Homepage pure white bg, black text. Menu page warm cream/beige rgb(248, 241, 231). Accent dark gray for buttons. High contrast, no bright brand colors or gradients.
+- **Espaciado, bordes, sombras, fotografía:** Functional product grids with real photos of packages, sandwiches, latkes (not hyper-styled food porn). No obvious heavy shadows or rounded cards. Spacing practical for shopping. Photography shows actual food and merch.
+- **Menú:** Dedicated /store-menu page with categories (Hot Sandwiches, Cold, etc.). Items like “Katz's Pastrami – Smoked to juicy perfection and hand carved... Ask for mayo at your own peril. $30.95”. Short descriptive copy + price. Swipeable categories on mobile. Delivery/pickup option.
+- **Copy:** Concrete and characterful. “For generations, Katz's Deli has been serving legendary house-cured, hand-carved pastrami & corned beef”. Item notes are specific and a bit cheeky (“Ask for mayo at your own peril”, “The secret to finishing one is to pace yourself”). Mentions since 1888, address, phone. Practical, not inspirational fluff.
+
+### 5 patrones concretos útiles para webs anti-IA
+
+1. **E-commerce deli real con precios y descripciones cortas con personalidad:** Productos y menú con precio claro + una línea de copy que suena a deli (no “elevated” ni “artisan experience”).
+2. **Sans utilitario ligero (Lato weight 300 / Arial):** Lectura cómoda, no Inter bold everywhere. En menú cambia a Arial sobre fondo crema cálido.
+3. **Botones nav filled planos dark gray, radius 0:** Acciones principales sin redondeo ni color vibrante. Se sienten funcionales, no “modern SaaS”.
+4. **Fondo crema cálido en menú + blanco puro en shop:** Contraste de secciones sin paleta de marca saturada. La calidez viene del tono de fondo, no de acentos brillantes.
+5. **Copy que nombra el año, la dirección, el teléfono 1-800-4HOTDOG y detalles de proceso:** “house-cured, hand-carved”, “dry-cure pickling formula requires a full month”. Se siente de un sitio que existe desde hace décadas, no generado.
+
+**Notas honestas:** Sitio Magento-style muy orientado a venta online y shipping (es más tienda que restaurante puro). Funcional y directo. En móvil el menú de categorías es swipeable y legible. No es el diseño más “bonito” o restrained, pero tiene autenticidad de deli histórico de NYC: práctico, un poco tosco, con carácter en el texto. Útil como referencia de sitio real de comida que prioriza pedir/comprar sobre estética de template.
