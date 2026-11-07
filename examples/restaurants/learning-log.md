@@ -124,3 +124,28 @@
 5. **Fotografía de producto directa + grids simples:** Fotos de sándwiches reales, paquetes y carnes, no platos perfectamente iluminados en studio. Layout de catálogo con precios visibles. Contrasta con food-porn grids de sitios AI.
 
 **Notas honestas:** Sitio Magento-style (o similar e-commerce), funcional y un poco anticuado en diseño (carousels, product grids). No es bonito en el sentido editorial de los anteriores; es utilitario y on-brand para un deli icónico de 1888. En móvil los swipes de menú y productos funcionan. Ideal como contraste: anti-IA no siempre es serif minimalista; a veces es el catálogo rojo-negro de un negocio real que vende lo que es.
+
+## 2026-11-07 — Canlis, Seattle
+
+**URL:** https://canlis.com/  
+**Type:** Independent / premium fine-dining (family-owned since 1950, modern Pacific Northwest)
+
+### What I saw (specific)
+
+- **Structure & CTAs:** Minimal top nav: RESERVE (left), EXPLORE (dropdown), PRIVATE EVENTS (right). Homepage opens with large serif-ish text “Seattle's family-owned fine dining, since 1950.” then short service-focused paragraphs + full-bleed photos of tableside salad, night exterior with cedar tree, charred pork belly. Footer has address, phone, email. No sticky bar, no pop-up on load. Mobile keeps the same three-item nav.
+- **Typography:** Body and all headings use GTSectraBook (contemporary serif), 13px body / ~20px headings, weight 400, color rgb(39,35,32). Nav uses HelveticaNeue-Medium ~11.7px. Consistent serif for reading, sans only for tiny nav. Small body size, editorial.
+- **Buttons:** Almost pure text. RESERVE is transparent bg, dark text, tiny radius 5px, zero padding. Other links plain text, no fill, no border. No filled primary CTAs visible on homepage.
+- **Colors:** Soft warm off-white / beige background rgb(239, 240, 235). Text dark brownish-gray rgb(39,35,32). No bright accents. Very high contrast but soft, paper-like.
+- **Espaciado, bordes, sombras, fotografía:** Generous whitespace, normal line-height. Soft box-shadows on some cards/images (rgba black 0.08/0.14). Photography is real and atmospheric: server preparing Canlis Salad tableside, night exterior with Lebanese cedar, specific dishes (charred pork belly with pear consommé), dining room views. Not studio food porn grids.
+- **Menú:** Menu page is mostly narrative: “We offer a 6-course dining experience. We'll ask that you begin your evening by choosing 3 of those...” Notes on 20% service charge, awards. No full dish list with prices online. Address and phone repeated.
+- **Copy:** Specific and understated. Names the building’s architects (Roland Terry 1950, Jim Cutler, George Suyama), the cedar tree, “taking care of others”, 75 years, James Huffman as 8th Executive Chef. Avoids superlatives; focuses on hospitality and place.
+
+### 5 patrones concretos útiles para webs anti-IA
+
+1. **Serif contemporáneo pequeño (GTSectraBook 13-20px) + fondo beige suave:** Se siente como carta impresa de fine-dining clásica, no como template geométrico blanco/Inter. El tamaño reducido y el color papel rompen el look “AI clean”.
+2. **Nav ultra-mínima de tres elementos de texto:** Solo RESERVE / EXPLORE / PRIVATE EVENTS. Sin mega-menú, sin iconos. En móvil se mantiene igual. Prioriza la acción real sin ruido.
+3. **Fotografía documental del servicio y el lugar:** Tablasides reales, exterior de noche con el cedro, platos específicos nombrados. Acompaña copy que nombra arquitectos y años exactos, no “experiencia inmersiva”.
+4. **Botones = texto puro sin relleno:** RESERVE es link transparente. Contrasta con los primary filled/rounded de la mayoría de sitios. La acción es visible por posición, no por color de botón.
+5. **Menú narrativo en lugar de lista de platos:** Describe el formato (6 cursos, eliges 3) y la filosofía en vez de listar cada plato con precio. Honestidad y restraint que evita el grid de cards generado.
+
+**Notas honestas:** Sitio custom limpio. El body de 13px es pequeño (puede cansar en móvil), pero el resto respira. Fotos de alta calidad y sombras suaves le dan profundidad sin ser “template”. Ideal referencia de premium familiar que se siente hecho a mano y específico de Seattle, no de un generador de “luxury restaurant sites”.
