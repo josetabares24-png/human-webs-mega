@@ -1,5 +1,30 @@
 # Restaurant Learning Log
 
+## 2026-11-07 — Padella (padella.co) — Casual / Independent (London, pasta bar)
+
+**Tipo:** Pasta bar casual independiente (fundada por Tim y Jordan, 2016 en Borough Market). 3 localizaciones (Borough Market, Shoreditch, Soho). WordPress custom. No acepta reservas en el original; virtual queue.
+
+### Lo que vi (honesto)
+- Homepage con video hero (timelapse.mp4 de la elaboración). Luego cards de las 3 locations con fotos reales de los sitios. Menú completo del día (ej. Saturday 7th November) listado directamente en la página: ANTIPASTI, PASTA, PUDDING, etc. Footer con about, group bookings, links a Trullo.
+- Tipografía: headings y categorías de menú en **Oswald** (sans, peso 500-700, uppercase, ~24-40px). Cuerpo, menú items y prosa en **Roboto Condensed** (sans condensed, 16-18px, peso 400, line-height ~24-26px). Todo sans, denso y legible. Sin serif.
+- Botones/CTAs: casi inexistentes como filled. Nav y locations son links de texto uppercase. “Join the virtual queue” es link de texto blanco sin fondo, sin borde, sin radius (bg transparent, color white, pad 0). No hay botones pill coloridos ni outline. Toggle hamburger en móvil.
+- Colores: fondo negro sólido (rgb(0,0,0)), texto blanco (rgb(255,255,255)). Contraste máximo. Sin acentos de color, sin gradients, sin cremas. Paleta monocromática extrema.
+- Espaciado: menú denso (items seguidos con precio inline tipo “Nocellara olives£4”), secciones con headings claros. Bordes y sombras prácticamente nulas. Fotografía: exteriores/interiores de locations (padella-borough.webp etc.), no grids de platos stock. Video del proceso.
+- Menú: lista de texto puro con precios pegados (ej. “Pici cacio & pepe£13.5”, “Pappardelle with 8 hours Hereford beef shin ragu£16.5”). Ingredientes específicos reales (Nocellara, Le Ferre olive oil, Cobble Lane nduja, Westcombe ricotta, Dorset crab). Copy: “the culmination of Tim and Jordan’s long held dream to open a pasta bar serving fresh, hand rolled pasta…”. En location: “We don’t accept reservations at Padella Borough Market, but you can join our virtual queue… Dojo App”. Abierto en 2016, pasta hecha a la vista en la ventana.
+- Móvil: hamburger presente, menú y locations accesibles, info práctica (queue, locations) prioritaria. Dark theme se mantiene.
+
+### 5-6 patrones concretos útiles para webs anti-IA
+1. **Dark mode total negro/blanco**: fondo #000 y texto #FFF. Se siente de bar o pasta shop nocturna, no del template claro con soft shadows que generan las IAs por defecto.
+2. **Menú denso como texto plano con precios inline**: items específicos (“Tagliarini with dried chilli, garlic & pangrattato£9.5”) en Roboto Condensed, sin cards, sin fotos por plato, sin badges. Práctico y humano.
+3. **Tipografía solo sans condensed + uppercase Oswald**: categorías bold uppercase, cuerpo condensed. Legible en lista larga, no el mix serif/sans “editorial luxury” genérico.
+4. **Honestidad operativa explícita**: “We don’t accept reservations… virtual queue via Dojo”. Menciona fundadores, año, platos signature, proceso en ventana. Copy de persona real, no hype.
+5. **Hero de video de proceso + fotos de locations reales**: timelapse de pasta, exteriores de Borough/Shoreditch/Soho. No hero stock de plato perfecto ni grid de comida AI-looking.
+6. **CTAs de texto puro, cero botones filled**: “Join the virtual queue” y links de location sin fill, border ni radius. Menos “Book Now” verde/rojo de template, más funcional.
+
+Estos detalles (dark extreme, densidad de menú real, nombres de ingredientes/proveedores, honestidad sobre no-reservas, video de proceso) rompen el look pulido, claro y genérico de sitios de restaurante generados por IA.
+
+---
+
 ## 2026-11-06 — Cutler (cutlerandco.com.au) — Premium / Independent (Melbourne, Fitzroy)
 
 **Tipo:** Fine-dining independiente (Andrew McConnell), recientemente reorientado a más casual/flexible. Squarespace-based.
@@ -49,4 +74,4 @@ Estos elementos (fuentes con carácter, restraint de color, fotos reales, utilid
 
 ---
 
-*Observado con navegador real el 6 de noviembre de 2026.*
+*Observado con navegador real el 7 de noviembre de 2026.*
