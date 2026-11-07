@@ -1,1 +1,1 @@
-$(cat /tmp/final-log.md)
+PLACEHOLDER
