@@ -49,3 +49,28 @@
 5. **Fotografía real + copy específico:** Fotos de interiores y platos con luz natural; texto que nombra el edificio, el barrio y la historia concreta en vez de frases genéricas tipo “experiencia gastronómica única”.
 
 **Notas honestas:** Sitio Squarespace limpio y funcional. En móvil el menú se mantiene legible. No es “wow” visualmente, pero se siente hecho por humanos para humanos (info útil primero). Ideal referencia de restraint premium.
+
+## 2026-11-07 — Dishoom, UK (multi-location)
+
+**URL:** https://www.dishoom.com/  
+**Type:** Chain / casual-premium Bombay comfort food (Irani café inspired, multi-site)
+
+### What I saw (specific)
+
+- **Structure & CTAs:** Story-first homepage with large quote, “ALL WELCOME”, and immersive narrative about Bombay. Sections for Christmas, recipes, awards, locations. Persistent “Book a table” button in header (pill outline). Mobile: “Toggle Menu” hamburger. Location pages have dedicated story + practical links (FOOD & DRINK, RESERVATIONS, VISIT US, FAQS). Cookie banner with custom copy about dipping cookies in chai.
+- **Typography:** Body and most headings use Cheltenham BT (serif fallback Georgia/Times), 16px body, weight 400, dark gray rgb(53,56,57). Some smaller elements and buttons use Gill Sans Nova (sans), 13-14px, weight 700, uppercase in places. Mixed but serif-dominant, editorial.
+- **Buttons:** Primary CTA “Book a table” is outline pill (border-radius 9999px, 1px solid light border, transparent bg, light text, padding 6px 10px, sans bold). Other links mostly plain text. Cookie buttons are outline or solid gray. Few filled buttons overall.
+- **Colors:** Warm beige/off-white background rgb(240, 236, 224). Text dark gray. Light cream accents rgb(255,253,249). No bright primary colors; warm, paper-like palette. High contrast but soft.
+- **Espaciado, bordes, sombras, fotografía:** Line-height 24px on body. Some shadows present. Photography is abundant and atmospheric: interiors, food spreads, historical Bombay references, chefs. Captioned “ABOVE:” or “RIGHT:”. Real, not hyper-stylized studio shots.
+- **Menú:** Food & Drink page is long-form narrative text describing dishes by name and origin (e.g. Makhmali Paneer, Goan Monkfish Curry, Chicken Ruby, House Black Daal). Links to full menus. Location pages highlight specials with short poetic descriptions. No pure card grids of every dish with photos; text-led.
+- **Copy:** Extremely specific and literary. Names streets (Mohammed Ali Road, Colaba, Grant Road), years (1914, 1949), people, “Chef-wallas”, “from Bombay with love”, “All are welcome”. Cookie text is playful and on-brand. Avoids generic “unforgettable experience”.
+
+### 5 patrones concretos útiles para webs anti-IA
+
+1. **Fondo beige cálido tipo papel + serif editorial:** rgb(240,236,224) + Cheltenham/Georgia. Se siente como menú impreso o carta de café Irani, no como template digital frío. Contrasta con fondos blancos puros o grises de IA.
+2. **Copy narrativo ultra-específico y cultural:** Nombra calles, años, platos exactos, “Ruby” la cantante, “Fearless Nadia”. Cada local tiene su “founding myth”. Se nota escrito por gente que conoce Bombay, no generado.
+3. **CTA principal outline pill pequeño y persistente:** “Book a table” en header como botón redondeado outline (no filled gigante). Funcional sin gritar. Sans solo para acciones, serif para el resto.
+4. **Menú y comida como prosa, no cards:** Descripciones largas con origen y sensación (“pillowy”, “silky”, “scraped every crumb”). Fotos con captions “ABOVE:”. Evita el grid de platos perfectos típico de AI food sites.
+5. **Microcopy on-brand en todo (incluso cookies):** Banner de cookies habla de “dipping into House Chai” y “Regrettably, our digital cookies are less tasty”. Detalle humano que rompe la impersonalidad de banners genéricos.
+
+**Notas honestas:** Sitio custom (Next.js + Sanity). Muy bien ejecutado, con personalidad fuerte. En móvil el toggle menu funciona. Hay bastante scroll y storytelling antes de lo práctico, pero las reservas y menús son fáciles de encontrar. Ideal para anti-IA por el tono literario y la paleta cálida no-template. No es minimalista extremo como los anteriores, pero sigue siendo humano y específico.
