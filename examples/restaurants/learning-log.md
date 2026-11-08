@@ -1,1 +1,1 @@
-$(cat /tmp/learning-log-full.md)
+$(cat /tmp/full-log.md)
