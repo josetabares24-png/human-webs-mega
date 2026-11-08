@@ -125,3 +125,28 @@
 6. **Copy que cita fuente externa y nombra sourcing específico:** Texas Monthly, USDA Prime, Duroc-breed pigs, dirección exacta. Se siente escrito por gente que opera el lugar, no generado para “contar la historia”.
 
 **Notas honestas:** Sitio Squarespace limpio y funcional, orientado a visitantes que hacen cola y a preorder/shipping. En móvil el menú hamburger funciona. Tiene personalidad de BBQ texano sin pretensiones de “elevated experience”. Útil como referencia anti-IA de sitio casual independiente: práctico, con detalles reales de operación y estética de lugar en tipografía y color, no un template genérico de restaurante.
+
+## 2026-11-08 — Canlis, Seattle
+
+**URL:** https://canlis.com/  
+**Type:** Independent / premium fine-dining (family-owned since 1950, New American / Pacific Northwest, tasting menu)
+
+### What I saw (specific)
+
+- **Structure & CTAs:** Homepage text-led with short invitation paragraph and sections (An Invitation, The Space, In the Press). Top nav sparse: RESERVE (links to Tock), EXPLORE (disclosure), PRIVATE EVENTS. Contact info (phone, address, Instagram) visible high. No giant hero image dominating; photography interspersed (tableside salad prep, exterior at night with Lebanese Cedar, dining room, food). Mobile: hamburger/menu toggle, nav collapses. No sticky CTA bar. Footer has practical info.
+- **Typography:** Body GT Sectra Book (serif by Grilli Type), ~13px, weight 400, dark brownish rgb(39,35,32). Large headings on menu page use GT Sectra Display Light (serif), up to 112px. Nav uses Helvetica Neue Medium, small ~11.7px. Mix of custom editorial serif for body/display and clean sans for UI. Not geometric sans everywhere. High readability, literary feel.
+- **Buttons:** Almost all plain text links. RESERVE is transparent bg, dark text, tiny 5px radius, no fill. Other nav and “Read More” are transparent, radius 0. No filled primary buttons with strong color or heavy rounding. Actions feel understated.
+- **Colors:** Warm off-white / cream background rgb(239, 240, 235). Text dark warm brown rgb(39, 35, 32). No bright accents, no pure white/black extreme, no gradients. Soft, atmospheric contrast that feels refined rather than high-contrast template.
+- **Espaciado, bordes, sombras, fotografía:** Generous spacing, no visible box-shadows, borders mostly none or zero. Photography is real and atmospheric: specific moments (server preparing Canlis Salad tableside, night exterior with cedar tree, charred pork belly, dining room with servers and guests). Not stock or dense food-porn grids. Images support the place and service rather than pure appetite.
+- **Menú:** /menu page is pure text. Explains 6-course experience: choose 3, kitchen does the rest. Categories One/Two/Three with dish names in caps + short descriptors (e.g. SABLEFISH chili XO, komatsuna, and shiso). Optional add-ons with prices (+$55 duck, +$20 Canlis Salad). No dish photos, no cards. Notes on 20% service charge. Feels like a printed menu.
+- **Copy:** Specific and understated. Names architects (Roland Terry 1950, Jim Cutler, George Suyama), awards (James Beard Design Icon, Wine Spectator Grand Awards, #2 in America by Food & Wine 2025), chef (James Huffman, 8th executive chef), phone and exact address. Invitation text is personal (“our favorite thing in the world is taking care of others”). Avoids generic superlatives.
+
+### 5 patrones concretos útiles para webs anti-IA
+
+1. **Serif editorial custom (GT Sectra Book + Display) para cuerpo y títulos grandes:** Tipografía de revista/literaria en lugar de sans geométrico. Se siente de un lugar con historia y diseño deliberado, no de un template de 2024.
+2. **Fondo cream cálido suave + texto marrón oscuro:** Paleta rgb(239,240,235) / rgb(39,35,32) atmosférica. Menos “AI clean white” o negro puro; la calidez es del tono de fondo, no de acentos saturados.
+3. **CTAs como texto puro (sin fill, radio mínimo):** RESERVE y nav son links transparentes. Reserva no grita; se siente elegante y seguro del producto.
+4. **Menú de tasting como texto plano con descriptores cortos, sin fotos ni cards:** Lista de platos + ingredientes, precios solo en add-ons. Prioriza la experiencia narrativa sobre catálogo visual.
+5. **Fotografía de momento y lugar específico + copy que nombra arquitectos, año y chef:** Imágenes de la ensalada tableside, el cedro, la sala; texto que cita Roland Terry 1950 y Huffman. Autenticidad de sitio real con historia, no generada.
+
+**Notas honestas:** Sitio limpio y restrained, orientado a reservas (Tock) y experiencia premium. En desktop y móvil funciona bien, menú legible. La ausencia de precios base y de grid de platos es deliberada para tasting menu. Fotografía y tipografía custom le dan carácter sin ser ostentoso. Útil como referencia anti-IA de fine-dining independiente: elegante, específico, sin template agresivo de CTAs o food porn.
