@@ -46,7 +46,7 @@
 2. **Fondo negro puro + sans condensado (Roboto Condensed + Oswald):** Alto contraste utilitario, como menú de pizarra.
 3. **Cero botones filled:** Acciones son links de texto o emails. Reserva sin gritar.
 4. **Copy que nombra fundadores y platos concretos:** Tim y Jordan, “hand rolled pasta”, ragu de 8 horas.
-5. **Fotografía mínima y de lugar:** Prioriza texto del menú sobre grids de food photography.
+5. **Fotografía mínima y de lugar:** Prioriza texto del menú sobre grids of food photography.
 
 **Notas honestas:** Sitio WordPress simple. Menú actualizado con fecha. En móvil legible. Práctico y on-brand para pasta bar casual. Ideal anti-IA por priorizar utilidad (qué hay hoy y cuánto cuesta) sobre estética de template.
 
@@ -74,3 +74,28 @@
 5. **Copy que nombra el año, la dirección, el teléfono 1-800-4HOTDOG y detalles de proceso:** “house-cured, hand-carved”, “dry-cure pickling formula requires a full month”. Se siente de un sitio que existe desde hace décadas, no generado.
 
 **Notas honestas:** Sitio Magento-style muy orientado a venta online y shipping (es más tienda que restaurante puro). Funcional y directo. En móvil el menú de categorías es swipeable y legible. No es el diseño más “bonito” o restrained, pero tiene autenticidad de deli histórico de NYC: práctico, un poco tosco, con carácter en el texto. Útil como referencia de sitio real de comida que prioriza pedir/comprar sobre estética de template.
+
+## 2026-11-08 — Atelier Crenn, San Francisco
+
+**URL:** https://www.ateliercrenn.com/  
+**Type:** Independent / premium fine-dining (3 Michelin stars, Dominique Crenn, tasting menu)
+
+### What I saw (specific)
+
+- **Structure & CTAs:** Homepage con hero slider de imágenes y promo de evento (“ASKA & ATELIER CRENN”, botón “RESERVE YOUR TABLE”). Nav superior con RESERVATIONS destacado y submenú Information (Our Menu, FAQ, Private Dining, etc.). Sección sobre Dominique Crenn. Mobile tiene toggle de navegación. No sticky bar gritona.
+- **Typography:** Body Halant (serif), 18px, weight 400, color light gray rgb(190,197,200). Headings “Julius Sans One” (sans), weight 700, tamaños grandes (40–54px), uppercase feel. Mezcla serif cuerpo + sans elegante títulos. Line-height 27px.
+- **Buttons:** CTA principal filled medium gray rgb(110,117,120), texto blanco, border-radius 4px, padding pequeño 6px 16px, font Julius Sans One 14.4px weight 700, border solid mismo color. No outline brillante ni redondeo excesivo. Otros links transparentes.
+- **Colors:** Fondo oscuro muted rgb(74,83,87), texto light gray/blanco. Acento del botón un poco más claro. Bajo contraste atmosférico, no blanco puro ni negro puro, no colores saturados.
+- **Espaciado, bordes, sombras, fotografía:** Espaciado generoso, line-height amplio. Sin box-shadows visibles. Fotografía real pero escasa (hero slider, pocas imágenes de lugar/platos estilizados, no grid masivo de food porn). Imágenes desde Bento CMS.
+- **Menú:** Página “Our Menu” es narrativa, no lista de platos con precios. Describe la experiencia singular, origen en Francia/Brittany, 30 años en California, ingredientes del Pacífico y Bleu Belle Farm en Sonoma, relaciones con productores. Menciona pairings de vino, cocktails en Bar Crenn. Sin cards ni fotos por plato.
+- **Copy:** Personal y concreto. Nombra a Dominique Crenn, “poetic culinaria”, veranos en Brittany, granja en Sonoma, productores específicos, evolución con las estaciones. Se siente escrito desde la cocina, no genérico “experience the magic of fine dining”.
+
+### 5 patrones concretos útiles para webs anti-IA
+
+1. **Paleta oscura muted + bajo contraste atmosférico:** Fondo rgb(74,83,87) y texto light gray. Crea mood de fine-dining sin ser negro puro ni blanco brillante. Menos “template AI” que paletas vibrantes o neutros perfectos.
+2. **Mezcla tipográfica deliberada (serif cuerpo + sans títulos):** Halant 18px para lectura + Julius Sans One bold grande para headings. No un solo sans geométrico everywhere.
+3. **CTA filled gris medio, radio pequeño (4px), sin acento brillante:** Botón “RESERVE YOUR TABLE” en rgb(110,117,120) con padding modesto. Funcional y elegante, no el primary rounded colorido de la mayoría de templates.
+4. **Menú como narrativa poética, no catálogo de platos:** Texto que cuenta origen, lugares y relaciones en lugar de lista de items + precios o cards con fotos. Ideal para tasting menus.
+5. **Copy que nombra granja, regiones y chef con detalles reales:** Bleu Belle Farm, Brittany, “each course carries a connection to a memory, place, or person”. Se siente de alguien que conoce el restaurante, no generado.
+
+**Notas honestas:** Sitio Bento CMS, oscuro y elegante, orientado a reservas y experiencia. En desktop se ve limpio; el hero es un slider. La ausencia de precios y lista de platos es deliberada (tasting menu premium). Funcional y con carácter, útil como referencia de fine-dining que prioriza mood y historia personal sobre grids de comida o CTAs agresivos.
