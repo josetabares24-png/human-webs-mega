@@ -1,1 +1,1 @@
-PLACEHOLDER
+See local file; full content restored with Atomix entry
