@@ -80,4 +80,30 @@ Observaciones concretas de sitios reales para extraer patrones útiles en webs a
 
 ---
 
+## St. JOHN (stjohnrestaurant.com) — Premium-Casual / Independiente (Londres)
+**Fecha observación:** 2026-11-08  
+**Tipo:** Restaurante nose-to-tail de Fergus Henderson, abierto 1994 en Smithfield (antigua smokehouse), múltiples locations, bakery y wines. Sitio WordPress simple.
+
+### Lo que vi (honesto)
+- Fondo blanco puro `rgb(255, 255, 255)`, texto negro puro `rgb(0, 0, 0)`. Cero color de acento. Contraste máximo, paleta monocroma absoluta.
+- Tipografía 100% serif: cuerpo en **Adigi Times** (fallback georgiapro, Georgia), ~16px peso 400. Headings (RESTAURANTS, SMITHFIELD, LUNCH) en la misma familia, 18px o 40px, peso 700. Nav y labels en serif bold. Nada de sans-serif.
+- Botones casi inexistentes. CTAs principales (RESERVATIONS, LEARN MORE, MENUS) son texto plano o con underline sutil (border-bottom). Los únicos filled son los del cookie banner (negro con texto blanco, radius 2px). No hay pills, no hay outline coloridos.
+- Fotografía real y no glam: shots tipo Instagram de platos concretos (bone marrow and parsley salad, anchovies on egg, raspberry trifle), staff con piezas de carne, ingredientes. Alts descriptivos y poéticos. No food-porn saturado ni stock.
+- Menú HTML diario con precios exactos: Olives 5.00, Beef Broth 12.00, Roast Bone Marrow and Parsley Salad 16.50, etc. Nota explícita: “Our menus are updated daily. Menus will not be updated until 11.00am for lunch and 5.00pm for supper.” Opción de DOWNLOAD PDF. Estructura por LUNCH / SUPPER / BAR / FEASTING.
+- Copy hiper-específico y de voz propia: “St. JOHN began quietly, cooking what we enjoyed for those who enjoyed what we do.” “In the kitchen, as ever, the menu is written twice a day, every day.” “There was no grand plan, just places that felt like home.” Menciona el smokehouse original, nose-to-tail, bakery hand-made each morning. Nada genérico.
+- Estructura: nav superior simple (RESTAURANTS, BAKERY, WINES, SHOP, EVENTS, RESERVATIONS). Locations con dirección exacta visible. Espaciado generoso, sin sombras, sin bordes pesados. Sitio ligero.
+- En móvil funciona igual: menú hamburger simple, contenido prioritario. Reserva y menús accesibles.
+
+### 6 patrones concretos para webs anti-IA
+1. **Serif clásico (Georgia-like custom) en TODO el sitio, peso 400 cuerpo / 700 headings**: Adigi Times / Georgia Pro. Evita completamente Inter, Roboto o sans de template. Se siente de imprenta y deliberado.
+2. **CTAs 100% tipográficos (texto o underline), cero botones filled de marca**: “RESERVATIONS” y “LEARN MORE” son links de texto. Solo el cookie banner tiene filled negro. Elimina el look de landing page de IA.
+3. **Paleta negro puro + blanco puro, fotografía como único elemento de color/textura**: Sin acentos, sin cremas, sin verdes. Las fotos de platos reales y de cocina aportan toda la calidez. Extremadamente difícil de generar con paletas default de modelos.
+4. **Menú HTML diario con precios reales y nota operativa explícita**: “updated daily… not until 11.00am for lunch”. Platos con nombre concreto + precio. Se siente vivo y transparente, no un PDF estático ni descripciones vacías.
+5. **Copy de voz de cocina, no de marketing**: Frases como “the menu is written twice a day, every day”, “no grand plan”, “places that felt like home”. Hechos operativos y de origen (smokehouse, 1994, nose-to-tail). Nada de “exceptional dining experience”.
+6. **Fotografía documental de platos y proceso, no hero glamoroso**: Shots de bone marrow, staff con carne, trifle, con alts narrativos. Transmite la cocina real más que una atmósfera inventada.
+
+**Utilidad anti-IA:** La combinación de serif clásico en todo el sitio, ausencia total de botones filled, paleta monocroma absoluta, menú diario con precios y copy operativo hiper-específico (“written twice a day”, smokehouse, no grand plan) produce un sitio que se siente de un restaurante con criterio propio y voz de cocina, no de un generador con defaults de tipografía sans + botones de color + copy genérico. Es el opuesto exacto de una landing de IA.
+
+---
+
 *(Entradas anteriores: ver historial del repo. El archivo se reinició aquí con esta observación limpia.)*
