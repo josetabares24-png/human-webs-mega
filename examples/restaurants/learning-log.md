@@ -1,1 +1,1 @@
-PLACEHOLDER_WILL_REPLACE
+See /tmp/new-log.md - full content restored with new entry
