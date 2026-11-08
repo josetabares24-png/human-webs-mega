@@ -162,3 +162,55 @@ Observaciones de sitios reales para extraer patrones útiles en webs anti-IA (es
 6. **CTAs de texto puro repetidos, no botones filled**: "MAKE A RESERVATION" como link en varios sitios. Genera exclusividad y confianza en el contenido visual.
 
 **Honestidad**: Sitio muy limpio y profesional, típico de Squarespace bien usado por un restaurante premium independiente. La fuerza está en las fotos reales del espacio y la comida, y en el copy específico (historia de la fábrica, acknowledgement). La tipografía narrow uppercase le da carácter de menú sin ser ornamental. En un restaurante más casual o sin buenas fotos podría sentirse demasiado frío y blanco. No hay mucho "diseño" más allá de la tipografía y el layout simple; funciona porque el contenido es fuerte.
+
+## 2026-11-08 — Commander's Palace (histórico premium-casual, New Orleans)
+**URL**: https://www.commanderspalace.com/
+**Tipo**: Restaurante histórico Creole desde 1880, independiente, famoso por Jazz Brunch, turtle soup y gumbo. Fine dining flexible con a la carte y private dining.
+
+### Estructura y CTAs
+- Nav superior horizontal de texto: About, Our Story, Hours, Dress Code, Location, Team, Awards & Press, Menus, Cuisine, Private Dining, Le Petit Bleu, Shop, etc. Logo a la izquierda.
+- CTA principal "Reserve" / "MAKE A RESERVATION" como botón filled teal (rgb(20,176,188)) con texto claro, padding 10px, border-radius 0.
+- Info práctica visible: teléfono +1 (504) 899-8221, dirección 1403 Washington Ave, New Orleans.
+- Hero/contenido con texto narrativo sobre cocina como jazz + links a VIEW THE MENU, PRIVATE DINING.
+- Secciones: Private Dining, 25¢ Martini Lunch, Recent Press (links a artículos reales), Commander's Collection shop, newsletter.
+- No hay hero gigante con overlay; el contenido textual y las fotos lideran.
+
+### Tipografía
+- Cuerpo: neue-haas-grotesk-display, sans-serif, ~14px, color rgb(124,124,124), line-height 20px.
+- Títulos principales: "Self Modern", "Times New Roman", sans-serif (serif moderna), 24-36px, weight 400, color rgb(3,50,48) (verde oscuro).
+- Acentos script: "Selva Scripto Pro" para elementos como "25¢ Martini Lunch", 30px, color teal.
+- Nav y labels: uppercase en algunos (RECENT PRESS), letter-spacing 1px, weight 500.
+- Sensación: mezcla de sans display limpia (Neue Haas) con serif Self Modern para títulos. Nada de bold extremo ni geométrica ultra moderna. Jerarquía por familia y tamaño.
+
+### Botones
+- Reserve principal: filled teal rgb(20,176,188), texto rgb(252,251,247), padding 10px, border-radius 0px, font Self Modern 15px weight 400, sin sombra, sin border.
+- Otros links (Menus, etc.): texto puro en teal o verde oscuro, radius 0, padding 0.
+- Estilo: filled sólido para acción principal, texto para navegación. Radius cero (cuadrado clásico, no pill). Contraste alto entre teal y fondo cream.
+
+### Colores
+- Fondo principal: rgb(252, 251, 247) — off-white/cream muy suave.
+- Texto cuerpo: rgb(124, 124, 124) gris medio.
+- Texto fuerte / títulos: rgb(3, 50, 48) — verde oscuro casi negro.
+- Acento principal: rgb(20, 176, 188) teal/cian (usado en botón Reserve, links, script).
+- Paleta restringida: cream + verde oscuro + teal. Evita negro puro y blanco puro. Sensación cálida y de New Orleans (el teal evoca el color del edificio/awings).
+- Contraste bueno en botón; textos grises más suaves.
+
+### Espaciado, bordes, sombras, fotografía
+- Espaciado generoso. Fotos sin border-radius (0px) ni box-shadow.
+- Fotografía real: pareja sentada fuera bajo awning azul y blanco de Commander's Palace con globos, interiores, platos. Alts descriptivos humanos ("Couple seated at a table outside a blue and white striped awning restaurant named Commander's Palace...").
+- Bordes y sombras mínimos. Todo fluye.
+
+### Menú, móvil y copy
+- Menú: página separada con intro narrativo sobre Chef Meg Bickford, "dirt to plate within 100 miles", Jazz Brunch, Lunch, Dinner, Cocktails. Platos listados como "Turtle Soup au Sherry" + descripción "The authentic Louisiana favorite ~ Finished tableside with a splash of aged Sherry". Estructura de lista tipográfica, no cards.
+- Copy: específico y local. "New Orleans cooking is like jazz." Historia, producto signature (turtle soup, gumbo, 25¢ martini), press real reciente (Southern Living, Nola.com, Bon Appétit). Nada genérico de "experience".
+- Móvil: hay hamburger (detectado en viewport ~800px). Nav se adapta. CTA Reserve permanece visible.
+
+### Patrones concretos útiles para webs anti-IA
+1. **Mezcla tipográfica sans display + serif moderna + script puntual**: Neue Haas para cuerpo, Self Modern (serif) para títulos, Selva Scripto para acentos como precios o especialidades. Evita la uniformidad de una sola sans geométrica. Da carácter editorial de menú histórico sin ser ornamental excesivo.
+2. **Botón filled teal con radius 0 y padding moderado**: Color de marca real (el teal del edificio), no pill ultra-redondeado ni outline. Contraste alto sobre cream. Se siente local y clásico, no startup template.
+3. **Paleta cream + verde oscuro + teal de marca**: rgb(252,251,247) fondo + rgb(3,50,48) texto fuerte + acento teal específico del lugar. Evita blanco puro / negro / grises fríos. El color del botón viene de la identidad visual real del restaurante.
+4. **Fotos del lugar real con alts descriptivos y sin ornamento**: Imágenes del exterior con awning característico, gente real, sin border-radius ni sombras. La fotografía carga el carácter de New Orleans; el diseño no compite.
+5. **Copy anclado en analogía local y producto signature**: "New Orleans cooking is like jazz", turtle soup tableside, 25¢ martini lunch, dirt-to-plate 100 miles. Press real integrado. Evita frases de marketing genérico.
+6. **Menú como lista tipográfica con descripciones concretas**: Platos en texto + "Finished tableside with a splash of aged Sherry". No grids de tarjetas ni precios enormes. Narrativa del chef al inicio.
+
+**Honestidad**: Sitio bien ejecutado (parece Webflow) con carácter por la historia real de Commander's, las fotos del edificio icónico y el copy específico de New Orleans. La tipografía Self Modern + script aporta personalidad sin ser excesiva. El teal es un acento de marca real, no un color de template. En un restaurante sin identidad visual fuerte o fotos del lugar, la estructura podría sentirse más genérica. Funciona porque el contenido (jazz, turtle soup, press) es concreto y local.
