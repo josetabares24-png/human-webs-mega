@@ -54,4 +54,30 @@ Observaciones concretas de sitios reales para extraer patrones útiles en webs a
 
 ---
 
+## Sweetgreen (sweetgreen.com) — Casual / Cadena (EE.UU.)
+**Fecha observación:** 2026-11-08  
+**Tipo:** Cadena de salads y bowls saludable, rápida-casual, múltiples locations, fuerte en online order.
+
+### Lo que vi (honesto)
+- Fondo principal crema suave `rgb(244, 243, 231)` / ~#F4F3E7. Texto principal casi negro verdoso `rgb(14, 21, 14)`. Acento lima brillante `rgb(230, 255, 85)` para el botón principal. Secciones oscuras puntuales.
+- Tipografía: familia custom **SweetSansText** (sans-serif) para cuerpo y UI, 16px peso 400. Display grande **SweetSans** (variante de la misma familia) a ~63px peso 400 para headlines como “Fall’s Best Dressed” o “Where should we open next?”. Nav en uppercase 16px peso 400. Nada de bold pesado genérico.
+- Botones: el CTA principal “ORDER NOW” es filled pill (border-radius 1000px), fondo lima `rgb(230,255,85)`, texto verde oscuro `rgb(0,71,60)`, padding generoso ~15px 60px, peso 400. Nav y links secundarios son texto plano (sin fondo, sin borde), uppercase. Hay un “Our Menu” grande en color claro sobre fondo.
+- Fotografía de comida real y generosa: platos de temporada (Maple Glazed Salmon), bowls, ingredientes visibles. No stock genérico. Hero con overlay de texto grande.
+- Menú / productos: cards con nombre en mayúsculas (KALE CAESAR), lista corta de ingredientes, alérgenos explícitos (“Contains milk, eggs…”), y “Order now →”. Online order prioritario.
+- Copy específico y de temporada: “Fall’s Best Dressed”, “Where should we open next? LET US KNOW”, “Come join our team”. Voz directa, joven, no corporativa genérica. Menciona antibiotic-free, etc.
+- Estructura: nav superior simple (Our Menu, Our Mission, Locations, Catering…), hero con producto + CTA, secciones de menú, recruiting. Espaciado amplio, sombras muy sutiles (`rgba(0,0,0,0.4) 0 0 3px`). Contraste alto. Sitio rápido, orientado a mobile/order.
+- Reserva/order: “ORDER” prominente en nav y hero. No sticky agresivo, pero CTAs claros para pedir.
+
+### 5 patrones concretos para webs anti-IA
+1. **Familia tipográfica custom sans de peso regular + display ligero**: SweetSansText 16px/400 para cuerpo y nav; SweetSans ~63px/400 para headlines. Evita Inter bold y serifs genéricas. Se siente de marca propia.
+2. **Botón pill filled con acento lima saturado sobre crema**: “ORDER NOW” radius 1000px, bg #E6FF55, texto verde oscuro, padding amplio. El resto de CTAs son texto plano uppercase. Contrasta con botones rectangulares naranjas default de IA.
+3. **Paleta crema + verde-negro + lima puntual**: Fondo #F4F3E7, texto #0E150E, acento solo en el CTA principal. Cálida pero fresca, no pastel genérico ni negro puro.
+4. **Menú / productos con ingredientes listados y alérgenos explícitos**: Nombre uppercase, lista corta de componentes, “Contains…”. Se siente transparente y real para comida rápida-saludable, no descripciones poéticas vacías.
+5. **Copy de temporada y conversacional + hero tipográfico grande**: “Fall’s Best Dressed” a 63px, preguntas directas como “Where should we open next?”. Voz de marca joven y concreta, no “fresh healthy meals” genérico.
+6. **Fotografía de producto real con overlay de texto y CTA inmediato**: Platos de temporada visibles above the fold junto al botón order. Prioriza la acción (pedir) sin perder estética.
+
+**Utilidad anti-IA:** La combinación de familia sans custom de peso ligero, paleta crema + lima saturada solo en un pill button, menú con ingredientes/alérgenos reales y copy de temporada específico es difícil de generar con los defaults actuales (Inter, botones blue/orange rectangulares, copy genérico de “healthy bowls”). Se siente de una marca con identidad propia y operativa real.
+
+---
+
 *(Entradas anteriores: ver historial del repo. El archivo se reinició aquí con esta observación limpia.)*
