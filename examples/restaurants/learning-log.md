@@ -1,1 +1,1 @@
-PLACEHOLDER
+$(cat /tmp/learning-log-full.md)
