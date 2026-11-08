@@ -106,4 +106,30 @@ Observaciones concretas de sitios reales para extraer patrones útiles en webs a
 
 ---
 
+## Padella (padella.co) — Casual / Independiente (Londres: Borough Market, Shoreditch, Soho)
+**Fecha observación:** 2026-11-08  
+**Tipo:** Pasta bar no-reservations (walk-in + cola virtual), fundado por Tim Siadatan y Jordan Frieda. Menú diario, pasta fresca, precios accesibles. Sitio simple, menu-first.
+
+### Lo que vi (honesto)
+- Fondo principal negro puro `rgb(0, 0, 0)`, texto blanco puro `rgb(255, 255, 255)`. Contraste máximo, paleta monocroma absoluta. Cero acentos de color. El único “color” viene del vídeo hero y de las fotos de las locations.
+- Tipografía dual condensed sans: cuerpo y menú en **Roboto Condensed** (sans-serif, 16px, peso 400). Headings de locations y secciones en **Oswald** (sans condensed, 30px o 40px, peso 500-700, uppercase, letter-spacing negativo ligero -0.25px). Nav también Oswald ~18px. Nada de serif, nada de Inter regular.
+- Botones inexistentes como filled o outline. Todos los CTAs (locations, Vouchers, Careers, Scroll down) son texto plano blanco sobre negro, sin fondo, sin borde, sin radius, sin padding especial. El “Scroll down” es un link de texto simple. Cero pills, cero botones rectangulares.
+- Hero con vídeo a pantalla completa (probablemente el local o la cocina en movimiento) + link “Scroll down”. Luego tres bloques grandes de locations (Borough Market, Shoreditch, Soho) como artículos/links con título uppercase. Después el menú del día con fecha (“SUNDAY 8TH NOVEMBER”).
+- Menú 100% HTML, diario y con precios inline pegados al nombre: “Nocellara olives£4”, “Sourdough with Le Ferre olive oil£5.5”, “Radicchio, mint, parmesan & balsamic£7.5”, etc. Secciones ANTIPASTI / PASTA. Precios en la misma línea, sin columna separada ni £ decorativo. Nota de group bookings y set menu para 7+ personas. No PDF principal.
+- Copy corto y operativo: “Padella is the culmination of Tim and Jordan’s long held dream to open a pasta bar…” Menciona el otro restaurante Trullo. Group bookings con set menu. Nada de storytelling poético largo ni “culinary excellence”. Voz directa de pasta bar.
+- Estructura: nav superior mínima (toggle hamburger en móvil), locations como CTAs principales above the fold, menú inmediatamente después. Espaciado generoso pero denso en el menú. Sin sombras, sin bordes, sin cards. Sitio ligero. En móvil el menú se lee perfectamente (texto 16px condensed).
+- Fotografía: el vídeo hero transmite el espacio real (cocina abierta, barra, movimiento). Las locations tienen sus propias páginas con fotos del local. No food-porn saturado en homepage; el menú es tipográfico.
+
+### 6 patrones concretos para webs anti-IA
+1. **Paleta negro puro + blanco puro, vídeo/foto como único elemento de color**: Fondo #000, texto #FFF. Sin cremas, sin verdes, sin acentos. El contraste lo da el vídeo del local y las fotos de las locations. Extremadamente difícil de generar con paletas default de IA (que tienden a pasteles o negros suaves).
+2. **Tipografía condensed dual (Roboto Condensed cuerpo + Oswald headings uppercase)**: Cuerpo 16px/400 condensed; headings 30-40px Oswald bold uppercase con tracking negativo. Se siente de menú de pasta bar impreso, no de Inter o serif editorial. Evita el look “moderno limpio” genérico.
+3. **CTAs 100% tipográficos planos, cero botones filled/outline**: Locations, Vouchers, Careers y Scroll down son solo texto blanco. Sin cajas, sin radius, sin hover agresivo visible. El menú mismo es el CTA principal. Elimina el botón naranja/azul rectangular de template.
+4. **Menú HTML diario con precios inline pegados al nombre del plato**: “Nocellara olives£4” en la misma línea, secciones ANTIPASTI/PASTA, fecha del día visible. Se siente vivo, transparente y de pasta bar real, no un PDF ni una lista con descripciones vacías.
+5. **Homepage menu-first + locations como bloques grandes**: El menú del día aparece almost immediately después del vídeo y las tres locations. El visitante ve qué hay hoy y dónde están los locales sin buscar. Prioriza la acción (comer) sobre el storytelling.
+6. **Copy corto, operativo y de fundadores concretos**: Menciona Tim y Jordan, el sueño de abrir un pasta bar, Trullo, group bookings. Nada de “experience the finest Italian pasta”. Voz de cocina y de lugar, no de marketing.
+
+**Utilidad anti-IA:** La combinación de negro puro + blanco puro, tipografía condensed (Roboto Condensed + Oswald), ausencia total de botones filled, menú diario con precios inline y estructura menu-first produce un sitio que se siente de un pasta bar real con criterio operativo (cola virtual, precios justos, pasta fresca), no de un generador con defaults de tipografía sans regular + botones de color + hero con overlay de texto genérico. Es el opuesto de las landings “modern Italian restaurant” que generan las IAs.
+
+---
+
 *(Entradas anteriores: ver historial del repo. El archivo se reinició aquí con esta observación limpia.)*
