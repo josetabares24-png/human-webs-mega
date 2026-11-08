@@ -213,3 +213,54 @@ Observaciones de sitios reales para extraer patrones útiles en webs anti-IA (es
 6. **Botones filled selectivos y rectangulares**: Negro o acento solo para reserva; el resto texto. No todo es pill o outline trendy. Genera exclusividad sin agresividad de e-commerce.
 
 **Honestidad**: Sitio premium y controlado, típico de Squarespace de alto nivel. La fuerza está en la fotografía real (platos, farm, equipo) y en la tipografía serif clásica que da peso editorial. El acento coral en el CTA de Resy es práctico pero un poco "plataforma". Sin las fotos fuertes y el prestigio real de EMP, el diseño blanco/negro se sentiría frío o vacío. Funciona porque el contenido (historia, farm, chef) es específico y verificable; la estética no inventa carácter, lo refleja.
+
+## 2026-11-08 — Padella (casual, independiente, Londres)
+**URL**: https://www.padella.co/
+**Tipo**: Pasta bar casual e independiente (Tim Siadatan y Jordan Frieda), tres locales en Londres (Borough Market, Shoreditch, Soho). Pasta fresca hecha a mano, asequible, walk-in heavy en Borough.
+
+### Estructura y CTAs
+- Homepage es el menú del día directamente: fecha grande ("SUNDAY 8TH NOVEMBER") + secciones (Antipasti, Pasta, Pudding, Ice cream, Aperitivi, Beer, Wine) con platos y precios inline.
+- Nav superior minimal con logo, links a Vouchers, Careers, y los tres locales (Borough Market, Shoreditch, Soho). Toggle hamburger.
+- Hero con video de fondo (cocina/pasta) + "Scroll down".
+- Locales como cards o links con fotos del interior.
+- CTA principal implícito: el menú mismo. Links a reservas o queue virtual en páginas de locales (especialmente Shoreditch/Soho). No hay botón "Book Now" gigante en home.
+- About corto al final: historia de Tim y Jordan.
+
+### Tipografía
+- Cuerpo: Roboto Condensed (sans condensed), 16px, weight 400, blanco sobre negro.
+- Headings (locales, fecha, categorías de menú): Oswald (sans condensed/display), 26-40px, weights 400-700, uppercase, letter-spacing ligeramente negativo en algunos.
+- Sensación: condensed sans editorial, tipo menú de pizarra o periódico. Jerarquía por tamaño y uppercase, no por serif ni bold extremo. Nada de display ornamental ni geométrica rounded.
+
+### Botones
+- Prácticamente no hay botones filled. Todo son links de texto puro: locales, Vouchers, Careers, Scroll down.
+- bg transparente, color blanco, border-radius 0, padding mínimo o 0, font-weight 400, uppercase en nav.
+- Estilo: text only. Contraste máximo (blanco sobre negro). Sin pills, sin outlines, sin sombras.
+- En móvil: hamburger toggle.
+
+### Colores
+- Fondo principal: negro puro rgb(0,0,0).
+- Texto: blanco puro rgb(255,255,255).
+- Paleta ultra restringida: negro + blanco. El color vive 100% en las fotos de los locales y la comida.
+- Contraste máximo, sensación de menú de pizarra o carta de noche. Nada de creams, acentos UI o brand colors.
+
+### Espaciado, bordes, sombras, fotografía
+- Espaciado generoso en el menú (platos separados claramente con precios alineados o inline).
+- Fotos de locales (interior de madera, bar, sillas) sin border-radius (0), sin box-shadow.
+- Video hero sin overlays pesados.
+- Fotografía real del espacio (bar con botellas, mesas de madera, asientos rojos). Alts simples como "Borough Market", "Shoreditch".
+- Bordes y sombras nulos en UI. Layout limpio y tipográfico.
+
+### Menú, móvil y copy
+- Menú es el contenido principal: platos concretos con precios (Nocellara olives £4, Tagliarini with dried chilli... £9.5, etc.). Categorías en uppercase Oswald. Lista tipográfica, no cards.
+- Copy: muy específico y corto. "Padella is the culmination of Tim and Jordan’s long held dream to open a pasta bar serving fresh, hand rolled pasta with delicious sauces and fillings inspired by their trips to Italy." Menciona Trullo (su otro restaurante). Nada de "elevate" o "passion".
+- Móvil: nav colapsa a toggle, menú se stackea bien (lista vertical). Video y fotos se adaptan. Acciones de locales accesibles.
+
+### Patrones concretos útiles para webs anti-IA
+1. **Homepage como menú del día tipográfico**: La fecha + lista de platos con precios es el hero. Prioriza el producto real sobre storytelling o fotos de comida genéricas. Sensación de pizarra actualizada, no de landing page de marketing.
+2. **Sans condensed (Oswald + Roboto Condensed) uppercase para jerarquía**: Da carácter de carta/menú clásico sin ser serif ornamental ni sans bold geométrica de template. Ligero tracking negativo en títulos.
+3. **Paleta negro puro + blanco puro, color solo en fotos**: Máximo contraste y limpieza. Evita off-whites o acentos decorativos. El diseño no compite con la comida o el espacio.
+4. **CTAs de texto puro y locales como navegación principal**: No botones filled agresivos. Los tres locales son links destacados. Genera confianza en el contenido (el menú) en vez de forzar reserva.
+5. **Copy anclado en fundadores concretos y producto**: Tim y Jordan, pasta hecha a mano, viajes a Italia, Trullo. Frases cortas y factuales. Evita plantillas de "culinary journey" o "passion for pasta".
+6. **Fotos de espacio real sin ornamento + video sutil**: Interiores concretos (bar, mesas), alts simples, sin radius ni sombras. La fotografía muestra el lugar real, no stock de comida perfecta.
+
+**Honestidad**: Sitio muy funcional y directo, casi brutalista tipográfico. Funciona porque el producto es pasta fresca asequible y el menú cambia (o se actualiza). La fuerza está en poner el menú primero y en la tipografía condensed que se siente de carta de restaurante. En un sitio premium o con más storytelling podría sentirse demasiado seco o "solo texto". No hay mucho diseño ornamental; es honesto y útil. Perfecto para casual independiente donde la gente quiere ver precios y platos rápido.
