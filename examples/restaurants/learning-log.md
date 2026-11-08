@@ -107,3 +107,58 @@ Observaciones de sitios reales para extraer patrones útiles en webs anti-IA (es
 6. **Barra de acciones fija inferior + nav de texto uppercase pequeño**: Order/Reserve siempre accesibles sin hero CTA gigante. Nav discreta permite que las fotos y el texto histórico lideren.
 
 **Honestidad**: Sitio funcional y con carácter por la historia real y las fotos del interior. La tipografía Trochut aporta personalidad (parece de menú de época), pero el resto es bastante template de restaurant website (slideshow, sections, reviews carousel). Hay popup al entrar que rompe un poco. Funciona bien para un lugar histórico independiente porque el contenido (historia, turkey) es específico; en un sitio genérico se notaría más la estructura repetida.
+
+## 2026-11-08 — Cutler (premium-casual, independiente, Fitzroy Melbourne)
+**URL**: https://www.cutlerandco.com.au/
+**Tipo**: Restaurante de Andrew McConnell, ex Cutler & Co., en antigua fábrica de metalworks. Fine dining flexible con a la carte, clásicos y bar. Independiente, parte de Trader House.
+
+### Estructura y CTAs
+- Nav superior horizontal con links de texto: Reservations, Menu, Drinks, Private Dining, Gift Vouchers, Journal, Sundays at Cutler. Uppercase pequeño, sin botones filled.
+- Logo "CUTLER" grande a la izquierda en tipografía display.
+- Sidebar izquierdo fijo o prominente con MAKE A RESERVATION (texto), LOCATION (dirección exacta), OPENING HOURS, CONTACT (teléfono y email).
+- Hero/foto grande del interior (mesas blancas, plantas, ladrillo) a la derecha.
+- Secciones de texto narrativo + galería de fotos de comida y ambiente en grid.
+- Footer con links Instagram, Careers, Privacy, Contact, Trader House + acknowledgement of country.
+- CTA principal es texto "MAKE A RESERVATION" repetido, no botón grande.
+
+### Tipografía
+- Headings y nav: Persona + Archivo Narrow (sans narrow), 16px weight 700, letter-spacing ~1.12px, color rgb(34,34,34). Uppercase en secciones.
+- Cuerpo: sans-serif genérica (system), ~17px, rgb(34,34,34).
+- Logo: probablemente display custom o serif/narrow grande.
+- Menú: categorías en Persona 700 ~20px, platos en mayúsculas con precios alineados.
+- Sensación: sans narrow moderna pero no geométrica bold exagerada. Jerarquía por uppercase y letter-spacing, no por weights extremos. Editorial y limpia.
+
+### Botones
+- Casi no hay botones filled. Todo links de texto o a tags.
+- "MAKE A RESERVATION": texto puro, weight 700, sin bg, sin border, padding 0.
+- Nav links: texto, weight 700, ~15px, transparent bg, radius 0.
+- Estilo: text/outline puro. Contraste alto (negro sobre blanco), discreto, sin pill ni sombras.
+- Mobile: hay botón "Open Menu" para hamburger.
+
+### Colores
+- Fondo principal: blanco puro rgb(255,255,255).
+- Texto: rgb(34,34,34) casi negro.
+- Acentos: ninguno fuerte; las fotos aportan colores (comida, plantas verdes, vinos).
+- Paleta ultra restringida: blanco + negro. Contraste máximo, sensación limpia y de papel.
+- Nada de creams o acentos de color en UI; el color viene 100% de la fotografía.
+
+### Espaciado, bordes, sombras, fotografía
+- Espaciado generoso, layout de dos columnas en hero (info izquierda + foto derecha).
+- Fotos sin border-radius (0), sin sombras visibles. Grid de imágenes de comida y espacio real.
+- Fotografía: de alta calidad del lugar real — interior con plantas y mesas, platos (octopus, rib eye, desserts), bar. Alts descriptivos o nombres de archivo humanos.
+- Bordes y sombras casi nulos. Todo fluye con aire.
+
+### Menú, móvil y copy
+- Menú en /menu: texto introductorio narrativo ("Our menu reflects how we like to cook, dine and eat right now. It is spontaneous, thoughtful and modern cooking..."). Categorías en uppercase (APPETISERS, SEASONAL SEAFOOD, ENTRÉES, CUTLER CLASSICS). Platos en mayúsculas + precio, descripciones cortas. Incluye clásicos como dry-aged rib eye desde el día uno y hasta burger.
+- Copy: específico y personal. Historia de 2009 en fábrica, ethos "refined, simple, hospitable dining", evolución con el barrio. Acknowledgement of Wurundjeri. Nada de marketing genérico.
+- Móvil: nav colapsa a "Open Menu", sidebar de info se adapta. Fotos y textos se stackean bien. CTA de reserva accesible.
+
+### Patrones concretos útiles para webs anti-IA
+1. **Sans narrow uppercase con letter-spacing para jerarquía**: Persona/Archivo Narrow weight 700 + tracking. Evita serif display o bold geométrico. Da sensación de menú de restaurante moderno sin parecer AI template.
+2. **Sidebar de info práctica fija + foto grande**: Dirección, horas, contacto y reserva como texto a la izquierda, foto del espacio a la derecha. Prioriza utilidad sin hero CTA agresivo.
+3. **Paleta blanco puro + negro, color solo en fotos**: Nada de off-whites o acentos UI. La fotografía real carga todo el carácter visual. Contraste máximo y limpieza.
+4. **Menú como lista tipográfica uppercase con precios**: Categorías bold narrow, platos en caps + precio alineado. No cards ni grids de productos. Narrativa corta al inicio.
+5. **Copy anclado en historia concreta del lugar y chef**: Apertura en 2009, fábrica, ethos específico, evolución del barrio. Evita frases de "culinary journey" o "passion for food".
+6. **CTAs de texto puro repetidos, no botones filled**: "MAKE A RESERVATION" como link en varios sitios. Genera exclusividad y confianza en el contenido visual.
+
+**Honestidad**: Sitio muy limpio y profesional, típico de Squarespace bien usado por un restaurante premium independiente. La fuerza está en las fotos reales del espacio y la comida, y en el copy específico (historia de la fábrica, acknowledgement). La tipografía narrow uppercase le da carácter de menú sin ser ornamental. En un restaurante más casual o sin buenas fotos podría sentirse demasiado frío y blanco. No hay mucho "diseño" más allá de la tipografía y el layout simple; funciona porque el contenido es fuerte.
