@@ -99,3 +99,29 @@
 5. **Copy que nombra granja, regiones y chef con detalles reales:** Bleu Belle Farm, Brittany, “each course carries a connection to a memory, place, or person”. Se siente de alguien que conoce el restaurante, no generado.
 
 **Notas honestas:** Sitio Bento CMS, oscuro y elegante, orientado a reservas y experiencia. En desktop se ve limpio; el hero es un slider. La ausencia de precios y lista de platos es deliberada (tasting menu premium). Funcional y con carácter, útil como referencia de fine-dining que prioriza mood y historia personal sobre grids de comida o CTAs agresivos.
+
+## 2026-11-08 — Franklin Barbecue, Austin TX
+
+**URL:** https://franklinbbq.com/  
+**Type:** Independent / casual iconic BBQ (pitmaster-driven, daily sell-out line)
+
+### What I saw (specific)
+
+- **Structure & CTAs:** Homepage opens with Texas Monthly quote, then short philosophy on sourcing. Clear blocks for location (900 E 11th Street), hours (Tue–Sun 11AM until sold out ~2-3pm), and practical visitor notes. Nav text: About, Menu, Private Events, Sauces & Rubs, Ship, Visit Us. Primary filled CTA “Order in Advance”. Mobile hamburger “Open Menu”. Cookie banner present. No giant hero or sticky bar.
+- **Typography:** Headings use “cheap-pine-sans” (display, casual/rustic character), sizes 27–54px, weight 400, often orange. Body default sans-serif ~16px, dark gray rgb(78,75,78). Occasional Georgia. Line-height comfortable. Not a clean geometric sans everywhere.
+- **Buttons:** Nav links transparent, radius 0, minimal padding. Primary “Order in Advance” filled rust/orange rgb(230,116,55), white text, border-radius 0, padding ~8px 16px, weight 400. Sharp edges, no heavy rounding or shadows. Cookie buttons more rounded.
+- **Colors:** Cream/beige background rgb(239,238,222). Text dark gray/black. Accent rust/orange rgb(230,116,55) for headings and primary buttons. Some teal rgb(93,195,188) for address/hours. Warm, place-specific palette, solid contrast, no gradients or pure white/black extreme.
+- **Espaciado, bordes, sombras, fotografía:** Functional spacing, no box-shadows, border-radius 0 on most UI. Photography is real and specific: actual BBQ tray with brisket/ribs/sides, Aaron Franklin holding meat, the pit, outdoor dining, portraits of Aaron & Stacy. Not stock or hyper-styled food-porn grids.
+- **Menú:** Text-based with prices per lb (e.g. Brisket $42/lb, Pork Spare Ribs $34/lb). Notes on hours until sold out and preorder option. No dish cards or individual photos.
+- **Copy:** Direct and operational. “SERVING THE BEST BARBECUE IN THE KNOWN UNIVERSE.” –Texas Monthly. Details on USDA Prime, heritage Duroc pigs, “Bring a chair! (or borrow one of our loaners.)”, “Friendly dogs are allowed on the patio.”, “until sold out”. About page names Aaron and Stacy with concrete backstory (trailer in 2009, snow cone stand, books). No inspirational fluff.
+
+### 6 patrones concretos útiles para webs anti-IA
+
+1. **Display font con carácter regional (cheap-pine-sans) para títulos:** Títulos grandes en una tipografía display casual/rústica en lugar de Inter o Manrope geométrico. Se siente del lugar, no de un template genérico.
+2. **Detalles operativos reales (“until sold out”, “Bring a chair!”):** Horarios y consejos prácticos que un template o IA no inventaría fácilmente. Prioriza la realidad del negocio sobre marketing.
+3. **Botones filled sharp (radius 0) en acento cálido rust:** CTA principal naranja/rust con esquinas cuadradas, sin sombra ni redondeo moderno. Funcional y de sitio real, no SaaS polished.
+4. **Paleta cream + rust de lugar:** Fondo beige cálido rgb(239,238,222) y acento orange de BBQ en vez de blanco puro o gradientes trendy. La calidez viene del color de fondo y acento, no de saturación artificial.
+5. **Fotografía del producto real y del pitmaster:** Foto del tray concreto de carne, Aaron con la pieza, el pit. No grids de platos estilizados o stock. Autenticidad visual inmediata.
+6. **Copy que cita fuente externa y nombra sourcing específico:** Texas Monthly, USDA Prime, Duroc-breed pigs, dirección exacta. Se siente escrito por gente que opera el lugar, no generado para “contar la historia”.
+
+**Notas honestas:** Sitio Squarespace limpio y funcional, orientado a visitantes que hacen cola y a preorder/shipping. En móvil el menú hamburger funciona. Tiene personalidad de BBQ texano sin pretensiones de “elevated experience”. Útil como referencia anti-IA de sitio casual independiente: práctico, con detalles reales de operación y estética de lugar en tipografía y color, no un template genérico de restaurante.
