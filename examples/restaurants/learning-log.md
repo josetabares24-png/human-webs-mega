@@ -53,3 +53,57 @@ Observaciones de sitios reales para extraer patrones útiles en webs anti-IA (es
 6. **Menú como narrativa de cursos, no grid de tarjetas**: Platos en mayúsculas + descripción en prosa corta. Estructura de degustación explícita en vez de categorías genéricas con precios grandes.
 
 **Honestidad**: Sitio muy premium y minimal. Funciona porque el producto es exclusivo y la marca tiene historia real. En un restaurante casual podría sentirse frío o lento si no hay fotos fuertes y copy concreto. La tipografía custom (GTSectra) aporta mucho; sin ella se perdería carácter.
+
+## 2026-11-08 — Huber's Cafe (histórico, independiente, Portland)
+**URL**: https://www.hubers.com/
+**Tipo**: Restaurante histórico desde 1879, famoso por turkey dinner y Spanish coffee. Independiente, familiar, mezcla casual-premium de ambiente.
+
+### Estructura y CTAs
+- Nav superior horizontal con links uppercase pequeños: Home, Menu, Drinks, Turkey Packages, Catering, Parties, Jobs, Order, Reservations, Souvenirs. Fondo cream rgb(246,238,225).
+- CTA principal "ORDER ONLINE" / "Click or tap to ORDER" como botón filled negro con texto blanco, padding generoso (10px 50px), border-radius 4px, font-weight 300.
+- Hay una barra fija inferior (navbar-fixed-bottom) con Order y Reserve, aunque a veces offset.
+- Hero/slideshow con fotos del interior histórico (bar con arcos, espejos, terrazzo).
+- Secciones: About, Catering, Reservations, Reviews (carousel de Yelp), foto gallery.
+- Popup promocional al cargar.
+
+### Tipografía
+- Títulos principales (h1/h2 grandes): Montserrat, ~49.6px, weight 300 (light), color negro o blanco sobre fotos.
+- Subtítulos y nombres de platos: Trochut (serif display/script-like), ~28px o 19-25px, weight 400-700, letter-spacing 1.3px, color gris cálido rgb(136,131,127) o negro.
+- Cuerpo: sans-serif genérica (probablemente system o similar a Montserrat), 16px, color rgb(51,51,51).
+- Nav: uppercase, ~11.2px, weight 400, color negro o gris.
+- Sensación: mezcla de sans light moderna (Montserrat) con serif display antigua (Trochut) que evoca historial y menú clásico. No es todo bold ni geométrico puro.
+
+### Botones
+- Principal de orden: filled negro rgb(0,0,0), texto blanco, border-radius 4px, padding amplio, font-size ~19px, weight 300. Contraste alto, estilo clásico no "pill" ultra redondeado.
+- Nav links: texto puro, sin bg, uppercase pequeño.
+- Algunos botones de slideshow o reviews son controles simples.
+- Estilo general: filled discreto para acciones primarias, texto para navegación. Nada de outline neón o gradients.
+
+### Colores
+- Fondo principal: blanco rgb(255,255,255).
+- Nav/banner: cream cálido rgb(246,238,225).
+- Texto: negro, gris medio rgb(51,51,51), acentos gris cálido rgb(136,131,127).
+- Botones: negro sólido.
+- Fotos aportan tonos cálidos de madera, bar, comida.
+- Paleta muy restringida, clásica, nada de colores brillantes de cadena. Contraste bueno, sensación de papel e interior antiguo.
+
+### Espaciado, bordes, sombras, fotografía
+- Espaciado generoso en secciones. Fotos a ancho considerable sin border-radius (0px) ni box-shadow.
+- Algunas decoraciones de título (imágenes de ornament).
+- Fotografía: real del lugar — bar histórico con arcos y espejos, platos (turkey, ham, salmon), interior. Alts descriptivos como "Historic bar and restaurant with arched mirrors and terrazzo tile." No stock genérico.
+- Bordes mínimos; sombras casi inexistentes en elementos principales.
+
+### Menú, móvil y copy
+- Menú: página separada con categorías (Appetizers) en Trochut, platos listados como "Beer Battered Onion Rings", "Calamari Frita", etc. Estructura clásica de lista, no cards grid.
+- Copy: específico e histórico. "Established in 1879, Huber’s is Portland’s oldest restaurant. If you visited us in the 1890s, you’d have seen patrons conversing with a drink in one hand and a turkey sandwich in the other." Enfoque en turkey, Spanish coffee, historia real. Reviews reales de Yelp integrados.
+- Móvil: nav se adapta (hay versión más grande en algún breakpoint), CTA de orden prominente. Barra inferior ayuda a acciones clave.
+
+### Patrones concretos útiles para webs anti-IA
+1. **Mezcla tipográfica sans light + serif display histórica**: Montserrat 300 para títulos grandes + Trochut para subtítulos y platos. Evita la uniformidad de una sola sans geométrica bold. La serif da carácter de menú antiguo sin parecer template.
+2. **Botón filled negro clásico con padding generoso y radius bajo**: No pill ultra-redondeado ni outline trendy. Contraste máximo, peso light en el texto. Se siente directo y local, no startup.
+3. **Fondo cream en nav + blanco general + gris cálido**: rgb(246,238,225) en header evita el blanco puro total. Paleta cálida restringida que combina con fotos de madera e interior histórico.
+4. **Fotos del lugar real sin ornamento digital**: Imágenes del bar real, platos concretos, sin border-radius, sin sombras, alts humanos. La fotografía carga el carácter; el diseño no compite.
+5. **Copy anclado en historia concreta y producto signature**: Frases sobre 1879, turkey sandwich de los 1890s, Spanish coffee. Nada de "elevate your dining experience" genérico. Integra reviews reales en vez de testimonials inventados.
+6. **Barra de acciones fija inferior + nav de texto uppercase pequeño**: Order/Reserve siempre accesibles sin hero CTA gigante. Nav discreta permite que las fotos y el texto histórico lideren.
+
+**Honestidad**: Sitio funcional y con carácter por la historia real y las fotos del interior. La tipografía Trochut aporta personalidad (parece de menú de época), pero el resto es bastante template de restaurant website (slideshow, sections, reviews carousel). Hay popup al entrar que rompe un poco. Funciona bien para un lugar histórico independiente porque el contenido (historia, turkey) es específico; en un sitio genérico se notaría más la estructura repetida.
