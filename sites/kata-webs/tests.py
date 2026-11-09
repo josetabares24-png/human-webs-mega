@@ -55,6 +55,6 @@ with tempfile.TemporaryDirectory() as tmp:
     assert 'kp-teasers' in (root/"web/index.html").read_text()
     assert "la milpa." in (root/"web/ejemplos/index.html").read_text()
     assert "FIRME" in (root/"web/ejemplos/index.html").read_text()
-    assert "SOMA" in (root/"web/ejemplos/index.html").read_text()
+    assert "soma·" in (root/"web/ejemplos/index.html").read_text()
     assert "FILO" in (root/"web/ejemplos/index.html").read_text()
     print("OK: 8 static demo pages, 4 local flows, portfolio and home linked.")
