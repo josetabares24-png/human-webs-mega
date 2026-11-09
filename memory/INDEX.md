@@ -7,6 +7,10 @@
 - [Errores conocidos](ERRORS.md): fallos concretos y cómo no repetirlos.
 - [Controles de entrega](QUALITY-GATES.md): bloqueos y evidencias mínimas.
 
+## Caso KATA WEBs — auditoría de lanzamiento 2026-11-09
+
+- [Revisión y mejora comercial/SEO/seguridad de KATA WEBs](CASES/KATA-WEBS-LAUNCH-AUDIT-2026-11-09.md): vista previa Vercel, evidencia de pruebas, nombre de marca, bloqueo de indexación, riesgos legales, plan antes de lanzar.
+
 ## Biblioteca por sector — entrada recomendada
 **[Elegir sector antes de investigar](SECTORS/README.md):** restaurantes, servicios y **turismo**; este último distingue destinos, excursiones, agencias y alojamiento. La sección servicios está dividida en hogar, belleza, profesionales e inmobiliaria/interiores. Leer solo la carpeta pertinente y **nunca asumir que una referencia estudiada fue aprobada**.
 
