@@ -53,7 +53,7 @@ with tempfile.TemporaryDirectory() as tmp:
     assert all("/ej/"+sector+"/" in portfolio.links for sector in expected)
     assert "Demos antiguas" not in (root/"web/index.html").read_text()
     assert 'kp-teasers' in (root/"web/index.html").read_text()
-    assert "La Milpa" in (root/"web/ejemplos/index.html").read_text()
+    assert "la milpa." in (root/"web/ejemplos/index.html").read_text()
     assert "FIRME" in (root/"web/ejemplos/index.html").read_text()
     assert "SOMA" in (root/"web/ejemplos/index.html").read_text()
     assert "FILO" in (root/"web/ejemplos/index.html").read_text()
