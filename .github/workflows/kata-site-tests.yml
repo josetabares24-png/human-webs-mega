@@ -1,0 +1,27 @@
+name: KATA WEBs static smoke tests
+on:
+  pull_request:
+    paths:
+      - 'sites/kata-webs/**'
+      - '.github/workflows/kata-site-tests.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'sites/kata-webs/**'
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python3 -m py_compile sites/kata-webs/build.py sites/kata-webs/portfolio.py sites/kata-webs/tests.py
+      - run: node --check sites/kata-webs/new.js
+      - run: python3 sites/kata-webs/tests.py
