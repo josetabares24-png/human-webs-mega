@@ -1,0 +1,24 @@
+/* Corrections build on KATA's existing yellow, Bricolage and DM Sans identity. */
+.contact-state+div li{margin-bottom:12px}
+.contact-state+div ul{padding-left:22px}
+.contact-state{background:var(--cream);border:2px solid var(--ink);border-radius:var(--r);padding:30px;align-self:start}
+.contact-state .mail-big{font-size:clamp(22px,3vw,40px);overflow-wrap:anywhere}
+.studio-footer{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:28px}
+.studio-footer>div>p{font-size:14px;max-width:300px;margin-top:14px;color:#ddd}
+.studio-footer nav{display:flex;flex-direction:column;align-items:flex-start;gap:4px}
+.studio-footer nav a{display:inline-flex;align-items:center;min-height:44px;font-size:14px;text-underline-offset:4px}
+.studio-footer .foot-small{grid-column:1/-1;margin:0;padding-top:20px;border-top:1px solid #555}
+.foot{padding:42px 0 24px}
+.scope-note h2{font-size:clamp(30px,4vw,48px)}
+.menu a[aria-current=page]:not(.btn){background:var(--y)}
+.fi{display:none}
+.band .cta{justify-content:center}
+@media(max-width:1020px){.menu{max-height:calc(100dvh - 70px);overflow-y:auto}}
+@media(max-width:700px){
+ .hero-in{grid-template-columns:1fr}.hero{padding:40px 0 48px}
+ .hero h1{font-size:clamp(38px,10.3vw,60px);line-height:1.02}
+ .hero .lead{font-size:17px;line-height:1.65}
+ .sec{padding:56px 0}.contact-state{padding:24px}
+ .studio-footer{grid-template-columns:1fr 1fr;gap:20px}.studio-footer>div{grid-column:1/-1}
+ .foot{padding:32px 0 22px}.studio-footer nav a{font-size:13px}
+}

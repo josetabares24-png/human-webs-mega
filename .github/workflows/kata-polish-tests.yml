@@ -1,0 +1,28 @@
+name: KATA studio polish
+on:
+  pull_request:
+    paths:
+      - 'sites/kata-webs/**'
+      - '.github/workflows/kata-polish-tests.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'sites/kata-webs/**'
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+        working-directory: sites/kata-webs
+      - run: npm run build
+        working-directory: sites/kata-webs
+      - run: node --check sites/kata-webs/assets/site.js && node --check sites/kata-webs/serve.mjs
