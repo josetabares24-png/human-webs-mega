@@ -1,0 +1,3 @@
+# Preserve the exact archived public files, including their original line endings.
+static/ej/** -text
+static/ej/*/credits.txt whitespace=-blank-at-eof

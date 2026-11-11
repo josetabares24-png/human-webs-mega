@@ -1,0 +1,5 @@
+qa/
+design-qa.md
+README.md
+tests.py
+__pycache__/

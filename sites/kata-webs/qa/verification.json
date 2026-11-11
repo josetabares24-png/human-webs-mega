@@ -1,0 +1,19 @@
+{
+  "viewports": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "routes": 9,
+  "checks": 36,
+  "uniqueFooters": 1,
+  "overflow": [],
+  "missingImages": [],
+  "consoleErrorsObserved": 0,
+  "lighthouseAccessibility": {
+    "home": 100,
+    "contact": 100
+  },
+  "limits": "Chromium in-app on Windows; not native iPhone or full WCAG certification."
+}

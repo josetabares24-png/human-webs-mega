@@ -2,6 +2,14 @@
 
 Cada entrada: síntoma, evidencia/alcance, causa probable, corrección, prueba de no regresión, estado. No convertir preferencias subjetivas en leyes absolutas.
 
+### ERR-011 — Ampliar un pulido a construcción de ejemplos
+- **Observado, 2026-11-11:** durante el pulido de KATA WEBs se empezó a integrar un PR de ocho páginas de demos. El usuario corrigió: «estas haciendo ejemplos? yo queria que solo pulieras la web».
+- **Causa:** se trató una recomendación de auditoría como alcance de construcción, sin distinguir el sitio del estudio de sus demostraciones históricas.
+- **Corrección:** restaurar los archivos del PR de demos, separar el trabajo desde main y limitar el build a las nueve páginas existentes del estudio. Conservar las rutas antiguas sin modificarlas.
+- **Prevención:** «pulir» conserva identidad, composición y producto; no autoriza ampliar el catálogo, crear ejemplos ni cambiar la dirección visual. La última aclaración del usuario prevalece sobre propuestas anteriores.
+- **Prueba:** [tests de KATA](../sites/kata-webs/tests.py) verifican nueve rutas del estudio, ausencia de nuevos enlaces/páginas de demos y copia idéntica de los archivos históricos; comparación visual en [QA](../sites/kata-webs/design-qa.md).
+- **Estado:** corrección implementada y verificada localmente; aprobación de publicación pendiente del usuario.
+
 ### ERR-001 — Sitios genéricos sin identidad
 - **Observado:** diseños repetidos, apariencia de plantilla IA, copy intercambiable.
 - **Contexto:** iteraciones anteriores de webs de negocio y ejemplos históricos de restaurantes; valoración estética del usuario, no experimento A/B.
