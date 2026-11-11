@@ -32,4 +32,4 @@ Cuando exista una dirección comercial aprobada, establecer `email` en `site.jso
 
 `vercel.json` configura la salida estática `_site/`, redirección de entrada y noindex. Configurar el directorio raíz de Vercel como `sites/kata-webs`. No promocionar automáticamente a producción.
 
-La cuenta conectada no localizó el proyecto anterior de Kata, aunque su URL pública sí estaba accesible. No se ha cambiado su configuración, dominio ni protección.
+El conector no localizó el proyecto de Kata, pero la sesión local de la CLI oficial sí lo encontró con el mismo ID. Usar esa sesión y el proyecto existente para la preview; no crear un proyecto sustituto ni cambiar dominios o protecciones.
